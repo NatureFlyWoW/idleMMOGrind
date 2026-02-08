@@ -87,8 +87,8 @@ describe('EngineCommandType enum', () => {
 // ---- EngineEventType ----
 
 describe('EngineEventType enum', () => {
-  it('should have exactly 12 event types', () => {
-    expect(Object.values(EngineEventType)).toHaveLength(12);
+  it('should have exactly 13 event types', () => {
+    expect(Object.values(EngineEventType)).toHaveLength(13);
   });
 
   it('should contain state and engine events', () => {
@@ -107,6 +107,7 @@ describe('EngineEventType enum', () => {
     expect(EngineEventType.QUEST_PROGRESS).toBe('event:quest-progress');
     expect(EngineEventType.ZONE_CHANGED).toBe('event:zone-changed');
     expect(EngineEventType.ABILITY_UNLOCKED).toBe('event:ability-unlocked');
+    expect(EngineEventType.CHAIN_COMPLETED).toBe('event:chain-completed');
   });
 });
 

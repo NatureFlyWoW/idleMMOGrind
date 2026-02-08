@@ -52,6 +52,7 @@ export enum EngineEventType {
   QUEST_PROGRESS = 'event:quest-progress',
   ZONE_CHANGED = 'event:zone-changed',
   ABILITY_UNLOCKED = 'event:ability-unlocked',
+  CHAIN_COMPLETED = 'event:chain-completed',
   ENGINE_READY = 'engine:ready',
   ENGINE_ERROR = 'engine:error',
   SAVE_PAYLOAD_READY = 'engine:save-payload-ready',
