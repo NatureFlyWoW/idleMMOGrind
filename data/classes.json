@@ -1,0 +1,173 @@
+[
+  {
+    "id": "blademaster",
+    "name": "Blademaster",
+    "description": "A master of melee weapons who harnesses rage to unleash devastating attacks.",
+    "primaryStats": ["str", "sta"],
+    "roles": ["tank", "melee_dps"],
+    "resourceType": "rage",
+    "armorType": "plate",
+    "weaponTypes": ["sword-1h", "sword-2h", "mace-1h", "mace-2h", "axe-1h", "axe-2h"],
+    "specs": [
+      { "id": "weapon-arts", "name": "Weapon Arts", "description": "Master of blade techniques, focused on sustained DPS.", "role": "melee_dps", "icon": "spec-weapon-arts" },
+      { "id": "berserker", "name": "Berserker", "description": "Frenzied warrior dealing massive burst damage.", "role": "melee_dps", "icon": "spec-berserker" },
+      { "id": "guardian", "name": "Guardian", "description": "Iron-willed protector who absorbs damage for allies.", "role": "tank", "icon": "spec-guardian" }
+    ],
+    "baseStats": { "str": 25, "agi": 15, "int": 8, "spi": 10, "sta": 22 },
+    "baseHP": 120,
+    "baseResource": 100,
+    "statGrowth": { "str": 2.5, "agi": 1.0, "int": 0.3, "spi": 0.5, "sta": 2.0 }
+  },
+  {
+    "id": "sentinel",
+    "name": "Sentinel",
+    "description": "A holy warrior who can protect, heal, or smite with divine power.",
+    "primaryStats": ["str", "sta", "spi"],
+    "roles": ["tank", "melee_dps", "healer"],
+    "resourceType": "mana",
+    "armorType": "plate",
+    "weaponTypes": ["sword-1h", "mace-1h", "axe-1h", "sword-2h", "mace-2h", "shield"],
+    "specs": [
+      { "id": "light", "name": "Light", "description": "Channel holy light to mend wounds and protect allies.", "role": "healer", "icon": "spec-light" },
+      { "id": "defender", "name": "Defender", "description": "An unbreakable shield wall, built to absorb punishment.", "role": "tank", "icon": "spec-defender" },
+      { "id": "vengeance", "name": "Vengeance", "description": "Righteous fury fuels devastating holy strikes.", "role": "melee_dps", "icon": "spec-vengeance" }
+    ],
+    "baseStats": { "str": 22, "agi": 12, "int": 14, "spi": 16, "sta": 20 },
+    "baseHP": 110,
+    "baseResource": 200,
+    "statGrowth": { "str": 2.0, "agi": 0.8, "int": 1.0, "spi": 1.2, "sta": 1.8 }
+  },
+  {
+    "id": "stalker",
+    "name": "Stalker",
+    "description": "A cunning hunter who strikes from range with deadly precision.",
+    "primaryStats": ["agi", "sta"],
+    "roles": ["ranged_dps", "melee_dps"],
+    "resourceType": "mana",
+    "armorType": "mail",
+    "weaponTypes": ["bow", "crossbow", "sword-1h", "axe-1h", "dagger"],
+    "specs": [
+      { "id": "beast-bond", "name": "Beast Bond", "description": "Fight alongside a bonded beast companion.", "role": "ranged_dps", "icon": "spec-beast-bond" },
+      { "id": "precision", "name": "Precision", "description": "Every shot placed with surgical accuracy.", "role": "ranged_dps", "icon": "spec-precision" },
+      { "id": "survival", "name": "Survival", "description": "Master of traps and close-quarters combat.", "role": "melee_dps", "icon": "spec-survival" }
+    ],
+    "baseStats": { "str": 12, "agi": 24, "int": 14, "spi": 12, "sta": 18 },
+    "baseHP": 100,
+    "baseResource": 200,
+    "statGrowth": { "str": 0.8, "agi": 2.5, "int": 1.0, "spi": 0.8, "sta": 1.5 }
+  },
+  {
+    "id": "shadow",
+    "name": "Shadow",
+    "description": "A deadly assassin who strikes from the darkness with poisoned blades.",
+    "primaryStats": ["agi", "sta"],
+    "roles": ["melee_dps"],
+    "resourceType": "energy",
+    "armorType": "leather",
+    "weaponTypes": ["dagger", "sword-1h", "mace-1h"],
+    "specs": [
+      { "id": "venom", "name": "Venom", "description": "Apply deadly poisons that eat away at targets over time.", "role": "melee_dps", "icon": "spec-venom" },
+      { "id": "blade-dance", "name": "Blade Dance", "description": "A whirlwind of steel, dealing rapid burst damage.", "role": "melee_dps", "icon": "spec-blade-dance" },
+      { "id": "stealth", "name": "Stealth", "description": "Strike from the shadows for devastating opening attacks.", "role": "melee_dps", "icon": "spec-stealth" }
+    ],
+    "baseStats": { "str": 12, "agi": 26, "int": 8, "spi": 10, "sta": 16 },
+    "baseHP": 90,
+    "baseResource": 100,
+    "statGrowth": { "str": 0.8, "agi": 2.8, "int": 0.3, "spi": 0.5, "sta": 1.2 }
+  },
+  {
+    "id": "cleric",
+    "name": "Cleric",
+    "description": "A devoted priest who channels divine magic for healing or destruction.",
+    "primaryStats": ["int", "spi"],
+    "roles": ["healer", "ranged_dps"],
+    "resourceType": "mana",
+    "armorType": "cloth",
+    "weaponTypes": ["staff", "mace-1h", "wand", "offhand-held"],
+    "specs": [
+      { "id": "order", "name": "Order", "description": "Master healer, keeping allies alive through any trial.", "role": "healer", "icon": "spec-order" },
+      { "id": "radiance", "name": "Radiance", "description": "Unleash holy fire to burn enemies with sacred light.", "role": "ranged_dps", "icon": "spec-radiance" },
+      { "id": "void", "name": "Void", "description": "Tap into shadow magic for damage over time and mind attacks.", "role": "ranged_dps", "icon": "spec-void" }
+    ],
+    "baseStats": { "str": 8, "agi": 10, "int": 24, "spi": 22, "sta": 14 },
+    "baseHP": 80,
+    "baseResource": 300,
+    "statGrowth": { "str": 0.3, "agi": 0.5, "int": 2.2, "spi": 2.0, "sta": 1.0 }
+  },
+  {
+    "id": "arcanist",
+    "name": "Arcanist",
+    "description": "A wielder of pure arcane energy, commanding fire, frost, and raw magic.",
+    "primaryStats": ["int", "spi"],
+    "roles": ["ranged_dps"],
+    "resourceType": "mana",
+    "armorType": "cloth",
+    "weaponTypes": ["staff", "wand", "sword-1h", "offhand-held"],
+    "specs": [
+      { "id": "spellweave", "name": "Spellweave", "description": "Master of raw arcane energy, efficient and versatile.", "role": "ranged_dps", "icon": "spec-spellweave" },
+      { "id": "pyromancy", "name": "Pyromancy", "description": "Unleash devastating fire spells for massive burst damage.", "role": "ranged_dps", "icon": "spec-pyromancy" },
+      { "id": "cryomancy", "name": "Cryomancy", "description": "Freeze and shatter enemies with ice magic.", "role": "ranged_dps", "icon": "spec-cryomancy" }
+    ],
+    "baseStats": { "str": 6, "agi": 10, "int": 28, "spi": 18, "sta": 12 },
+    "baseHP": 70,
+    "baseResource": 350,
+    "statGrowth": { "str": 0.2, "agi": 0.5, "int": 2.8, "spi": 1.5, "sta": 0.8 }
+  },
+  {
+    "id": "summoner",
+    "name": "Summoner",
+    "description": "A dark caster who commands demons and curses to destroy enemies.",
+    "primaryStats": ["int", "sta"],
+    "roles": ["ranged_dps"],
+    "resourceType": "mana",
+    "armorType": "cloth",
+    "weaponTypes": ["staff", "wand", "dagger", "offhand-held"],
+    "specs": [
+      { "id": "corruption", "name": "Corruption", "description": "Stack curses and dots that consume the enemy from within.", "role": "ranged_dps", "icon": "spec-corruption" },
+      { "id": "pact-binding", "name": "Pact Binding", "description": "Empower a summoned demon to fight by your side.", "role": "ranged_dps", "icon": "spec-pact-binding" },
+      { "id": "chaos", "name": "Chaos", "description": "Channel raw chaotic energy for devastating burst spells.", "role": "ranged_dps", "icon": "spec-chaos" }
+    ],
+    "baseStats": { "str": 8, "agi": 10, "int": 26, "spi": 16, "sta": 16 },
+    "baseHP": 80,
+    "baseResource": 320,
+    "statGrowth": { "str": 0.3, "agi": 0.5, "int": 2.5, "spi": 1.2, "sta": 1.2 }
+  },
+  {
+    "id": "channeler",
+    "name": "Channeler",
+    "description": "A versatile caster wielding the power of storms and spirits.",
+    "primaryStats": ["int", "agi", "sta"],
+    "roles": ["ranged_dps", "healer", "melee_dps"],
+    "resourceType": "mana",
+    "armorType": "mail",
+    "weaponTypes": ["mace-1h", "axe-1h", "staff", "shield", "offhand-held"],
+    "specs": [
+      { "id": "storm-calling", "name": "Storm Calling", "description": "Command lightning and thunder to devastate enemies.", "role": "ranged_dps", "icon": "spec-storm-calling" },
+      { "id": "spirit-weapon", "name": "Spirit Weapon", "description": "Imbue weapons with elemental energy for melee combat.", "role": "melee_dps", "icon": "spec-spirit-weapon" },
+      { "id": "renewal", "name": "Renewal", "description": "Tap into water and earth spirits to restore life.", "role": "healer", "icon": "spec-renewal" }
+    ],
+    "baseStats": { "str": 14, "agi": 16, "int": 22, "spi": 14, "sta": 18 },
+    "baseHP": 100,
+    "baseResource": 280,
+    "statGrowth": { "str": 1.0, "agi": 1.2, "int": 2.0, "spi": 1.0, "sta": 1.5 }
+  },
+  {
+    "id": "shapeshifter",
+    "name": "Shapeshifter",
+    "description": "A nature-bound caster who can shift forms to tank, DPS, or heal.",
+    "primaryStats": ["int", "agi", "str"],
+    "roles": ["tank", "melee_dps", "healer", "ranged_dps"],
+    "resourceType": "mana",
+    "armorType": "leather",
+    "weaponTypes": ["staff", "mace-1h", "dagger", "offhand-held"],
+    "specs": [
+      { "id": "astral", "name": "Astral", "description": "Harness moonlight and starfire for ranged destruction.", "role": "ranged_dps", "icon": "spec-astral" },
+      { "id": "primal", "name": "Primal", "description": "Shift into beast form for savage melee and tanking.", "role": "melee_dps", "icon": "spec-primal" },
+      { "id": "grove-warden", "name": "Grove Warden", "description": "Channel nature to heal wounds with regenerative magic.", "role": "healer", "icon": "spec-grove-warden" }
+    ],
+    "baseStats": { "str": 16, "agi": 18, "int": 20, "spi": 14, "sta": 18 },
+    "baseHP": 100,
+    "baseResource": 260,
+    "statGrowth": { "str": 1.2, "agi": 1.5, "int": 1.8, "spi": 1.0, "sta": 1.5 }
+  }
+]
