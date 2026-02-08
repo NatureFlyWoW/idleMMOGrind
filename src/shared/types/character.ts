@@ -26,7 +26,7 @@ export interface IRacialAbility {
   id: string;
   name: string;
   description: string;
-  effectType: 'stat_percent' | 'xp_percent' | 'immunity' | 'resource_percent';
+  effectType: 'stat_percent' | 'xp_percent' | 'immunity' | 'resource_percent' | 'damage_percent';
   stat?: string;
   value: number;
 }
