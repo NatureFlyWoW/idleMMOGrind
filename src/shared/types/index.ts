@@ -7,3 +7,4 @@ export * from './talent';
 export * from './world';
 export * from './state';
 export * from './save';
+export * from './balance';
