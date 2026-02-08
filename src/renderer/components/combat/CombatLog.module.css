@@ -1,0 +1,25 @@
+.logContainer {
+  height: 100%;
+  padding: var(--spacing-xs);
+}
+
+.logScroll {
+  height: 100%;
+  overflow-y: auto;
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  line-height: 1.6;
+}
+
+.logEntry {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.emptyLog {
+  color: var(--text-disabled);
+  font-style: italic;
+  text-align: center;
+  padding-top: var(--spacing-lg);
+}

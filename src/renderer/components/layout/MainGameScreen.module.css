@@ -1,0 +1,84 @@
+.layout {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  grid-template-rows: 1fr 40px;
+  height: 100vh;
+  background: #0D0D12;
+}
+
+.sidebar {
+  grid-column: 1;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  background: var(--panel-bg);
+  border-right: 2px solid var(--frame-border-outer);
+  padding: var(--spacing-xs) 0;
+  gap: 2px;
+}
+
+.navButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: var(--font-body);
+}
+
+.navButton:hover {
+  background: rgba(139, 115, 64, 0.15);
+  color: var(--text-primary);
+}
+
+.navButton.active {
+  background: rgba(201, 168, 76, 0.2);
+  color: var(--frame-border-highlight);
+  border-left: 3px solid var(--frame-border-highlight);
+}
+
+.navIcon {
+  font-size: var(--text-lg);
+  font-weight: 700;
+}
+
+.navLabel {
+  font-size: var(--text-xs);
+  margin-top: 2px;
+}
+
+.contentArea {
+  grid-column: 2;
+  grid-row: 1;
+  padding: var(--spacing-sm);
+  overflow-y: auto;
+}
+
+.mainPanel {
+  height: 100%;
+}
+
+.statusBar {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-lg);
+  padding: 0 var(--spacing-md);
+  background: var(--panel-bg);
+  border-top: 2px solid var(--frame-border-outer);
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+}
+
+.statusItem {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
