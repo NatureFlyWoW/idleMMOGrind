@@ -12,7 +12,7 @@ export default defineConfig({
     ],
     coverage: {
       provider: 'v8',
-      include: ['src/engine/**', 'src/shared/**'],
+      include: ['src/engine/**', 'src/shared/**', 'tools/art-engine/src/**'],
       exclude: ['**/*.d.ts', '**/index.ts'],
     },
     setupFiles: ['tests/setup.ts'],

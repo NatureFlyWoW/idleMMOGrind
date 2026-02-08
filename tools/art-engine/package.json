@@ -1,0 +1,27 @@
+{
+  "name": "@idle-mmorpg/art-engine",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pixel art generation engine for Idle MMORPG game assets",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "art-engine": "dist/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/cli/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "canvas": "^3.1.0",
+    "commander": "^13.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["canvas"]
+  }
+}

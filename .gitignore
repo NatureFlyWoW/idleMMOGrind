@@ -29,3 +29,7 @@ coverage/
 # Electron Builder
 *.blockmap
 *.snap
+
+# Art engine generated output
+tools/art-engine/output/
+tools/art-engine/dist/
