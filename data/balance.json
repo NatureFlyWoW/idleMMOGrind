@@ -1,0 +1,154 @@
+{
+  "xp": {
+    "linearCoeff": 100,
+    "powerCoeff": 50,
+    "powerExponent": 1.65,
+    "levelDiffMods": {
+      "tooHigh": 0,
+      "above3": 1.2,
+      "normal": 1.0,
+      "below5": 0.75,
+      "below8": 0.25,
+      "gray": 0
+    },
+    "levelDiffThresholds": {
+      "tooHighAbove": 5,
+      "bonusAbove": 3,
+      "normalAbove": -2,
+      "reducedAbove": -5,
+      "greatlyReducedAbove": -8
+    }
+  },
+  "combat": {
+    "baseTickIntervalMs": 250,
+    "uiUpdateIntervalMs": 500,
+    "baseCritMultiplier": 0.5,
+    "baseMissChancePhysical": 0.05,
+    "baseMissChanceSpell": 0.04,
+    "baseMonsterDodge": 0.05,
+    "deathGoldPenalty": 0.10,
+    "deathDurabilityLoss": 0.10,
+    "deathRespawnDelayMs": 5000,
+    "energyPerTick": 10,
+    "energyCap": 100,
+    "ragePerHitDealt": 5,
+    "ragePerHitTaken": 3,
+    "rageCap": 100,
+    "rageDecayPerTick": 2
+  },
+  "stats": {
+    "healthPerStamina": 10,
+    "manaPerIntellect": 8,
+    "attackPowerPerStrength": 2,
+    "attackPowerPerAgility": 1,
+    "spellPowerPerIntellect": 1.5,
+    "agiPerCritPercent": 52,
+    "critRatingPerPercent": 14,
+    "hasteRatingPerPercent": 15.7,
+    "hitRatingPerPercent": 15.8,
+    "dodgeRatingPerPercent": 18.9,
+    "parryRatingPerPercent": 22.1,
+    "armorPerAgility": 2,
+    "armorPerStamina": 0.5,
+    "resistPerIntellect": 0.5,
+    "baseDodgePercent": 3.0,
+    "baseParryPercent": 3.0,
+    "baseCritPercent": 5.0,
+    "healthRegenPerSpirit": 0.5,
+    "manaRegenPerSpirit": 1.0,
+    "manaRegenPerIntellect": 0.25,
+    "outOfCombatHealthRegenMult": 5,
+    "outOfCombatManaRegenMult": 3
+  },
+  "monsters": {
+    "hpBase": 40,
+    "hpLinear": 12,
+    "hpPowerExponent": 1.4,
+    "hpPowerCoeff": 3,
+    "damageBase": 5,
+    "damageLinear": 2.5,
+    "damagePowerExponent": 1.3,
+    "damagePowerCoeff": 0.8,
+    "armorBase": 20,
+    "armorLinear": 15,
+    "resistBase": 10,
+    "resistLinear": 8,
+    "xpBase": 40,
+    "xpLinear": 15,
+    "xpPowerExponent": 1.6,
+    "xpPowerCoeff": 2,
+    "goldMinBase": 1,
+    "goldMinLinear": 0.5,
+    "goldMaxBase": 3,
+    "goldMaxLinear": 1.2
+  },
+  "gear": {
+    "budgetLinearCoeff": 1.5,
+    "budgetPowerExponent": 1.2,
+    "budgetPowerCoeff": 0.3,
+    "qualityStatMultiplier": {
+      "common": 1.0,
+      "uncommon": 1.3,
+      "rare": 1.7,
+      "epic": 2.2,
+      "legendary": 3.0
+    },
+    "primaryStatSplit": 0.7,
+    "secondaryStatSplit": 0.3,
+    "dropChanceBase": 0.20,
+    "qualityWeights": {
+      "common": 45,
+      "uncommon": 35,
+      "rare": 15,
+      "epic": 5,
+      "legendary": 0
+    },
+    "epicMinLevel": 40,
+    "weaponMinDmgFormula": {
+      "levelCoeff": 2,
+      "levelBase": 5
+    },
+    "weaponMaxDmgMultiplier": 1.4,
+    "weaponSpeeds": {
+      "dagger": 1.5,
+      "sword-1h": 2.0,
+      "mace-1h": 2.0,
+      "axe-1h": 2.0,
+      "sword-2h": 3.0,
+      "mace-2h": 3.0,
+      "axe-2h": 3.0,
+      "staff": 2.8,
+      "bow": 2.5,
+      "crossbow": 2.5,
+      "wand": 1.8
+    }
+  },
+  "offline": {
+    "maxOfflineSeconds": 86400,
+    "tier1Hours": 12,
+    "tier1Efficiency": 1.0,
+    "tier2Hours": 18,
+    "tier2Efficiency": 0.75,
+    "tier3Efficiency": 0.50,
+    "catchUpMinMultiplier": 2.0,
+    "catchUpMaxMultiplier": 5.0,
+    "catchUpScaleHours": 24,
+    "maxDropQualityOffline": "rare",
+    "questBonusMultiplier": 1.7
+  },
+  "quests": {
+    "killsPerQuestMin": 8,
+    "killsPerQuestMax": 15,
+    "xpMultiplier": 2.5,
+    "gearRewardChance": 0.30
+  },
+  "talents": {
+    "firstTalentLevel": 10,
+    "lastTalentLevel": 60,
+    "totalPoints": 51,
+    "tierRequirements": [0, 5, 10, 15, 20],
+    "respecBaseCost": 10,
+    "respecCostPerLevel": 1,
+    "respecCountMultiplier": 0.5
+  }
+}
