@@ -246,3 +246,62 @@ export enum MonsterType {
   Elite = 'elite',
   Boss = 'boss',
 }
+
+// ---- Profession IDs ----
+
+export enum ProfessionId {
+  // Gathering
+  Mining = 'mining',
+  Herbalism = 'herbalism',
+  Skinning = 'skinning',
+  // Crafting
+  Blacksmithing = 'blacksmithing',
+  Leatherworking = 'leatherworking',
+  Tailoring = 'tailoring',
+  Alchemy = 'alchemy',
+  Enchanting = 'enchanting',
+  Engineering = 'engineering',
+  // Secondary
+  Cooking = 'cooking',
+  FirstAid = 'first_aid',
+  Fishing = 'fishing',
+}
+
+// ---- Profession Type ----
+
+export enum ProfessionType {
+  Gathering = 'gathering',
+  Crafting = 'crafting',
+  Secondary = 'secondary',
+}
+
+// ---- Skill Bracket ----
+
+export enum SkillBracket {
+  Apprentice = 'apprentice',
+  Journeyman = 'journeyman',
+  Expert = 'expert',
+  Artisan = 'artisan',
+  Master = 'master',
+  Grandmaster = 'grandmaster',
+}
+
+// ---- Recipe Difficulty Color ----
+
+export enum RecipeDifficulty {
+  Orange = 'orange',
+  Yellow = 'yellow',
+  Green = 'green',
+  Gray = 'gray',
+}
+
+// ---- Material Tier ----
+
+export enum MaterialTier {
+  T1 = 1,
+  T2 = 2,
+  T3 = 3,
+  T4 = 4,
+  T5 = 5,
+  T6 = 6,
+}
