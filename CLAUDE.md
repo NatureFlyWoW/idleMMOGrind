@@ -51,8 +51,8 @@ Electron 34+ | React 19 | TypeScript 5 (strict) | Vite 6 | Vitest 3 | pnpm | CSS
 | Art Engine Phase A | Pixel art generation pipeline | DONE (merged) |
 | Tasks 3-6 | Shared interfaces, balance.json, RNG, stat calc | DONE (merged) |
 | Tasks 7-8 | Races/classes data, character factory, combat formulas | DONE (merged) |
-| Task 9 | XP system, zones | Next |
-| Tasks 10-11 | Item generation, loot, inventory | Pending |
+| Task 9 | XP system, zones | DONE (merged) |
+| Tasks 10-11 | Item generation, loot, inventory | Next |
 | Task 12 | Talent system | Pending |
 | Tasks 13-15 | Save/load, offline calc, game loop | Pending |
 | Task 16 | Electron integration | Pending |
@@ -63,7 +63,7 @@ Electron 34+ | React 19 | TypeScript 5 (strict) | Vite 6 | Vitest 3 | pnpm | CSS
 
 ## Development Phases
 
-1. **Phase 1 (Months 1-4):** Electron scaffold, character creation, combat, leveling 1-60, gear, talents, save system
-2. **Phase 2 (Months 5-8):** 6 zones, 10 dungeons, 4 raids, professions, reputation
-3. **Phase 3 (Months 9-10):** Ascension, Paragon, achievements, collections, alts
-4. **Phase 4 (Months 11-12):** UI polish, balance tuning, tutorial, Electron optimization, beta
+1. **Phase 1 :** Electron scaffold, character creation, combat, leveling 1-60, gear, talents, save system
+2. **Phase 2 :** 6 zones, 10 dungeons, 4 raids, professions, reputation
+3. **Phase 3 :** Ascension, Paragon, achievements, collections, alts
+4. **Phase 4 :** UI polish, balance tuning, tutorial, Electron optimization, beta

@@ -16,8 +16,8 @@
 |------|-------|--------|--------|
 | [phase1-completed.md](phase1-completed.md) | 1-6 | `feat/electron-scaffold`, `feat/shared-types` | DONE |
 | [phase1-tasks-7-8-combat.md](phase1-tasks-7-8-combat.md) | 7-8 | `feat/combat-engine` | DONE |
-| [phase1-task-9-character.md](phase1-task-9-character.md) | 9 | `feat/character-system` | Next |
-| [phase1-tasks-10-11-gear.md](phase1-tasks-10-11-gear.md) | 10-11 | `feat/gear-system` | Pending |
+| [phase1-task-9-character.md](phase1-task-9-character.md) | 9 | `feat/character-system` | DONE |
+| [phase1-tasks-10-11-gear.md](phase1-tasks-10-11-gear.md) | 10-11 | `feat/gear-system` | Next |
 | [phase1-task-12-talent.md](phase1-task-12-talent.md) | 12 | `feat/talent-system` | Pending |
 | [phase1-tasks-13-15-save.md](phase1-tasks-13-15-save.md) | 13-15 | `feat/save-system` | Pending |
 | [phase1-task-16-electron.md](phase1-task-16-electron.md) | 16 | main (after merges) | Pending |
@@ -44,7 +44,7 @@
 1. ~~Merge `feat/electron-scaffold` into `main`~~ DONE
 2. ~~Merge `feat/shared-types` into `main`~~ DONE
 3. ~~Merge `feat/combat-engine` into `main`~~ DONE
-4. Merge `feat/character-system` into `main`
+4. ~~Merge `feat/character-system` into `main`~~ DONE
 5. Merge `feat/gear-system` into `main`
 6. Merge `feat/talent-system` into `main`
 7. Merge `feat/save-system` into `main`
