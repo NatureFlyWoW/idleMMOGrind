@@ -14,15 +14,15 @@
 
 | File | Tasks | Branch | Status |
 |------|-------|--------|--------|
-| [phase1-completed.md](phase1-completed.md) | 1-6 | `feat/electron-scaffold`, `feat/shared-types` | DONE |
-| [phase1-tasks-7-8-combat.md](phase1-tasks-7-8-combat.md) | 7-8 | `feat/combat-engine` | DONE |
-| [phase1-task-9-character.md](phase1-task-9-character.md) | 9 | `feat/character-system` | DONE |
-| [phase1-tasks-10-11-gear.md](phase1-tasks-10-11-gear.md) | 10-11 | `feat/gear-system` | DONE |
-| [phase1-task-12-talent.md](phase1-task-12-talent.md) | 12 | `feat/talent-system` | DONE |
-| [phase1-tasks-13-15-save.md](phase1-tasks-13-15-save.md) | 13-15 | `feat/save-system` + `feat/offline-system` | DONE |
-| [phase1-task-16-electron.md](phase1-task-16-electron.md) | 16 | main | DONE |
-| [phase1-tasks-17-23-ui.md](phase1-tasks-17-23-ui.md) | 17-23 | `feat/phase1-ui` | DONE |
-| [phase1-task-24-integration.md](phase1-task-24-integration.md) | 24 | main | In Progress |
+| [completed.md](completed.md) | 1-6 | `feat/electron-scaffold`, `feat/shared-types` | DONE |
+| [tasks-7-8-combat.md](tasks-7-8-combat.md) | 7-8 | `feat/combat-engine` | DONE |
+| [task-9-character.md](task-9-character.md) | 9 | `feat/character-system` | DONE |
+| [tasks-10-11-gear.md](tasks-10-11-gear.md) | 10-11 | `feat/gear-system` | DONE |
+| [task-12-talent.md](task-12-talent.md) | 12 | `feat/talent-system` | DONE |
+| [tasks-13-15-save.md](tasks-13-15-save.md) | 13-15 | `feat/save-system` + `feat/offline-system` | DONE |
+| [task-16-electron.md](task-16-electron.md) | 16 | main | DONE |
+| [tasks-17-23-ui.md](tasks-17-23-ui.md) | 17-23 | `feat/phase1-ui` | DONE |
+| [task-24-integration.md](task-24-integration.md) | 24 | main | DONE |
 
 ## Key Deliverables per Branch
 

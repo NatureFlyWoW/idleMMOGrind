@@ -10,7 +10,7 @@ Electron 34+ | React 19 | TypeScript 5 (strict) | Vite 6 | Vitest 3 | pnpm | CSS
 
 - **Game Design:** `docs/gdd/index.md` (split per-system in `docs/gdd/`)
 - **Art Style Guide:** `docs/ui/specs/art-style-guide.md`
-- **Implementation Plan:** `docs/plans/phase1-index.md` (split per-branch in `docs/plans/`)
+- **Implementation Plans:** `docs/plans/phase1/index.md`, `docs/plans/phase2/plan-index.md` (each phase in its own subdirectory)
 - **Coding Standards:** `docs/standards/coding.md`
 - **Git Workflow:** `docs/standards/git-workflow.md`
 
@@ -43,28 +43,24 @@ Electron 34+ | React 19 | TypeScript 5 (strict) | Vite 6 | Vitest 3 | pnpm | CSS
 6. @idle-mmo-qa writes integration tests
 7. @idle-mmo-balance-sim validates progression targets
 
-## Current Progress (Phase 1)
+## Current Progress
 
-| Task | Description | Status |
-|------|-------------|--------|
-| Tasks 1-2 | Electron scaffold, enums, IPC types | DONE (merged) |
-| Art Engine Phase A | Pixel art generation pipeline | DONE (merged) |
-| Tasks 3-6 | Shared interfaces, balance.json, RNG, stat calc | DONE (merged) |
-| Tasks 7-8 | Races/classes data, character factory, combat formulas | DONE (merged) |
-| Task 9 | XP system, zones | DONE (merged) |
-| Tasks 10-11 | Item generation, loot, inventory | DONE (merged) |
-| Task 12 | Talent system | DONE (merged) |
-| Tasks 13, 15 | Save/load, game loop, worker entry | DONE (merged) |
-| Task 14 | Offline progression | DONE (merged) |
-| Task 16 | Electron integration | DONE |
-| Tasks 17-23 | Phase 1 UI screens | DONE (merged) |
-| Task 24 | Integration + balance tests | In Progress |
+**Phase 1:** COMPLETE (24 tasks, 335 tests) | Plan: `docs/plans/phase1/index.md`
 
-**Plan:** `docs/plans/phase1-index.md` | **Method:** Subagent-Driven Development
+**Phase 2:** PLANNED (35 tasks, 4 waves) | Plan: `docs/plans/phase2/plan-index.md`
+- Wave 1: Zone expansion + Professions (parallel)
+- Wave 2: Dungeons + Reputation (parallel)
+- Wave 3: Raids + Daily/Weekly (parallel)
+- Wave 4: UI + Integration tests
+
+**Phase 2.5:** PLANNED (4 task groups) | Art generation + prototype playtest
+
+**Method:** Subagent-Driven Development
 
 ## Development Phases
 
-1. **Phase 1 :** Electron scaffold, character creation, combat, leveling 1-60, gear, talents, save system
-2. **Phase 2 :** 6 zones, 10 dungeons, 4 raids, professions, reputation
-3. **Phase 3 :** Ascension, Paragon, achievements, collections, alts
-4. **Phase 4 :** UI polish, balance tuning, tutorial, Electron optimization, beta
+1. **Phase 1 (DONE):** Electron scaffold, character creation, combat, leveling 1-60, gear, talents, save system
+2. **Phase 2 (PLANNED):** Zone expansion, 10 dungeons, 4 raids, professions, reputation, daily/weekly
+3. **Phase 2.5 (PLANNED):** Art asset generation, UI integration, prototype playtest
+4. **Phase 3:** Ascension, Paragon, achievements, collections, alts
+5. **Phase 4:** UI polish, balance tuning, tutorial, Electron optimization, beta
