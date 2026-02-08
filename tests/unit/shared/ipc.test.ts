@@ -87,8 +87,8 @@ describe('EngineCommandType enum', () => {
 // ---- EngineEventType ----
 
 describe('EngineEventType enum', () => {
-  it('should have exactly 13 event types', () => {
-    expect(Object.values(EngineEventType)).toHaveLength(13);
+  it('should have exactly 18 event types', () => {
+    expect(Object.values(EngineEventType)).toHaveLength(18);
   });
 
   it('should contain state and engine events', () => {
