@@ -1,0 +1,119 @@
+.screen {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: var(--spacing-lg);
+  background: var(--panel-bg-alt);
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: var(--text-3xl);
+  text-align: center;
+  color: var(--frame-border-highlight);
+  margin-bottom: var(--spacing-lg);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr auto;
+  gap: var(--spacing-md);
+  flex: 1;
+  overflow-y: auto;
+}
+
+.racePanel { grid-column: 1; grid-row: 1; }
+.classPanel { grid-column: 2; grid-row: 1; }
+.namePanel { grid-column: 1 / -1; grid-row: 2; }
+
+.sectionTitle {
+  font-family: var(--font-heading);
+  font-size: var(--text-lg);
+  color: var(--frame-border-highlight);
+  margin-bottom: var(--spacing-sm);
+  border-bottom: 1px solid var(--separator);
+  padding-bottom: var(--spacing-xs);
+}
+
+.optionGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: var(--spacing-xs);
+  margin-bottom: var(--spacing-sm);
+}
+
+.optionCard {
+  background: var(--panel-bg-alt);
+  border: 1px solid var(--frame-border-inner);
+  padding: var(--spacing-sm);
+  cursor: pointer;
+  text-align: center;
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  transition: all 0.15s;
+}
+
+.optionCard:hover {
+  border-color: var(--frame-border-outer);
+  background: var(--panel-bg);
+}
+
+.optionCard.selected {
+  border-color: var(--frame-border-highlight);
+  background: rgba(201, 168, 76, 0.1);
+  box-shadow: 0 0 8px rgba(201, 168, 76, 0.3);
+}
+
+.optionName {
+  display: block;
+  font-weight: 600;
+  font-size: var(--text-base);
+}
+
+.optionDesc {
+  display: block;
+  font-size: var(--text-xs);
+  color: var(--text-secondary);
+  margin-top: 2px;
+}
+
+.detailBox {
+  background: var(--panel-bg-alt);
+  border: 1px solid var(--separator);
+  padding: var(--spacing-sm);
+}
+
+.lore { color: var(--text-secondary); font-style: italic; margin-bottom: var(--spacing-xs); }
+.statLine { font-family: var(--font-mono); color: var(--stat-positive); margin-bottom: var(--spacing-xs); }
+.racial { color: var(--text-xp); }
+
+.specList { display: flex; flex-direction: column; gap: 4px; margin-top: var(--spacing-xs); }
+.specItem { font-size: var(--text-sm); color: var(--text-secondary); }
+
+.nameInput {
+  width: 100%;
+  padding: 10px 14px;
+  background: #0D0D12;
+  border: 1px solid var(--frame-border-inner);
+  color: var(--text-primary);
+  font-family: var(--font-heading);
+  font-size: var(--text-lg);
+  outline: none;
+}
+
+.nameInput:focus {
+  border-color: var(--frame-border-highlight);
+}
+
+.nameError {
+  color: var(--text-error);
+  font-size: var(--text-sm);
+  margin-top: var(--spacing-xs);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding-top: var(--spacing-md);
+}
