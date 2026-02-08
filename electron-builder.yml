@@ -1,0 +1,40 @@
+appId: com.idlemmorpg.app
+productName: Idle MMORPG
+directories:
+  output: release
+  buildResources: resources
+
+files:
+  - dist/**/*
+  - data/**/*
+  - "!node_modules/**/*"
+
+extraResources:
+  - from: data/
+    to: data/
+    filter:
+      - "**/*"
+
+win:
+  target:
+    - target: nsis
+      arch: [x64]
+
+mac:
+  target:
+    - target: dmg
+      arch: [x64, arm64]
+  category: public.app-category.games
+
+linux:
+  target:
+    - target: AppImage
+      arch: [x64]
+  category: Game
+
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+
+publish: null
