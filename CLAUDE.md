@@ -55,10 +55,10 @@ Electron 34+ | React 19 | TypeScript 5 (strict) | Vite 6 | Vitest 3 | pnpm | CSS
 | Tasks 10-11 | Item generation, loot, inventory | DONE (merged) |
 | Task 12 | Talent system | DONE (merged) |
 | Tasks 13, 15 | Save/load, game loop, worker entry | DONE (merged) |
-| Task 14 | Offline progression | Next |
-| Task 16 | Electron integration | Pending |
-| Tasks 17-23 | Phase 1 UI screens | Pending |
-| Task 24 | Integration + balance tests | Pending |
+| Task 14 | Offline progression | DONE (merged) |
+| Task 16 | Electron integration | DONE |
+| Tasks 17-23 | Phase 1 UI screens | DONE (merged) |
+| Task 24 | Integration + balance tests | In Progress |
 
 **Plan:** `docs/plans/phase1-index.md` | **Method:** Subagent-Driven Development
 

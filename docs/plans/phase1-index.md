@@ -19,10 +19,10 @@
 | [phase1-task-9-character.md](phase1-task-9-character.md) | 9 | `feat/character-system` | DONE |
 | [phase1-tasks-10-11-gear.md](phase1-tasks-10-11-gear.md) | 10-11 | `feat/gear-system` | DONE |
 | [phase1-task-12-talent.md](phase1-task-12-talent.md) | 12 | `feat/talent-system` | DONE |
-| [phase1-tasks-13-15-save.md](phase1-tasks-13-15-save.md) | 13, 15 | `feat/save-system` | DONE (14 pending) |
-| [phase1-task-16-electron.md](phase1-task-16-electron.md) | 16 | main (after merges) | Pending |
-| [phase1-tasks-17-23-ui.md](phase1-tasks-17-23-ui.md) | 17-23 | `feat/phase1-ui` | Pending |
-| [phase1-task-24-integration.md](phase1-task-24-integration.md) | 24 | main (after merges) | Pending |
+| [phase1-tasks-13-15-save.md](phase1-tasks-13-15-save.md) | 13-15 | `feat/save-system` + `feat/offline-system` | DONE |
+| [phase1-task-16-electron.md](phase1-task-16-electron.md) | 16 | main | DONE |
+| [phase1-tasks-17-23-ui.md](phase1-tasks-17-23-ui.md) | 17-23 | `feat/phase1-ui` | DONE |
+| [phase1-task-24-integration.md](phase1-task-24-integration.md) | 24 | main | In Progress |
 
 ## Key Deliverables per Branch
 
@@ -48,8 +48,8 @@
 5. ~~Merge `feat/gear-system` into `main`~~ DONE
 6. ~~Merge `feat/talent-system` into `main`~~ DONE
 7. ~~Merge `feat/save-system` into `main`~~ DONE (Tasks 13+15; Task 14 pending)
-8. Complete Task 16 on `main`
-9. Merge `feat/phase1-ui` into `main`
-10. Complete Task 24 on `main`
+8. ~~Complete Task 16 on `main`~~ DONE
+9. ~~Merge `feat/phase1-ui` into `main`~~ DONE
+10. Complete Task 24 on `main` — In Progress
 
 Each merge should include running `pnpm test` and `pnpm typecheck` to verify no regressions.
