@@ -52,9 +52,10 @@ Electron 34+ | React 19 | TypeScript 5 (strict) | Vite 6 | Vitest 3 | pnpm | CSS
 | Tasks 3-6 | Shared interfaces, balance.json, RNG, stat calc | DONE (merged) |
 | Tasks 7-8 | Races/classes data, character factory, combat formulas | DONE (merged) |
 | Task 9 | XP system, zones | DONE (merged) |
-| Tasks 10-11 | Item generation, loot, inventory | Next |
-| Task 12 | Talent system | Pending |
-| Tasks 13-15 | Save/load, offline calc, game loop | Pending |
+| Tasks 10-11 | Item generation, loot, inventory | DONE (merged) |
+| Task 12 | Talent system | DONE (merged) |
+| Tasks 13, 15 | Save/load, game loop, worker entry | DONE (merged) |
+| Task 14 | Offline progression | Next |
 | Task 16 | Electron integration | Pending |
 | Tasks 17-23 | Phase 1 UI screens | Pending |
 | Task 24 | Integration + balance tests | Pending |
