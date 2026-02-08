@@ -297,7 +297,7 @@ describe('createCharacter', () => {
       race: Race.Valeborn,
       classId: CharacterClass.Blademaster,
     });
-    expect(char.inventory).toHaveLength(20);
+    expect(char.inventory).toHaveLength(28);
     expect(char.inventory.every((slot) => slot === null)).toBe(true);
   });
 

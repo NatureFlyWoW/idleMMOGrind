@@ -90,12 +90,12 @@ function isTwoHanded(weaponType: WeaponType): boolean {
   return TWO_HAND_PATTERNS.some((pattern) => value.includes(pattern));
 }
 
-/** Map of armor type display names (used for item naming). */
-const ARMOR_TYPE_LABEL: Record<ArmorType, string> = {
-  [ArmorType.Cloth]: 'Cloth',
-  [ArmorType.Leather]: 'Leather',
-  [ArmorType.Mail]: 'Mail',
-  [ArmorType.Plate]: 'Plate',
+/** Map of armor type name prefixes (used for starter item naming). */
+const ARMOR_NAME_PREFIX: Record<ArmorType, string> = {
+  [ArmorType.Cloth]: 'Threadbare Cloth',
+  [ArmorType.Leather]: 'Worn Leather',
+  [ArmorType.Mail]: 'Worn Mail',
+  [ArmorType.Plate]: 'Battered Plate',
 };
 
 /** Human-readable labels for gear slots. */
@@ -145,7 +145,7 @@ function createStarterArmor(
   mainStat: PrimaryStat,
 ): IItem {
   const label = SLOT_LABEL[slot] ?? slot;
-  const armorLabel = ARMOR_TYPE_LABEL[armorType];
+  const armorLabel = ARMOR_NAME_PREFIX[armorType];
 
   const stats: Partial<Record<PrimaryStat, number>> = { [mainStat]: 1 };
   if (mainStat !== PrimaryStat.Stamina) {
@@ -155,7 +155,7 @@ function createStarterArmor(
   return {
     id: crypto.randomUUID(),
     templateId: `starter-${slot}`,
-    name: `Worn ${armorLabel} ${label}`,
+    name: `${armorLabel} ${label}`,
     slot,
     quality: ItemQuality.Common,
     iLevel: 1,
@@ -164,9 +164,8 @@ function createStarterArmor(
     primaryStats: stats,
     secondaryStats: {},
     armor: 1,
-    durability: { current: 50, max: 50 },
+    durability: { current: 100, max: 100 },
     sellValue: 1,
-    flavorText: 'Standard issue for new adventurers.',
   };
 }
 
@@ -196,9 +195,8 @@ function createStarterWeapon(
     secondaryStats: {},
     weaponDamage: twoHanded ? { min: 5, max: 8 } : { min: 3, max: 5 },
     weaponSpeed: twoHanded ? 3.0 : 2.0,
-    durability: { current: 50, max: 50 },
+    durability: { current: 100, max: 100 },
     sellValue: 1,
-    flavorText: 'A well-used weapon that has seen better days.',
   };
 }
 
@@ -216,7 +214,7 @@ const STARTER_ARMOR_SLOTS: GearSlot[] = [
 ];
 
 /** Default inventory size (number of slots). */
-const DEFAULT_INVENTORY_SIZE = 20;
+const DEFAULT_INVENTORY_SIZE = 28;
 
 /**
  * Create a new level-1 character with starting stats, equipment, and defaults.
