@@ -200,7 +200,7 @@ Use git worktrees to isolate feature work from `main`. This prevents half-finish
 |-----------|-------|
 | Level cap | 60 |
 | Talent points | 51 (level 10-60) |
-| Gear slots | 15 |
+| Gear slots | 16 |
 | Quality tiers | Common/Uncommon/Rare/Epic/Legendary |
 | Endgame iLevel range | 60-90 |
 | Raids | 4 (sequential attunement) |
@@ -241,6 +241,27 @@ The `superpowers` plugin provides structured workflows that MUST be followed. In
 - "Add combat system" → `/brainstorming` → `/writing-plans` → `/using-git-worktrees` → `/test-driven-development` → `/executing-plans`
 - "Fix XP calculation bug" → `/systematic-debugging` → fix → `/verification-before-completion`
 - "Build inventory UI" → `/brainstorming` → `/writing-plans` → `/using-git-worktrees` → `/subagent-driven-development`
+
+## Current Progress (Phase 1)
+
+| Task | Description | Status |
+|------|-------------|--------|
+| Tasks 1-2 | Electron scaffold, enums, IPC types | DONE (merged) |
+| Tasks 3-6 | Shared interfaces, balance.json, RNG, stat calc | Next |
+| Tasks 7-8 | Races/classes data, character factory, combat formulas | Pending |
+| Task 9 | XP system, zones | Pending |
+| Tasks 10-11 | Item generation, loot, inventory | Pending |
+| Task 12 | Talent system | Pending |
+| Tasks 13-15 | Save/load, offline calc, game loop | Pending |
+| Task 16 | Electron integration (main) | Pending |
+| Tasks 17-23 | All Phase 1 UI screens | Pending |
+| Task 24 | Integration + balance tests (main) | Pending |
+
+**Implementation plan:** `docs/plans/2026-02-08-phase1-implementation.md` (7682 lines, 24 detailed tasks)
+
+**Execution method:** Subagent-Driven Development — fresh subagent per task + spec review + code quality review
+
+**To continue:** Run `/subagent-driven-development` and tell it to continue with Tasks 3-6 on a new `feat/shared-types` worktree.
 
 ## Development Phases
 
