@@ -50,8 +50,8 @@ Electron 34+ | React 19 | TypeScript 5 (strict) | Vite 6 | Vitest 3 | pnpm | CSS
 | Tasks 1-2 | Electron scaffold, enums, IPC types | DONE (merged) |
 | Art Engine Phase A | Pixel art generation pipeline | DONE (merged) |
 | Tasks 3-6 | Shared interfaces, balance.json, RNG, stat calc | DONE (merged) |
-| Tasks 7-8 | Races/classes data, character factory, combat formulas | Next |
-| Task 9 | XP system, zones | Pending |
+| Tasks 7-8 | Races/classes data, character factory, combat formulas | DONE (merged) |
+| Task 9 | XP system, zones | Next |
 | Tasks 10-11 | Item generation, loot, inventory | Pending |
 | Task 12 | Talent system | Pending |
 | Tasks 13-15 | Save/load, offline calc, game loop | Pending |
