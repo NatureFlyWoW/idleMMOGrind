@@ -1,0 +1,26 @@
+.container { display: flex; gap: var(--spacing-md); height: 100%; }
+
+.equipmentPanel { width: 280px; }
+.bagPanel { flex: 1; }
+
+.title {
+  font-family: var(--font-heading);
+  font-size: var(--text-md);
+  color: var(--frame-border-highlight);
+  margin-bottom: var(--spacing-sm);
+  border-bottom: 1px solid var(--separator);
+  padding-bottom: var(--spacing-xs);
+}
+
+.equipGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 48px);
+  gap: 4px;
+  justify-content: center;
+}
+
+.bagGrid {
+  display: grid;
+  grid-template-columns: repeat(7, 48px);
+  gap: 4px;
+}
