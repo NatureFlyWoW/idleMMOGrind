@@ -8,3 +8,4 @@ export * from './world';
 export * from './state';
 export * from './save';
 export * from './balance';
+export * from './zone-expansion';

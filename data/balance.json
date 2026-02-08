@@ -150,5 +150,16 @@
     "respecBaseCost": 10,
     "respecCostPerLevel": 1,
     "respecCountMultiplier": 0.5
+  },
+  "zones": {
+    "eliteHpMultiplier": 3.0,
+    "eliteDamageMultiplier": 2.0,
+    "eliteXpMultiplier": 2.5,
+    "eliteReputationMultiplier": 2.0,
+    "rareSpawnBaseChance": 0.03,
+    "rareXpMultiplier": 5.0,
+    "rareReputationReward": 100,
+    "eventCheckIntervalMs": 300000,
+    "eventBaseChance": 0.15
   }
 }

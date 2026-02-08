@@ -188,6 +188,8 @@ export enum QuestType {
   Dungeon = 'dungeon',
   Elite = 'elite',
   Attunement = 'attunement',
+  Escort = 'escort',
+  Exploration = 'exploration',
 }
 
 // ---- Dungeon Difficulty ----
@@ -245,4 +247,25 @@ export enum MonsterType {
   Normal = 'normal',
   Elite = 'elite',
   Boss = 'boss',
+}
+
+// ---- Monster Subtypes (determines material drops) ----
+
+export enum MonsterSubtype {
+  Beast = 'beast',
+  Humanoid = 'humanoid',
+  Elemental = 'elemental',
+  Undead = 'undead',
+  Construct = 'construct',
+  Dragonkin = 'dragonkin',
+}
+
+// ---- Zone Event Types ----
+
+export enum ZoneEventType {
+  MonsterSurge = 'monster_surge',
+  GatheringBounty = 'gathering_bounty',
+  EliteInvasion = 'elite_invasion',
+  RareHunt = 'rare_hunt',
+  FactionRally = 'faction_rally',
 }

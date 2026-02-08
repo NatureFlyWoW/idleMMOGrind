@@ -98,6 +98,10 @@ describe('Character Lifecycle Integration', () => {
         zonesCompleted: ['zone_01'],
         unlockedAbilities: [],
         activeAbilityPriority: [],
+        questChains: {},
+        rareSpawnsDefeated: [],
+        eliteAreasUnlocked: [],
+        activeZoneEvents: [],
       },
       inventory: {
         equipped: equipResult.equipment,
