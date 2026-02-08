@@ -10,7 +10,7 @@ Electron 34+ | React 19 | TypeScript 5 (strict) | Vite 6 | Vitest 3 | pnpm | CSS
 
 - **Game Design:** `docs/gdd/index.md` (split per-system in `docs/gdd/`)
 - **Art Style Guide:** `docs/ui/specs/art-style-guide.md`
-- **Implementation Plan:** `docs/plans/2026-02-08-phase1-implementation.md`
+- **Implementation Plan:** `docs/plans/phase1-index.md` (split per-branch in `docs/plans/`)
 - **Coding Standards:** `docs/standards/coding.md`
 - **Git Workflow:** `docs/standards/git-workflow.md`
 
@@ -49,8 +49,8 @@ Electron 34+ | React 19 | TypeScript 5 (strict) | Vite 6 | Vitest 3 | pnpm | CSS
 |------|-------------|--------|
 | Tasks 1-2 | Electron scaffold, enums, IPC types | DONE (merged) |
 | Art Engine Phase A | Pixel art generation pipeline | DONE (merged) |
-| Tasks 3-6 | Shared interfaces, balance.json, RNG, stat calc | Next |
-| Tasks 7-8 | Races/classes data, character factory, combat formulas | Pending |
+| Tasks 3-6 | Shared interfaces, balance.json, RNG, stat calc | DONE (merged) |
+| Tasks 7-8 | Races/classes data, character factory, combat formulas | Next |
 | Task 9 | XP system, zones | Pending |
 | Tasks 10-11 | Item generation, loot, inventory | Pending |
 | Task 12 | Talent system | Pending |
@@ -59,7 +59,7 @@ Electron 34+ | React 19 | TypeScript 5 (strict) | Vite 6 | Vitest 3 | pnpm | CSS
 | Tasks 17-23 | Phase 1 UI screens | Pending |
 | Task 24 | Integration + balance tests | Pending |
 
-**Plan:** `docs/plans/2026-02-08-phase1-implementation.md` | **Method:** Subagent-Driven Development
+**Plan:** `docs/plans/phase1-index.md` | **Method:** Subagent-Driven Development
 
 ## Development Phases
 

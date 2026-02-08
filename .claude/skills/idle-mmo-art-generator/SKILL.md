@@ -30,7 +30,9 @@ All generated assets must conform to `docs/ui/specs/art-style-guide.md`. Key con
 
 The art engine lives at `tools/art-engine/` and is invoked via `pnpm art`.
 
-### Icon Generation
+> **Implementation Status:** Only `pnpm art icons` is implemented (Phase A). The `texture`, `ui-chrome`, `sprite`, and `batch` commands below are planned for future phases and will fail if invoked now.
+
+### Icon Generation (IMPLEMENTED)
 
 ```bash
 pnpm art icons [options]
@@ -59,7 +61,7 @@ pnpm art icons --category=weapon --type=staff --quality=rare --element=fire --se
 pnpm art icons --category=weapon --type=mace --quality=common,uncommon,rare,epic,legendary --seed=50
 ```
 
-### Texture Generation
+### Texture Generation (NOT YET IMPLEMENTED -- Phase B)
 
 ```bash
 pnpm art texture [options]
@@ -73,7 +75,7 @@ pnpm art texture [options]
 | `--seed` | number | Seed for reproducible output |
 | `--output` | path | Output directory |
 
-### UI Chrome Generation
+### UI Chrome Generation (NOT YET IMPLEMENTED -- Phase C)
 
 ```bash
 pnpm art ui-chrome [options]
@@ -86,7 +88,7 @@ pnpm art ui-chrome [options]
 | `--seed` | number | Seed |
 | `--output` | path | Output directory |
 
-### Sprite Composition
+### Sprite Composition (NOT YET IMPLEMENTED -- Phase D)
 
 ```bash
 pnpm art sprite [options]
@@ -105,7 +107,7 @@ pnpm art sprite [options]
 | `--hair-color` | number | Hair color palette index |
 | `--seed` | number | Seed |
 
-### Batch Generation
+### Batch Generation (NOT YET IMPLEMENTED -- Phase B)
 
 ```bash
 pnpm art batch --manifest=<path-to-manifest.json>
