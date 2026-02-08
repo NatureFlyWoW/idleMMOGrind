@@ -1,1 +1,2 @@
-// Shared types barrel export
+export * from './enums';
+export * from './ipc';
