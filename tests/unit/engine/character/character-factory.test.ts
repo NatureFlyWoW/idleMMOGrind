@@ -291,7 +291,7 @@ describe('createCharacter', () => {
   // Inventory & counters
   // ---------------------------------------------------------------------------
 
-  it('should start with an empty inventory of 20 slots', () => {
+  it('should start with an empty inventory of 28 slots', () => {
     const char = createCharacter({
       name: 'Test',
       race: Race.Valeborn,

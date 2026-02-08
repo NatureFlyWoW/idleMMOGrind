@@ -15,6 +15,7 @@ import type {
   ICharacterCreationParams,
 } from '@shared/types/character';
 import type { IItem } from '@shared/types/item';
+import { loadBalanceConfig } from '@shared/utils/balance-loader';
 
 import racesData from '@data/races.json';
 import classesData from '@data/classes.json';
@@ -240,8 +241,9 @@ export function createCharacter(params: ICharacterCreationParams): ICharacterSta
       classDef.baseStats[PrimaryStat.Stamina] + raceDef.statBonuses[PrimaryStat.Stamina],
   };
 
-  // ---- HP: stamina * 10 + class baseHP ----
-  const maxHP = primaryStats[PrimaryStat.Stamina] * 10 + classDef.baseHP;
+  // ---- HP: stamina * healthPerStamina + class baseHP ----
+  const balance = loadBalanceConfig();
+  const maxHP = primaryStats[PrimaryStat.Stamina] * balance.stats.healthPerStamina + classDef.baseHP;
 
   // ---- Resource: rage starts at 0, others start at baseResource ----
   const resourceType = classDef.resourceType as ResourceType;
