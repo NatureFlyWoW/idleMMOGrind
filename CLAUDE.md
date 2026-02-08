@@ -1,267 +1,65 @@
 # Idle MMORPG
 
-An offline idle/incremental RPG delivered as an Electron desktop app that simulates the classic MMORPG experience (WoW, EQ2, RIFT). Players create characters, level 1-60 through automated quests and grinding, then engage in endgame gear progression through dungeons and raids — all while progressing offline. No energy systems, no pay-to-win.
-
-## Reference Documents
-
-- **Game Design Document (canonical):** `reference/Idle_MMORPG_Design.pdf`
-  - All game systems, formulas, content, and progression targets are defined here
-  - When in doubt about a mechanic, consult the GDD first
-  - Design changes must be documented and reconciled with the GDD
+An offline idle/incremental RPG as an Electron desktop app simulating classic MMORPGs (WoW, EQ2, RIFT). Level 1-60, gear progression, dungeons, raids, prestige — all progressing offline. No energy systems, no pay-to-win.
 
 ## Tech Stack
 
-- **Platform:** Electron (Windows, macOS, Linux)
-- **Language:** TypeScript (strict mode)
-- **Frontend:** React, CSS Modules, HTML5 Canvas/WebGL for sprites
-- **Backend/Engine:** Node.js, Worker Threads for heavy computation
-- **Build:** Electron Builder, pnpm
-- **Save Format:** JSON with gzip compression
-- **Testing:** Vitest (unit), Playwright (integration/E2E)
+Electron 34+ | React 19 | TypeScript 5 (strict) | Vite 6 | Vitest 3 | pnpm | CSS Modules | Worker Threads
 
-## Project Structure
+## Key References
 
-```
-idle-mmorpg/
-├── .claude/
-│   └── agents/               # Subagent definitions
-│       ├── idle-mmo-gdev.md
-│       ├── idle-mmo-gpm.md
-│       ├── idle-mmo-ui-designer.md
-│       └── idle-mmo-frontend-dev.md
-├── reference/                # Design docs, research, competitive analysis (read-only reference)
-│   └── Idle_MMORPG_Design.pdf
-├── docs/                     # Living documentation
-│   ├── specs/                # Feature specifications (@idle-mmo-gpm writes)
-│   ├── balance/              # Balance sheets, progression curves (@idle-mmo-gpm writes)
-│   ├── ui/                   # Wireframes, visual specs, interaction specs (@idle-mmo-ui-designer writes)
-│   │   ├── wireframes/
-│   │   ├── specs/
-│   │   └── interactions/
-│   └── architecture/         # Technical architecture decisions (@idle-mmo-gdev writes)
-├── src/
-│   ├── main/                 # Electron main process
-│   │   ├── save/             # Save/load system
-│   │   ├── ipc/              # IPC channel definitions
-│   │   └── updater/          # Auto-update system
-│   ├── engine/               # Game engine (runs in Worker Threads)
-│   │   ├── combat/           # Combat system, damage formulas, ability priority
-│   │   ├── progression/      # XP, leveling, quest completion
-│   │   ├── gear/             # Item generation, loot tables, iLevel, set bonuses
-│   │   ├── talents/          # Talent trees, point allocation, respec
-│   │   ├── dungeons/         # Dungeon/raid simulation, success chance, lockouts
-│   │   ├── professions/      # Gathering, crafting, recipes
-│   │   ├── economy/          # Gold, Justice/Valor Points, vendors
-│   │   ├── reputation/       # Faction reputation, rewards
-│   │   ├── prestige/         # Ascension, Paragon trees, alt bonuses
-│   │   ├── offline/          # Offline progression calculation
-│   │   └── character/        # Race/class definitions, stats, creation
-│   ├── renderer/             # Electron renderer process (React app)
-│   │   ├── components/       # React UI components
-│   │   │   ├── character/    # Paper doll, stat panel, buff bar
-│   │   │   ├── inventory/    # Grid, item slots, bag tabs
-│   │   │   ├── talents/      # Tree visualization, nodes
-│   │   │   ├── combat/       # Combat log, DPS meter
-│   │   │   ├── quests/       # Quest tracker, journal
-│   │   │   ├── dungeons/     # Browser, loot preview
-│   │   │   ├── professions/  # Crafting grid, recipe list
-│   │   │   ├── achievements/ # Category panels, progress
-│   │   │   ├── shared/       # Tooltips, modals, buttons, bars
-│   │   │   └── layout/       # Hub layout, navigation, panels
-│   │   ├── hooks/            # useGameState, useTooltip, useDragDrop
-│   │   ├── styles/           # Theme, component CSS, global styles
-│   │   └── assets/           # Icons, UI chrome, sprites
-│   └── shared/               # Types, constants, utils shared between main/renderer/engine
-│       ├── types/            # TypeScript interfaces for game data
-│       ├── constants/        # Game constants, balance values
-│       └── utils/            # Pure utility functions
-├── data/                     # Game data files (JSON)
-│   ├── races.json
-│   ├── classes.json
-│   ├── talents/              # Per-class talent tree definitions
-│   ├── abilities/            # Per-class ability definitions
-│   ├── items/                # Item templates, loot tables
-│   ├── dungeons/             # Dungeon definitions, boss mechanics
-│   ├── raids/                # Raid definitions
-│   ├── quests/               # Quest chains per zone
-│   ├── zones/                # Zone definitions
-│   ├── professions/          # Recipes, materials
-│   ├── factions/             # Reputation thresholds, rewards
-│   └── balance.json          # Tunable balance parameters (XP curves, drop rates, etc.)
-└── tests/
-    ├── unit/                 # Unit tests mirroring src/ structure
-    ├── integration/          # Cross-system integration tests
-    └── balance/              # Balance simulation tests
-```
+- **Game Design:** `docs/gdd/index.md` (split per-system in `docs/gdd/`)
+- **Art Style Guide:** `docs/ui/specs/art-style-guide.md`
+- **Implementation Plan:** `docs/plans/2026-02-08-phase1-implementation.md`
+- **Coding Standards:** `docs/standards/coding.md`
+- **Git Workflow:** `docs/standards/git-workflow.md`
 
-## Agent Roster & Directory Ownership
+## Agent Roster
 
-### @idle-mmo-gdev — Senior Game Developer
-- **Owns:** `src/engine/`, `src/main/`, `src/shared/`, `data/`, `tests/`
-- **Role:** Implements all game systems, combat engine, progression, gear/loot, dungeons/raids, offline simulation, save system
-- **Invoke when:** Implementing game logic, fixing bugs in game systems, performance optimization, writing tests, data file creation
-
-### @idle-mmo-gpm — Game Product Manager / Designer
-- **Owns:** `docs/specs/`, `docs/balance/`, `reference/`
-- **Role:** Feature specs, balance design, roadmap, progression curves, content planning, acceptance criteria
-- **Invoke when:** Design decisions needed, new feature scoping, balance tuning, content planning, competitive analysis
-
-### @idle-mmo-ui-designer — UI/UX & Visual Designer
-- **Owns:** `docs/ui/`
-- **Role:** Wireframes, visual specs, interaction design, icon/sprite specifications, design system
-- **Invoke when:** New screen/component design, UX review, visual spec creation, asset requirements
-
-### @idle-mmo-frontend-dev — Frontend Developer
-- **Owns:** `src/renderer/`
-- **Role:** Implements React UI components, CSS theming, Electron renderer, state management, animations
-- **Invoke when:** Building UI components, implementing designs, Electron renderer work, frontend performance
+| Agent | Role | Owns | Invoke When |
+|-------|------|------|-------------|
+| @idle-mmo-gdev | Game engine developer | `src/engine/`, `src/main/`, `src/shared/`, `data/`, `tests/unit/` | Implementing game logic, formulas, data files, tests |
+| @idle-mmo-gpm | Game designer / PM | `docs/specs/`, `docs/balance/`, `docs/gdd/` | Design decisions, balance tuning, feature specs |
+| @idle-mmo-ui-designer | UI/UX & visual designer | `docs/ui/` | Screen design, wireframes, visual specs, art direction |
+| @idle-mmo-frontend-dev | Frontend developer | `src/renderer/` | React components, CSS, Electron renderer, state management |
+| @idle-mmo-balance-sim | Balance simulator | `tests/balance/` | Progression validation, DPS curves, pacing checks |
+| @idle-mmo-data-validator | Data schema validator | validation scripts | JSON data integrity, enum consistency, reference checks |
+| @idle-mmo-qa | QA & integration tester | `tests/integration/` | Cross-system tests, save/load, smoke tests after merges |
 
 ## Coordination Rules
 
-### Directory Boundaries
 - Agents only modify files within their owned directories
-- `src/shared/` is co-owned: @idle-mmo-gdev defines interfaces, @idle-mmo-frontend-dev consumes them
-- `data/` is co-owned: @idle-mmo-gpm specifies content, @idle-mmo-gdev implements the schemas and validates
+- `src/shared/` is co-owned: @idle-mmo-gdev defines interfaces, @idle-mmo-frontend-dev consumes
+- `data/` is co-owned: @idle-mmo-gpm specifies content, @idle-mmo-gdev implements schemas
+- Game design lives in `docs/gdd/` — agents read only the files they need per task
 
-### Workflow
-1. **@idle-mmo-gpm** writes feature spec in `docs/specs/` with acceptance criteria
-2. **@idle-mmo-ui-designer** creates wireframes/specs in `docs/ui/` for any UI-facing features
-3. **@idle-mmo-gdev** implements engine logic in `src/engine/` and data schemas in `data/`
-4. **@idle-mmo-frontend-dev** implements UI in `src/renderer/` based on designer specs and engine interfaces
+## Workflow
 
-### Communication
-- Agents communicate via JSON status messages (see individual agent files for protocol)
-- Blocking issues should name the blocked agent and the specific need
-- Balance parameters live in `data/balance.json` — @idle-mmo-gpm defines values, @idle-mmo-gdev implements consumption
-
-## Coding Standards
-
-### TypeScript
-- Strict mode, no `any` in committed code
-- Interfaces for all game data structures in `src/shared/types/`
-- Enums for fixed sets (item quality, gear slot, class, race, etc.)
-- Pure functions for all formulas and calculations (testable, no side effects)
-
-### Game Data
-- All balance-tunable values in `data/balance.json`, never hardcoded
-- Content data (items, quests, talents, etc.) in `data/` as JSON
-- Data files validated against TypeScript schemas at build time
-
-### Testing
-- Unit tests required for all formulas, calculations, and game logic
-- Integration tests for cross-system interactions (e.g., gear equip → stat recalculation → combat DPS change)
-- Balance simulation tests that verify pacing targets (time-to-level, time-to-Ascension)
-
-### Git
-- Conventional commits: `feat(combat):`, `fix(gear):`, `docs(spec):`, etc.
-- Feature branches per system: `feat/combat-engine`, `feat/inventory-ui`, etc.
-- PRs reference the relevant spec in `docs/specs/` when applicable
-
-### Git Worktrees
-Use git worktrees to isolate feature work from `main`. This prevents half-finished work from polluting the main branch and allows parallel development streams.
-
-**Worktree Location:** `C:\Users\Caus\Desktop\idleMMOGrind-worktrees\<branch-name>\`
-
-**Workflow:**
-1. Create a worktree for each major feature/system:
-   ```bash
-   git worktree add ../idleMMOGrind-worktrees/feat-combat-engine feat/combat-engine
-   git worktree add ../idleMMOGrind-worktrees/feat-character-creation feat/character-creation
-   ```
-2. Work in the worktree directory, commit there
-3. When feature is complete and reviewed, merge back to `main`
-4. Clean up: `git worktree remove ../idleMMOGrind-worktrees/<branch>`
-
-**When to use worktrees:**
-- Any implementation work (engine systems, UI components, data files)
-- Large documentation efforts that span multiple sessions
-- Experimental/prototype work
-
-**When NOT to use worktrees:**
-- Quick single-file fixes on `main`
-- Reading/research tasks
-- Updating CLAUDE.md or memory files (these stay on `main`)
-
-**Branch naming convention:**
-- `feat/<system>` — New feature work (e.g., `feat/combat-engine`, `feat/inventory-ui`)
-- `docs/<topic>` — Documentation work (e.g., `docs/phase1-specs`)
-- `fix/<issue>` — Bug fixes
-- `refactor/<scope>` — Refactoring work
-
-### Performance
-- Worker threads for: combat simulation, offline calculation, loot generation
-- No synchronous IPC between main and renderer
-- Virtualized lists for combat log, inventory, achievements
-- Lazy load non-essential screens (professions, achievements)
-
-## Key Game Parameters (Quick Reference)
-
-| Parameter | Value |
-|-----------|-------|
-| Level cap | 60 |
-| Talent points | 51 (level 10-60) |
-| Gear slots | 16 |
-| Quality tiers | Common/Uncommon/Rare/Epic/Legendary |
-| Endgame iLevel range | 60-90 |
-| Raids | 4 (sequential attunement) |
-| Offline max | 24h (diminishing after 12h) |
-| Time to first Ascension | 25-40 hours |
-| Paragon trees | 5 (250 Ascensions to max) |
-| Races | 8 |
-| Classes | 9 (27 specs) |
-| Professions | 9 primary + 3 secondary |
-| Currencies | Gold, Justice Points (4K cap), Valor Points (1K/week cap) |
-
-## Superpowers Skills (Mandatory Workflows)
-
-The `superpowers` plugin provides structured workflows that MUST be followed. Invoke the relevant skill via `/skill-name` BEFORE starting work. If there's even a 1% chance a skill applies, invoke it first.
-
-### Skill → When to Use
-
-| Skill | Trigger |
-|-------|---------|
-| `/brainstorming` | Before ANY creative work: new features, components, systems, design decisions |
-| `/writing-plans` | When you have requirements and need to plan multi-step implementation |
-| `/executing-plans` | When a written plan exists and you're ready to implement |
-| `/subagent-driven-development` | When executing plans with independent tasks using subagents |
-| `/dispatching-parallel-agents` | When 2+ independent tasks can run simultaneously |
-| `/test-driven-development` | Before writing ANY implementation code — write tests first |
-| `/systematic-debugging` | When encountering ANY bug, test failure, or unexpected behavior |
-| `/using-git-worktrees` | Before starting feature work that needs isolation from `main` |
-| `/requesting-code-review` | After completing a feature, before merging |
-| `/receiving-code-review` | When processing code review feedback |
-| `/finishing-a-development-branch` | When implementation is complete and ready to integrate |
-| `/verification-before-completion` | Before claiming any work is "done" — verify with actual output |
-
-### Priority Order
-1. **Process skills first** (brainstorming, debugging) — determines HOW to approach
-2. **Implementation skills second** (TDD, executing-plans) — guides execution
-
-### Examples
-- "Add combat system" → `/brainstorming` → `/writing-plans` → `/using-git-worktrees` → `/test-driven-development` → `/executing-plans`
-- "Fix XP calculation bug" → `/systematic-debugging` → fix → `/verification-before-completion`
-- "Build inventory UI" → `/brainstorming` → `/writing-plans` → `/using-git-worktrees` → `/subagent-driven-development`
+1. @idle-mmo-gpm writes feature spec in `docs/specs/`
+2. @idle-mmo-ui-designer creates wireframes/specs in `docs/ui/`
+3. @idle-mmo-gdev implements engine logic in `src/engine/` and data in `data/`
+4. @idle-mmo-frontend-dev implements UI in `src/renderer/`
+5. @idle-mmo-data-validator checks data integrity
+6. @idle-mmo-qa writes integration tests
+7. @idle-mmo-balance-sim validates progression targets
 
 ## Current Progress (Phase 1)
 
 | Task | Description | Status |
 |------|-------------|--------|
 | Tasks 1-2 | Electron scaffold, enums, IPC types | DONE (merged) |
+| Art Engine Phase A | Pixel art generation pipeline | DONE (merged) |
 | Tasks 3-6 | Shared interfaces, balance.json, RNG, stat calc | Next |
 | Tasks 7-8 | Races/classes data, character factory, combat formulas | Pending |
 | Task 9 | XP system, zones | Pending |
 | Tasks 10-11 | Item generation, loot, inventory | Pending |
 | Task 12 | Talent system | Pending |
 | Tasks 13-15 | Save/load, offline calc, game loop | Pending |
-| Task 16 | Electron integration (main) | Pending |
-| Tasks 17-23 | All Phase 1 UI screens | Pending |
-| Task 24 | Integration + balance tests (main) | Pending |
+| Task 16 | Electron integration | Pending |
+| Tasks 17-23 | Phase 1 UI screens | Pending |
+| Task 24 | Integration + balance tests | Pending |
 
-**Implementation plan:** `docs/plans/2026-02-08-phase1-implementation.md` (7682 lines, 24 detailed tasks)
-
-**Execution method:** Subagent-Driven Development — fresh subagent per task + spec review + code quality review
-
-**To continue:** Run `/subagent-driven-development` and tell it to continue with Tasks 3-6 on a new `feat/shared-types` worktree.
+**Plan:** `docs/plans/2026-02-08-phase1-implementation.md` | **Method:** Subagent-Driven Development
 
 ## Development Phases
 
