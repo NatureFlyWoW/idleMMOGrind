@@ -1,5 +1,8 @@
 import type { IBalanceConfig } from '@shared/types/balance';
 import type { SeededRandom } from '@shared/utils/rng';
+import type { IProfessionState, ICraftingQueueEntry } from '@shared/types/profession';
+import { ProfessionType } from '@shared/types/enums';
+import type { IProfessionDefinition } from '@shared/types/profession';
 import { applyDiminishingReturns } from './diminishing-returns';
 import {
   calculateMonsterXP,
@@ -26,6 +29,70 @@ export interface IOfflineResult {
   simulatedSeconds: number;
   rawOfflineSeconds: number;
   catchUpMultiplier: number;
+}
+
+// ---------------------------------------------------------------------------
+// Profession offline progress
+// ---------------------------------------------------------------------------
+
+export interface IOfflineProfessionParams {
+  offlineSeconds: number;
+  gatheringProfessions: IProfessionState[];
+  professionDefinitions: IProfessionDefinition[];
+  craftingQueue: ICraftingQueueEntry[];
+  config: IBalanceConfig['professions'];
+}
+
+export interface IOfflineProfessionResult {
+  materialsGathered: number;
+  craftingQueueCompleted: number;
+}
+
+/**
+ * Estimate profession progress during an offline period.
+ *
+ * Gathering: materialsGathered = gatheringRate * offlineSeconds / gatheringIntervalSeconds
+ * Crafting: craftsCompleted = min(queueSize, offlineSeconds / avgCraftTime)
+ */
+export function calculateOfflineProfessionProgress(
+  params: IOfflineProfessionParams,
+): IOfflineProfessionResult {
+  const { offlineSeconds, gatheringProfessions, craftingQueue, config } = params;
+
+  if (offlineSeconds <= 0) {
+    return { materialsGathered: 0, craftingQueueCompleted: 0 };
+  }
+
+  // Gathering estimate
+  // gatheringIntervalTicks * tickInterval (250ms) = interval in seconds
+  const tickIntervalSec = 0.25; // 250ms per tick
+  const gatheringIntervalSec = config.gatheringIntervalTicks * tickIntervalSec;
+
+  // Only active gathering professions contribute
+  const activeGathering = gatheringProfessions.filter(p => {
+    const def = params.professionDefinitions.find(d => d.id === p.professionId);
+    return def && def.type === ProfessionType.Gathering;
+  });
+
+  let materialsGathered = 0;
+  if (activeGathering.length > 0 && gatheringIntervalSec > 0) {
+    const gathersPerProfession = Math.floor(offlineSeconds / gatheringIntervalSec);
+    materialsGathered = gathersPerProfession * activeGathering.length * config.gatheringBaseYield;
+  }
+
+  // Crafting queue estimate
+  let craftingQueueCompleted = 0;
+  if (craftingQueue.length > 0) {
+    const avgCraftTimeSec = config.craftTimeBaseMs / 1000;
+    if (avgCraftTimeSec > 0) {
+      craftingQueueCompleted = Math.min(
+        craftingQueue.length,
+        Math.floor(offlineSeconds / avgCraftTimeSec),
+      );
+    }
+  }
+
+  return { materialsGathered, craftingQueueCompleted };
 }
 
 /**
