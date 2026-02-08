@@ -23,6 +23,7 @@ export default defineConfig({
     alias: {
       '@shared': path.resolve(__dirname, 'src/shared'),
       '@engine': path.resolve(__dirname, 'src/engine'),
+      '@main': path.resolve(__dirname, 'src/main'),
       '@data': path.resolve(__dirname, 'data'),
     },
   },
