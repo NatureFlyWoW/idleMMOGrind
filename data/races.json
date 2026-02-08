@@ -1,0 +1,120 @@
+[
+  {
+    "id": "valeborn",
+    "name": "Valeborn",
+    "description": "Adaptable descendants of wandering explorers. Balanced stats make them suitable for any class.",
+    "statBonuses": { "str": 2, "agi": 2, "int": 2, "spi": 2, "sta": 2 },
+    "racialAbility": {
+      "id": "versatile-learner",
+      "name": "Versatile Learner",
+      "description": "+10% Quest XP",
+      "effectType": "xp_percent",
+      "value": 0.10
+    },
+    "recommendedClasses": ["blademaster", "sentinel", "stalker", "channeler", "shapeshifter"]
+  },
+  {
+    "id": "stoneguard",
+    "name": "Stoneguard",
+    "description": "Mountain-dwelling warriors carved from living stone. Built for frontline combat.",
+    "statBonuses": { "str": 5, "agi": 0, "int": 0, "spi": 0, "sta": 5 },
+    "racialAbility": {
+      "id": "iron-skin",
+      "name": "Iron Skin",
+      "description": "+5% Armor value",
+      "effectType": "stat_percent",
+      "stat": "armor",
+      "value": 0.05
+    },
+    "recommendedClasses": ["blademaster", "sentinel"]
+  },
+  {
+    "id": "sylvani",
+    "name": "Sylvani",
+    "description": "Forest-born scholars attuned to ley lines. Excel in magic and agility.",
+    "statBonuses": { "str": 0, "agi": 5, "int": 5, "spi": 0, "sta": 0 },
+    "racialAbility": {
+      "id": "arcane-affinity",
+      "name": "Arcane Affinity",
+      "description": "+5% Spell Power",
+      "effectType": "stat_percent",
+      "stat": "spell-power",
+      "value": 0.05
+    },
+    "recommendedClasses": ["stalker", "arcanist", "channeler", "shapeshifter"]
+  },
+  {
+    "id": "bloodborn",
+    "name": "Bloodborn",
+    "description": "War-bred berserkers with crimson veins. Pure physical damage dealers.",
+    "statBonuses": { "str": 7, "agi": 0, "int": 0, "spi": 0, "sta": 3 },
+    "racialAbility": {
+      "id": "blood-fury",
+      "name": "Blood Fury",
+      "description": "+10% Physical Damage",
+      "effectType": "damage_percent",
+      "stat": "physical",
+      "value": 0.10
+    },
+    "recommendedClasses": ["blademaster", "sentinel", "shadow"]
+  },
+  {
+    "id": "hollowed",
+    "name": "Hollowed",
+    "description": "Undead spirits bound by ancient pacts. Immune to fear and charm effects.",
+    "statBonuses": { "str": 0, "agi": 0, "int": 5, "spi": 3, "sta": 0 },
+    "racialAbility": {
+      "id": "spectral-ward",
+      "name": "Spectral Ward",
+      "description": "Immune to Fear/Charm effects",
+      "effectType": "immunity",
+      "value": 1
+    },
+    "recommendedClasses": ["cleric", "arcanist", "summoner"]
+  },
+  {
+    "id": "tinkersoul",
+    "name": "Tinkersoul",
+    "description": "Gnome-like inventors powered by arcane batteries. Supreme casters.",
+    "statBonuses": { "str": 0, "agi": 0, "int": 7, "spi": 3, "sta": 0 },
+    "racialAbility": {
+      "id": "mana-capacitor",
+      "name": "Mana Capacitor",
+      "description": "+5% Maximum Mana",
+      "effectType": "resource_percent",
+      "stat": "mana",
+      "value": 0.05
+    },
+    "recommendedClasses": ["arcanist", "summoner", "cleric"]
+  },
+  {
+    "id": "wildkin",
+    "name": "Wildkin",
+    "description": "Beast-touched nomads from untamed wilds. Fast and resilient.",
+    "statBonuses": { "str": 0, "agi": 5, "int": 0, "spi": 0, "sta": 5 },
+    "racialAbility": {
+      "id": "feral-instinct",
+      "name": "Feral Instinct",
+      "description": "+3% Attack Speed",
+      "effectType": "stat_percent",
+      "stat": "haste",
+      "value": 0.03
+    },
+    "recommendedClasses": ["stalker", "shadow", "shapeshifter"]
+  },
+  {
+    "id": "earthborn",
+    "name": "Earthborn",
+    "description": "Stone-skinned giants from the deep earth. Unmatched survivability.",
+    "statBonuses": { "str": 3, "agi": 0, "int": 0, "spi": 0, "sta": 7 },
+    "racialAbility": {
+      "id": "living-fortitude",
+      "name": "Living Fortitude",
+      "description": "+5% Maximum HP",
+      "effectType": "resource_percent",
+      "stat": "health",
+      "value": 0.05
+    },
+    "recommendedClasses": ["blademaster", "sentinel", "channeler"]
+  }
+]
