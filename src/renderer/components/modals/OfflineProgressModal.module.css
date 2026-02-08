@@ -1,0 +1,82 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal {
+  width: 480px;
+  max-width: 90vw;
+  text-align: center;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  color: var(--frame-border-highlight);
+  margin-bottom: var(--spacing-xs);
+}
+
+.subtitle {
+  color: var(--text-secondary);
+  font-size: var(--text-sm);
+  margin-bottom: var(--spacing-lg);
+}
+
+.gains {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-lg);
+}
+
+.gainRow {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  background: var(--panel-bg-alt);
+  border: 1px solid var(--separator);
+}
+
+.gainIcon {
+  font-size: var(--text-lg);
+  width: 24px;
+  text-align: center;
+}
+
+.gainLabel {
+  flex: 1;
+  text-align: left;
+  color: var(--text-secondary);
+}
+
+.gainValue {
+  font-family: var(--font-mono);
+  font-size: var(--text-md);
+  font-weight: 600;
+  font-feature-settings: "tnum";
+}
+
+.newLevel {
+  color: var(--text-system);
+  font-family: var(--font-heading);
+  font-size: var(--text-lg);
+  margin-bottom: var(--spacing-sm);
+}
+
+.catchUp {
+  color: var(--text-system);
+  font-size: var(--text-sm);
+  margin-bottom: var(--spacing-md);
+  font-style: italic;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
