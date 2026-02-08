@@ -1,0 +1,44 @@
+.container { display: flex; flex-direction: column; height: 100%; gap: var(--spacing-sm); }
+
+.topRow { display: grid; grid-template-columns: 1fr 1fr; gap: var(--spacing-sm); }
+
+.logRow { flex: 1; min-height: 200px; }
+
+.sectionTitle {
+  font-family: var(--font-heading);
+  font-size: var(--text-md);
+  color: var(--frame-border-highlight);
+  margin-bottom: var(--spacing-sm);
+}
+
+.combatPanel, .questPanel { padding: var(--spacing-sm); }
+
+.targetInfo { margin-bottom: var(--spacing-sm); }
+
+.targetName {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: var(--text-base);
+  color: var(--stat-negative);
+  margin-bottom: var(--spacing-xs);
+}
+
+.playerBars { display: flex; flex-direction: column; gap: var(--spacing-xs); margin-bottom: var(--spacing-sm); }
+
+.dpsDisplay {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+}
+
+.dpsValue {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.questInfo { margin-top: var(--spacing-xs); }
+
+.idle {
+  color: var(--text-disabled);
+  font-style: italic;
+}
