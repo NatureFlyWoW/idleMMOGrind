@@ -69,7 +69,7 @@
 
 1. `feat/zone-expansion` -- DONE
 2. `feat/profession-system` -- DONE
-3. **Art Engine V2 rebuild** -- DONE (branch `feat/art-engine-v2`, 204 tests)
+3. **Art Engine V2 rebuild** -- MERGED (204 tests)
 4. `feat/dungeon-system` -- needs zones merged
 5. `feat/reputation-system` -- needs zones + dungeons merged
 6. `feat/raid-system` -- needs dungeons + reputation merged
