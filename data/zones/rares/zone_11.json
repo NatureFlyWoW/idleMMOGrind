@@ -1,0 +1,41 @@
+[
+  {
+    "id": "rare_z11_void_horror",
+    "zoneId": "zone_11",
+    "name": "Void Horror",
+    "level": 55,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "epic",
+    "guaranteedDropSlot": "head",
+    "xpMultiplier": 5.0,
+    "reputationReward": 375
+  },
+  {
+    "id": "rare_z11_twilight_avatar",
+    "zoneId": "zone_11",
+    "name": "Twilight Avatar",
+    "level": 54,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "epic",
+    "guaranteedDropSlot": "trinket2",
+    "xpMultiplier": 5.0,
+    "reputationReward": 375
+  },
+  {
+    "id": "rare_z11_phase_lord",
+    "zoneId": "zone_11",
+    "name": "Phase Lord",
+    "level": 54,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "epic",
+    "guaranteedDropSlot": "ring1",
+    "xpMultiplier": 5.0,
+    "reputationReward": 375
+  }
+]

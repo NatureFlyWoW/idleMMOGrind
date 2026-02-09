@@ -1,0 +1,13 @@
+{
+  "id": "elite_z04",
+  "zoneId": "zone_04",
+  "name": "Warchief's Rise",
+  "description": "The fortified hilltop where the centaur elite warriors train for battle.",
+  "levelBoost": 3,
+  "hpMultiplier": 3.0,
+  "damageMultiplier": 2.0,
+  "xpMultiplier": 2.5,
+  "reputationMultiplier": 2.0,
+  "lootQualityBoost": 1,
+  "monsterIds": ["mon_z04_centaur_warrior", "mon_z04_harpy", "mon_z04_rogue_elemental"]
+}

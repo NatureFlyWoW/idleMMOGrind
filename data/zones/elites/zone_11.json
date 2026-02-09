@@ -1,0 +1,13 @@
+{
+  "id": "elite_z11",
+  "zoneId": "zone_11",
+  "name": "Void Nexus",
+  "description": "The convergence point of multiple reality tears where the void is strongest.",
+  "levelBoost": 3,
+  "hpMultiplier": 3.0,
+  "damageMultiplier": 2.0,
+  "xpMultiplier": 2.5,
+  "reputationMultiplier": 2.0,
+  "lootQualityBoost": 1,
+  "monsterIds": ["mon_z11_void_tender", "mon_z11_shadow_stalker", "mon_z11_phase_beast", "mon_z11_twilight_sentinel"]
+}

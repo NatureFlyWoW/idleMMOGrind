@@ -1,0 +1,13 @@
+{
+  "id": "elite_z08",
+  "zoneId": "zone_08",
+  "name": "Warlord's Sanctum",
+  "description": "The inner fortress where the orc elite guard their most dangerous war machines.",
+  "levelBoost": 3,
+  "hpMultiplier": 3.0,
+  "damageMultiplier": 2.0,
+  "xpMultiplier": 2.5,
+  "reputationMultiplier": 2.0,
+  "lootQualityBoost": 1,
+  "monsterIds": ["mon_z08_orc_raider", "mon_z08_battle_troll", "mon_z08_siege_engine"]
+}

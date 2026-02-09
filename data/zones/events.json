@@ -1,0 +1,290 @@
+[
+  {
+    "id": "evt_z01_monster_surge",
+    "zoneId": "zone_01",
+    "type": "monster_surge",
+    "durationMs": 600000,
+    "cooldownMs": 1800000,
+    "effects": {
+      "xpMultiplier": 1.5,
+      "monsterSpawnRateMultiplier": 2.0
+    }
+  },
+  {
+    "id": "evt_z01_gathering_bounty",
+    "zoneId": "zone_01",
+    "type": "gathering_bounty",
+    "durationMs": 600000,
+    "cooldownMs": 1800000,
+    "effects": {
+      "gatheringMultiplier": 2.0
+    }
+  },
+  {
+    "id": "evt_z02_monster_surge",
+    "zoneId": "zone_02",
+    "type": "monster_surge",
+    "durationMs": 600000,
+    "cooldownMs": 1800000,
+    "effects": {
+      "xpMultiplier": 1.5,
+      "monsterSpawnRateMultiplier": 2.0
+    }
+  },
+  {
+    "id": "evt_z02_rare_hunt",
+    "zoneId": "zone_02",
+    "type": "rare_hunt",
+    "durationMs": 480000,
+    "cooldownMs": 2400000,
+    "effects": {
+      "xpMultiplier": 1.25,
+      "rareSpawnChanceOverride": 0.10
+    }
+  },
+  {
+    "id": "evt_z03_elite_invasion",
+    "zoneId": "zone_03",
+    "type": "elite_invasion",
+    "durationMs": 600000,
+    "cooldownMs": 2400000,
+    "effects": {
+      "xpMultiplier": 2.0,
+      "monsterLevelBoost": 2
+    }
+  },
+  {
+    "id": "evt_z03_gathering_bounty",
+    "zoneId": "zone_03",
+    "type": "gathering_bounty",
+    "durationMs": 600000,
+    "cooldownMs": 1800000,
+    "effects": {
+      "gatheringMultiplier": 2.0
+    }
+  },
+  {
+    "id": "evt_z04_monster_surge",
+    "zoneId": "zone_04",
+    "type": "monster_surge",
+    "durationMs": 600000,
+    "cooldownMs": 1800000,
+    "effects": {
+      "xpMultiplier": 1.5,
+      "monsterSpawnRateMultiplier": 2.0
+    }
+  },
+  {
+    "id": "evt_z04_faction_rally",
+    "zoneId": "zone_04",
+    "type": "faction_rally",
+    "durationMs": 600000,
+    "cooldownMs": 2400000,
+    "effects": {
+      "reputationMultiplier": 2.0
+    }
+  },
+  {
+    "id": "evt_z05_elite_invasion",
+    "zoneId": "zone_05",
+    "type": "elite_invasion",
+    "durationMs": 600000,
+    "cooldownMs": 2400000,
+    "effects": {
+      "xpMultiplier": 2.0,
+      "monsterLevelBoost": 2
+    }
+  },
+  {
+    "id": "evt_z05_rare_hunt",
+    "zoneId": "zone_05",
+    "type": "rare_hunt",
+    "durationMs": 480000,
+    "cooldownMs": 2400000,
+    "effects": {
+      "xpMultiplier": 1.25,
+      "rareSpawnChanceOverride": 0.10
+    }
+  },
+  {
+    "id": "evt_z06_monster_surge",
+    "zoneId": "zone_06",
+    "type": "monster_surge",
+    "durationMs": 600000,
+    "cooldownMs": 1800000,
+    "effects": {
+      "xpMultiplier": 1.5,
+      "monsterSpawnRateMultiplier": 2.0
+    }
+  },
+  {
+    "id": "evt_z06_gathering_bounty",
+    "zoneId": "zone_06",
+    "type": "gathering_bounty",
+    "durationMs": 600000,
+    "cooldownMs": 1800000,
+    "effects": {
+      "gatheringMultiplier": 2.5
+    }
+  },
+  {
+    "id": "evt_z07_elite_invasion",
+    "zoneId": "zone_07",
+    "type": "elite_invasion",
+    "durationMs": 600000,
+    "cooldownMs": 2400000,
+    "effects": {
+      "xpMultiplier": 2.0,
+      "monsterLevelBoost": 3
+    }
+  },
+  {
+    "id": "evt_z07_faction_rally",
+    "zoneId": "zone_07",
+    "type": "faction_rally",
+    "durationMs": 600000,
+    "cooldownMs": 2400000,
+    "effects": {
+      "reputationMultiplier": 2.0
+    }
+  },
+  {
+    "id": "evt_z08_monster_surge",
+    "zoneId": "zone_08",
+    "type": "monster_surge",
+    "durationMs": 600000,
+    "cooldownMs": 1800000,
+    "effects": {
+      "xpMultiplier": 1.75,
+      "monsterSpawnRateMultiplier": 2.5
+    }
+  },
+  {
+    "id": "evt_z08_rare_hunt",
+    "zoneId": "zone_08",
+    "type": "rare_hunt",
+    "durationMs": 480000,
+    "cooldownMs": 2400000,
+    "effects": {
+      "xpMultiplier": 1.5,
+      "rareSpawnChanceOverride": 0.12
+    }
+  },
+  {
+    "id": "evt_z09_elite_invasion",
+    "zoneId": "zone_09",
+    "type": "elite_invasion",
+    "durationMs": 600000,
+    "cooldownMs": 2400000,
+    "effects": {
+      "xpMultiplier": 2.0,
+      "monsterLevelBoost": 3
+    }
+  },
+  {
+    "id": "evt_z09_faction_rally",
+    "zoneId": "zone_09",
+    "type": "faction_rally",
+    "durationMs": 600000,
+    "cooldownMs": 2400000,
+    "effects": {
+      "reputationMultiplier": 2.5
+    }
+  },
+  {
+    "id": "evt_z10_monster_surge",
+    "zoneId": "zone_10",
+    "type": "monster_surge",
+    "durationMs": 600000,
+    "cooldownMs": 1800000,
+    "effects": {
+      "xpMultiplier": 1.75,
+      "monsterSpawnRateMultiplier": 2.5
+    }
+  },
+  {
+    "id": "evt_z10_gathering_bounty",
+    "zoneId": "zone_10",
+    "type": "gathering_bounty",
+    "durationMs": 600000,
+    "cooldownMs": 1800000,
+    "effects": {
+      "gatheringMultiplier": 3.0
+    }
+  },
+  {
+    "id": "evt_z11_elite_invasion",
+    "zoneId": "zone_11",
+    "type": "elite_invasion",
+    "durationMs": 600000,
+    "cooldownMs": 2400000,
+    "effects": {
+      "xpMultiplier": 2.5,
+      "monsterLevelBoost": 4
+    }
+  },
+  {
+    "id": "evt_z11_rare_hunt",
+    "zoneId": "zone_11",
+    "type": "rare_hunt",
+    "durationMs": 480000,
+    "cooldownMs": 2400000,
+    "effects": {
+      "xpMultiplier": 1.5,
+      "rareSpawnChanceOverride": 0.15
+    }
+  },
+  {
+    "id": "evt_z11_faction_rally",
+    "zoneId": "zone_11",
+    "type": "faction_rally",
+    "durationMs": 600000,
+    "cooldownMs": 2400000,
+    "effects": {
+      "reputationMultiplier": 3.0
+    }
+  },
+  {
+    "id": "evt_z12_monster_surge",
+    "zoneId": "zone_12",
+    "type": "monster_surge",
+    "durationMs": 600000,
+    "cooldownMs": 1800000,
+    "effects": {
+      "xpMultiplier": 2.0,
+      "monsterSpawnRateMultiplier": 3.0
+    }
+  },
+  {
+    "id": "evt_z12_elite_invasion",
+    "zoneId": "zone_12",
+    "type": "elite_invasion",
+    "durationMs": 600000,
+    "cooldownMs": 2400000,
+    "effects": {
+      "xpMultiplier": 2.5,
+      "monsterLevelBoost": 5
+    }
+  },
+  {
+    "id": "evt_z12_rare_hunt",
+    "zoneId": "zone_12",
+    "type": "rare_hunt",
+    "durationMs": 480000,
+    "cooldownMs": 2400000,
+    "effects": {
+      "xpMultiplier": 1.75,
+      "rareSpawnChanceOverride": 0.15
+    }
+  },
+  {
+    "id": "evt_z12_faction_rally",
+    "zoneId": "zone_12",
+    "type": "faction_rally",
+    "durationMs": 600000,
+    "cooldownMs": 2400000,
+    "effects": {
+      "reputationMultiplier": 3.0
+    }
+  }
+]

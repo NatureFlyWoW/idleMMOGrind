@@ -1,0 +1,142 @@
+[
+  {
+    "id": "mon_z10_dragonkin",
+    "name": "Ashfall Dragonkin",
+    "level": 47,
+    "type": "normal",
+    "subtype": "dragonkin",
+    "health": 680,
+    "damage": 80,
+    "armor": 70,
+    "resistance": 55,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z10_dragonkin",
+    "xpReward": 580,
+    "goldReward": { "min": 10, "max": 22 },
+    "abilities": ["fire_breath", "claw_strike", "wing_buffet"],
+    "materialDrops": [
+      { "materialId": "mat_skinning_t5_dragon_scale", "chance": 0.4, "quantity": { "min": 1, "max": 2 }, "requiresProfession": "skinning" },
+      { "materialId": "mat_alchemy_t5_dragon_blood", "chance": 0.25, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z10_dragonkin_warlord",
+    "name": "Dragonkin Warlord",
+    "level": 50,
+    "type": "elite",
+    "subtype": "dragonkin",
+    "health": 1500,
+    "damage": 100,
+    "armor": 90,
+    "resistance": 70,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z10_dragonkin_elite",
+    "xpReward": 900,
+    "goldReward": { "min": 30, "max": 60 },
+    "abilities": ["fire_breath", "claw_strike", "war_cry", "flame_nova", "summon_dragonkin"],
+    "materialDrops": [
+      { "materialId": "mat_skinning_t5_dragon_scale", "chance": 0.7, "quantity": { "min": 2, "max": 4 }, "requiresProfession": "skinning" },
+      { "materialId": "mat_alchemy_t5_dragon_blood", "chance": 0.5, "quantity": { "min": 1, "max": 2 } }
+    ]
+  },
+  {
+    "id": "mon_z10_fire_giant",
+    "name": "Ashfall Fire Giant",
+    "level": 48,
+    "type": "normal",
+    "subtype": "humanoid",
+    "health": 750,
+    "damage": 85,
+    "armor": 80,
+    "resistance": 50,
+    "attackSpeed": 2.8,
+    "lootTableId": "loot_z10_humanoid",
+    "xpReward": 600,
+    "goldReward": { "min": 12, "max": 24 },
+    "abilities": ["flame_strike", "ground_slam", "fire_shield"],
+    "materialDrops": [
+      { "materialId": "mat_mining_t5_volcanic_ore", "chance": 0.5, "quantity": { "min": 1, "max": 2 } },
+      { "materialId": "mat_alchemy_t5_fire_essence", "chance": 0.3, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z10_lava_lurker",
+    "name": "Lava Lurker",
+    "level": 46,
+    "type": "normal",
+    "subtype": "elemental",
+    "health": 620,
+    "damage": 75,
+    "armor": 50,
+    "resistance": 65,
+    "attackSpeed": 2.2,
+    "lootTableId": "loot_z10_elemental",
+    "xpReward": 560,
+    "goldReward": { "min": 9, "max": 20 },
+    "abilities": ["lava_spit", "magma_pool", "submerge"],
+    "materialDrops": [
+      { "materialId": "mat_mining_t5_volcanic_ore", "chance": 0.4, "quantity": { "min": 1, "max": 2 } },
+      { "materialId": "mat_alchemy_t5_fire_essence", "chance": 0.3, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z10_obsidian_golem",
+    "name": "Obsidian Golem",
+    "level": 48,
+    "type": "normal",
+    "subtype": "construct",
+    "health": 720,
+    "damage": 78,
+    "armor": 95,
+    "resistance": 45,
+    "attackSpeed": 3.0,
+    "lootTableId": "loot_z10_construct",
+    "xpReward": 590,
+    "goldReward": { "min": 11, "max": 22 },
+    "abilities": ["obsidian_slam", "shatter", "magma_armor"],
+    "materialDrops": [
+      { "materialId": "mat_mining_t5_obsidian_shard", "chance": 0.5, "quantity": { "min": 1, "max": 2 } },
+      { "materialId": "mat_engineering_t5_golem_core", "chance": 0.2, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z10_phoenix_spawn",
+    "name": "Phoenix Spawn",
+    "level": 49,
+    "type": "normal",
+    "subtype": "elemental",
+    "health": 600,
+    "damage": 88,
+    "armor": 40,
+    "resistance": 75,
+    "attackSpeed": 1.8,
+    "lootTableId": "loot_z10_elemental",
+    "xpReward": 620,
+    "goldReward": { "min": 12, "max": 24 },
+    "abilities": ["fire_bolt", "flame_dash", "rebirth", "immolation_aura"],
+    "materialDrops": [
+      { "materialId": "mat_alchemy_t5_phoenix_ash", "chance": 0.4, "quantity": { "min": 1, "max": 1 } },
+      { "materialId": "mat_enchanting_t5_fire_crystal", "chance": 0.25, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z10_magma_lord",
+    "name": "Magma Lord",
+    "level": 50,
+    "type": "elite",
+    "subtype": "elemental",
+    "health": 1400,
+    "damage": 95,
+    "armor": 70,
+    "resistance": 80,
+    "attackSpeed": 2.5,
+    "lootTableId": "loot_z10_elemental_elite",
+    "xpReward": 880,
+    "goldReward": { "min": 28, "max": 55 },
+    "abilities": ["magma_wave", "eruption", "molten_shield", "fire_nova", "summon_elementals"],
+    "materialDrops": [
+      { "materialId": "mat_mining_t5_volcanic_ore", "chance": 0.7, "quantity": { "min": 2, "max": 4 } },
+      { "materialId": "mat_alchemy_t5_fire_essence", "chance": 0.6, "quantity": { "min": 1, "max": 3 } }
+    ]
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "id": "qc_z07_01",
+    "zoneId": "zone_07",
+    "name": "Storm of the Peaks",
+    "description": "Wind elementals rage across the Skyreach Summits, making passage deadly.",
+    "quests": [
+      {
+        "id": "q_z07_01_01",
+        "name": "Wind Breakers",
+        "description": "Destroy the wind elementals blocking the mountain passes.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z07_wind_elemental", "count": 10 }],
+        "xpReward": 720,
+        "goldReward": 100,
+        "nextQuestId": "q_z07_01_02"
+      },
+      {
+        "id": "q_z07_01_02",
+        "name": "Storm Crystals",
+        "description": "Collect the storm crystals that power the elemental tempests.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "storm_crystal", "count": 5 }],
+        "xpReward": 750,
+        "goldReward": 105,
+        "nextQuestId": "q_z07_01_03"
+      },
+      {
+        "id": "q_z07_01_03",
+        "name": "The Eye of the Storm",
+        "description": "Navigate to the storm's eye at the peak.",
+        "type": "exploration",
+        "objectives": [{ "type": "explore", "targetId": "zone_07_storm_eye", "count": 1 }],
+        "xpReward": 780,
+        "goldReward": 110,
+        "nextQuestId": "q_z07_01_04"
+      },
+      {
+        "id": "q_z07_01_04",
+        "name": "Shatter the Tempest",
+        "description": "Destroy the tempest core to calm the eternal storm.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z07_tempest_core", "count": 1 }],
+        "xpReward": 820,
+        "goldReward": 115,
+        "gearReward": { "slot": "back", "qualityMin": "rare" },
+        "nextQuestId": "q_z07_01_05"
+      },
+      {
+        "id": "q_z07_01_05",
+        "name": "Storm Aftermath",
+        "description": "Survey the damage and clear remaining hostile elementals.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z07_wind_elemental", "count": 5 }],
+        "xpReward": 780,
+        "goldReward": 108,
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 1000,
+      "goldBonus": 180,
+      "reputationBonus": 200
+    }
+  },
+  {
+    "id": "qc_z07_02",
+    "zoneId": "zone_07",
+    "name": "Yeti Territory",
+    "description": "Yetis have become aggressive, attacking anyone who ventures into their domain.",
+    "quests": [
+      {
+        "id": "q_z07_02_01",
+        "name": "Yeti Pelts",
+        "description": "Collect yeti pelts from the aggressive mountain yetis.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z07_yeti", "count": 8 }],
+        "xpReward": 710,
+        "goldReward": 98,
+        "nextQuestId": "q_z07_02_02"
+      },
+      {
+        "id": "q_z07_02_02",
+        "name": "Mountain Pass Escort",
+        "description": "Escort a supply caravan through yeti territory.",
+        "type": "escort",
+        "objectives": [{ "type": "escort", "targetId": "supply_caravan", "count": 1 }],
+        "xpReward": 740,
+        "goldReward": 103,
+        "nextQuestId": "q_z07_02_03"
+      },
+      {
+        "id": "q_z07_02_03",
+        "name": "The Ice Caves",
+        "description": "Explore the yeti ice caves to find what agitated them.",
+        "type": "exploration",
+        "objectives": [{ "type": "explore", "targetId": "zone_07_ice_cave", "count": 2 }],
+        "xpReward": 760,
+        "goldReward": 106,
+        "nextQuestId": "q_z07_02_04"
+      },
+      {
+        "id": "q_z07_02_04",
+        "name": "Frost Wyrm Threat",
+        "description": "A frost wyrm has invaded the yeti caves. Slay it.",
+        "type": "elite",
+        "objectives": [{ "type": "kill", "targetId": "mon_z07_frost_wyrm", "count": 1 }],
+        "xpReward": 810,
+        "goldReward": 112,
+        "gearReward": { "slot": "chest", "qualityMin": "rare" },
+        "nextQuestId": "q_z07_02_05"
+      },
+      {
+        "id": "q_z07_02_05",
+        "name": "Peace Offering",
+        "description": "Place peace offerings at the yeti shrine to restore calm.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "yeti_offering", "count": 3 }],
+        "xpReward": 750,
+        "goldReward": 105,
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 950,
+      "goldBonus": 170,
+      "reputationBonus": 200
+    }
+  },
+  {
+    "id": "qc_z07_03",
+    "zoneId": "zone_07",
+    "name": "Griffon Riders",
+    "description": "Wild griffons are being corrupted by a rogue mage on the summits.",
+    "quests": [
+      {
+        "id": "q_z07_03_01",
+        "name": "Griffon Attacks",
+        "description": "Fend off the griffon attacks on the mountain outposts.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z07_griffon", "count": 8 }],
+        "xpReward": 700,
+        "goldReward": 96,
+        "nextQuestId": "q_z07_03_02"
+      },
+      {
+        "id": "q_z07_03_02",
+        "name": "Corrupted Feathers",
+        "description": "Collect the glowing corrupted feathers from slain griffons.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "corrupted_feather", "count": 6 }],
+        "xpReward": 735,
+        "goldReward": 102,
+        "nextQuestId": "q_z07_03_03"
+      },
+      {
+        "id": "q_z07_03_03",
+        "name": "The Mage's Tower",
+        "description": "Find the rogue mage's tower on the highest summit.",
+        "type": "exploration",
+        "objectives": [{ "type": "explore", "targetId": "zone_07_mage_tower", "count": 1 }],
+        "xpReward": 765,
+        "goldReward": 107,
+        "nextQuestId": "q_z07_03_04"
+      },
+      {
+        "id": "q_z07_03_04",
+        "name": "The Rogue Mage",
+        "description": "Defeat the rogue mage and end the griffon corruption.",
+        "type": "elite",
+        "objectives": [{ "type": "kill", "targetId": "mon_z07_rogue_mage", "count": 1 }],
+        "xpReward": 800,
+        "goldReward": 112,
+        "gearReward": { "slot": "main-hand", "qualityMin": "rare" },
+        "nextQuestId": "q_z07_03_05"
+      },
+      {
+        "id": "q_z07_03_05",
+        "name": "Griffon Recovery",
+        "description": "Help the freed griffons return to their nesting grounds.",
+        "type": "escort",
+        "objectives": [{ "type": "escort", "targetId": "freed_griffon", "count": 1 }],
+        "xpReward": 745,
+        "goldReward": 104,
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 920,
+      "goldBonus": 165,
+      "reputationBonus": 200
+    }
+  }
+]

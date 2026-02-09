@@ -1,0 +1,122 @@
+[
+  {
+    "id": "mon_z09_skeleton_knight",
+    "name": "Skeleton Knight",
+    "level": 42,
+    "type": "normal",
+    "subtype": "undead",
+    "health": 580,
+    "damage": 70,
+    "armor": 75,
+    "resistance": 40,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z09_undead",
+    "xpReward": 480,
+    "goldReward": { "min": 9, "max": 18 },
+    "abilities": ["shield_bash", "sword_strike", "bone_armor"],
+    "materialDrops": [
+      { "materialId": "mat_alchemy_t5_bone_dust", "chance": 0.5, "quantity": { "min": 1, "max": 2 } },
+      { "materialId": "mat_enchanting_t5_death_rune", "chance": 0.25, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z09_plague_beast",
+    "name": "Plague Beast",
+    "level": 43,
+    "type": "normal",
+    "subtype": "undead",
+    "health": 620,
+    "damage": 65,
+    "armor": 55,
+    "resistance": 45,
+    "attackSpeed": 2.5,
+    "lootTableId": "loot_z09_undead",
+    "xpReward": 490,
+    "goldReward": { "min": 8, "max": 17 },
+    "abilities": ["plague_spit", "disease_cloud", "consume"],
+    "materialDrops": [
+      { "materialId": "mat_alchemy_t5_plague_ichor", "chance": 0.5, "quantity": { "min": 1, "max": 2 } },
+      { "materialId": "mat_alchemy_t5_toxic_gland", "chance": 0.3, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z09_death_knight",
+    "name": "Death Knight",
+    "level": 45,
+    "type": "elite",
+    "subtype": "undead",
+    "health": 1100,
+    "damage": 85,
+    "armor": 85,
+    "resistance": 55,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z09_undead_elite",
+    "xpReward": 700,
+    "goldReward": { "min": 20, "max": 40 },
+    "abilities": ["death_strike", "unholy_aura", "raise_dead", "frost_strike", "army_of_dead"],
+    "materialDrops": [
+      { "materialId": "mat_enchanting_t5_death_rune", "chance": 0.6, "quantity": { "min": 1, "max": 3 } },
+      { "materialId": "mat_alchemy_t5_dark_essence", "chance": 0.4, "quantity": { "min": 1, "max": 2 } }
+    ]
+  },
+  {
+    "id": "mon_z09_bone_dragon",
+    "name": "Bone Dragon",
+    "level": 45,
+    "type": "elite",
+    "subtype": "dragonkin",
+    "health": 1300,
+    "damage": 90,
+    "armor": 80,
+    "resistance": 60,
+    "attackSpeed": 2.5,
+    "lootTableId": "loot_z09_dragonkin_elite",
+    "xpReward": 800,
+    "goldReward": { "min": 25, "max": 50 },
+    "abilities": ["frost_breath", "tail_slam", "bone_storm", "death_wing", "terrifying_roar"],
+    "materialDrops": [
+      { "materialId": "mat_skinning_t5_dragon_bone", "chance": 0.6, "quantity": { "min": 1, "max": 3 }, "requiresProfession": "skinning" },
+      { "materialId": "mat_enchanting_t5_dragon_soul", "chance": 0.3, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z09_ghoul_pack",
+    "name": "Ghoul Pack",
+    "level": 42,
+    "type": "normal",
+    "subtype": "undead",
+    "health": 500,
+    "damage": 72,
+    "armor": 45,
+    "resistance": 35,
+    "attackSpeed": 1.5,
+    "lootTableId": "loot_z09_undead",
+    "xpReward": 470,
+    "goldReward": { "min": 8, "max": 16 },
+    "abilities": ["frenzy_bite", "swarm", "devour"],
+    "materialDrops": [
+      { "materialId": "mat_alchemy_t5_ghoul_ichor", "chance": 0.4, "quantity": { "min": 1, "max": 2 } },
+      { "materialId": "mat_alchemy_t5_bone_dust", "chance": 0.3, "quantity": { "min": 1, "max": 2 } }
+    ]
+  },
+  {
+    "id": "mon_z09_necromancer",
+    "name": "Blighted Necromancer",
+    "level": 44,
+    "type": "normal",
+    "subtype": "humanoid",
+    "health": 480,
+    "damage": 78,
+    "armor": 35,
+    "resistance": 60,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z09_humanoid",
+    "xpReward": 510,
+    "goldReward": { "min": 10, "max": 20 },
+    "abilities": ["shadow_bolt", "raise_skeleton", "death_coil", "soul_drain"],
+    "materialDrops": [
+      { "materialId": "mat_tailoring_t5_shadow_cloth", "chance": 0.5, "quantity": { "min": 1, "max": 2 } },
+      { "materialId": "mat_enchanting_t5_death_rune", "chance": 0.35, "quantity": { "min": 1, "max": 1 } }
+    ]
+  }
+]

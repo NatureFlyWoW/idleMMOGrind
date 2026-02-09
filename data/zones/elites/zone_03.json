@@ -1,0 +1,13 @@
+{
+  "id": "elite_z03",
+  "zoneId": "zone_03",
+  "name": "Darkroot Hollow",
+  "description": "The corrupted heart of Wildwood where the most powerful treants and sprites dwell.",
+  "levelBoost": 3,
+  "hpMultiplier": 3.0,
+  "damageMultiplier": 2.0,
+  "xpMultiplier": 2.5,
+  "reputationMultiplier": 2.0,
+  "lootQualityBoost": 1,
+  "monsterIds": ["mon_z03_treant", "mon_z03_corrupted_druid", "mon_z03_thorn_elemental"]
+}

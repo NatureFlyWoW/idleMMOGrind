@@ -1,0 +1,13 @@
+{
+  "id": "elite_z07",
+  "zoneId": "zone_07",
+  "name": "Frozen Peak",
+  "description": "The highest, most treacherous summit where only the strongest creatures survive.",
+  "levelBoost": 3,
+  "hpMultiplier": 3.0,
+  "damageMultiplier": 2.0,
+  "xpMultiplier": 2.5,
+  "reputationMultiplier": 2.0,
+  "lootQualityBoost": 1,
+  "monsterIds": ["mon_z07_griffon", "mon_z07_yeti", "mon_z07_wind_elemental", "mon_z07_avalanche_golem"]
+}

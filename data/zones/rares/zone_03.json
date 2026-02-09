@@ -1,0 +1,41 @@
+[
+  {
+    "id": "rare_z03_ancient_oak",
+    "zoneId": "zone_03",
+    "name": "Ancient Oak Guardian",
+    "level": 15,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "rare",
+    "guaranteedDropSlot": "shoulders",
+    "xpMultiplier": 5.0,
+    "reputationReward": 100
+  },
+  {
+    "id": "rare_z03_moonpetal",
+    "zoneId": "zone_03",
+    "name": "Moonpetal",
+    "level": 14,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "rare",
+    "guaranteedDropSlot": "ring1",
+    "xpMultiplier": 5.0,
+    "reputationReward": 100
+  },
+  {
+    "id": "rare_z03_thornlash",
+    "zoneId": "zone_03",
+    "name": "Thornlash",
+    "level": 14,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "uncommon",
+    "guaranteedDropSlot": "hands",
+    "xpMultiplier": 5.0,
+    "reputationReward": 100
+  }
+]

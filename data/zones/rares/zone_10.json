@@ -1,0 +1,28 @@
+[
+  {
+    "id": "rare_z10_infernal_drake",
+    "zoneId": "zone_10",
+    "name": "Infernal Drake",
+    "level": 50,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "epic",
+    "guaranteedDropSlot": "chest",
+    "xpMultiplier": 5.0,
+    "reputationReward": 325
+  },
+  {
+    "id": "rare_z10_volcanic_titan",
+    "zoneId": "zone_10",
+    "name": "Volcanic Titan",
+    "level": 49,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "epic",
+    "guaranteedDropSlot": "legs",
+    "xpMultiplier": 5.0,
+    "reputationReward": 325
+  }
+]

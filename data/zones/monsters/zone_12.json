@@ -1,0 +1,162 @@
+[
+  {
+    "id": "mon_z12_ancient_construct",
+    "name": "Ancient Construct",
+    "level": 56,
+    "type": "normal",
+    "subtype": "construct",
+    "health": 820,
+    "damage": 95,
+    "armor": 95,
+    "resistance": 60,
+    "attackSpeed": 2.5,
+    "lootTableId": "loot_z12_construct",
+    "xpReward": 780,
+    "goldReward": { "min": 14, "max": 28 },
+    "abilities": ["arcane_beam", "shield_protocol", "power_slam"],
+    "materialDrops": [
+      { "materialId": "mat_engineering_t6_ancient_parts", "chance": 0.4, "quantity": { "min": 1, "max": 2 } },
+      { "materialId": "mat_mining_t6_arcane_ore", "chance": 0.3, "quantity": { "min": 1, "max": 2 } }
+    ]
+  },
+  {
+    "id": "mon_z12_void_lord",
+    "name": "Void Lord",
+    "level": 58,
+    "type": "normal",
+    "subtype": "elemental",
+    "health": 780,
+    "damage": 100,
+    "armor": 45,
+    "resistance": 85,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z12_elemental",
+    "xpReward": 810,
+    "goldReward": { "min": 15, "max": 30 },
+    "abilities": ["void_bolt", "entropy_blast", "dimensional_rift"],
+    "materialDrops": [
+      { "materialId": "mat_alchemy_t6_void_ichor", "chance": 0.4, "quantity": { "min": 1, "max": 2 } },
+      { "materialId": "mat_enchanting_t6_void_crystal", "chance": 0.3, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z12_spire_guardian",
+    "name": "Spire Guardian",
+    "level": 57,
+    "type": "normal",
+    "subtype": "construct",
+    "health": 860,
+    "damage": 92,
+    "armor": 100,
+    "resistance": 65,
+    "attackSpeed": 2.5,
+    "lootTableId": "loot_z12_construct",
+    "xpReward": 790,
+    "goldReward": { "min": 14, "max": 29 },
+    "abilities": ["energy_lance", "barrier_field", "overcharge"],
+    "materialDrops": [
+      { "materialId": "mat_engineering_t6_ancient_parts", "chance": 0.45, "quantity": { "min": 1, "max": 2 } },
+      { "materialId": "mat_enchanting_t6_arcane_shard", "chance": 0.25, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z12_arcane_colossus",
+    "name": "Arcane Colossus",
+    "level": 60,
+    "type": "elite",
+    "subtype": "construct",
+    "health": 2000,
+    "damage": 120,
+    "armor": 110,
+    "resistance": 80,
+    "attackSpeed": 3.0,
+    "lootTableId": "loot_z12_construct_elite",
+    "xpReward": 1200,
+    "goldReward": { "min": 40, "max": 80 },
+    "abilities": ["arcane_devastation", "power_overload", "shield_matrix", "summon_constructs", "arcane_nova"],
+    "materialDrops": [
+      { "materialId": "mat_engineering_t6_colossus_core", "chance": 0.6, "quantity": { "min": 1, "max": 2 } },
+      { "materialId": "mat_enchanting_t6_arcane_shard", "chance": 0.5, "quantity": { "min": 2, "max": 3 } }
+    ]
+  },
+  {
+    "id": "mon_z12_ascendant_wraith",
+    "name": "Ascendant Wraith",
+    "level": 58,
+    "type": "normal",
+    "subtype": "undead",
+    "health": 760,
+    "damage": 98,
+    "armor": 35,
+    "resistance": 80,
+    "attackSpeed": 1.8,
+    "lootTableId": "loot_z12_undead",
+    "xpReward": 800,
+    "goldReward": { "min": 14, "max": 28 },
+    "abilities": ["soul_rend", "phase_walk", "death_wail"],
+    "materialDrops": [
+      { "materialId": "mat_enchanting_t6_wraith_essence", "chance": 0.4, "quantity": { "min": 1, "max": 2 } },
+      { "materialId": "mat_alchemy_t6_spirit_dust", "chance": 0.3, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z12_entropy_weaver",
+    "name": "Entropy Weaver",
+    "level": 59,
+    "type": "normal",
+    "subtype": "elemental",
+    "health": 740,
+    "damage": 105,
+    "armor": 40,
+    "resistance": 90,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z12_elemental",
+    "xpReward": 820,
+    "goldReward": { "min": 15, "max": 30 },
+    "abilities": ["entropy_bolt", "unravel_reality", "chaos_field"],
+    "materialDrops": [
+      { "materialId": "mat_alchemy_t6_entropy_dust", "chance": 0.4, "quantity": { "min": 1, "max": 2 } },
+      { "materialId": "mat_enchanting_t6_chaos_crystal", "chance": 0.2, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z12_void_lord_boss",
+    "name": "Void Lord Zeth'arak",
+    "level": 60,
+    "type": "elite",
+    "subtype": "elemental",
+    "health": 2200,
+    "damage": 115,
+    "armor": 55,
+    "resistance": 95,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z12_boss",
+    "xpReward": 1300,
+    "goldReward": { "min": 45, "max": 90 },
+    "abilities": ["void_storm", "dimensional_collapse", "summon_void", "entropy_wave", "annihilate"],
+    "materialDrops": [
+      { "materialId": "mat_alchemy_t6_void_ichor", "chance": 0.8, "quantity": { "min": 2, "max": 4 } },
+      { "materialId": "mat_enchanting_t6_void_crystal", "chance": 0.6, "quantity": { "min": 1, "max": 3 } }
+    ]
+  },
+  {
+    "id": "mon_z12_final_guardian",
+    "name": "The Ascendant Guardian",
+    "level": 60,
+    "type": "elite",
+    "subtype": "construct",
+    "health": 2500,
+    "damage": 125,
+    "armor": 120,
+    "resistance": 90,
+    "attackSpeed": 2.5,
+    "lootTableId": "loot_z12_final_boss",
+    "xpReward": 1500,
+    "goldReward": { "min": 50, "max": 100 },
+    "abilities": ["arcane_devastation", "reality_shatter", "ultimate_shield", "summon_constructs", "ascendant_wrath", "power_surge"],
+    "materialDrops": [
+      { "materialId": "mat_engineering_t6_colossus_core", "chance": 0.9, "quantity": { "min": 2, "max": 3 } },
+      { "materialId": "mat_enchanting_t6_ascendant_crystal", "chance": 0.5, "quantity": { "min": 1, "max": 2 } }
+    ]
+  }
+]

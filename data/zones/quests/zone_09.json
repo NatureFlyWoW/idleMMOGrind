@@ -1,0 +1,257 @@
+[
+  {
+    "id": "qc_z09_01",
+    "zoneId": "zone_09",
+    "name": "March of the Dead",
+    "description": "Endless undead armies march through the Blighted Wastes. Something commands them.",
+    "quests": [
+      {
+        "id": "q_z09_01_01",
+        "name": "Skeleton Vanguard",
+        "description": "Destroy the skeleton knight vanguard threatening the outpost.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z09_skeleton_knight", "count": 12 }],
+        "xpReward": 1050,
+        "goldReward": 145,
+        "nextQuestId": "q_z09_01_02"
+      },
+      {
+        "id": "q_z09_01_02",
+        "name": "Unholy Banners",
+        "description": "Tear down the undead war banners empowering the skeletal army.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "unholy_banner", "count": 5 }],
+        "xpReward": 1080,
+        "goldReward": 149,
+        "nextQuestId": "q_z09_01_03"
+      },
+      {
+        "id": "q_z09_01_03",
+        "name": "Scout the Wastelands",
+        "description": "Scout the undead staging areas in the northern wastes.",
+        "type": "exploration",
+        "objectives": [{ "type": "explore", "targetId": "zone_09_staging_area", "count": 3 }],
+        "xpReward": 1100,
+        "goldReward": 152,
+        "nextQuestId": "q_z09_01_04"
+      },
+      {
+        "id": "q_z09_01_04",
+        "name": "Necromancer's Circle",
+        "description": "Destroy the necromancers raising the undead hordes.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z09_necromancer", "count": 4 }],
+        "xpReward": 1130,
+        "goldReward": 156,
+        "nextQuestId": "q_z09_01_05"
+      },
+      {
+        "id": "q_z09_01_05",
+        "name": "The Death Knight",
+        "description": "A death knight leads the undead army. Challenge and destroy it.",
+        "type": "elite",
+        "objectives": [{ "type": "kill", "targetId": "mon_z09_death_knight", "count": 1 }],
+        "xpReward": 1200,
+        "goldReward": 165,
+        "gearReward": { "slot": "chest", "qualityMin": "epic" },
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 1500,
+      "goldBonus": 280,
+      "reputationBonus": 275
+    }
+  },
+  {
+    "id": "qc_z09_02",
+    "zoneId": "zone_09",
+    "name": "Plague Beasts",
+    "description": "Grotesque plague beasts roam the wastes, spreading disease.",
+    "quests": [
+      {
+        "id": "q_z09_02_01",
+        "name": "Plague Containment",
+        "description": "Slay plague beasts to prevent the disease from spreading further.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z09_plague_beast", "count": 10 }],
+        "xpReward": 1040,
+        "goldReward": 143,
+        "nextQuestId": "q_z09_02_02"
+      },
+      {
+        "id": "q_z09_02_02",
+        "name": "Plague Samples",
+        "description": "Collect plague tissue samples for the alchemists.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "plague_tissue", "count": 6 }],
+        "xpReward": 1070,
+        "goldReward": 148,
+        "nextQuestId": "q_z09_02_03"
+      },
+      {
+        "id": "q_z09_02_03",
+        "name": "The Plague Pit",
+        "description": "Find the source of the plague beasts in the toxic pits.",
+        "type": "exploration",
+        "objectives": [{ "type": "explore", "targetId": "zone_09_plague_pit", "count": 1 }],
+        "xpReward": 1090,
+        "goldReward": 150,
+        "nextQuestId": "q_z09_02_04"
+      },
+      {
+        "id": "q_z09_02_04",
+        "name": "Ghoul Pack Alpha",
+        "description": "Destroy the ghoul pack alpha guarding the plague breeding ground.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z09_ghoul_pack", "count": 1 }],
+        "xpReward": 1150,
+        "goldReward": 158,
+        "gearReward": { "slot": "legs", "qualityMin": "rare" },
+        "nextQuestId": "q_z09_02_05"
+      },
+      {
+        "id": "q_z09_02_05",
+        "name": "Purify the Grounds",
+        "description": "Collect purification reagents and cleanse the plague pit.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "purification_reagent", "count": 4 }],
+        "xpReward": 1060,
+        "goldReward": 146,
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 1400,
+      "goldBonus": 260,
+      "reputationBonus": 275
+    }
+  },
+  {
+    "id": "qc_z09_03",
+    "zoneId": "zone_09",
+    "name": "Bone Dragon Threat",
+    "description": "A bone dragon patrols the skies above the wastes, terrorizing survivors.",
+    "quests": [
+      {
+        "id": "q_z09_03_01",
+        "name": "Anti-Dragon Defenses",
+        "description": "Collect materials to build ballista defenses against the bone dragon.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "ballista_parts", "count": 5 }],
+        "xpReward": 1060,
+        "goldReward": 146,
+        "nextQuestId": "q_z09_03_02"
+      },
+      {
+        "id": "q_z09_03_02",
+        "name": "Clear the Landing Zone",
+        "description": "Destroy undead guarding the ridge where the dragon lands.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z09_skeleton_knight", "count": 8 }],
+        "xpReward": 1080,
+        "goldReward": 149,
+        "nextQuestId": "q_z09_03_03"
+      },
+      {
+        "id": "q_z09_03_03",
+        "name": "The Dragon's Lair",
+        "description": "Locate the bone dragon's resting place in the ancient ruins.",
+        "type": "exploration",
+        "objectives": [{ "type": "explore", "targetId": "zone_09_dragon_lair", "count": 1 }],
+        "xpReward": 1100,
+        "goldReward": 152,
+        "nextQuestId": "q_z09_03_04"
+      },
+      {
+        "id": "q_z09_03_04",
+        "name": "Escort the Ballistae",
+        "description": "Escort the ballista team to the ridge above the lair.",
+        "type": "escort",
+        "objectives": [{ "type": "escort", "targetId": "ballista_team", "count": 1 }],
+        "xpReward": 1120,
+        "goldReward": 155,
+        "nextQuestId": "q_z09_03_05"
+      },
+      {
+        "id": "q_z09_03_05",
+        "name": "Slay the Bone Dragon",
+        "description": "Ground the bone dragon and destroy it once and for all.",
+        "type": "elite",
+        "objectives": [{ "type": "kill", "targetId": "mon_z09_bone_dragon", "count": 1 }],
+        "xpReward": 1250,
+        "goldReward": 172,
+        "gearReward": { "slot": "neck", "qualityMin": "epic" },
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 1600,
+      "goldBonus": 300,
+      "reputationBonus": 300
+    }
+  },
+  {
+    "id": "qc_z09_04",
+    "zoneId": "zone_09",
+    "name": "Survivors of the Wastes",
+    "description": "Scattered survivors need help escaping the Blighted Wastes.",
+    "quests": [
+      {
+        "id": "q_z09_04_01",
+        "name": "Search and Rescue",
+        "description": "Find survivors hiding in the ruins throughout the wastes.",
+        "type": "exploration",
+        "objectives": [{ "type": "explore", "targetId": "zone_09_ruins", "count": 4 }],
+        "xpReward": 1030,
+        "goldReward": 142,
+        "nextQuestId": "q_z09_04_02"
+      },
+      {
+        "id": "q_z09_04_02",
+        "name": "Clear the Escape Route",
+        "description": "Eliminate undead blocking the southern escape corridor.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z09_ghoul_pack", "count": 6 }],
+        "xpReward": 1070,
+        "goldReward": 148,
+        "nextQuestId": "q_z09_04_03"
+      },
+      {
+        "id": "q_z09_04_03",
+        "name": "Supply Cache",
+        "description": "Recover supply caches for the survivors' journey.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "supply_cache", "count": 4 }],
+        "xpReward": 1055,
+        "goldReward": 145,
+        "nextQuestId": "q_z09_04_04"
+      },
+      {
+        "id": "q_z09_04_04",
+        "name": "The Last Escort",
+        "description": "Escort the survivor group safely out of the wastes.",
+        "type": "escort",
+        "objectives": [{ "type": "escort", "targetId": "survivor_group", "count": 1 }],
+        "xpReward": 1100,
+        "goldReward": 152,
+        "nextQuestId": "q_z09_04_05"
+      },
+      {
+        "id": "q_z09_04_05",
+        "name": "Rearguard Action",
+        "description": "Hold off pursuing undead while the survivors escape.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z09_skeleton_knight", "count": 10 }],
+        "xpReward": 1080,
+        "goldReward": 149,
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 1350,
+      "goldBonus": 250,
+      "reputationBonus": 275
+    }
+  }
+]

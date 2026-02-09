@@ -1,0 +1,28 @@
+[
+  {
+    "id": "rare_z02_queen_widow",
+    "zoneId": "zone_02",
+    "name": "Queen Widow",
+    "level": 10,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "uncommon",
+    "guaranteedDropSlot": "legs",
+    "xpMultiplier": 5.0,
+    "reputationReward": 75
+  },
+  {
+    "id": "rare_z02_blightcaller",
+    "zoneId": "zone_02",
+    "name": "Blightcaller",
+    "level": 9,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "uncommon",
+    "guaranteedDropSlot": "head",
+    "xpMultiplier": 5.0,
+    "reputationReward": 75
+  }
+]

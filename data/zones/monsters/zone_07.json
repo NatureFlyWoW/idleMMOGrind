@@ -1,0 +1,142 @@
+[
+  {
+    "id": "mon_z07_griffon",
+    "name": "Mountain Griffon",
+    "level": 32,
+    "type": "normal",
+    "subtype": "beast",
+    "health": 440,
+    "damage": 55,
+    "armor": 52,
+    "resistance": 35,
+    "attackSpeed": 1.8,
+    "lootTableId": "loot_z07_beast",
+    "xpReward": 340,
+    "goldReward": { "min": 7, "max": 14 },
+    "abilities": ["dive_attack", "claw_rend", "wind_buffet"],
+    "materialDrops": [
+      { "materialId": "mat_skinning_t4_griffon_hide", "chance": 0.5, "quantity": { "min": 1, "max": 2 }, "requiresProfession": "skinning" },
+      { "materialId": "mat_tailoring_t4_griffon_feather", "chance": 0.4, "quantity": { "min": 1, "max": 2 } }
+    ]
+  },
+  {
+    "id": "mon_z07_wind_elemental",
+    "name": "Summit Wind Elemental",
+    "level": 33,
+    "type": "normal",
+    "subtype": "elemental",
+    "health": 400,
+    "damage": 58,
+    "armor": 30,
+    "resistance": 55,
+    "attackSpeed": 1.5,
+    "lootTableId": "loot_z07_elemental",
+    "xpReward": 350,
+    "goldReward": { "min": 7, "max": 15 },
+    "abilities": ["wind_slash", "cyclone", "air_shield"],
+    "materialDrops": [
+      { "materialId": "mat_alchemy_t4_storm_essence", "chance": 0.4, "quantity": { "min": 1, "max": 1 } },
+      { "materialId": "mat_enchanting_t4_wind_crystal", "chance": 0.25, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z07_yeti",
+    "name": "Mountain Yeti",
+    "level": 32,
+    "type": "normal",
+    "subtype": "beast",
+    "health": 480,
+    "damage": 52,
+    "armor": 60,
+    "resistance": 30,
+    "attackSpeed": 2.2,
+    "lootTableId": "loot_z07_beast",
+    "xpReward": 335,
+    "goldReward": { "min": 6, "max": 13 },
+    "abilities": ["pound", "frost_breath", "berserk"],
+    "materialDrops": [
+      { "materialId": "mat_skinning_t4_yeti_fur", "chance": 0.5, "quantity": { "min": 1, "max": 2 }, "requiresProfession": "skinning" },
+      { "materialId": "mat_cooking_t4_yeti_steak", "chance": 0.3, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z07_frost_wyrm",
+    "name": "Frost Wyrm",
+    "level": 35,
+    "type": "elite",
+    "subtype": "dragonkin",
+    "health": 950,
+    "damage": 68,
+    "armor": 72,
+    "resistance": 65,
+    "attackSpeed": 2.5,
+    "lootTableId": "loot_z07_dragonkin_elite",
+    "xpReward": 560,
+    "goldReward": { "min": 16, "max": 32 },
+    "abilities": ["frost_breath", "tail_swipe", "ice_storm", "frozen_armor"],
+    "materialDrops": [
+      { "materialId": "mat_skinning_t4_wyrm_scale", "chance": 0.6, "quantity": { "min": 1, "max": 3 }, "requiresProfession": "skinning" },
+      { "materialId": "mat_alchemy_t4_frost_essence", "chance": 0.4, "quantity": { "min": 1, "max": 2 } }
+    ]
+  },
+  {
+    "id": "mon_z07_mountain_goat",
+    "name": "Skyreach Mountain Goat",
+    "level": 31,
+    "type": "normal",
+    "subtype": "beast",
+    "health": 380,
+    "damage": 45,
+    "armor": 50,
+    "resistance": 25,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z07_beast",
+    "xpReward": 320,
+    "goldReward": { "min": 5, "max": 12 },
+    "abilities": ["headbutt", "charge", "sure_footing"],
+    "materialDrops": [
+      { "materialId": "mat_skinning_t4_mountain_leather", "chance": 0.5, "quantity": { "min": 1, "max": 2 }, "requiresProfession": "skinning" },
+      { "materialId": "mat_cooking_t4_goat_meat", "chance": 0.5, "quantity": { "min": 1, "max": 2 } }
+    ]
+  },
+  {
+    "id": "mon_z07_avalanche_golem",
+    "name": "Avalanche Golem",
+    "level": 34,
+    "type": "normal",
+    "subtype": "construct",
+    "health": 520,
+    "damage": 60,
+    "armor": 80,
+    "resistance": 40,
+    "attackSpeed": 3.0,
+    "lootTableId": "loot_z07_construct",
+    "xpReward": 365,
+    "goldReward": { "min": 8, "max": 16 },
+    "abilities": ["boulder_throw", "avalanche_slam", "stone_shield"],
+    "materialDrops": [
+      { "materialId": "mat_mining_t4_frost_stone", "chance": 0.5, "quantity": { "min": 1, "max": 2 } },
+      { "materialId": "mat_engineering_t4_golem_core", "chance": 0.2, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z07_rogue_mage",
+    "name": "Rogue Summit Mage",
+    "level": 35,
+    "type": "elite",
+    "subtype": "humanoid",
+    "health": 850,
+    "damage": 72,
+    "armor": 35,
+    "resistance": 75,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z07_humanoid_elite",
+    "xpReward": 540,
+    "goldReward": { "min": 15, "max": 30 },
+    "abilities": ["arcane_blast", "frost_nova", "blink", "arcane_explosion", "mana_shield"],
+    "materialDrops": [
+      { "materialId": "mat_tailoring_t4_enchanted_cloth", "chance": 0.6, "quantity": { "min": 1, "max": 3 } },
+      { "materialId": "mat_enchanting_t4_arcane_crystal", "chance": 0.4, "quantity": { "min": 1, "max": 2 } }
+    ]
+  }
+]

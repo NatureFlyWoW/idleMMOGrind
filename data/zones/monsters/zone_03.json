@@ -1,0 +1,122 @@
+[
+  {
+    "id": "mon_z03_treant",
+    "name": "Raging Treant",
+    "level": 12,
+    "type": "normal",
+    "subtype": "elemental",
+    "health": 220,
+    "damage": 25,
+    "armor": 55,
+    "resistance": 22,
+    "attackSpeed": 2.5,
+    "lootTableId": "loot_z03_elemental",
+    "xpReward": 130,
+    "goldReward": { "min": 3, "max": 7 },
+    "abilities": ["slam", "root_strike", "bark_shield"],
+    "materialDrops": [
+      { "materialId": "mat_herbalism_t2_wild_bark", "chance": 0.5, "quantity": { "min": 1, "max": 2 } },
+      { "materialId": "mat_alchemy_t2_sap_essence", "chance": 0.3, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z03_wild_bear",
+    "name": "Corrupted Bear",
+    "level": 11,
+    "type": "normal",
+    "subtype": "beast",
+    "health": 200,
+    "damage": 28,
+    "armor": 48,
+    "resistance": 18,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z03_beast",
+    "xpReward": 125,
+    "goldReward": { "min": 3, "max": 6 },
+    "abilities": ["maul", "swipe", "roar"],
+    "materialDrops": [
+      { "materialId": "mat_skinning_t2_thick_leather", "chance": 0.5, "quantity": { "min": 1, "max": 2 }, "requiresProfession": "skinning" },
+      { "materialId": "mat_cooking_t2_bear_meat", "chance": 0.4, "quantity": { "min": 1, "max": 2 } }
+    ]
+  },
+  {
+    "id": "mon_z03_corrupted_druid",
+    "name": "Corrupted Druid",
+    "level": 13,
+    "type": "normal",
+    "subtype": "humanoid",
+    "health": 190,
+    "damage": 30,
+    "armor": 38,
+    "resistance": 35,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z03_humanoid",
+    "xpReward": 135,
+    "goldReward": { "min": 4, "max": 8 },
+    "abilities": ["wrath", "entangling_roots", "rejuvenation"],
+    "materialDrops": [
+      { "materialId": "mat_tailoring_t2_wool_cloth", "chance": 0.5, "quantity": { "min": 1, "max": 2 } },
+      { "materialId": "mat_herbalism_t2_wildbloom", "chance": 0.3, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z03_forest_sprite",
+    "name": "Mischievous Sprite",
+    "level": 12,
+    "type": "normal",
+    "subtype": "elemental",
+    "health": 150,
+    "damage": 22,
+    "armor": 25,
+    "resistance": 40,
+    "attackSpeed": 1.5,
+    "lootTableId": "loot_z03_elemental",
+    "xpReward": 120,
+    "goldReward": { "min": 3, "max": 7 },
+    "abilities": ["arcane_bolt", "illusion", "blink"],
+    "materialDrops": [
+      { "materialId": "mat_enchanting_t2_essence_shard", "chance": 0.4, "quantity": { "min": 1, "max": 1 } },
+      { "materialId": "mat_alchemy_t2_fairy_dust", "chance": 0.3, "quantity": { "min": 1, "max": 2 } }
+    ]
+  },
+  {
+    "id": "mon_z03_thorn_elemental",
+    "name": "Thorn Elemental",
+    "level": 14,
+    "type": "normal",
+    "subtype": "elemental",
+    "health": 240,
+    "damage": 26,
+    "armor": 60,
+    "resistance": 30,
+    "attackSpeed": 2.2,
+    "lootTableId": "loot_z03_elemental",
+    "xpReward": 140,
+    "goldReward": { "min": 4, "max": 8 },
+    "abilities": ["thorn_volley", "root_shield", "nature_blast"],
+    "materialDrops": [
+      { "materialId": "mat_herbalism_t2_thornweed", "chance": 0.5, "quantity": { "min": 1, "max": 2 } },
+      { "materialId": "mat_alchemy_t2_elemental_core", "chance": 0.2, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z03_sprite_king",
+    "name": "Sprite King",
+    "level": 15,
+    "type": "elite",
+    "subtype": "elemental",
+    "health": 420,
+    "damage": 35,
+    "armor": 45,
+    "resistance": 55,
+    "attackSpeed": 1.5,
+    "lootTableId": "loot_z03_elemental_elite",
+    "xpReward": 220,
+    "goldReward": { "min": 8, "max": 15 },
+    "abilities": ["arcane_bolt", "mass_illusion", "blink", "arcane_explosion"],
+    "materialDrops": [
+      { "materialId": "mat_enchanting_t2_essence_shard", "chance": 0.7, "quantity": { "min": 1, "max": 3 } },
+      { "materialId": "mat_alchemy_t2_fairy_dust", "chance": 0.6, "quantity": { "min": 2, "max": 3 } }
+    ]
+  }
+]

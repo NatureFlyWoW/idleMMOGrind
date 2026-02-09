@@ -1,0 +1,28 @@
+[
+  {
+    "id": "rare_z06_magma_king",
+    "zoneId": "zone_06",
+    "name": "Magma King",
+    "level": 30,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "rare",
+    "guaranteedDropSlot": "head",
+    "xpMultiplier": 5.0,
+    "reputationReward": 175
+  },
+  {
+    "id": "rare_z06_forgemaster",
+    "zoneId": "zone_06",
+    "name": "Forgemaster Durin",
+    "level": 29,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "rare",
+    "guaranteedDropSlot": "main-hand",
+    "xpMultiplier": 5.0,
+    "reputationReward": 175
+  }
+]

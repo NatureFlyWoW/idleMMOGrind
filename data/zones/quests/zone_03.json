@@ -1,0 +1,154 @@
+[
+  {
+    "id": "qc_z03_01",
+    "zoneId": "zone_03",
+    "name": "Corruption of the Wilds",
+    "description": "The ancient Wildwood is being twisted by a dark druidic cult.",
+    "quests": [
+      {
+        "id": "q_z03_01_01",
+        "name": "Corrupted Beasts",
+        "description": "Slay the corrupted wildlife roaming the outer thicket.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z03_wild_bear", "count": 8 }],
+        "xpReward": 200,
+        "goldReward": 35,
+        "nextQuestId": "q_z03_01_02"
+      },
+      {
+        "id": "q_z03_01_02",
+        "name": "Druidic Totems",
+        "description": "Collect and destroy the corruption totems placed throughout the forest.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "corruption_totem", "count": 5 }],
+        "xpReward": 220,
+        "goldReward": 40,
+        "nextQuestId": "q_z03_01_03"
+      },
+      {
+        "id": "q_z03_01_03",
+        "name": "The Fallen Druids",
+        "description": "Confront the corrupted druids at their ritual circle.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z03_corrupted_druid", "count": 5 }],
+        "xpReward": 250,
+        "goldReward": 45,
+        "nextQuestId": "q_z03_01_04"
+      },
+      {
+        "id": "q_z03_01_04",
+        "name": "Heart of the Thicket",
+        "description": "Purify the ancient tree at the heart of Wildwood.",
+        "type": "exploration",
+        "objectives": [{ "type": "explore", "targetId": "zone_03_ancient_tree", "count": 1 }],
+        "xpReward": 280,
+        "goldReward": 50,
+        "gearReward": { "slot": "shoulders", "qualityMin": "uncommon" },
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 400,
+      "goldBonus": 80,
+      "reputationBonus": 100
+    }
+  },
+  {
+    "id": "qc_z03_02",
+    "zoneId": "zone_03",
+    "name": "Treant Awakening",
+    "description": "Ancient treants are waking from their slumber, confused and hostile.",
+    "quests": [
+      {
+        "id": "q_z03_02_01",
+        "name": "Falling Timber",
+        "description": "Subdue the rampaging treants before they reach the settlements.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z03_treant", "count": 6 }],
+        "xpReward": 210,
+        "goldReward": 38,
+        "nextQuestId": "q_z03_02_02"
+      },
+      {
+        "id": "q_z03_02_02",
+        "name": "Sap of Clarity",
+        "description": "Collect purified sap to calm the awakened treants.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "purified_sap", "count": 4 }],
+        "xpReward": 230,
+        "goldReward": 42,
+        "nextQuestId": "q_z03_02_03"
+      },
+      {
+        "id": "q_z03_02_03",
+        "name": "The Elder Treant",
+        "description": "Bring the purified sap to the Elder Treant and calm it.",
+        "type": "escort",
+        "objectives": [{ "type": "escort", "targetId": "elder_treant", "count": 1 }],
+        "xpReward": 260,
+        "goldReward": 48,
+        "gearReward": { "slot": "hands", "qualityMin": "uncommon" },
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 350,
+      "goldBonus": 70,
+      "reputationBonus": 100
+    }
+  },
+  {
+    "id": "qc_z03_03",
+    "zoneId": "zone_03",
+    "name": "Sprite Mischief",
+    "description": "Forest sprites are luring travelers off the paths with illusions.",
+    "quests": [
+      {
+        "id": "q_z03_03_01",
+        "name": "Lost Travelers",
+        "description": "Search the forest paths for missing travelers.",
+        "type": "exploration",
+        "objectives": [{ "type": "explore", "targetId": "zone_03_lost_path", "count": 3 }],
+        "xpReward": 190,
+        "goldReward": 34,
+        "nextQuestId": "q_z03_03_02"
+      },
+      {
+        "id": "q_z03_03_02",
+        "name": "Sprite Hunting",
+        "description": "Catch the mischievous sprites causing the illusions.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z03_forest_sprite", "count": 8 }],
+        "xpReward": 225,
+        "goldReward": 40,
+        "nextQuestId": "q_z03_03_03"
+      },
+      {
+        "id": "q_z03_03_03",
+        "name": "Shatter the Illusion",
+        "description": "Destroy the enchanted moonstone powering the sprite illusions.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "enchanted_moonstone", "count": 1 }],
+        "xpReward": 240,
+        "goldReward": 44,
+        "nextQuestId": "q_z03_03_04"
+      },
+      {
+        "id": "q_z03_03_04",
+        "name": "Sprite King's Bargain",
+        "description": "Confront the Sprite King and end the enchantments.",
+        "type": "elite",
+        "objectives": [{ "type": "kill", "targetId": "mon_z03_sprite_king", "count": 1 }],
+        "xpReward": 270,
+        "goldReward": 50,
+        "gearReward": { "slot": "back", "qualityMin": "rare" },
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 380,
+      "goldBonus": 75,
+      "reputationBonus": 100
+    }
+  }
+]

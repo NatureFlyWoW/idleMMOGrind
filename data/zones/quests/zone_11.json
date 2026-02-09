@@ -1,0 +1,268 @@
+[
+  {
+    "id": "qc_z11_01",
+    "zoneId": "zone_11",
+    "name": "Reality Unraveling",
+    "description": "The fabric of reality is fraying in the Twilight Reaches. Void creatures pour through.",
+    "quests": [
+      {
+        "id": "q_z11_01_01",
+        "name": "Void Incursion",
+        "description": "Destroy the void tenders emerging from reality tears.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z11_void_tender", "count": 10 }],
+        "xpReward": 1550,
+        "goldReward": 210,
+        "nextQuestId": "q_z11_01_02"
+      },
+      {
+        "id": "q_z11_01_02",
+        "name": "Reality Anchors",
+        "description": "Collect reality anchor fragments to stabilize the tears.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "reality_anchor", "count": 5 }],
+        "xpReward": 1580,
+        "goldReward": 214,
+        "nextQuestId": "q_z11_01_03"
+      },
+      {
+        "id": "q_z11_01_03",
+        "name": "Map the Tears",
+        "description": "Locate all the major reality tears in the region.",
+        "type": "exploration",
+        "objectives": [{ "type": "explore", "targetId": "zone_11_reality_tear", "count": 3 }],
+        "xpReward": 1610,
+        "goldReward": 218,
+        "nextQuestId": "q_z11_01_04"
+      },
+      {
+        "id": "q_z11_01_04",
+        "name": "Phase Beast Hunters",
+        "description": "Track and destroy the phase beasts destabilizing reality further.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z11_phase_beast", "count": 6 }],
+        "xpReward": 1640,
+        "goldReward": 222,
+        "nextQuestId": "q_z11_01_05"
+      },
+      {
+        "id": "q_z11_01_05",
+        "name": "Seal the Primary Rift",
+        "description": "Use the reality anchors to seal the largest void rift.",
+        "type": "elite",
+        "objectives": [{ "type": "kill", "targetId": "mon_z11_rift_guardian", "count": 1 }],
+        "xpReward": 1720,
+        "goldReward": 232,
+        "gearReward": { "slot": "head", "qualityMin": "epic" },
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 2100,
+      "goldBonus": 400,
+      "reputationBonus": 375
+    }
+  },
+  {
+    "id": "qc_z11_02",
+    "zoneId": "zone_11",
+    "name": "Fallen Angels",
+    "description": "Corrupted angels serve a dark power, twisting the ethereal realm.",
+    "quests": [
+      {
+        "id": "q_z11_02_01",
+        "name": "Corrupted Host",
+        "description": "Engage the corrupted angel patrols and destroy them.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z11_corrupted_angel", "count": 8 }],
+        "xpReward": 1540,
+        "goldReward": 208,
+        "nextQuestId": "q_z11_02_02"
+      },
+      {
+        "id": "q_z11_02_02",
+        "name": "Holy Relics",
+        "description": "Recover holy relics corrupted by the fallen angels.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "corrupted_relic", "count": 4 }],
+        "xpReward": 1575,
+        "goldReward": 213,
+        "nextQuestId": "q_z11_02_03"
+      },
+      {
+        "id": "q_z11_02_03",
+        "name": "The Dark Cathedral",
+        "description": "Find the dark cathedral where the fallen gather.",
+        "type": "exploration",
+        "objectives": [{ "type": "explore", "targetId": "zone_11_dark_cathedral", "count": 1 }],
+        "xpReward": 1600,
+        "goldReward": 216,
+        "nextQuestId": "q_z11_02_04"
+      },
+      {
+        "id": "q_z11_02_04",
+        "name": "Twilight Sentinels",
+        "description": "Destroy the twilight sentinels guarding the cathedral entrance.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z11_twilight_sentinel", "count": 5 }],
+        "xpReward": 1630,
+        "goldReward": 220,
+        "nextQuestId": "q_z11_02_05"
+      },
+      {
+        "id": "q_z11_02_05",
+        "name": "Purify the Relics",
+        "description": "Use the purified relics to weaken the fallen archon.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "purified_relic", "count": 3 }],
+        "xpReward": 1600,
+        "goldReward": 216,
+        "nextQuestId": "q_z11_02_06"
+      },
+      {
+        "id": "q_z11_02_06",
+        "name": "The Fallen Archon",
+        "description": "Defeat the fallen archon to free the corrupted angels.",
+        "type": "elite",
+        "objectives": [{ "type": "kill", "targetId": "mon_z11_fallen_archon", "count": 1 }],
+        "xpReward": 1750,
+        "goldReward": 236,
+        "gearReward": { "slot": "chest", "qualityMin": "epic" },
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 2200,
+      "goldBonus": 420,
+      "reputationBonus": 375
+    }
+  },
+  {
+    "id": "qc_z11_03",
+    "zoneId": "zone_11",
+    "name": "Shadow Stalker Hunt",
+    "description": "Shadow stalkers hunt anything that moves in the Twilight Reaches.",
+    "quests": [
+      {
+        "id": "q_z11_03_01",
+        "name": "Shadow Slayer",
+        "description": "Hunt the shadow stalkers plaguing the ethereal pathways.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z11_shadow_stalker", "count": 12 }],
+        "xpReward": 1530,
+        "goldReward": 206,
+        "nextQuestId": "q_z11_03_02"
+      },
+      {
+        "id": "q_z11_03_02",
+        "name": "Shadow Essence",
+        "description": "Collect shadow essence from the stalkers for research.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "shadow_essence", "count": 6 }],
+        "xpReward": 1565,
+        "goldReward": 212,
+        "nextQuestId": "q_z11_03_03"
+      },
+      {
+        "id": "q_z11_03_03",
+        "name": "The Shadow Nest",
+        "description": "Find and explore the shadow stalkers' breeding grounds.",
+        "type": "exploration",
+        "objectives": [{ "type": "explore", "targetId": "zone_11_shadow_nest", "count": 2 }],
+        "xpReward": 1590,
+        "goldReward": 215,
+        "nextQuestId": "q_z11_03_04"
+      },
+      {
+        "id": "q_z11_03_04",
+        "name": "Reality Shredder",
+        "description": "Destroy the reality shredder spawning the shadow stalkers.",
+        "type": "elite",
+        "objectives": [{ "type": "kill", "targetId": "mon_z11_reality_shredder", "count": 1 }],
+        "xpReward": 1700,
+        "goldReward": 230,
+        "gearReward": { "slot": "off-hand", "qualityMin": "epic" },
+        "nextQuestId": "q_z11_03_05"
+      },
+      {
+        "id": "q_z11_03_05",
+        "name": "Escort the Scholar",
+        "description": "Escort the arcane scholar to study the sealed shadow nest.",
+        "type": "escort",
+        "objectives": [{ "type": "escort", "targetId": "arcane_scholar", "count": 1 }],
+        "xpReward": 1580,
+        "goldReward": 214,
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 2000,
+      "goldBonus": 380,
+      "reputationBonus": 375
+    }
+  },
+  {
+    "id": "qc_z11_04",
+    "zoneId": "zone_11",
+    "name": "Ethereal Expedition",
+    "description": "An expedition into the deepest ethereal zones uncovers ancient secrets.",
+    "quests": [
+      {
+        "id": "q_z11_04_01",
+        "name": "Chart the Unknown",
+        "description": "Explore the uncharted ethereal zones beyond the known paths.",
+        "type": "exploration",
+        "objectives": [{ "type": "explore", "targetId": "zone_11_uncharted", "count": 3 }],
+        "xpReward": 1520,
+        "goldReward": 205,
+        "nextQuestId": "q_z11_04_02"
+      },
+      {
+        "id": "q_z11_04_02",
+        "name": "Void Cleansing",
+        "description": "Clear void creatures from the expedition's path.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z11_void_tender", "count": 8 }],
+        "xpReward": 1560,
+        "goldReward": 211,
+        "nextQuestId": "q_z11_04_03"
+      },
+      {
+        "id": "q_z11_04_03",
+        "name": "Ancient Tablets",
+        "description": "Collect ancient tablets inscribed with forgotten knowledge.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "ancient_tablet", "count": 5 }],
+        "xpReward": 1585,
+        "goldReward": 214,
+        "nextQuestId": "q_z11_04_04"
+      },
+      {
+        "id": "q_z11_04_04",
+        "name": "The Guardian Gate",
+        "description": "Find and activate the ancient guardian gate.",
+        "type": "exploration",
+        "objectives": [{ "type": "explore", "targetId": "zone_11_guardian_gate", "count": 1 }],
+        "xpReward": 1610,
+        "goldReward": 218,
+        "nextQuestId": "q_z11_04_05"
+      },
+      {
+        "id": "q_z11_04_05",
+        "name": "The Gate Guardian",
+        "description": "Defeat the ancient gate guardian to access the inner sanctum.",
+        "type": "elite",
+        "objectives": [{ "type": "kill", "targetId": "mon_z11_twilight_sentinel", "count": 1 }],
+        "xpReward": 1680,
+        "goldReward": 227,
+        "gearReward": { "slot": "ring1", "qualityMin": "epic" },
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 1950,
+      "goldBonus": 370,
+      "reputationBonus": 375
+    }
+  }
+]

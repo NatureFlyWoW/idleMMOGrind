@@ -1,0 +1,272 @@
+[
+  {
+    "id": "qc_z12_01",
+    "zoneId": "zone_12",
+    "name": "Assault on the Spire",
+    "description": "The Ascendant Spire's ancient defenses have activated, barring all entry.",
+    "quests": [
+      {
+        "id": "q_z12_01_01",
+        "name": "Construct Dismantling",
+        "description": "Destroy the ancient constructs patrolling the spire base.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z12_ancient_construct", "count": 10 }],
+        "xpReward": 1800,
+        "goldReward": 245,
+        "nextQuestId": "q_z12_01_02"
+      },
+      {
+        "id": "q_z12_01_02",
+        "name": "Power Cores",
+        "description": "Collect power cores from the disabled constructs.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "construct_power_core", "count": 5 }],
+        "xpReward": 1840,
+        "goldReward": 250,
+        "nextQuestId": "q_z12_01_03"
+      },
+      {
+        "id": "q_z12_01_03",
+        "name": "Breach the Outer Ring",
+        "description": "Find a way through the spire's outer defensive ring.",
+        "type": "exploration",
+        "objectives": [{ "type": "explore", "targetId": "zone_12_outer_ring", "count": 2 }],
+        "xpReward": 1870,
+        "goldReward": 254,
+        "nextQuestId": "q_z12_01_04"
+      },
+      {
+        "id": "q_z12_01_04",
+        "name": "Spire Guardian Alpha",
+        "description": "Defeat the alpha spire guardian blocking the inner path.",
+        "type": "elite",
+        "objectives": [{ "type": "kill", "targetId": "mon_z12_spire_guardian", "count": 1 }],
+        "xpReward": 1920,
+        "goldReward": 260,
+        "gearReward": { "slot": "shoulders", "qualityMin": "epic" },
+        "nextQuestId": "q_z12_01_05"
+      },
+      {
+        "id": "q_z12_01_05",
+        "name": "Secure the Breach",
+        "description": "Hold the breach point while reinforcements arrive.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z12_ancient_construct", "count": 8 }],
+        "xpReward": 1850,
+        "goldReward": 251,
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 2500,
+      "goldBonus": 480,
+      "reputationBonus": 425
+    }
+  },
+  {
+    "id": "qc_z12_02",
+    "zoneId": "zone_12",
+    "name": "Void Lord's Dominion",
+    "description": "A void lord has claimed the middle levels of the spire.",
+    "quests": [
+      {
+        "id": "q_z12_02_01",
+        "name": "Void Resistance",
+        "description": "Destroy the void lord's minions in the spire corridors.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z12_void_lord", "count": 5 }],
+        "xpReward": 1820,
+        "goldReward": 247,
+        "nextQuestId": "q_z12_02_02"
+      },
+      {
+        "id": "q_z12_02_02",
+        "name": "Void Shards",
+        "description": "Collect void shards to craft anti-void weapons.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "void_shard", "count": 6 }],
+        "xpReward": 1855,
+        "goldReward": 252,
+        "nextQuestId": "q_z12_02_03"
+      },
+      {
+        "id": "q_z12_02_03",
+        "name": "The Void Chamber",
+        "description": "Navigate through the void-warped chambers of the spire.",
+        "type": "exploration",
+        "objectives": [{ "type": "explore", "targetId": "zone_12_void_chamber", "count": 2 }],
+        "xpReward": 1880,
+        "goldReward": 255,
+        "nextQuestId": "q_z12_02_04"
+      },
+      {
+        "id": "q_z12_02_04",
+        "name": "Escort the Warden",
+        "description": "Escort the spire warden to the void lord's sanctum.",
+        "type": "escort",
+        "objectives": [{ "type": "escort", "targetId": "spire_warden", "count": 1 }],
+        "xpReward": 1900,
+        "goldReward": 258,
+        "nextQuestId": "q_z12_02_05"
+      },
+      {
+        "id": "q_z12_02_05",
+        "name": "Banish the Void Lord",
+        "description": "Confront and banish the void lord from the Ascendant Spire.",
+        "type": "elite",
+        "objectives": [{ "type": "kill", "targetId": "mon_z12_void_lord_boss", "count": 1 }],
+        "xpReward": 2000,
+        "goldReward": 272,
+        "gearReward": { "slot": "chest", "qualityMin": "epic" },
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 2600,
+      "goldBonus": 500,
+      "reputationBonus": 425
+    }
+  },
+  {
+    "id": "qc_z12_03",
+    "zoneId": "zone_12",
+    "name": "Arcane Colossus",
+    "description": "An arcane colossus guards the upper spire, annihilating all who approach.",
+    "quests": [
+      {
+        "id": "q_z12_03_01",
+        "name": "Weakness Analysis",
+        "description": "Collect arcane residue from the colossus's attacks.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "arcane_residue", "count": 5 }],
+        "xpReward": 1810,
+        "goldReward": 246,
+        "nextQuestId": "q_z12_03_02"
+      },
+      {
+        "id": "q_z12_03_02",
+        "name": "Disrupt the Wards",
+        "description": "Destroy the arcane ward generators protecting the colossus.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z12_spire_guardian", "count": 4 }],
+        "xpReward": 1850,
+        "goldReward": 251,
+        "nextQuestId": "q_z12_03_03"
+      },
+      {
+        "id": "q_z12_03_03",
+        "name": "The Arcane Nexus",
+        "description": "Find the arcane nexus powering the colossus.",
+        "type": "exploration",
+        "objectives": [{ "type": "explore", "targetId": "zone_12_arcane_nexus", "count": 1 }],
+        "xpReward": 1875,
+        "goldReward": 254,
+        "nextQuestId": "q_z12_03_04"
+      },
+      {
+        "id": "q_z12_03_04",
+        "name": "Entropy Weavers",
+        "description": "Defeat the entropy weavers maintaining the colossus's power supply.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z12_entropy_weaver", "count": 4 }],
+        "xpReward": 1900,
+        "goldReward": 258,
+        "nextQuestId": "q_z12_03_05"
+      },
+      {
+        "id": "q_z12_03_05",
+        "name": "Topple the Colossus",
+        "description": "With its power source disrupted, destroy the arcane colossus.",
+        "type": "elite",
+        "objectives": [{ "type": "kill", "targetId": "mon_z12_arcane_colossus", "count": 1 }],
+        "xpReward": 2050,
+        "goldReward": 278,
+        "gearReward": { "slot": "main-hand", "qualityMin": "epic" },
+        "nextQuestId": "q_z12_03_06"
+      },
+      {
+        "id": "q_z12_03_06",
+        "name": "Salvage the Core",
+        "description": "Recover the colossus's core before it becomes unstable.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "colossus_core", "count": 1 }],
+        "xpReward": 1830,
+        "goldReward": 248,
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 2700,
+      "goldBonus": 520,
+      "reputationBonus": 450
+    }
+  },
+  {
+    "id": "qc_z12_04",
+    "zoneId": "zone_12",
+    "name": "The Ascendant Path",
+    "description": "The final challenge: reach the pinnacle of the Ascendant Spire.",
+    "quests": [
+      {
+        "id": "q_z12_04_01",
+        "name": "Ascendant Wraiths",
+        "description": "Destroy the ascendant wraiths blocking the final stairway.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z12_ascendant_wraith", "count": 10 }],
+        "xpReward": 1850,
+        "goldReward": 251,
+        "nextQuestId": "q_z12_04_02"
+      },
+      {
+        "id": "q_z12_04_02",
+        "name": "Keys of Ascension",
+        "description": "Collect the three keys needed to unlock the pinnacle gate.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "ascension_key", "count": 3 }],
+        "xpReward": 1880,
+        "goldReward": 255,
+        "nextQuestId": "q_z12_04_03"
+      },
+      {
+        "id": "q_z12_04_03",
+        "name": "The Final Stair",
+        "description": "Ascend the final stairway, fighting through waves of defenders.",
+        "type": "kill",
+        "objectives": [
+          { "type": "kill", "targetId": "mon_z12_ancient_construct", "count": 5 },
+          { "type": "kill", "targetId": "mon_z12_entropy_weaver", "count": 3 }
+        ],
+        "xpReward": 1920,
+        "goldReward": 260,
+        "nextQuestId": "q_z12_04_04"
+      },
+      {
+        "id": "q_z12_04_04",
+        "name": "The Pinnacle",
+        "description": "Reach the pinnacle chamber of the Ascendant Spire.",
+        "type": "exploration",
+        "objectives": [{ "type": "explore", "targetId": "zone_12_pinnacle", "count": 1 }],
+        "xpReward": 1950,
+        "goldReward": 265,
+        "nextQuestId": "q_z12_04_05"
+      },
+      {
+        "id": "q_z12_04_05",
+        "name": "The Final Guardian",
+        "description": "Defeat the ultimate guardian of the Ascendant Spire and claim your power.",
+        "type": "elite",
+        "objectives": [{ "type": "kill", "targetId": "mon_z12_final_guardian", "count": 1 }],
+        "xpReward": 2200,
+        "goldReward": 300,
+        "gearReward": { "slot": "neck", "qualityMin": "legendary" },
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 3000,
+      "goldBonus": 600,
+      "reputationBonus": 500,
+      "unlocks": "ascension_system"
+    }
+  }
+]

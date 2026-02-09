@@ -1,0 +1,28 @@
+[
+  {
+    "id": "rare_z08_ironjaw",
+    "zoneId": "zone_08",
+    "name": "Ironjaw the Destroyer",
+    "level": 40,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "rare",
+    "guaranteedDropSlot": "chest",
+    "xpMultiplier": 5.0,
+    "reputationReward": 225
+  },
+  {
+    "id": "rare_z08_siege_breaker",
+    "zoneId": "zone_08",
+    "name": "The Siege Breaker",
+    "level": 39,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "rare",
+    "guaranteedDropSlot": "waist",
+    "xpMultiplier": 5.0,
+    "reputationReward": 225
+  }
+]

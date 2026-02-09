@@ -1,0 +1,142 @@
+[
+  {
+    "id": "mon_z08_orc_raider",
+    "name": "Orc Raider",
+    "level": 36,
+    "type": "normal",
+    "subtype": "humanoid",
+    "health": 520,
+    "damage": 62,
+    "armor": 68,
+    "resistance": 30,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z08_humanoid",
+    "xpReward": 400,
+    "goldReward": { "min": 8, "max": 16 },
+    "abilities": ["cleave", "charge", "battle_shout"],
+    "materialDrops": [
+      { "materialId": "mat_skinning_t4_orc_hide", "chance": 0.4, "quantity": { "min": 1, "max": 2 }, "requiresProfession": "skinning" },
+      { "materialId": "mat_tailoring_t4_war_cloth", "chance": 0.3, "quantity": { "min": 1, "max": 2 } }
+    ]
+  },
+  {
+    "id": "mon_z08_siege_engine",
+    "name": "Orc Siege Engine",
+    "level": 38,
+    "type": "normal",
+    "subtype": "construct",
+    "health": 650,
+    "damage": 70,
+    "armor": 90,
+    "resistance": 20,
+    "attackSpeed": 3.5,
+    "lootTableId": "loot_z08_construct",
+    "xpReward": 440,
+    "goldReward": { "min": 10, "max": 18 },
+    "abilities": ["boulder_launch", "ram", "flame_oil"],
+    "materialDrops": [
+      { "materialId": "mat_engineering_t4_siege_parts", "chance": 0.5, "quantity": { "min": 1, "max": 2 } },
+      { "materialId": "mat_mining_t4_iron_plate", "chance": 0.4, "quantity": { "min": 1, "max": 3 } }
+    ]
+  },
+  {
+    "id": "mon_z08_orc_warlord",
+    "name": "Orc Warlord",
+    "level": 39,
+    "type": "normal",
+    "subtype": "humanoid",
+    "health": 580,
+    "damage": 68,
+    "armor": 75,
+    "resistance": 35,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z08_humanoid",
+    "xpReward": 420,
+    "goldReward": { "min": 9, "max": 18 },
+    "abilities": ["cleave", "war_cry", "enrage", "execute"],
+    "materialDrops": [
+      { "materialId": "mat_skinning_t4_orc_hide", "chance": 0.5, "quantity": { "min": 1, "max": 2 }, "requiresProfession": "skinning" },
+      { "materialId": "mat_vendor_t4_war_trophy", "chance": 0.4, "quantity": { "min": 1, "max": 2 } }
+    ]
+  },
+  {
+    "id": "mon_z08_battle_troll",
+    "name": "Battle Troll",
+    "level": 37,
+    "type": "normal",
+    "subtype": "humanoid",
+    "health": 600,
+    "damage": 58,
+    "armor": 65,
+    "resistance": 28,
+    "attackSpeed": 2.5,
+    "lootTableId": "loot_z08_humanoid",
+    "xpReward": 410,
+    "goldReward": { "min": 8, "max": 15 },
+    "abilities": ["club_smash", "regenerate", "throw_rock"],
+    "materialDrops": [
+      { "materialId": "mat_skinning_t4_troll_hide", "chance": 0.5, "quantity": { "min": 1, "max": 2 }, "requiresProfession": "skinning" },
+      { "materialId": "mat_alchemy_t4_troll_blood", "chance": 0.3, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z08_war_shaman",
+    "name": "Orc War Shaman",
+    "level": 39,
+    "type": "elite",
+    "subtype": "humanoid",
+    "health": 900,
+    "damage": 72,
+    "armor": 50,
+    "resistance": 65,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z08_humanoid_elite",
+    "xpReward": 580,
+    "goldReward": { "min": 16, "max": 32 },
+    "abilities": ["lightning_bolt", "chain_heal", "bloodlust", "hex", "earth_shield"],
+    "materialDrops": [
+      { "materialId": "mat_tailoring_t4_enchanted_cloth", "chance": 0.6, "quantity": { "min": 1, "max": 3 } },
+      { "materialId": "mat_enchanting_t4_shaman_totem", "chance": 0.4, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z08_orc_berserker",
+    "name": "Orc Berserker",
+    "level": 40,
+    "type": "elite",
+    "subtype": "humanoid",
+    "health": 950,
+    "damage": 80,
+    "armor": 60,
+    "resistance": 30,
+    "attackSpeed": 1.8,
+    "lootTableId": "loot_z08_humanoid_elite",
+    "xpReward": 600,
+    "goldReward": { "min": 18, "max": 35 },
+    "abilities": ["frenzy", "whirlwind", "execute", "bloodlust", "intimidating_shout"],
+    "materialDrops": [
+      { "materialId": "mat_skinning_t4_orc_hide", "chance": 0.7, "quantity": { "min": 2, "max": 3 }, "requiresProfession": "skinning" },
+      { "materialId": "mat_vendor_t4_war_trophy", "chance": 0.5, "quantity": { "min": 2, "max": 3 } }
+    ]
+  },
+  {
+    "id": "mon_z08_warlord_grukash",
+    "name": "Warlord Grukash",
+    "level": 40,
+    "type": "elite",
+    "subtype": "humanoid",
+    "health": 1200,
+    "damage": 85,
+    "armor": 80,
+    "resistance": 40,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z08_boss",
+    "xpReward": 750,
+    "goldReward": { "min": 25, "max": 50 },
+    "abilities": ["cleave", "war_cry", "enrage", "execute", "rallying_banner", "devastating_slam"],
+    "materialDrops": [
+      { "materialId": "mat_vendor_t4_war_trophy", "chance": 0.9, "quantity": { "min": 3, "max": 5 } },
+      { "materialId": "mat_skinning_t4_orc_hide", "chance": 0.8, "quantity": { "min": 2, "max": 4 }, "requiresProfession": "skinning" }
+    ]
+  }
+]
