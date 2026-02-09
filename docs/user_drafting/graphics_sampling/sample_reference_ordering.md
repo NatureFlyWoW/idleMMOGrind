@@ -1,0 +1,169 @@
+
+- **character_screen_sample4.png**
+    - Palette: Muted, low-saturation reds, browns, and grays with off-white highlights.
+    - Line style: Clean 1–2 px pixel art outlines, sharp icon silhouettes, minimal anti-aliasing.
+    - Shading model: Classic 16‑bit style; mostly 2–3 tone ramp per surface with hard transitions.
+    - Texture treatment: Subtle dithering on armor and UI panels, small decorative iconography.
+    - Level of detail: High for pixel art; dense icon set, small numerics, readable character features.
+    - Perspective/camera: Orthographic front view character, flat UI plane, no depth cues.
+    - Overall mood: Gritty, old‑school RPG, slightly dark but grounded and serious.
+- **item_tooltip_sample.png**
+    - Palette: Dark near-black background with warm beige/orange text, occasional red and green accents.
+    - Line style: No outlines; information presented as crisp bitmap text with small icon at top left.
+    - Shading model: Flat; background is a single dark block with a faint vignette feel.
+    - Texture treatment: Very minimal; slight noise/vignette, focus on text hierarchy.
+    - Level of detail: High informational density; long paragraphs of flavored, pseudo‑procedural text.
+    - Perspective/camera: Completely flat 2D window floating above implied game world.
+    - Overall mood: Mysterious, arcane, slightly humorous/chaotic due to surreal flavor text.
+- **character_screen_sample3.png**
+    - Palette: Warm golds, browns, and skin tones contrasted with desaturated gray UI frame.
+    - Line style: Tight pixel outlines with clear separation between character and UI; icons use bold silhouettes.
+    - Shading model: 2–4 tone shading on character and gear with strong directional highlight.
+    - Texture treatment: Light dithering on armor and background; snow/particle effect adds visual noise.
+    - Level of detail: High; equipment, stats, long descriptive text, and spell icons all packed into one screen.
+    - Perspective/camera: Orthographic character portrait centered, flat UI panels around.
+    - Overall mood: Adventurous and slightly whimsical, like a story‑driven retro RPG.
+- **legendary_weapon_tooltip.png**
+    - Palette: Very dark panel with high‑contrast white and green text, small colored accents (blue, orange).
+    - Line style: Bitmap text dominates; small weapon icon in the corner with crisp pixel outline.
+    - Shading model: Flat panel, limited shading only on the icon.
+    - Texture treatment: Almost none beyond subtle background darkening; the emphasis is on long, dense text.
+    - Level of detail: Very high textual detail with layered stats, effects, and flavorful description.
+    - Perspective/camera: Purely UI‑overlay tooltip, no depth, no world context visible.
+    - Overall mood: Epic and verbose, leaning into over-the-top legendary item flavor.
+- **talent_tree_sample.png**
+    - Palette: Hot oranges, browns, and yellows with desaturated gray skill icons.
+    - Line style: Small, sharp pixel outlines on icons; minimal lines between nodes.
+    - Shading model: 2–3 tone shading with strong contrast on icons, soft gradient on lava background.
+    - Texture treatment: Heavy dithering/noise in the rock and lava, subtle glow around the path.
+    - Level of detail: Moderate; icons readable but simple, background more painterly.
+    - Perspective/camera: Flat 2D vertical tree with slight implied depth in background only.
+    - Overall mood: Aggressive, molten, combat‑focused.
+- **quest_log_sample.png**
+    - Palette: Dark UI frame with black interior, yellow headers, cyan and white body text, subtle red/orange accents.
+    - Line style: Pixel‑crisp borders and separators; no outlines on text.
+    - Shading model: Flat black for content area, gentle 2‑tone shading on frame.
+    - Texture treatment: Minimal; slight edge shading on frame, text is clean and utilitarian.
+    - Level of detail: High informational density with multiple text styles and sections.
+    - Perspective/camera: Flat 2D panel, no world context.
+    - Overall mood: Functional, quest‑journal bureaucratic with a slightly archaic feel.
+- **dagger_tooltip_sample.png**
+    - Palette: Deep navy/black panel, white and cyan body text, bright green stat text, small red/orange icon.
+    - Line style: Bitmap text and tight pixel icon outline; thin border around panel.
+    - Shading model: Flat interior with subtle border shading.
+    - Texture treatment: Very restrained, just enough shading to distinguish frame.
+    - Level of detail: Very high text detail—stats, modifiers, and flavor lines.
+    - Perspective/camera: Pure UI overlay, entirely flat.
+    - Overall mood: Technical and slightly ominous, emphasizing mechanics of a precise weapon.
+- **trinket_tooltip_sample.png**
+    - Palette: Dark blue‑gray background, white main text, bright green effect text, small red corner icon.
+    - Line style: Clean pixel border and icon outline; no decorative lines.
+    - Shading model: Flat background; tiny amount of shading on icon graphic.
+    - Texture treatment: Almost no visible texture beyond subtle panel edge shading.
+    - Level of detail: High in text, low in imagery; one focal icon with verbose description.
+    - Perspective/camera: Flat tooltip window.
+    - Overall mood: Matter‑of‑fact with a hint of arcane power.
+- **trinket_tooltip_sample2.png**
+    - Palette: Similar dark panel with white, blue, and green text plus a colored item icon.
+    - Line style: Same crisp pixel UI borders and minimal ornamentation.
+    - Shading model: Flat with gentle frame highlight; icon uses 2–3 shade values.
+    - Texture treatment: Very subtle, almost UI‑only.
+    - Level of detail: Dense layered stats and flavor text, minimal pictorial detail.
+    - Perspective/camera: Flat 2D overlay.
+    - Overall mood: Systemic and collectible, like inspecting a rare artifact.
+- **spell_book_sample.png**
+    - Palette: Warm parchment beige background, rich reds, oranges, blues, and greens for spell icons, brown UI frame.
+    - Line style: Chunky pixel outlines around book, tabs, and icons with rounded edges.
+    - Shading model: 2–3 tone shading on book pages and icons, soft ambient shading on frame.
+    - Texture treatment: Visible page grain and edge wear, subtle decorative borders.
+    - Level of detail: High; many icons, labels, and category tabs but still readable.
+    - Perspective/camera: Flat open‑book layout, slight implied tilt via shading.
+    - Overall mood: Cozy, magical, and organized—like a friendly grimoire UI.
+- **spell_book_sample2.png**
+    - Palette: Similar warm parchment with slightly cooler accents; mix of teal, red, orange, and gold spell colors.
+    - Line style: Clear, blocky pixel edges; staff illustration slightly finer.
+    - Shading model: 2–3 tone shading on items and staff, subtle gradients on book interior.
+    - Texture treatment: Parchment texture and aged page edges, small icon gloss.
+    - Level of detail: High icon variety and a central item illustration without clutter.
+    - Perspective/camera: Flat open‑book screen, centered composition.
+    - Overall mood: Arcane and collectible, focused on browsing and curating spells.
+- **talent_tree_sample2.png**
+    - Palette: Cool greens and teals in background, neutral gray/white character portraits, occasional warm accent icons.
+    - Line style: Simple square icons with thin pixel borders; path suggested by a lighter trail.
+    - Shading model: Mostly flat on UI elements, gentle multi‑tone landscape shading behind.
+    - Texture treatment: Grainy, forest‑like backdrop with subtle light patches.
+    - Level of detail: Moderate; each node recognizable but non‑intricate.
+    - Perspective/camera: Flat 2D progression map with scenic backdrop.
+    - Overall mood: Calm, exploratory, emphasizing progression through a woodland path.
+- **talent_tree_sample3.png**
+    - Palette: Cool dark greens and blues with bright cyan highlights on certain icons.
+    - Line style: Pixel‑sharp portraits with frames, minimal connectors.
+    - Shading model: Flat to lightly shaded UI, multi‑tone shaded terrain bands behind.
+    - Texture treatment: Speckled/starry overlay plus soft background gradients.
+    - Level of detail: Moderate; icons clear but stylized, background abstract.
+    - Perspective/camera: Flat vertical skill path across a stylized map.
+    - Overall mood: Mystical and strategic, like navigating a starlit forest of talents.
+- **quest_log_sample.png**
+    - Palette: Slate blue‑gray panels with colorful text (yellow, cyan, red, white) and minor icon accents.
+    - Line style: Thin pixel borders and separators; text‑heavy layout.
+    - Shading model: 2‑tone panel shading for depth, flat content area.
+    - Texture treatment: Mild surface noise / banding on the UI background.
+    - Level of detail: Very high; multiple lists, columns, and long descriptive text blocks.
+    - Perspective/camera: Split‑panel flat interface.
+    - Overall mood: Systemic, spreadsheet‑like, emphasizing management and contracts.
+- **character_sprite_sample.png**
+    - Palette: Muted browns and beiges with orange circular accents; desaturated skin tones.
+    - Line style: Fine pixel outlines around silhouette with internal line work on armor plates.
+    - Shading model: 3–4 tone shading giving strong volume and cloth folds.
+    - Texture treatment: Heavy dithering and patterning on armor and skirt panels.
+    - Level of detail: High for a sprite—facial features, ornamentation, and repeated motifs.
+    - Perspective/camera: Orthographic full‑body front/three‑quarter view against flat dark backdrop.
+    - Overall mood: Grim and ceremonial, slightly unsettling.
+- **character_sprite_sample3.png**
+    - Palette: Dark browns and blacks with orange glowing runes and faint green vials.
+    - Line style: Clean silhouette outline with carefully placed internal seams and spikes.
+    - Shading model: 3–4 tone shading, strong contrast to emphasize armor forms.
+    - Texture treatment: Rich surface patterns and runic markings, subtle glow pixels for magic elements.
+    - Level of detail: Very high; many small components (straps, spikes, symbols).
+    - Perspective/camera: Orthographic standing pose on black background.
+    - Overall mood: Menacing, occult, high‑threat boss or elite.
+- **character_sprite_sample4.png**
+    - Palette: Dark iron grays and blacks with a striking red plume and sash plus a purple gem.
+    - Line style: Bold outer outline with precise interior detailing of armor edges.
+    - Shading model: Multi‑tone metal shading, giving rounded and reflective feel.
+    - Texture treatment: Repeated paneling and fabric texture on lower garments; restrained dithering.
+    - Level of detail: High; layered armor, weapons, and accessories distinct.
+    - Perspective/camera: Orthographic full‑figure pose, neutral stance.
+    - Overall mood: Stoic, disciplined, knightly with a sinister undertone.
+- **character_screen_sample.png**
+    - Palette: Dark gray‑brown UI frame with muted character colors; icons bring small pops of red, green, and purple.
+    - Line style: Pixel‑sharp borders, rounded buttons, and character outline.
+    - Shading model: 2–3 tone shading on character and icons; UI panel has subtle bevel shading.
+    - Texture treatment: Minimal texture on frame, focus on icons and stats.
+    - Level of detail: High; many icon slots, numerical stats, and labels.
+    - Perspective/camera: Centered character portrait within flat interface.
+    - Overall mood: Old‑school RPG, slightly grim but systematic.
+- **character_screen_sample5.png**
+    - Palette: Similar dark brown/bronze frame with varied, saturated icon colors; muted background behind character.
+    - Line style: Tight pixel outlines, ornate icon borders.
+    - Shading model: 2–3 tone shading; character and icons slightly more contrasted than frame.
+    - Texture treatment: Light patterning on frame edges, distinct icon artwork.
+    - Level of detail: Very high; dense ring of icons, detailed character, multiple stat blocks.
+    - Perspective/camera: Flat character sheet with frontal character pose.
+    - Overall mood: Heavy, gothic fantasy with a cluttered, hardcore RPG vibe.
+- **character_screen_sample2.png**
+    - Palette: Warm, slightly muted fantasy tones; browns, reds, oranges, and desaturated metals dominate, with selective bright accents on icons.
+    - Line style: Clean, 1–2 px pixel lines with clear outlines; UI elements and icon frames use strong bordering, character uses softer inner lines.
+    - Shading model: Classic pixel-art pillow/light directional shading with 2–3 tone ramps per color; subtle ambient shadowing on armor and face.
+    - Texture treatment: Heavy use of dithering and clustered pixels to suggest material (leather, cloth, metal); icons are tightly rendered mini-paintings.
+    - Level of detail: High for the resolution; dense UI framing, readable stats text, and intricate iconography around a relatively simple central character.
+    - Perspective/camera: Orthographic, straight-on character view; UI is flat, screen-like with no tilt or depth foreshortening.
+    - Overall mood: Gritty but heroic fantasy RPG interface; evokes an old-school, slightly grim yet adventurous feeling.
+- **character_sprite_sample2.png**
+    - Palette: Cool, saturated blues and teals contrasted with neutral metal grays and a few dark accents; strong cyan highlights create a magical feel.
+    - Line style: Crisp pixel outlines with consistent thickness; interior details use minimal linework and rely more on color separation.
+    - Shading model: Smooth, almost gradient-like banding using multiple shades per ramp; strong rim light and glow accents on shoulders and chest gem.
+    - Texture treatment: Surfaces are clean and stylized; metals look polished with sharp specular shapes, cloth areas are flat with mild shading and minimal dithering.
+    - Level of detail: Medium–high; armor panels and glowing elements are well defined, but forms are simplified for readability at this size.
+    - Perspective/camera: Orthographic, symmetrical front pose with no visible foreshortening; character centered on a neutral dark backdrop.
+    - Overall mood: Regal, arcane, and imposing; feels like a high-level mage or battle-mage with a mystical, high-fantasy aura.

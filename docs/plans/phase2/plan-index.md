@@ -52,8 +52,15 @@
 - `feat/phase2-ui` (U1-U6): Dungeon browser, raid planner, profession panel, reputation panel, quest journal, vendor screens
 - `feat/phase2-integration` (I1-I2): Cross-system integration tests, balance simulations
 
-### Phase 2.5 (After all Phase 2 -- before Phase 3)
-- Art asset generation sprint (items, monsters, zones, UI, factions)
+### Art Engine V2 Rebuild (After Phase 2 Wave 4 -- before Phase 2.5)
+- Rebuild art engine in Python (Pillow + NumPy + opensimplex + click)
+- Replaces TypeScript v1 at `tools/art-engine/`
+- Design: [art-engine-v2-design.md](art-engine-v2-design.md)
+- Phases: V2-A (Core+Ingest+Icons) → V2-B (UI Chrome+Text+Tooltips) → V2-C (Sprite Compositor) → V2-D (Layout+Backgrounds) → V2-E (Manifest Pipeline)
+
+### Phase 2.5 (After Art Engine V2 -- before Phase 3)
+- AI-draft ~200 base templates (sprites, icons, overlays, UI chrome)
+- Art asset generation sprint using Art Engine V2 (~3,500 assets)
 - Asset integration into React UI
 - Playtest and balance feedback loop
 

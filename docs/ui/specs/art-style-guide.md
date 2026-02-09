@@ -51,12 +51,12 @@ This game's visual identity sits at the intersection of two aesthetics: the dens
 
 The reference images establish a specific pixel art vocabulary. This is not "retro chiptune" pixel art (8-bit, low-color). This is **high-detail, semi-realistic pixel art** in the tradition of late 90s / early 2000s sprite-based RPGs.
 
-#### Key Characteristics (derived from boss_ref1.png, boss_ref2.png)
+#### Key Characteristics (derived from character_sprite_sample.png through character_sprite_sample4.png)
 
 - **Semi-realistic proportions.** Characters are approximately 7-8 heads tall. No chibi, no exaggerated proportions. Anatomy follows realistic human proportions with fantasy armor exaggeration (oversized shoulder pads, dramatic helms).
 - **High pixel density.** Individual sprites use enough pixels to render cloth folds, leather stitching, metal reflections, and facial features. This is not low-res pixel art.
-- **Dithering for shading.** Gradients are achieved through pixel-level dithering patterns rather than smooth blending. This is visible in boss_ref1.png's skin tones and cloth draping, and boss_ref2.png's armor plate shading.
-- **Rich material differentiation.** Metal reads as metal (specular highlights, blue-shifted reflections on boss_ref2's armor). Cloth reads as cloth (soft folds, matte finish on boss_ref1's teal garment). Leather reads as leather (warm brown tones, subtle texture on boss_ref1's bracers and belt).
+- **Dithering for shading.** Gradients are achieved through pixel-level dithering patterns rather than smooth blending. This is visible in character_sprite_sample.png's muted brown armor tones and cloth draping, and character_sprite_sample4.png's layered metal plate shading.
+- **Rich material differentiation.** Metal reads as metal (specular highlights, cyan-shifted reflections on character_sprite_sample2.png's arcane armor). Cloth reads as cloth (soft folds, matte finish on character_sprite_sample.png's red sash). Leather reads as leather (warm brown tones, subtle texture on character_sprite_sample4.png's layered iron plating).
 - **Transparent backgrounds for sprites.** All character and item sprites are rendered on transparent backgrounds for compositing onto dark UI panels.
 
 #### Sprite Resolution Targets
@@ -83,10 +83,10 @@ All sprites are authored at 1x and displayed at 1x. No sub-pixel rendering. No a
 
 ### 2.2 Character Art Direction
 
-Based on boss_ref1.png (the warrior/monk figure):
+Based on character_sprite_sample.png (the dark armored knight) and character_sprite_sample2.png (the blue mage-knight):
 
-- **Armor rendering:** Each armor piece is distinct and separately readable. Shoulder pads, bracers, belt, boots, and chest piece each have clear silhouette boundaries. This is critical because the paper doll must show individual gear slots.
-- **Color palette per character:** Each character sprite uses a dominant accent color (teal/green for the ref1 monk, blue for the ref2 boss) combined with neutral warm tones (browns, golds, tans) for leather and skin.
+- **Armor rendering:** Each armor piece is distinct and separately readable. Shoulder pads, bracers, belt, boots, and chest piece each have clear silhouette boundaries. This is critical because the paper doll must show individual gear slots. character_sprite_sample.png demonstrates this with its distinct muted brown layered armor and purple chest gem, while character_sprite_sample2.png shows glowing cyan shoulder and chest gems as discrete accent pieces.
+- **Color palette per character:** Each character sprite uses a dominant accent color (muted browns/blacks with a red sash for the sample1 knight, blue/teal with cyan glowing accents for the sample2 mage-knight) combined with neutral warm tones (browns, golds, tans) for leather and skin.
 - **Skin tones:** Rendered with warm undertones. Dithered shading creates the illusion of subsurface scattering. No flat color fills for skin.
 - **Idle pose:** Front-facing, slight asymmetry (weight on one leg, one arm slightly raised). This adds personality without requiring animation for the static paper doll.
 
@@ -112,14 +112,14 @@ Each layer is a separate sprite sheet. This allows dynamic display of equipped g
 
 ### 2.3 Boss and Enemy Design
 
-Based on boss_ref2.png (the armored insectoid knight):
+Based on character_sprite_sample3.png (the dark occult boss):
 
-- **Scale communicates threat.** Boss sprites should be 1.5x to 2x the size of player character sprites. The ref2 boss is massive, broad-shouldered, and fills its frame aggressively.
-- **Silhouette first.** Every boss must have a unique, instantly recognizable silhouette. The ref2 boss achieves this with its spiked shoulders, horn-like protrusions, and armored bulk.
-- **Rich detail density.** Boss sprites warrant the highest pixel density and color count. The ref2 boss uses at least 80-100 distinct colors across its blue/gold/bronze palette.
+- **Scale communicates threat.** Boss sprites should be 1.5x to 2x the size of player character sprites. The sample3 boss is menacing and high-detail, filling its frame with aggressive occult energy.
+- **Silhouette first.** Every boss must have a unique, instantly recognizable silhouette. The sample3 boss achieves this with its orange glowing runes, green vials, and dark ceremonial bulk.
+- **Rich detail density.** Boss sprites warrant the highest pixel density and color count. The sample3 boss uses at least 80-100 distinct colors across its dark/orange/green palette.
 - **Atmospheric color palette per boss.** Each boss should have a dominant color identity:
   - Emberforge Depths bosses: Reds, oranges, molten golds
-  - Shadowspire Citadel bosses: Blues, purples, silvers (like ref2)
+  - Shadowspire Citadel bosses: Blues, purples, silvers
   - Temple of the Forsaken bosses: Greens, teals, bone whites
   - The Eternal Crypt bosses: Dark purples, blacks, sickly yellows
 
@@ -249,7 +249,7 @@ These tint the combat panel background and zone name header to give each area a 
 | Tooltip Header    | "Cinzel"                           | Georgia, serif              | 600     | `--font-heading`    |
 
 **Rationale:**
-- "Cinzel Decorative" and "Cinzel" are open-source serif fonts with a classical Roman/medieval feel. They evoke the inscription-style lettering seen in WoW's character panel headers (visible in char_screen_ref.png -- "Knight Getomafia" header text).
+- "Cinzel Decorative" and "Cinzel" are open-source serif fonts with a classical Roman/medieval feel. They evoke the inscription-style lettering seen in WoW's character panel headers (visible in character_screen_sample2.png -- warm browns/reds framing a detailed character portrait with dense ornate header text).
 - "Inter" is a clean, highly readable sans-serif optimized for screen display. It ensures stat blocks and body text remain crisp at small sizes.
 - "JetBrains Mono" provides tabular (fixed-width) numbers essential for stat column alignment and combat log readability.
 
@@ -292,7 +292,7 @@ Percentages always show one decimal place: `7.9%` not `8%`.
 
 ### 5.1 Frame Design
 
-Based on the char_screen_ref.png, the UI frame system uses a multi-layered beveled border that simulates hammered bronze / gold metalwork.
+Based on character_screen_sample2.png (warm browns/reds/oranges with detailed character portrait and dense UI framing), the UI frame system uses a multi-layered beveled border that simulates hammered bronze / gold metalwork.
 
 #### Standard Panel Frame (4-layer bevel)
 
@@ -392,7 +392,7 @@ At minimum resolution, the sidebar collapses to 48px (smaller icons), panel padd
 
 ### 5.4 Navigation Sidebar
 
-The sidebar contains icon buttons for each major screen. Design follows the tab metaphor from char_screen_ref.png (bottom tabs: Character, Reputation, Skills, Honor).
+The sidebar contains icon buttons for each major screen. Design follows the tab metaphor from character_screen_sample2.png (warm gritty heroic frame with bottom navigation tabs for Character, Reputation, Skills, and related sub-screens).
 
 ```
 Sidebar Icon States:
@@ -481,7 +481,7 @@ Ability icons are 40x40 px with a 1px dark border (`#1A1A1F`) and a 1px class-co
 | Channeler      | Storm Cyan   | `#33AACC`  |
 | Shapeshifter   | Amber        | `#CC8833`  |
 
-#### Talent Node Icon States (from talent_tree_ref.png)
+#### Talent Node Icon States (from talent_tree_sample.png)
 
 The talent tree reference shows square icons with dark backgrounds and the following states:
 
@@ -542,7 +542,7 @@ Duration is shown as a small number (10px font, `--font-mono`) centered below or
 
 ## 7. Item Tooltip Design
 
-Based on Item_sprite_stats_ref.png and Item_sprite_stats_ref2.png (EQ2-style tooltips).
+Based on item_tooltip_sample.png (dark background, warm beige/orange text, arcane flavor text in a WoW-style tooltip) and legendary_weapon_tooltip.png (dark panel, high-contrast white/green text, epic verbose style).
 
 ### 7.1 Tooltip Structure
 
@@ -635,7 +635,7 @@ Arrow icons are 10x10 px inline sprites. The comparison values appear in a "Comp
 
 ## 8. Character Screen Layout
 
-Based on char_screen_ref.png (WoW-style character panel).
+Based on character_screen_sample2.png (warm browns/reds/oranges, detailed character portrait, dense UI framing in a gritty heroic WoW-style character panel).
 
 ### 8.1 Overall Layout
 
@@ -699,7 +699,7 @@ Center area: 280x520 px (slightly wider than the sprite to allow for weapon/cloa
 
 ### 8.4 Stat Panel
 
-Below the paper doll + slot area, a two-column stat panel mirrors the WoW reference (char_screen_ref.png shows "Spell" and "Melee" columns).
+Below the paper doll + slot area, a two-column stat panel mirrors the WoW reference (character_screen_sample2.png shows dense stat blocks flanking the character portrait, with "Spell" and "Melee" column organization).
 
 **Left Column -- Spell Stats:**
 ```
@@ -721,7 +721,7 @@ Hit Chance:        6.0%
 Expertise:           12
 ```
 
-Each column has a section header ("Spell" / "Melee") with small expand/collapse arrows (the char_screen_ref.png shows gold arrow icons next to the headers). Stat labels are left-aligned in `--text-primary`, values are right-aligned in `--font-mono`, `--text-primary`. Green-highlighted values (like the "1140" Attack Power in the reference) indicate a recent upgrade or buff.
+Each column has a section header ("Spell" / "Melee") with small expand/collapse arrows (character_screen_sample2.png shows gold arrow icons next to the section headers). Stat labels are left-aligned in `--text-primary`, values are right-aligned in `--font-mono`, `--text-primary`. Green-highlighted values (like the "1140" Attack Power in the reference) indicate a recent upgrade or buff.
 
 **Additional expandable sections:**
 - Defense (Armor, Dodge, Parry, Block, Resistances)
@@ -729,7 +729,7 @@ Each column has a section header ("Spell" / "Melee") with small expand/collapse 
 
 ### 8.5 Bottom Tabs
 
-Sub-tabs within the character screen (matching char_screen_ref.png's "Character | Reputation | Skills | Honor" tabs):
+Sub-tabs within the character screen (matching character_screen_sample2.png's bottom navigation tabs for Character, Reputation, Skills, and related sub-screens):
 
 Our implementation:
 - **Character** (stat view -- default)
@@ -753,7 +753,7 @@ The character screen in an idle game has additional requirements beyond a tradit
 
 ## 9. Talent Tree Visual Design
 
-Based on talent_tree_ref.png (vertical tree with atmospheric background).
+Based on talent_tree_sample.png (hot oranges/browns/yellows with a lava background, aggressive combat-focused vertical tree with atmospheric background).
 
 ### 9.1 Overall Layout
 
@@ -794,7 +794,7 @@ Node anatomy:
  [0/5]    <- Point allocation counter, 12px, centered below
 ```
 
-#### Node States (derived from talent_tree_ref.png analysis)
+#### Node States (derived from talent_tree_sample.png analysis)
 
 The reference image shows several distinct visual states:
 
@@ -825,7 +825,7 @@ The reference image shows several distinct visual states:
 - Background fill: `#2A2520`
 - Counter text: `--text-gold` (#FFD700)
 - Outer glow: box-shadow 0 0 12px `#FFD70044`
-- The top two nodes in talent_tree_ref.png show this state with green/purple tinted backgrounds (the lit-up nodes at the top of the tree)
+- The top nodes in talent_tree_sample.png show this state with warm orange/yellow tinted backgrounds (the lit-up nodes against the lava backdrop)
 
 **5. Capstone (Tier 5 -- ultimate talent):**
 - Icon enlarged to 48x48 (displayed in a 56x56 frame)
@@ -835,7 +835,7 @@ The reference image shows several distinct visual states:
 
 ### 9.3 Connection Lines
 
-Lines connect prerequisite nodes to their dependent nodes. Based on talent_tree_ref.png, connections are **orthogonal** (horizontal and vertical segments, no diagonals) with rounded elbows.
+Lines connect prerequisite nodes to their dependent nodes. Based on talent_tree_sample.png, connections are **orthogonal** (horizontal and vertical segments, no diagonals) with rounded elbows.
 
 ```
 Line Styles:
@@ -852,7 +852,7 @@ Connection rendering:
 
 ### 9.4 Tree Background
 
-The talent_tree_ref.png shows a rich atmospheric background behind the nodes -- dark with green/teal organic shapes and lighter patches. Each specialization tree should have a **unique atmospheric background** that reflects its theme:
+The talent_tree_sample.png shows a rich atmospheric background behind the nodes -- hot oranges and browns with lava-like cracks and ember accents. Additional references talent_tree_sample2.png (cool greens/teals, forest backdrop) and talent_tree_sample3.png (cool dark greens/blues, cyan highlights, starlit mystical) demonstrate per-spec atmospheric variation. Each specialization tree should have a **unique atmospheric background** that reflects its theme:
 
 | Spec Theme    | Background Palette                        | Texture Notes                          |
 |---------------|-------------------------------------------|----------------------------------------|
@@ -1893,12 +1893,26 @@ All placeholder assets must use the exact same dimensions and naming conventions
 
 | Reference File             | Key Takeaways for Our Design                                    |
 |----------------------------|------------------------------------------------------------------|
-| `boss_ref1.png`            | Semi-realistic proportions, dithered shading, material diversity (metal, cloth, leather), transparent background, teal/gold palette |
-| `boss_ref2.png`            | Imposing scale, rich detail density, blue/bronze palette, insectoid-knight aesthetic, spiked silhouette, pixel-level armor plate rendering |
-| `char_screen_ref.png`      | Dark panel backgrounds, gold/brown ornate border, equipment slots flanking character, two-column stat layout (Spell/Melee), bottom tabs, character name as header with class/title/level subtitle |
-| `Item_sprite_stats_ref.png`| Dark tooltip background, red item name (FABLED quality), yellow rarity tag, green stat text, white secondary stats, "Effects:" section with gold header, hierarchical indented text, slot/level metadata |
-| `Item_sprite_stats_ref2.png`| Same structure as ref1 confirming consistency, icon in top-right of tooltip, "PRESTIGE" tag in yellow, "NO-TRADE INFUSABLE" flags in white, effect descriptions in white with sub-bullets |
-| `talent_tree_ref.png`      | Vertical scrolling tree, atmospheric painted background (green/teal), square nodes with dark fills, 0/X counters below each node, orthogonal connection lines, top nodes colored (invested), bottom nodes dark (locked), capstone at very bottom |
+| `character_sprite_sample.png`  | Dark armored knight, muted browns/blacks, red sash, purple gem. Semi-realistic proportions, dithered shading, material diversity, grim ceremonial aesthetic |
+| `character_sprite_sample2.png` | Blue/teal mage-knight, cyan glowing shoulders and chest gem. Regal arcane aesthetic, rich material differentiation, specular metal highlights |
+| `character_sprite_sample3.png` | Dark occult boss sprite, orange glowing runes, green vials. Menacing, high-detail, imposing scale, unique silhouette, rich color palette for boss-level sprites |
+| `character_sprite_sample4.png` | Dark iron knight with red plume, layered metal armor. Stoic disciplined aesthetic, excellent armor plate shading, dithered metal rendering |
+| `character_screen_sample.png`  | Dark gray-brown UI frame, muted character, icon slots, stat blocks. Old-school RPG character panel layout |
+| `character_screen_sample2.png` | Warm browns/reds/oranges, detailed character portrait, dense UI framing. Gritty heroic, gold/brown ornate border, equipment slots flanking character, two-column stat layout, bottom tabs |
+| `character_screen_sample3.png` | Warm golds/browns, snow particle effect. Adventurous whimsical character screen variant |
+| `character_screen_sample4.png` | Muted reds/browns/grays, 16-bit style. Gritty old-school RPG character panel with retro pixel density |
+| `character_screen_sample5.png` | Dark brown/bronze frame, dense icon ring, gothic fantasy hardcore RPG. Equipment slot ring layout reference |
+| `item_tooltip_sample.png`      | Dark background, warm beige/orange text, arcane flavor text. WoW-style tooltip with quality-colored name, stat hierarchy, slot/level metadata |
+| `legendary_weapon_tooltip.png` | Dark panel, high-contrast white/green text, epic verbose style. Confirms tooltip structure consistency, icon placement, effect descriptions |
+| `dagger_tooltip_sample.png`    | Deep navy panel, white/cyan text, green stats. Technical tooltip variant with clean stat layout |
+| `trinket_tooltip_sample.png`   | Dark blue-gray, white main text, green effect text. Accessory tooltip reference with effect-heavy layout |
+| `trinket_tooltip_sample2.png`  | Dark panel, white/blue/green text, colored item icon. Confirms tooltip icon placement in top-right, quality flags |
+| `spell_book_sample.png`        | Warm parchment, rich colored spell icons, brown frame. Cozy magical ability/spell UI reference |
+| `spell_book_sample2.png`       | Parchment with cooler accents, staff illustration, aged page edges. Alternative spell UI with aged parchment texture |
+| `talent_tree_sample.png`       | Hot oranges/browns/yellows, lava background. Aggressive combat-focused vertical tree, atmospheric painted background, square nodes, investment counters, orthogonal connections |
+| `talent_tree_sample2.png`      | Cool greens/teals, forest backdrop. Calm exploratory talent tree, demonstrates per-spec atmospheric variation |
+| `talent_tree_sample3.png`      | Cool dark greens/blues, cyan highlights, starlit mystical. Additional per-spec background variant reference |
+| `quest_log_sample.png`         | Dark UI frame, yellow headers, cyan/white text. Functional archaic quest log with dense text layout |
 
 ---
 
