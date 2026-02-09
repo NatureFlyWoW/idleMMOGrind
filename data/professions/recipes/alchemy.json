@@ -1,0 +1,950 @@
+[
+  {
+    "id": "recipe_alch_t1_minor_health_potion",
+    "professionId": "alchemy",
+    "name": "Minor Health Potion",
+    "skillRequired": 1,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t1_peacebloom", "quantity": 2 },
+      { "materialId": "mat_vendor_weak_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_minor_health_potion",
+        "name": "Minor Healing",
+        "durationMs": 0,
+        "statBonuses": { "sta": 5 },
+        "description": "Restores a small amount of health."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t1_minor_mana_potion",
+    "professionId": "alchemy",
+    "name": "Minor Mana Potion",
+    "skillRequired": 10,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t1_silverleaf", "quantity": 2 },
+      { "materialId": "mat_vendor_weak_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_minor_mana_potion",
+        "name": "Minor Mana Restore",
+        "durationMs": 0,
+        "statBonuses": { "spi": 5 },
+        "description": "Restores a small amount of mana."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t1_elixir_of_lion",
+    "professionId": "alchemy",
+    "name": "Elixir of the Lion",
+    "skillRequired": 20,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t1_peacebloom", "quantity": 2 },
+      { "materialId": "mat_herbalism_t1_silverleaf", "quantity": 1 },
+      { "materialId": "mat_vendor_weak_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_elixir_of_lion",
+        "name": "Lion's Strength",
+        "durationMs": 300000,
+        "statBonuses": { "str": 4 },
+        "description": "Increases Strength by 4 for 5 minutes."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t1_elixir_of_fox",
+    "professionId": "alchemy",
+    "name": "Elixir of the Fox",
+    "skillRequired": 30,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t1_silverleaf", "quantity": 3 },
+      { "materialId": "mat_vendor_weak_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_elixir_of_fox",
+        "name": "Fox's Cunning",
+        "durationMs": 300000,
+        "statBonuses": { "agi": 4 },
+        "description": "Increases Agility by 4 for 5 minutes."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t1_elixir_of_owl",
+    "professionId": "alchemy",
+    "name": "Elixir of the Owl",
+    "skillRequired": 40,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t1_peacebloom", "quantity": 3 },
+      { "materialId": "mat_vendor_weak_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_elixir_of_owl",
+        "name": "Owl's Wisdom",
+        "durationMs": 300000,
+        "statBonuses": { "int": 4 },
+        "description": "Increases Intellect by 4 for 5 minutes."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t1_minor_fortitude_potion",
+    "professionId": "alchemy",
+    "name": "Minor Fortitude Potion",
+    "skillRequired": 50,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t1_peacebloom", "quantity": 2 },
+      { "materialId": "mat_herbalism_t1_silverleaf", "quantity": 2 },
+      { "materialId": "mat_vendor_weak_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_minor_fortitude",
+        "name": "Minor Fortitude",
+        "durationMs": 300000,
+        "statBonuses": { "sta": 6 },
+        "description": "Increases Stamina by 6 for 5 minutes."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t1_elixir_of_spirit",
+    "professionId": "alchemy",
+    "name": "Elixir of Spirit",
+    "skillRequired": 55,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t1_silverleaf", "quantity": 3 },
+      { "materialId": "mat_drop_t1_bone_fragment", "quantity": 1 },
+      { "materialId": "mat_vendor_weak_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_elixir_of_spirit",
+        "name": "Spirit Boost",
+        "durationMs": 300000,
+        "statBonuses": { "spi": 5 },
+        "description": "Increases Spirit by 5 for 5 minutes."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t1_minor_combat_elixir",
+    "professionId": "alchemy",
+    "name": "Minor Combat Elixir",
+    "skillRequired": 65,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t1_peacebloom", "quantity": 3 },
+      { "materialId": "mat_herbalism_t1_silverleaf", "quantity": 2 },
+      { "materialId": "mat_vendor_weak_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_minor_combat_elixir",
+        "name": "Minor Combat Boost",
+        "durationMs": 300000,
+        "statBonuses": { "str": 3, "agi": 3 },
+        "description": "Increases Strength and Agility by 3 for 5 minutes."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t2_health_potion",
+    "professionId": "alchemy",
+    "name": "Health Potion",
+    "skillRequired": 75,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t2_bruiseweed", "quantity": 3 },
+      { "materialId": "mat_vendor_leaded_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_health_potion",
+        "name": "Healing",
+        "durationMs": 0,
+        "statBonuses": { "sta": 10 },
+        "description": "Restores a moderate amount of health."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t2_mana_potion",
+    "professionId": "alchemy",
+    "name": "Mana Potion",
+    "skillRequired": 85,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t2_swiftthistle", "quantity": 3 },
+      { "materialId": "mat_vendor_leaded_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_mana_potion",
+        "name": "Mana Restore",
+        "durationMs": 0,
+        "statBonuses": { "spi": 10 },
+        "description": "Restores a moderate amount of mana."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t2_elixir_of_strength",
+    "professionId": "alchemy",
+    "name": "Elixir of Strength",
+    "skillRequired": 95,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t2_bruiseweed", "quantity": 3 },
+      { "materialId": "mat_herbalism_t2_swiftthistle", "quantity": 1 },
+      { "materialId": "mat_vendor_leaded_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_elixir_of_strength",
+        "name": "Strength",
+        "durationMs": 600000,
+        "statBonuses": { "str": 8 },
+        "description": "Increases Strength by 8 for 10 minutes."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t2_elixir_of_agility",
+    "professionId": "alchemy",
+    "name": "Elixir of Agility",
+    "skillRequired": 105,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t2_swiftthistle", "quantity": 3 },
+      { "materialId": "mat_herbalism_t2_bruiseweed", "quantity": 1 },
+      { "materialId": "mat_vendor_leaded_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_elixir_of_agility",
+        "name": "Agility",
+        "durationMs": 600000,
+        "statBonuses": { "agi": 8 },
+        "description": "Increases Agility by 8 for 10 minutes."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t2_elixir_of_intellect",
+    "professionId": "alchemy",
+    "name": "Elixir of Intellect",
+    "skillRequired": 115,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t2_bruiseweed", "quantity": 4 },
+      { "materialId": "mat_vendor_leaded_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_elixir_of_intellect",
+        "name": "Intellect",
+        "durationMs": 600000,
+        "statBonuses": { "int": 8 },
+        "description": "Increases Intellect by 8 for 10 minutes."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t2_fortitude_potion",
+    "professionId": "alchemy",
+    "name": "Fortitude Potion",
+    "skillRequired": 125,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t2_bruiseweed", "quantity": 3 },
+      { "materialId": "mat_herbalism_t2_swiftthistle", "quantity": 2 },
+      { "materialId": "mat_vendor_leaded_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_fortitude_potion",
+        "name": "Fortitude",
+        "durationMs": 600000,
+        "statBonuses": { "sta": 12 },
+        "description": "Increases Stamina by 12 for 10 minutes."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t2_swiftness_potion",
+    "professionId": "alchemy",
+    "name": "Swiftness Potion",
+    "skillRequired": 135,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t2_swiftthistle", "quantity": 4 },
+      { "materialId": "mat_drop_t2_venom_sac", "quantity": 1 },
+      { "materialId": "mat_vendor_leaded_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_swiftness_potion",
+        "name": "Swiftness",
+        "durationMs": 600000,
+        "statBonuses": { "agi": 6, "str": 6 },
+        "description": "Increases Agility and Strength by 6 for 10 minutes."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t2_arcane_elixir",
+    "professionId": "alchemy",
+    "name": "Arcane Elixir",
+    "skillRequired": 140,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t2_bruiseweed", "quantity": 4 },
+      { "materialId": "mat_drop_t2_elemental_dust", "quantity": 2 },
+      { "materialId": "mat_vendor_leaded_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_arcane_elixir",
+        "name": "Arcane Power",
+        "durationMs": 600000,
+        "statBonuses": { "int": 6, "spi": 6 },
+        "description": "Increases Intellect and Spirit by 6 for 10 minutes."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t3_greater_health_potion",
+    "professionId": "alchemy",
+    "name": "Greater Health Potion",
+    "skillRequired": 150,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t3_goldthorn", "quantity": 3 },
+      { "materialId": "mat_vendor_leaded_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_greater_health_potion",
+        "name": "Greater Healing",
+        "durationMs": 0,
+        "statBonuses": { "sta": 18 },
+        "description": "Restores a large amount of health."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t3_greater_mana_potion",
+    "professionId": "alchemy",
+    "name": "Greater Mana Potion",
+    "skillRequired": 160,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t3_khadgars_whisker", "quantity": 3 },
+      { "materialId": "mat_vendor_leaded_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_greater_mana_potion",
+        "name": "Greater Mana Restore",
+        "durationMs": 0,
+        "statBonuses": { "spi": 18 },
+        "description": "Restores a large amount of mana."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t3_elixir_of_greater_strength",
+    "professionId": "alchemy",
+    "name": "Elixir of Greater Strength",
+    "skillRequired": 170,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t3_goldthorn", "quantity": 3 },
+      { "materialId": "mat_drop_t3_essence_of_fire", "quantity": 1 },
+      { "materialId": "mat_vendor_leaded_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_elixir_greater_strength",
+        "name": "Greater Strength",
+        "durationMs": 900000,
+        "statBonuses": { "str": 14 },
+        "description": "Increases Strength by 14 for 15 minutes."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t3_elixir_of_greater_agility",
+    "professionId": "alchemy",
+    "name": "Elixir of Greater Agility",
+    "skillRequired": 180,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t3_khadgars_whisker", "quantity": 3 },
+      { "materialId": "mat_drop_t3_living_essence", "quantity": 1 },
+      { "materialId": "mat_vendor_leaded_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_elixir_greater_agility",
+        "name": "Greater Agility",
+        "durationMs": 900000,
+        "statBonuses": { "agi": 14 },
+        "description": "Increases Agility by 14 for 15 minutes."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t3_elixir_of_greater_intellect",
+    "professionId": "alchemy",
+    "name": "Elixir of Greater Intellect",
+    "skillRequired": 190,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t3_goldthorn", "quantity": 4 },
+      { "materialId": "mat_vendor_leaded_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_elixir_greater_intellect",
+        "name": "Greater Intellect",
+        "durationMs": 900000,
+        "statBonuses": { "int": 14 },
+        "description": "Increases Intellect by 14 for 15 minutes."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t3_elixir_of_greater_fortitude",
+    "professionId": "alchemy",
+    "name": "Elixir of Greater Fortitude",
+    "skillRequired": 200,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t3_goldthorn", "quantity": 3 },
+      { "materialId": "mat_herbalism_t3_khadgars_whisker", "quantity": 2 },
+      { "materialId": "mat_vendor_leaded_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_elixir_greater_fortitude",
+        "name": "Greater Fortitude",
+        "durationMs": 900000,
+        "statBonuses": { "sta": 20 },
+        "description": "Increases Stamina by 20 for 15 minutes."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t3_elixir_of_firepower",
+    "professionId": "alchemy",
+    "name": "Elixir of Firepower",
+    "skillRequired": 210,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t3_goldthorn", "quantity": 4 },
+      { "materialId": "mat_dungeon_t3_fiery_core", "quantity": 1 },
+      { "materialId": "mat_vendor_leaded_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_elixir_of_firepower",
+        "name": "Firepower",
+        "durationMs": 900000,
+        "statBonuses": { "int": 10, "str": 10 },
+        "description": "Increases Intellect and Strength by 10 for 15 minutes."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t3_elixir_of_wisdom",
+    "professionId": "alchemy",
+    "name": "Elixir of Wisdom",
+    "skillRequired": 220,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t3_khadgars_whisker", "quantity": 4 },
+      { "materialId": "mat_dungeon_t3_frozen_rune", "quantity": 1 },
+      { "materialId": "mat_vendor_leaded_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_elixir_of_wisdom",
+        "name": "Wisdom",
+        "durationMs": 900000,
+        "statBonuses": { "int": 10, "spi": 10 },
+        "description": "Increases Intellect and Spirit by 10 for 15 minutes."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t4_superior_health_potion",
+    "professionId": "alchemy",
+    "name": "Superior Health Potion",
+    "skillRequired": 225,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t4_sungrass", "quantity": 3 },
+      { "materialId": "mat_vendor_crystal_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_superior_health_potion",
+        "name": "Superior Healing",
+        "durationMs": 0,
+        "statBonuses": { "sta": 28 },
+        "description": "Restores a very large amount of health."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t4_superior_mana_potion",
+    "professionId": "alchemy",
+    "name": "Superior Mana Potion",
+    "skillRequired": 235,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t4_blindweed", "quantity": 3 },
+      { "materialId": "mat_vendor_crystal_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_superior_mana_potion",
+        "name": "Superior Mana Restore",
+        "durationMs": 0,
+        "statBonuses": { "spi": 28 },
+        "description": "Restores a very large amount of mana."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t4_flask_of_might",
+    "professionId": "alchemy",
+    "name": "Flask of Might",
+    "skillRequired": 240,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t4_sungrass", "quantity": 4 },
+      { "materialId": "mat_drop_t4_essence_of_earth", "quantity": 1 },
+      { "materialId": "mat_vendor_crystal_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_flask_of_might",
+        "name": "Flask of Might",
+        "durationMs": 1800000,
+        "statBonuses": { "str": 20 },
+        "description": "Increases Strength by 20 for 30 minutes."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t4_flask_of_shadows",
+    "professionId": "alchemy",
+    "name": "Flask of Shadows",
+    "skillRequired": 245,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t4_blindweed", "quantity": 4 },
+      { "materialId": "mat_drop_t4_core_of_shadow", "quantity": 1 },
+      { "materialId": "mat_vendor_crystal_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_flask_of_shadows",
+        "name": "Flask of Shadows",
+        "durationMs": 1800000,
+        "statBonuses": { "agi": 20 },
+        "description": "Increases Agility by 20 for 30 minutes."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t4_flask_of_arcana",
+    "professionId": "alchemy",
+    "name": "Flask of Arcana",
+    "skillRequired": 250,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t4_sungrass", "quantity": 3 },
+      { "materialId": "mat_herbalism_t4_blindweed", "quantity": 3 },
+      { "materialId": "mat_vendor_crystal_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_flask_of_arcana",
+        "name": "Flask of Arcana",
+        "durationMs": 1800000,
+        "statBonuses": { "int": 20 },
+        "description": "Increases Intellect by 20 for 30 minutes."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t4_flask_of_fortification",
+    "professionId": "alchemy",
+    "name": "Flask of Fortification",
+    "skillRequired": 255,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t4_sungrass", "quantity": 4 },
+      { "materialId": "mat_herbalism_t4_blindweed", "quantity": 2 },
+      { "materialId": "mat_vendor_crystal_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_flask_of_fortification",
+        "name": "Flask of Fortification",
+        "durationMs": 1800000,
+        "statBonuses": { "sta": 30 },
+        "description": "Increases Stamina by 30 for 30 minutes."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t4_elixir_of_dark_iron",
+    "professionId": "alchemy",
+    "name": "Elixir of Dark Iron",
+    "skillRequired": 260,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t4_sungrass", "quantity": 4 },
+      { "materialId": "mat_dungeon_t4_dark_iron_bar", "quantity": 1 },
+      { "materialId": "mat_vendor_crystal_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_elixir_dark_iron",
+        "name": "Dark Iron",
+        "durationMs": 1800000,
+        "statBonuses": { "str": 15, "sta": 15 },
+        "description": "Increases Strength and Stamina by 15 for 30 minutes."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t4_flask_of_spirit",
+    "professionId": "alchemy",
+    "name": "Flask of Spirit",
+    "skillRequired": 265,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t4_blindweed", "quantity": 5 },
+      { "materialId": "mat_drop_t4_core_of_shadow", "quantity": 2 },
+      { "materialId": "mat_vendor_crystal_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_flask_of_spirit",
+        "name": "Flask of Spirit",
+        "durationMs": 1800000,
+        "statBonuses": { "spi": 25 },
+        "description": "Increases Spirit by 25 for 30 minutes."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t5_major_health_potion",
+    "professionId": "alchemy",
+    "name": "Major Health Potion",
+    "skillRequired": 275,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t5_dreamfoil", "quantity": 4 },
+      { "materialId": "mat_vendor_crystal_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_major_health_potion",
+        "name": "Major Healing",
+        "durationMs": 0,
+        "statBonuses": { "sta": 40 },
+        "description": "Restores a massive amount of health."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t5_major_mana_potion",
+    "professionId": "alchemy",
+    "name": "Major Mana Potion",
+    "skillRequired": 280,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t5_mountain_silversage", "quantity": 4 },
+      { "materialId": "mat_vendor_crystal_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_major_mana_potion",
+        "name": "Major Mana Restore",
+        "durationMs": 0,
+        "statBonuses": { "spi": 40 },
+        "description": "Restores a massive amount of mana."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t5_elixir_of_heroes",
+    "professionId": "alchemy",
+    "name": "Elixir of Heroes",
+    "skillRequired": 285,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t5_dreamfoil", "quantity": 4 },
+      { "materialId": "mat_drop_t5_blood_of_heroes", "quantity": 1 },
+      { "materialId": "mat_vendor_crystal_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_elixir_of_heroes",
+        "name": "Heroic Might",
+        "durationMs": 1800000,
+        "statBonuses": { "str": 18, "agi": 18 },
+        "description": "Increases Strength and Agility by 18 for 30 minutes."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t5_elixir_of_sages",
+    "professionId": "alchemy",
+    "name": "Elixir of Sages",
+    "skillRequired": 290,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t5_mountain_silversage", "quantity": 4 },
+      { "materialId": "mat_dungeon_t5_primordial_essence", "quantity": 1 },
+      { "materialId": "mat_vendor_crystal_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_elixir_of_sages",
+        "name": "Sage's Wisdom",
+        "durationMs": 1800000,
+        "statBonuses": { "int": 18, "spi": 18 },
+        "description": "Increases Intellect and Spirit by 18 for 30 minutes."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t5_elixir_of_resilience",
+    "professionId": "alchemy",
+    "name": "Elixir of Resilience",
+    "skillRequired": 293,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t5_dreamfoil", "quantity": 3 },
+      { "materialId": "mat_herbalism_t5_mountain_silversage", "quantity": 3 },
+      { "materialId": "mat_vendor_crystal_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_elixir_of_resilience",
+        "name": "Resilience",
+        "durationMs": 1800000,
+        "statBonuses": { "sta": 35, "spi": 10 },
+        "description": "Increases Stamina by 35 and Spirit by 10 for 30 minutes."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t6_flask_of_the_void",
+    "professionId": "alchemy",
+    "name": "Flask of the Void",
+    "skillRequired": 300,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t6_black_lotus", "quantity": 3 },
+      { "materialId": "mat_drop_t6_void_essence", "quantity": 2 },
+      { "materialId": "mat_vendor_crystal_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 8000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_flask_of_void",
+        "name": "Void Power",
+        "durationMs": 3600000,
+        "statBonuses": { "str": 25, "agi": 25, "int": 25 },
+        "description": "Increases Strength, Agility, and Intellect by 25 for 60 minutes."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t6_flask_of_ascendance",
+    "professionId": "alchemy",
+    "name": "Flask of Ascendance",
+    "skillRequired": 300,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t6_nethervine", "quantity": 5 },
+      { "materialId": "mat_herbalism_t6_black_lotus", "quantity": 2 },
+      { "materialId": "mat_dungeon_t6_ascendant_shard", "quantity": 1 },
+      { "materialId": "mat_vendor_crystal_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 8000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_flask_of_ascendance",
+        "name": "Ascendance",
+        "durationMs": 3600000,
+        "statBonuses": { "str": 20, "agi": 20, "int": 20, "spi": 20, "sta": 20 },
+        "description": "Increases all primary stats by 20 for 60 minutes."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_alch_t6_flask_of_endless_might",
+    "professionId": "alchemy",
+    "name": "Flask of Endless Might",
+    "skillRequired": 300,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t6_black_lotus", "quantity": 4 },
+      { "materialId": "mat_dungeon_t6_spire_fragment", "quantity": 2 },
+      { "materialId": "mat_drop_t6_void_essence", "quantity": 3 },
+      { "materialId": "mat_vendor_crystal_vial", "quantity": 1 }
+    ],
+    "craftTimeMs": 8000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_flask_of_endless_might",
+        "name": "Endless Might",
+        "durationMs": 3600000,
+        "statBonuses": { "str": 35, "sta": 35 },
+        "description": "Increases Strength and Stamina by 35 for 60 minutes."
+      },
+      "quantity": 1
+    }
+  }
+]

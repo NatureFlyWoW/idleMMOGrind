@@ -1,0 +1,813 @@
+[
+  {
+    "id": "recipe_tl_t1_linen_robe",
+    "professionId": "tailoring",
+    "name": "Linen Robe",
+    "skillRequired": 1,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t1_spider_silk", "quantity": 3 },
+      { "materialId": "mat_vendor_thread", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t1_linen_robe",
+      "quantity": 1,
+      "iLevel": 5,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_tl_t1_linen_cowl",
+    "professionId": "tailoring",
+    "name": "Linen Cowl",
+    "skillRequired": 10,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t1_spider_silk", "quantity": 3 },
+      { "materialId": "mat_vendor_thread", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t1_linen_cowl",
+      "quantity": 1,
+      "iLevel": 6,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_tl_t1_linen_gloves",
+    "professionId": "tailoring",
+    "name": "Linen Gloves",
+    "skillRequired": 20,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t1_spider_silk", "quantity": 3 },
+      { "materialId": "mat_vendor_dye", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t1_linen_gloves",
+      "quantity": 1,
+      "iLevel": 7,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_tl_t1_linen_pants",
+    "professionId": "tailoring",
+    "name": "Linen Pants",
+    "skillRequired": 30,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t1_spider_silk", "quantity": 4 },
+      { "materialId": "mat_vendor_thread", "quantity": 2 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t1_linen_pants",
+      "quantity": 1,
+      "iLevel": 8,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_tl_t1_linen_boots",
+    "professionId": "tailoring",
+    "name": "Linen Boots",
+    "skillRequired": 35,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t1_spider_silk", "quantity": 3 },
+      { "materialId": "mat_skinning_t1_light_leather", "quantity": 2 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t1_linen_boots",
+      "quantity": 1,
+      "iLevel": 9,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_tl_t1_linen_belt",
+    "professionId": "tailoring",
+    "name": "Linen Belt",
+    "skillRequired": 40,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t1_spider_silk", "quantity": 3 },
+      { "materialId": "mat_vendor_thread", "quantity": 2 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t1_linen_belt",
+      "quantity": 1,
+      "iLevel": 9,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_tl_t1_linen_shoulders",
+    "professionId": "tailoring",
+    "name": "Linen Shoulders",
+    "skillRequired": 50,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t1_spider_silk", "quantity": 4 },
+      { "materialId": "mat_drop_t1_bone_fragment", "quantity": 1 },
+      { "materialId": "mat_vendor_thread", "quantity": 2 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t1_linen_shoulders",
+      "quantity": 1,
+      "iLevel": 10,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_tl_t1_linen_bracers",
+    "professionId": "tailoring",
+    "name": "Linen Bracers",
+    "skillRequired": 55,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t1_spider_silk", "quantity": 3 },
+      { "materialId": "mat_vendor_dye", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t1_linen_bracers",
+      "quantity": 1,
+      "iLevel": 11,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_tl_t1_reinforced_linen_robe",
+    "professionId": "tailoring",
+    "name": "Reinforced Linen Robe",
+    "skillRequired": 65,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t1_spider_silk", "quantity": 4 },
+      { "materialId": "mat_skinning_t1_light_hide", "quantity": 2 },
+      { "materialId": "mat_vendor_dye", "quantity": 2 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t1_reinforced_linen_robe",
+      "quantity": 1,
+      "iLevel": 12,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_tl_t2_wool_robe",
+    "professionId": "tailoring",
+    "name": "Wool Robe",
+    "skillRequired": 75,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t2_elemental_dust", "quantity": 3 },
+      { "materialId": "mat_vendor_thread", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t2_wool_robe",
+      "quantity": 1,
+      "iLevel": 13,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_tl_t2_wool_cowl",
+    "professionId": "tailoring",
+    "name": "Wool Cowl",
+    "skillRequired": 85,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t2_elemental_dust", "quantity": 3 },
+      { "materialId": "mat_vendor_dye", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t2_wool_cowl",
+      "quantity": 1,
+      "iLevel": 15,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_tl_t2_wool_gloves",
+    "professionId": "tailoring",
+    "name": "Wool Gloves",
+    "skillRequired": 95,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t2_elemental_dust", "quantity": 4 },
+      { "materialId": "mat_vendor_thread", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t2_wool_gloves",
+      "quantity": 1,
+      "iLevel": 16,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_tl_t2_wool_pants",
+    "professionId": "tailoring",
+    "name": "Wool Pants",
+    "skillRequired": 105,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t2_elemental_dust", "quantity": 4 },
+      { "materialId": "mat_drop_t2_venom_sac", "quantity": 1 },
+      { "materialId": "mat_vendor_thread", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t2_wool_pants",
+      "quantity": 1,
+      "iLevel": 17,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_tl_t2_wool_boots",
+    "professionId": "tailoring",
+    "name": "Wool Boots",
+    "skillRequired": 115,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t2_elemental_dust", "quantity": 3 },
+      { "materialId": "mat_skinning_t2_medium_leather", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t2_wool_boots",
+      "quantity": 1,
+      "iLevel": 18,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_tl_t2_wool_shoulders",
+    "professionId": "tailoring",
+    "name": "Wool Shoulders",
+    "skillRequired": 120,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t2_elemental_dust", "quantity": 4 },
+      { "materialId": "mat_vendor_dye", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t2_wool_shoulders",
+      "quantity": 1,
+      "iLevel": 19,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_tl_t2_wool_belt",
+    "professionId": "tailoring",
+    "name": "Wool Belt",
+    "skillRequired": 130,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t2_elemental_dust", "quantity": 3 },
+      { "materialId": "mat_vendor_thread", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t2_wool_belt",
+      "quantity": 1,
+      "iLevel": 20,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_tl_t2_enchanted_wool_robe",
+    "professionId": "tailoring",
+    "name": "Enchanted Wool Robe",
+    "skillRequired": 140,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t2_elemental_dust", "quantity": 5 },
+      { "materialId": "mat_dungeon_t2_enchanted_leather", "quantity": 1 },
+      { "materialId": "mat_vendor_dye", "quantity": 3 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t2_enchanted_wool_robe",
+      "quantity": 1,
+      "iLevel": 22,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_tl_t3_silk_robe",
+    "professionId": "tailoring",
+    "name": "Silk Robe",
+    "skillRequired": 150,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t3_living_essence", "quantity": 2 },
+      { "materialId": "mat_vendor_thread", "quantity": 3 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t3_silk_robe",
+      "quantity": 1,
+      "iLevel": 23,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_tl_t3_silk_cowl",
+    "professionId": "tailoring",
+    "name": "Silk Cowl",
+    "skillRequired": 160,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t3_living_essence", "quantity": 2 },
+      { "materialId": "mat_vendor_dye", "quantity": 2 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t3_silk_cowl",
+      "quantity": 1,
+      "iLevel": 25,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_tl_t3_silk_gloves",
+    "professionId": "tailoring",
+    "name": "Silk Gloves",
+    "skillRequired": 170,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t3_living_essence", "quantity": 3 },
+      { "materialId": "mat_vendor_thread", "quantity": 3 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t3_silk_gloves",
+      "quantity": 1,
+      "iLevel": 27,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_tl_t3_silk_pants",
+    "professionId": "tailoring",
+    "name": "Silk Pants",
+    "skillRequired": 180,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t3_living_essence", "quantity": 3 },
+      { "materialId": "mat_drop_t3_essence_of_fire", "quantity": 1 },
+      { "materialId": "mat_vendor_thread", "quantity": 3 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t3_silk_pants",
+      "quantity": 1,
+      "iLevel": 29,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_tl_t3_silk_boots",
+    "professionId": "tailoring",
+    "name": "Silk Boots",
+    "skillRequired": 190,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t3_living_essence", "quantity": 2 },
+      { "materialId": "mat_skinning_t3_heavy_leather", "quantity": 2 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t3_silk_boots",
+      "quantity": 1,
+      "iLevel": 31,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_tl_t3_silk_shoulders",
+    "professionId": "tailoring",
+    "name": "Silk Shoulders",
+    "skillRequired": 200,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t3_living_essence", "quantity": 3 },
+      { "materialId": "mat_vendor_dye", "quantity": 3 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t3_silk_shoulders",
+      "quantity": 1,
+      "iLevel": 33,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_tl_t3_silk_belt",
+    "professionId": "tailoring",
+    "name": "Silk Belt",
+    "skillRequired": 205,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t3_living_essence", "quantity": 2 },
+      { "materialId": "mat_vendor_thread", "quantity": 3 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t3_silk_belt",
+      "quantity": 1,
+      "iLevel": 34,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_tl_t3_frozen_silk_robe",
+    "professionId": "tailoring",
+    "name": "Frozen Silk Robe",
+    "skillRequired": 215,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t3_living_essence", "quantity": 4 },
+      { "materialId": "mat_dungeon_t3_frozen_rune", "quantity": 1 },
+      { "materialId": "mat_vendor_dye", "quantity": 3 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t3_frozen_silk_robe",
+      "quantity": 1,
+      "iLevel": 37,
+      "quality": "rare"
+    }
+  },
+  {
+    "id": "recipe_tl_t4_runecloth_robe",
+    "professionId": "tailoring",
+    "name": "Runecloth Robe",
+    "skillRequired": 225,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t4_essence_of_earth", "quantity": 2 },
+      { "materialId": "mat_vendor_thread", "quantity": 4 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t4_runecloth_robe",
+      "quantity": 1,
+      "iLevel": 38,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_tl_t4_runecloth_cowl",
+    "professionId": "tailoring",
+    "name": "Runecloth Cowl",
+    "skillRequired": 235,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t4_essence_of_earth", "quantity": 3 },
+      { "materialId": "mat_vendor_dye", "quantity": 3 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t4_runecloth_cowl",
+      "quantity": 1,
+      "iLevel": 40,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_tl_t4_runecloth_gloves",
+    "professionId": "tailoring",
+    "name": "Runecloth Gloves",
+    "skillRequired": 240,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t4_essence_of_earth", "quantity": 3 },
+      { "materialId": "mat_vendor_thread", "quantity": 4 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t4_runecloth_gloves",
+      "quantity": 1,
+      "iLevel": 42,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_tl_t4_runecloth_pants",
+    "professionId": "tailoring",
+    "name": "Runecloth Pants",
+    "skillRequired": 245,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t4_essence_of_earth", "quantity": 3 },
+      { "materialId": "mat_drop_t4_core_of_shadow", "quantity": 1 },
+      { "materialId": "mat_vendor_thread", "quantity": 4 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t4_runecloth_pants",
+      "quantity": 1,
+      "iLevel": 44,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_tl_t4_runecloth_boots",
+    "professionId": "tailoring",
+    "name": "Runecloth Boots",
+    "skillRequired": 250,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t4_essence_of_earth", "quantity": 3 },
+      { "materialId": "mat_skinning_t4_rugged_hide", "quantity": 2 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t4_runecloth_boots",
+      "quantity": 1,
+      "iLevel": 46,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_tl_t4_runecloth_shoulders",
+    "professionId": "tailoring",
+    "name": "Runecloth Shoulders",
+    "skillRequired": 255,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t4_essence_of_earth", "quantity": 3 },
+      { "materialId": "mat_vendor_dye", "quantity": 4 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t4_runecloth_shoulders",
+      "quantity": 1,
+      "iLevel": 48,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_tl_t4_shadowweave_robe",
+    "professionId": "tailoring",
+    "name": "Shadowweave Robe",
+    "skillRequired": 260,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t4_core_of_shadow", "quantity": 3 },
+      { "materialId": "mat_dungeon_t4_core_leather", "quantity": 1 },
+      { "materialId": "mat_vendor_dye", "quantity": 4 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t4_shadowweave_robe",
+      "quantity": 1,
+      "iLevel": 50,
+      "quality": "rare"
+    }
+  },
+  {
+    "id": "recipe_tl_t4_runecloth_belt",
+    "professionId": "tailoring",
+    "name": "Runecloth Belt",
+    "skillRequired": 265,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t4_essence_of_earth", "quantity": 3 },
+      { "materialId": "mat_vendor_thread", "quantity": 4 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t4_runecloth_belt",
+      "quantity": 1,
+      "iLevel": 52,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_tl_t5_dreamweave_robe",
+    "professionId": "tailoring",
+    "name": "Dreamweave Robe",
+    "skillRequired": 275,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t5_blood_of_heroes", "quantity": 2 },
+      { "materialId": "mat_vendor_thread", "quantity": 5 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t5_dreamweave_robe",
+      "quantity": 1,
+      "iLevel": 53,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_tl_t5_dreamweave_cowl",
+    "professionId": "tailoring",
+    "name": "Dreamweave Cowl",
+    "skillRequired": 280,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t5_blood_of_heroes", "quantity": 2 },
+      { "materialId": "mat_herbalism_t5_dreamfoil", "quantity": 2 },
+      { "materialId": "mat_vendor_dye", "quantity": 4 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t5_dreamweave_cowl",
+      "quantity": 1,
+      "iLevel": 55,
+      "quality": "rare"
+    }
+  },
+  {
+    "id": "recipe_tl_t5_dreamweave_pants",
+    "professionId": "tailoring",
+    "name": "Dreamweave Pants",
+    "skillRequired": 285,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t5_blood_of_heroes", "quantity": 3 },
+      { "materialId": "mat_vendor_thread", "quantity": 5 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t5_dreamweave_pants",
+      "quantity": 1,
+      "iLevel": 56,
+      "quality": "rare"
+    }
+  },
+  {
+    "id": "recipe_tl_t5_dreamweave_gloves",
+    "professionId": "tailoring",
+    "name": "Dreamweave Gloves",
+    "skillRequired": 288,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t5_blood_of_heroes", "quantity": 2 },
+      { "materialId": "mat_dungeon_t5_primordial_essence", "quantity": 1 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t5_dreamweave_gloves",
+      "quantity": 1,
+      "iLevel": 58,
+      "quality": "rare"
+    }
+  },
+  {
+    "id": "recipe_tl_t5_dreamweave_boots",
+    "professionId": "tailoring",
+    "name": "Dreamweave Boots",
+    "skillRequired": 290,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t5_blood_of_heroes", "quantity": 3 },
+      { "materialId": "mat_skinning_t5_pristine_hide", "quantity": 2 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t5_dreamweave_boots",
+      "quantity": 1,
+      "iLevel": 59,
+      "quality": "rare"
+    }
+  },
+  {
+    "id": "recipe_tl_t5_dreamweave_shoulders",
+    "professionId": "tailoring",
+    "name": "Dreamweave Shoulders",
+    "skillRequired": 293,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t5_blood_of_heroes", "quantity": 3 },
+      { "materialId": "mat_herbalism_t5_mountain_silversage", "quantity": 2 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t5_dreamweave_shoulders",
+      "quantity": 1,
+      "iLevel": 60,
+      "quality": "rare"
+    }
+  },
+  {
+    "id": "recipe_tl_t6_nethervine_vestments",
+    "professionId": "tailoring",
+    "name": "Nethervine Vestments",
+    "skillRequired": 300,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t6_nethervine", "quantity": 6 },
+      { "materialId": "mat_drop_t6_void_essence", "quantity": 3 },
+      { "materialId": "mat_vendor_dye", "quantity": 6 }
+    ],
+    "craftTimeMs": 8000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t6_nethervine_vestments",
+      "quantity": 1,
+      "iLevel": 60,
+      "quality": "epic"
+    }
+  },
+  {
+    "id": "recipe_tl_t6_nethervine_cowl",
+    "professionId": "tailoring",
+    "name": "Nethervine Cowl",
+    "skillRequired": 300,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t6_nethervine", "quantity": 8 },
+      { "materialId": "mat_dungeon_t6_spire_fragment", "quantity": 2 },
+      { "materialId": "mat_vendor_thread", "quantity": 6 }
+    ],
+    "craftTimeMs": 8000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t6_nethervine_cowl",
+      "quantity": 1,
+      "iLevel": 61,
+      "quality": "epic"
+    }
+  },
+  {
+    "id": "recipe_tl_t6_void_silk_robe",
+    "professionId": "tailoring",
+    "name": "Void Silk Robe",
+    "skillRequired": 300,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t6_black_lotus", "quantity": 4 },
+      { "materialId": "mat_drop_t6_void_essence", "quantity": 4 },
+      { "materialId": "mat_dungeon_t6_ascendant_shard", "quantity": 2 },
+      { "materialId": "mat_vendor_dye", "quantity": 8 }
+    ],
+    "craftTimeMs": 8000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_tl_t6_void_silk_robe",
+      "quantity": 1,
+      "iLevel": 62,
+      "quality": "epic"
+    }
+  }
+]

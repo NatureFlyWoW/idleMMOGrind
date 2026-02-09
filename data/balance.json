@@ -161,5 +161,21 @@
     "rareReputationReward": 100,
     "eventCheckIntervalMs": 300000,
     "eventBaseChance": 0.15
+  },
+  "professions": {
+    "gatheringIntervalTicks": 12,
+    "gatheringBaseYield": 1,
+    "gatheringSkillBonusPerPoint": 0.005,
+    "craftTimeBaseMs": 3000,
+    "craftTimeComplexityMultiplier": 1.5,
+    "maxCraftingQueue": 10,
+    "materialBankSlots": 100,
+    "skillUpChances": {
+      "orange": 1.0,
+      "yellow": 0.75,
+      "green": 0.25,
+      "gray": 0
+    },
+    "bracketThresholds": [0, 75, 150, 225, 275, 300]
   }
 }

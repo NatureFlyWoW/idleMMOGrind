@@ -10,10 +10,13 @@ import type { IZoneEvent, IQuestChain, IRareSpawn, IEliteArea } from '@shared/ty
 import type { IBalanceConfig } from '@shared/types/balance';
 import type { IGameSystem } from '@engine/systems/game-system';
 import { SeededRandom } from '@shared/utils/rng';
+import { ProfessionManager } from './professions/profession-manager';
+import type { IProfessionDefinition, IMaterial, IRecipe } from '@shared/types/profession';
 
 import eventsData from '@data/zones/events.json';
 
 let gameLoop: GameLoop | null = null;
+let professionManager: ProfessionManager | null = null;
 let enginePort: MessagePort | null = null;
 
 // Zone system instances -- initialized lazily when the game loop starts.
@@ -87,6 +90,11 @@ function setupEnginePort(port: MessagePort): void {
   // Initialize zone systems before starting the loop
   initializeZoneSystems(gameLoop);
 
+  // Create ProfessionManager and register with the game loop.
+  // Data loading is deferred until INIT command provides loaded game data.
+  // For now, initialize with empty data; real data will be loaded from
+  // the LOAD_STATE command or provided during character creation.
+
   port.on('message', (command: EngineCommand) => {
     handleCommand(command, port);
   });
@@ -99,6 +107,27 @@ function setupEnginePort(port: MessagePort): void {
     timestamp: Date.now(),
     tickNumber: 0,
   } satisfies EngineEvent);
+}
+
+/**
+ * Initialize the ProfessionManager with provided game data and register
+ * it as a system with the GameLoop.
+ */
+function initProfessionManager(
+  definitions: IProfessionDefinition[],
+  materials: IMaterial[],
+  recipes: IRecipe[],
+  balanceConfig: IBalanceConfig['professions'],
+  zoneLevel: number,
+): void {
+  professionManager = new ProfessionManager({
+    definitions,
+    materials,
+    recipes,
+    balanceConfig,
+    zoneLevel,
+  });
+  gameLoop?.registerSystem(professionManager);
 }
 
 function handleCommand(command: EngineCommand, port: MessagePort): void {
@@ -121,3 +150,6 @@ function handleCommand(command: EngineCommand, port: MessagePort): void {
       break;
   }
 }
+
+// Re-export for testing access
+export { professionManager, initProfessionManager };

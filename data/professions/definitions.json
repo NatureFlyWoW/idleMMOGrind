@@ -1,0 +1,177 @@
+[
+  {
+    "id": "mining",
+    "name": "Mining",
+    "type": "gathering",
+    "description": "Extract ore, stone, and gems from mineral deposits found throughout the world.",
+    "skillBrackets": [
+      { "bracket": "apprentice", "skillMin": 0, "skillMax": 75, "requiredLevel": 1, "trainingCost": 10 },
+      { "bracket": "journeyman", "skillMin": 75, "skillMax": 150, "requiredLevel": 10, "trainingCost": 50 },
+      { "bracket": "expert", "skillMin": 150, "skillMax": 225, "requiredLevel": 20, "trainingCost": 100 },
+      { "bracket": "artisan", "skillMin": 225, "skillMax": 275, "requiredLevel": 35, "trainingCost": 250 },
+      { "bracket": "master", "skillMin": 275, "skillMax": 300, "requiredLevel": 50, "trainingCost": 500 },
+      { "bracket": "grandmaster", "skillMin": 300, "skillMax": 300, "requiredLevel": 58, "trainingCost": 1000 }
+    ],
+    "pairsWith": "blacksmithing"
+  },
+  {
+    "id": "herbalism",
+    "name": "Herbalism",
+    "type": "gathering",
+    "description": "Gather herbs and plants from the wilds, used in alchemy and cooking.",
+    "skillBrackets": [
+      { "bracket": "apprentice", "skillMin": 0, "skillMax": 75, "requiredLevel": 1, "trainingCost": 10 },
+      { "bracket": "journeyman", "skillMin": 75, "skillMax": 150, "requiredLevel": 10, "trainingCost": 50 },
+      { "bracket": "expert", "skillMin": 150, "skillMax": 225, "requiredLevel": 20, "trainingCost": 100 },
+      { "bracket": "artisan", "skillMin": 225, "skillMax": 275, "requiredLevel": 35, "trainingCost": 250 },
+      { "bracket": "master", "skillMin": 275, "skillMax": 300, "requiredLevel": 50, "trainingCost": 500 },
+      { "bracket": "grandmaster", "skillMin": 300, "skillMax": 300, "requiredLevel": 58, "trainingCost": 1000 }
+    ],
+    "pairsWith": "alchemy"
+  },
+  {
+    "id": "skinning",
+    "name": "Skinning",
+    "type": "gathering",
+    "description": "Skin beasts and dragonkin for leather and hides used in leatherworking and tailoring.",
+    "skillBrackets": [
+      { "bracket": "apprentice", "skillMin": 0, "skillMax": 75, "requiredLevel": 1, "trainingCost": 10 },
+      { "bracket": "journeyman", "skillMin": 75, "skillMax": 150, "requiredLevel": 10, "trainingCost": 50 },
+      { "bracket": "expert", "skillMin": 150, "skillMax": 225, "requiredLevel": 20, "trainingCost": 100 },
+      { "bracket": "artisan", "skillMin": 225, "skillMax": 275, "requiredLevel": 35, "trainingCost": 250 },
+      { "bracket": "master", "skillMin": 275, "skillMax": 300, "requiredLevel": 50, "trainingCost": 500 },
+      { "bracket": "grandmaster", "skillMin": 300, "skillMax": 300, "requiredLevel": 58, "trainingCost": 1000 }
+    ],
+    "pairsWith": "leatherworking"
+  },
+  {
+    "id": "blacksmithing",
+    "name": "Blacksmithing",
+    "type": "crafting",
+    "description": "Forge plate armor and melee weapons from ores and bars smelted at the anvil.",
+    "skillBrackets": [
+      { "bracket": "apprentice", "skillMin": 0, "skillMax": 75, "requiredLevel": 1, "trainingCost": 10 },
+      { "bracket": "journeyman", "skillMin": 75, "skillMax": 150, "requiredLevel": 10, "trainingCost": 50 },
+      { "bracket": "expert", "skillMin": 150, "skillMax": 225, "requiredLevel": 20, "trainingCost": 100 },
+      { "bracket": "artisan", "skillMin": 225, "skillMax": 275, "requiredLevel": 35, "trainingCost": 250 },
+      { "bracket": "master", "skillMin": 275, "skillMax": 300, "requiredLevel": 50, "trainingCost": 500 },
+      { "bracket": "grandmaster", "skillMin": 300, "skillMax": 300, "requiredLevel": 58, "trainingCost": 1000 }
+    ],
+    "pairsWith": "mining"
+  },
+  {
+    "id": "leatherworking",
+    "name": "Leatherworking",
+    "type": "crafting",
+    "description": "Craft leather and mail armor from hides and skins gathered by skinners.",
+    "skillBrackets": [
+      { "bracket": "apprentice", "skillMin": 0, "skillMax": 75, "requiredLevel": 1, "trainingCost": 10 },
+      { "bracket": "journeyman", "skillMin": 75, "skillMax": 150, "requiredLevel": 10, "trainingCost": 50 },
+      { "bracket": "expert", "skillMin": 150, "skillMax": 225, "requiredLevel": 20, "trainingCost": 100 },
+      { "bracket": "artisan", "skillMin": 225, "skillMax": 275, "requiredLevel": 35, "trainingCost": 250 },
+      { "bracket": "master", "skillMin": 275, "skillMax": 300, "requiredLevel": 50, "trainingCost": 500 },
+      { "bracket": "grandmaster", "skillMin": 300, "skillMax": 300, "requiredLevel": 58, "trainingCost": 1000 }
+    ],
+    "pairsWith": "skinning"
+  },
+  {
+    "id": "tailoring",
+    "name": "Tailoring",
+    "type": "crafting",
+    "description": "Sew cloth armor and bags from fabrics and magical threads.",
+    "skillBrackets": [
+      { "bracket": "apprentice", "skillMin": 0, "skillMax": 75, "requiredLevel": 1, "trainingCost": 10 },
+      { "bracket": "journeyman", "skillMin": 75, "skillMax": 150, "requiredLevel": 10, "trainingCost": 50 },
+      { "bracket": "expert", "skillMin": 150, "skillMax": 225, "requiredLevel": 20, "trainingCost": 100 },
+      { "bracket": "artisan", "skillMin": 225, "skillMax": 275, "requiredLevel": 35, "trainingCost": 250 },
+      { "bracket": "master", "skillMin": 275, "skillMax": 300, "requiredLevel": 50, "trainingCost": 500 },
+      { "bracket": "grandmaster", "skillMin": 300, "skillMax": 300, "requiredLevel": 58, "trainingCost": 1000 }
+    ]
+  },
+  {
+    "id": "alchemy",
+    "name": "Alchemy",
+    "type": "crafting",
+    "description": "Brew potions, elixirs, and flasks from herbs and reagents to enhance combat abilities.",
+    "skillBrackets": [
+      { "bracket": "apprentice", "skillMin": 0, "skillMax": 75, "requiredLevel": 1, "trainingCost": 10 },
+      { "bracket": "journeyman", "skillMin": 75, "skillMax": 150, "requiredLevel": 10, "trainingCost": 50 },
+      { "bracket": "expert", "skillMin": 150, "skillMax": 225, "requiredLevel": 20, "trainingCost": 100 },
+      { "bracket": "artisan", "skillMin": 225, "skillMax": 275, "requiredLevel": 35, "trainingCost": 250 },
+      { "bracket": "master", "skillMin": 275, "skillMax": 300, "requiredLevel": 50, "trainingCost": 500 },
+      { "bracket": "grandmaster", "skillMin": 300, "skillMax": 300, "requiredLevel": 58, "trainingCost": 1000 }
+    ],
+    "pairsWith": "herbalism"
+  },
+  {
+    "id": "enchanting",
+    "name": "Enchanting",
+    "type": "crafting",
+    "description": "Imbue gear with magical enchantments that grant stat bonuses and special effects.",
+    "skillBrackets": [
+      { "bracket": "apprentice", "skillMin": 0, "skillMax": 75, "requiredLevel": 1, "trainingCost": 10 },
+      { "bracket": "journeyman", "skillMin": 75, "skillMax": 150, "requiredLevel": 10, "trainingCost": 50 },
+      { "bracket": "expert", "skillMin": 150, "skillMax": 225, "requiredLevel": 20, "trainingCost": 100 },
+      { "bracket": "artisan", "skillMin": 225, "skillMax": 275, "requiredLevel": 35, "trainingCost": 250 },
+      { "bracket": "master", "skillMin": 275, "skillMax": 300, "requiredLevel": 50, "trainingCost": 500 },
+      { "bracket": "grandmaster", "skillMin": 300, "skillMax": 300, "requiredLevel": 58, "trainingCost": 1000 }
+    ]
+  },
+  {
+    "id": "engineering",
+    "name": "Engineering",
+    "type": "crafting",
+    "description": "Build mechanical devices, explosives, and gadgets from ores and components.",
+    "skillBrackets": [
+      { "bracket": "apprentice", "skillMin": 0, "skillMax": 75, "requiredLevel": 1, "trainingCost": 10 },
+      { "bracket": "journeyman", "skillMin": 75, "skillMax": 150, "requiredLevel": 10, "trainingCost": 50 },
+      { "bracket": "expert", "skillMin": 150, "skillMax": 225, "requiredLevel": 20, "trainingCost": 100 },
+      { "bracket": "artisan", "skillMin": 225, "skillMax": 275, "requiredLevel": 35, "trainingCost": 250 },
+      { "bracket": "master", "skillMin": 275, "skillMax": 300, "requiredLevel": 50, "trainingCost": 500 },
+      { "bracket": "grandmaster", "skillMin": 300, "skillMax": 300, "requiredLevel": 58, "trainingCost": 1000 }
+    ],
+    "pairsWith": "mining"
+  },
+  {
+    "id": "cooking",
+    "name": "Cooking",
+    "type": "secondary",
+    "description": "Prepare food from gathered ingredients that provides stat-boosting buffs when consumed.",
+    "skillBrackets": [
+      { "bracket": "apprentice", "skillMin": 0, "skillMax": 75, "requiredLevel": 1, "trainingCost": 10 },
+      { "bracket": "journeyman", "skillMin": 75, "skillMax": 150, "requiredLevel": 10, "trainingCost": 50 },
+      { "bracket": "expert", "skillMin": 150, "skillMax": 225, "requiredLevel": 20, "trainingCost": 100 },
+      { "bracket": "artisan", "skillMin": 225, "skillMax": 275, "requiredLevel": 35, "trainingCost": 250 },
+      { "bracket": "master", "skillMin": 275, "skillMax": 300, "requiredLevel": 50, "trainingCost": 500 },
+      { "bracket": "grandmaster", "skillMin": 300, "skillMax": 300, "requiredLevel": 58, "trainingCost": 1000 }
+    ]
+  },
+  {
+    "id": "first_aid",
+    "name": "First Aid",
+    "type": "secondary",
+    "description": "Create bandages and anti-venoms from cloth and reagents to heal wounds outside of combat.",
+    "skillBrackets": [
+      { "bracket": "apprentice", "skillMin": 0, "skillMax": 75, "requiredLevel": 1, "trainingCost": 10 },
+      { "bracket": "journeyman", "skillMin": 75, "skillMax": 150, "requiredLevel": 10, "trainingCost": 50 },
+      { "bracket": "expert", "skillMin": 150, "skillMax": 225, "requiredLevel": 20, "trainingCost": 100 },
+      { "bracket": "artisan", "skillMin": 225, "skillMax": 275, "requiredLevel": 35, "trainingCost": 250 },
+      { "bracket": "master", "skillMin": 275, "skillMax": 300, "requiredLevel": 50, "trainingCost": 500 },
+      { "bracket": "grandmaster", "skillMin": 300, "skillMax": 300, "requiredLevel": 58, "trainingCost": 1000 }
+    ]
+  },
+  {
+    "id": "fishing",
+    "name": "Fishing",
+    "type": "secondary",
+    "description": "Cast lines into waters to catch fish and treasures used in cooking and alchemy.",
+    "skillBrackets": [
+      { "bracket": "apprentice", "skillMin": 0, "skillMax": 75, "requiredLevel": 1, "trainingCost": 10 },
+      { "bracket": "journeyman", "skillMin": 75, "skillMax": 150, "requiredLevel": 10, "trainingCost": 50 },
+      { "bracket": "expert", "skillMin": 150, "skillMax": 225, "requiredLevel": 20, "trainingCost": 100 },
+      { "bracket": "artisan", "skillMin": 225, "skillMax": 275, "requiredLevel": 35, "trainingCost": 250 },
+      { "bracket": "master", "skillMin": 275, "skillMax": 300, "requiredLevel": 50, "trainingCost": 500 },
+      { "bracket": "grandmaster", "skillMin": 300, "skillMax": 300, "requiredLevel": 58, "trainingCost": 1000 }
+    ]
+  }
+]

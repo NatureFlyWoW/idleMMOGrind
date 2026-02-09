@@ -1,0 +1,934 @@
+[
+  {
+    "id": "recipe_ench_t1_minor_str_weapon",
+    "professionId": "enchanting",
+    "name": "Enchant Weapon - Minor Strength",
+    "skillRequired": 1,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t1_bone_fragment", "quantity": 2 },
+      { "materialId": "mat_vendor_enchanting_dust", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_minor_str_weapon",
+        "name": "Minor Strength",
+        "slot": "main-hand",
+        "statBonuses": { "str": 3 },
+        "description": "Enchants weapon with +3 Strength."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t1_minor_int_weapon",
+    "professionId": "enchanting",
+    "name": "Enchant Weapon - Minor Intellect",
+    "skillRequired": 10,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t1_spider_silk", "quantity": 2 },
+      { "materialId": "mat_vendor_enchanting_dust", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_minor_int_weapon",
+        "name": "Minor Intellect",
+        "slot": "main-hand",
+        "statBonuses": { "int": 3 },
+        "description": "Enchants weapon with +3 Intellect."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t1_minor_sta_chest",
+    "professionId": "enchanting",
+    "name": "Enchant Chest - Minor Stamina",
+    "skillRequired": 20,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t1_bone_fragment", "quantity": 3 },
+      { "materialId": "mat_vendor_enchanting_dust", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_minor_sta_chest",
+        "name": "Minor Stamina",
+        "slot": "chest",
+        "statBonuses": { "sta": 4 },
+        "description": "Enchants chest with +4 Stamina."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t1_minor_agi_gloves",
+    "professionId": "enchanting",
+    "name": "Enchant Gloves - Minor Agility",
+    "skillRequired": 30,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t1_spider_silk", "quantity": 3 },
+      { "materialId": "mat_vendor_enchanting_dust", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_minor_agi_gloves",
+        "name": "Minor Agility",
+        "slot": "hands",
+        "statBonuses": { "agi": 3 },
+        "description": "Enchants gloves with +3 Agility."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t1_minor_spi_boots",
+    "professionId": "enchanting",
+    "name": "Enchant Boots - Minor Spirit",
+    "skillRequired": 40,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t1_bone_fragment", "quantity": 2 },
+      { "materialId": "mat_drop_t1_spider_silk", "quantity": 2 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_minor_spi_boots",
+        "name": "Minor Spirit",
+        "slot": "feet",
+        "statBonuses": { "spi": 3 },
+        "description": "Enchants boots with +3 Spirit."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t1_minor_str_bracers",
+    "professionId": "enchanting",
+    "name": "Enchant Bracers - Minor Strength",
+    "skillRequired": 50,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t1_bone_fragment", "quantity": 3 },
+      { "materialId": "mat_vendor_enchanting_dust", "quantity": 2 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_minor_str_bracers",
+        "name": "Minor Strength",
+        "slot": "wrists",
+        "statBonuses": { "str": 3 },
+        "description": "Enchants bracers with +3 Strength."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t1_minor_int_cloak",
+    "professionId": "enchanting",
+    "name": "Enchant Cloak - Minor Intellect",
+    "skillRequired": 60,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t1_spider_silk", "quantity": 3 },
+      { "materialId": "mat_vendor_enchanting_dust", "quantity": 2 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_minor_int_cloak",
+        "name": "Minor Intellect",
+        "slot": "back",
+        "statBonuses": { "int": 3 },
+        "description": "Enchants cloak with +3 Intellect."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t1_minor_sta_shield",
+    "professionId": "enchanting",
+    "name": "Enchant Shield - Minor Stamina",
+    "skillRequired": 70,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t1_bone_fragment", "quantity": 4 },
+      { "materialId": "mat_vendor_enchanting_dust", "quantity": 2 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_minor_sta_shield",
+        "name": "Minor Stamina",
+        "slot": "off-hand",
+        "statBonuses": { "sta": 5 },
+        "description": "Enchants shield with +5 Stamina."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t2_str_weapon",
+    "professionId": "enchanting",
+    "name": "Enchant Weapon - Strength",
+    "skillRequired": 75,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t2_elemental_dust", "quantity": 3 },
+      { "materialId": "mat_vendor_enchanting_dust", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_str_weapon",
+        "name": "Strength",
+        "slot": "main-hand",
+        "statBonuses": { "str": 6 },
+        "description": "Enchants weapon with +6 Strength."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t2_int_weapon",
+    "professionId": "enchanting",
+    "name": "Enchant Weapon - Intellect",
+    "skillRequired": 85,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t2_elemental_dust", "quantity": 3 },
+      { "materialId": "mat_vendor_enchanting_dust", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_int_weapon",
+        "name": "Intellect",
+        "slot": "main-hand",
+        "statBonuses": { "int": 6 },
+        "description": "Enchants weapon with +6 Intellect."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t2_sta_chest",
+    "professionId": "enchanting",
+    "name": "Enchant Chest - Stamina",
+    "skillRequired": 95,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t2_elemental_dust", "quantity": 4 },
+      { "materialId": "mat_dungeon_t2_enchanted_leather", "quantity": 1 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_sta_chest",
+        "name": "Stamina",
+        "slot": "chest",
+        "statBonuses": { "sta": 8 },
+        "description": "Enchants chest with +8 Stamina."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t2_agi_gloves",
+    "professionId": "enchanting",
+    "name": "Enchant Gloves - Agility",
+    "skillRequired": 105,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t2_venom_sac", "quantity": 3 },
+      { "materialId": "mat_vendor_enchanting_dust", "quantity": 3 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_agi_gloves",
+        "name": "Agility",
+        "slot": "hands",
+        "statBonuses": { "agi": 6 },
+        "description": "Enchants gloves with +6 Agility."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t2_spi_boots",
+    "professionId": "enchanting",
+    "name": "Enchant Boots - Spirit",
+    "skillRequired": 115,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t2_elemental_dust", "quantity": 4 },
+      { "materialId": "mat_vendor_enchanting_dust", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_spi_boots",
+        "name": "Spirit",
+        "slot": "feet",
+        "statBonuses": { "spi": 6 },
+        "description": "Enchants boots with +6 Spirit."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t2_str_bracers",
+    "professionId": "enchanting",
+    "name": "Enchant Bracers - Strength",
+    "skillRequired": 125,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t2_elemental_dust", "quantity": 4 },
+      { "materialId": "mat_drop_t2_venom_sac", "quantity": 1 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_str_bracers",
+        "name": "Strength",
+        "slot": "wrists",
+        "statBonuses": { "str": 5 },
+        "description": "Enchants bracers with +5 Strength."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t2_int_cloak",
+    "professionId": "enchanting",
+    "name": "Enchant Cloak - Intellect",
+    "skillRequired": 135,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t2_elemental_dust", "quantity": 5 },
+      { "materialId": "mat_vendor_enchanting_dust", "quantity": 3 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_int_cloak",
+        "name": "Intellect",
+        "slot": "back",
+        "statBonuses": { "int": 6 },
+        "description": "Enchants cloak with +6 Intellect."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t2_sta_shield",
+    "professionId": "enchanting",
+    "name": "Enchant Shield - Stamina",
+    "skillRequired": 145,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t2_elemental_dust", "quantity": 5 },
+      { "materialId": "mat_dungeon_t2_enchanted_leather", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_sta_shield",
+        "name": "Stamina",
+        "slot": "off-hand",
+        "statBonuses": { "sta": 10 },
+        "description": "Enchants shield with +10 Stamina."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t3_greater_str_weapon",
+    "professionId": "enchanting",
+    "name": "Enchant Weapon - Greater Strength",
+    "skillRequired": 150,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t3_essence_of_fire", "quantity": 2 },
+      { "materialId": "mat_vendor_enchanting_dust", "quantity": 4 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_greater_str_weapon",
+        "name": "Greater Strength",
+        "slot": "main-hand",
+        "statBonuses": { "str": 10 },
+        "description": "Enchants weapon with +10 Strength."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t3_greater_int_weapon",
+    "professionId": "enchanting",
+    "name": "Enchant Weapon - Greater Intellect",
+    "skillRequired": 160,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t3_living_essence", "quantity": 2 },
+      { "materialId": "mat_vendor_enchanting_dust", "quantity": 4 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_greater_int_weapon",
+        "name": "Greater Intellect",
+        "slot": "main-hand",
+        "statBonuses": { "int": 10 },
+        "description": "Enchants weapon with +10 Intellect."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t3_greater_sta_chest",
+    "professionId": "enchanting",
+    "name": "Enchant Chest - Greater Stamina",
+    "skillRequired": 170,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t3_essence_of_fire", "quantity": 2 },
+      { "materialId": "mat_drop_t3_living_essence", "quantity": 1 },
+      { "materialId": "mat_vendor_enchanting_dust", "quantity": 3 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_greater_sta_chest",
+        "name": "Greater Stamina",
+        "slot": "chest",
+        "statBonuses": { "sta": 14 },
+        "description": "Enchants chest with +14 Stamina."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t3_greater_agi_gloves",
+    "professionId": "enchanting",
+    "name": "Enchant Gloves - Greater Agility",
+    "skillRequired": 180,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t3_living_essence", "quantity": 3 },
+      { "materialId": "mat_vendor_enchanting_dust", "quantity": 4 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_greater_agi_gloves",
+        "name": "Greater Agility",
+        "slot": "hands",
+        "statBonuses": { "agi": 10 },
+        "description": "Enchants gloves with +10 Agility."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t3_greater_spi_boots",
+    "professionId": "enchanting",
+    "name": "Enchant Boots - Greater Spirit",
+    "skillRequired": 190,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t3_essence_of_fire", "quantity": 2 },
+      { "materialId": "mat_dungeon_t3_frozen_rune", "quantity": 1 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_greater_spi_boots",
+        "name": "Greater Spirit",
+        "slot": "feet",
+        "statBonuses": { "spi": 10 },
+        "description": "Enchants boots with +10 Spirit."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t3_greater_str_bracers",
+    "professionId": "enchanting",
+    "name": "Enchant Bracers - Greater Strength",
+    "skillRequired": 200,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t3_essence_of_fire", "quantity": 3 },
+      { "materialId": "mat_vendor_enchanting_dust", "quantity": 4 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_greater_str_bracers",
+        "name": "Greater Strength",
+        "slot": "wrists",
+        "statBonuses": { "str": 8 },
+        "description": "Enchants bracers with +8 Strength."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t3_fiery_weapon",
+    "professionId": "enchanting",
+    "name": "Enchant Weapon - Fiery",
+    "skillRequired": 210,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_dungeon_t3_fiery_core", "quantity": 2 },
+      { "materialId": "mat_drop_t3_essence_of_fire", "quantity": 2 },
+      { "materialId": "mat_vendor_enchanting_dust", "quantity": 4 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_fiery_weapon",
+        "name": "Fiery",
+        "slot": "main-hand",
+        "statBonuses": { "str": 8, "agi": 8 },
+        "description": "Enchants weapon with +8 Strength and +8 Agility."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t3_greater_int_cloak",
+    "professionId": "enchanting",
+    "name": "Enchant Cloak - Greater Intellect",
+    "skillRequired": 220,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t3_living_essence", "quantity": 3 },
+      { "materialId": "mat_dungeon_t3_frozen_rune", "quantity": 1 },
+      { "materialId": "mat_vendor_enchanting_dust", "quantity": 4 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_greater_int_cloak",
+        "name": "Greater Intellect",
+        "slot": "back",
+        "statBonuses": { "int": 10 },
+        "description": "Enchants cloak with +10 Intellect."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t4_superior_str_weapon",
+    "professionId": "enchanting",
+    "name": "Enchant Weapon - Superior Strength",
+    "skillRequired": 225,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t4_essence_of_earth", "quantity": 3 },
+      { "materialId": "mat_vendor_arcane_powder", "quantity": 2 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_superior_str_weapon",
+        "name": "Superior Strength",
+        "slot": "main-hand",
+        "statBonuses": { "str": 15 },
+        "description": "Enchants weapon with +15 Strength."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t4_superior_int_weapon",
+    "professionId": "enchanting",
+    "name": "Enchant Weapon - Superior Intellect",
+    "skillRequired": 235,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t4_core_of_shadow", "quantity": 3 },
+      { "materialId": "mat_vendor_arcane_powder", "quantity": 2 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_superior_int_weapon",
+        "name": "Superior Intellect",
+        "slot": "main-hand",
+        "statBonuses": { "int": 15 },
+        "description": "Enchants weapon with +15 Intellect."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t4_superior_sta_chest",
+    "professionId": "enchanting",
+    "name": "Enchant Chest - Superior Stamina",
+    "skillRequired": 240,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t4_essence_of_earth", "quantity": 3 },
+      { "materialId": "mat_drop_t4_core_of_shadow", "quantity": 1 },
+      { "materialId": "mat_vendor_arcane_powder", "quantity": 2 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_superior_sta_chest",
+        "name": "Superior Stamina",
+        "slot": "chest",
+        "statBonuses": { "sta": 20 },
+        "description": "Enchants chest with +20 Stamina."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t4_superior_agi_gloves",
+    "professionId": "enchanting",
+    "name": "Enchant Gloves - Superior Agility",
+    "skillRequired": 245,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t4_essence_of_earth", "quantity": 4 },
+      { "materialId": "mat_vendor_arcane_powder", "quantity": 2 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_superior_agi_gloves",
+        "name": "Superior Agility",
+        "slot": "hands",
+        "statBonuses": { "agi": 15 },
+        "description": "Enchants gloves with +15 Agility."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t4_superior_spi_boots",
+    "professionId": "enchanting",
+    "name": "Enchant Boots - Superior Spirit",
+    "skillRequired": 250,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t4_core_of_shadow", "quantity": 3 },
+      { "materialId": "mat_vendor_arcane_powder", "quantity": 2 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_superior_spi_boots",
+        "name": "Superior Spirit",
+        "slot": "feet",
+        "statBonuses": { "spi": 15 },
+        "description": "Enchants boots with +15 Spirit."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t4_dark_iron_weapon",
+    "professionId": "enchanting",
+    "name": "Enchant Weapon - Dark Iron",
+    "skillRequired": 255,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_dungeon_t4_dark_iron_bar", "quantity": 2 },
+      { "materialId": "mat_drop_t4_core_of_shadow", "quantity": 2 },
+      { "materialId": "mat_vendor_arcane_powder", "quantity": 3 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_dark_iron_weapon",
+        "name": "Dark Iron",
+        "slot": "main-hand",
+        "statBonuses": { "str": 12, "sta": 12 },
+        "description": "Enchants weapon with +12 Strength and +12 Stamina."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t4_superior_str_bracers",
+    "professionId": "enchanting",
+    "name": "Enchant Bracers - Superior Strength",
+    "skillRequired": 260,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t4_essence_of_earth", "quantity": 4 },
+      { "materialId": "mat_vendor_arcane_powder", "quantity": 2 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_superior_str_bracers",
+        "name": "Superior Strength",
+        "slot": "wrists",
+        "statBonuses": { "str": 12 },
+        "description": "Enchants bracers with +12 Strength."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t4_superior_int_cloak",
+    "professionId": "enchanting",
+    "name": "Enchant Cloak - Superior Intellect",
+    "skillRequired": 265,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t4_core_of_shadow", "quantity": 4 },
+      { "materialId": "mat_vendor_arcane_powder", "quantity": 3 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_superior_int_cloak",
+        "name": "Superior Intellect",
+        "slot": "back",
+        "statBonuses": { "int": 12 },
+        "description": "Enchants cloak with +12 Intellect."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t5_major_str_weapon",
+    "professionId": "enchanting",
+    "name": "Enchant Weapon - Major Strength",
+    "skillRequired": 275,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t5_blood_of_heroes", "quantity": 2 },
+      { "materialId": "mat_dungeon_t5_primordial_essence", "quantity": 1 },
+      { "materialId": "mat_vendor_arcane_powder", "quantity": 3 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_major_str_weapon",
+        "name": "Major Strength",
+        "slot": "main-hand",
+        "statBonuses": { "str": 22 },
+        "description": "Enchants weapon with +22 Strength."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t5_major_int_weapon",
+    "professionId": "enchanting",
+    "name": "Enchant Weapon - Major Intellect",
+    "skillRequired": 280,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t5_blood_of_heroes", "quantity": 2 },
+      { "materialId": "mat_dungeon_t5_primordial_essence", "quantity": 1 },
+      { "materialId": "mat_vendor_arcane_powder", "quantity": 3 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_major_int_weapon",
+        "name": "Major Intellect",
+        "slot": "main-hand",
+        "statBonuses": { "int": 22 },
+        "description": "Enchants weapon with +22 Intellect."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t5_major_sta_chest",
+    "professionId": "enchanting",
+    "name": "Enchant Chest - Major Stamina",
+    "skillRequired": 285,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t5_blood_of_heroes", "quantity": 3 },
+      { "materialId": "mat_vendor_arcane_powder", "quantity": 4 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_major_sta_chest",
+        "name": "Major Stamina",
+        "slot": "chest",
+        "statBonuses": { "sta": 28 },
+        "description": "Enchants chest with +28 Stamina."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t5_major_agi_gloves",
+    "professionId": "enchanting",
+    "name": "Enchant Gloves - Major Agility",
+    "skillRequired": 290,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t5_blood_of_heroes", "quantity": 3 },
+      { "materialId": "mat_dungeon_t5_nether_dragonscale", "quantity": 1 },
+      { "materialId": "mat_vendor_arcane_powder", "quantity": 3 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_major_agi_gloves",
+        "name": "Major Agility",
+        "slot": "hands",
+        "statBonuses": { "agi": 22 },
+        "description": "Enchants gloves with +22 Agility."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t5_major_spi_boots",
+    "professionId": "enchanting",
+    "name": "Enchant Boots - Major Spirit",
+    "skillRequired": 293,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t5_blood_of_heroes", "quantity": 3 },
+      { "materialId": "mat_vendor_arcane_powder", "quantity": 4 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_major_spi_boots",
+        "name": "Major Spirit",
+        "slot": "feet",
+        "statBonuses": { "spi": 22 },
+        "description": "Enchants boots with +22 Spirit."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t6_void_weapon",
+    "professionId": "enchanting",
+    "name": "Enchant Weapon - Void",
+    "skillRequired": 300,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t6_void_essence", "quantity": 4 },
+      { "materialId": "mat_dungeon_t6_ascendant_shard", "quantity": 2 },
+      { "materialId": "mat_vendor_arcane_powder", "quantity": 5 }
+    ],
+    "craftTimeMs": 8000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_void_weapon",
+        "name": "Void",
+        "slot": "main-hand",
+        "statBonuses": { "str": 20, "agi": 20, "int": 20 },
+        "description": "Enchants weapon with +20 to Strength, Agility, and Intellect."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t6_void_chest",
+    "professionId": "enchanting",
+    "name": "Enchant Chest - Void",
+    "skillRequired": 300,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t6_void_essence", "quantity": 4 },
+      { "materialId": "mat_dungeon_t6_spire_fragment", "quantity": 2 },
+      { "materialId": "mat_vendor_arcane_powder", "quantity": 5 }
+    ],
+    "craftTimeMs": 8000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_void_chest",
+        "name": "Void",
+        "slot": "chest",
+        "statBonuses": { "sta": 40 },
+        "description": "Enchants chest with +40 Stamina."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_ench_t6_ascendant_boots",
+    "professionId": "enchanting",
+    "name": "Enchant Boots - Ascendant",
+    "skillRequired": 300,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t6_void_essence", "quantity": 3 },
+      { "materialId": "mat_dungeon_t6_ascendant_shard", "quantity": 1 },
+      { "materialId": "mat_dungeon_t6_spire_fragment", "quantity": 1 },
+      { "materialId": "mat_vendor_arcane_powder", "quantity": 5 }
+    ],
+    "craftTimeMs": 8000,
+    "output": {
+      "type": "enchantment",
+      "enchantEffect": {
+        "id": "enchant_ascendant_boots",
+        "name": "Ascendant",
+        "slot": "feet",
+        "statBonuses": { "agi": 18, "spi": 18 },
+        "description": "Enchants boots with +18 Agility and +18 Spirit."
+      },
+      "quantity": 1
+    }
+  }
+]

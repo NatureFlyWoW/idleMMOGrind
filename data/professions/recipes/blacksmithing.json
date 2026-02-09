@@ -1,0 +1,825 @@
+[
+  {
+    "id": "recipe_bs_t1_copper_sword",
+    "professionId": "blacksmithing",
+    "name": "Copper Sword",
+    "skillRequired": 1,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t1_copper_ore", "quantity": 3 },
+      { "materialId": "mat_vendor_flux", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t1_copper_sword",
+      "quantity": 1,
+      "iLevel": 5,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_bs_t1_copper_mace",
+    "professionId": "blacksmithing",
+    "name": "Copper Mace",
+    "skillRequired": 10,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t1_copper_ore", "quantity": 4 },
+      { "materialId": "mat_vendor_flux", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t1_copper_mace",
+      "quantity": 1,
+      "iLevel": 6,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_bs_t1_copper_chain_vest",
+    "professionId": "blacksmithing",
+    "name": "Copper Chain Vest",
+    "skillRequired": 20,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t1_copper_ore", "quantity": 4 },
+      { "materialId": "mat_mining_t1_rough_stone", "quantity": 1 },
+      { "materialId": "mat_vendor_flux", "quantity": 2 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t1_copper_chain_vest",
+      "quantity": 1,
+      "iLevel": 7,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_bs_t1_copper_helm",
+    "professionId": "blacksmithing",
+    "name": "Copper Helm",
+    "skillRequired": 30,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t1_copper_ore", "quantity": 3 },
+      { "materialId": "mat_mining_t1_rough_stone", "quantity": 2 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t1_copper_helm",
+      "quantity": 1,
+      "iLevel": 8,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_bs_t1_copper_shield",
+    "professionId": "blacksmithing",
+    "name": "Copper Shield",
+    "skillRequired": 35,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t1_copper_ore", "quantity": 4 },
+      { "materialId": "mat_mining_t1_rough_stone", "quantity": 2 },
+      { "materialId": "mat_vendor_coal", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t1_copper_shield",
+      "quantity": 1,
+      "iLevel": 9,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_bs_t1_copper_axe",
+    "professionId": "blacksmithing",
+    "name": "Copper Axe",
+    "skillRequired": 40,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t1_copper_ore", "quantity": 4 },
+      { "materialId": "mat_vendor_coal", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t1_copper_axe",
+      "quantity": 1,
+      "iLevel": 9,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_bs_t1_copper_greaves",
+    "professionId": "blacksmithing",
+    "name": "Copper Greaves",
+    "skillRequired": 50,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t1_copper_ore", "quantity": 4 },
+      { "materialId": "mat_mining_t1_rough_stone", "quantity": 2 },
+      { "materialId": "mat_vendor_flux", "quantity": 2 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t1_copper_greaves",
+      "quantity": 1,
+      "iLevel": 10,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_bs_t1_copper_gauntlets",
+    "professionId": "blacksmithing",
+    "name": "Copper Gauntlets",
+    "skillRequired": 55,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t1_copper_ore", "quantity": 3 },
+      { "materialId": "mat_mining_t1_rough_stone", "quantity": 2 },
+      { "materialId": "mat_drop_t1_bone_fragment", "quantity": 2 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t1_copper_gauntlets",
+      "quantity": 1,
+      "iLevel": 11,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_bs_t1_reinforced_copper_sword",
+    "professionId": "blacksmithing",
+    "name": "Reinforced Copper Sword",
+    "skillRequired": 65,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t1_copper_ore", "quantity": 4 },
+      { "materialId": "mat_mining_t1_rough_stone", "quantity": 3 },
+      { "materialId": "mat_vendor_coal", "quantity": 2 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t1_reinforced_copper_sword",
+      "quantity": 1,
+      "iLevel": 12,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_bs_t2_iron_sword",
+    "professionId": "blacksmithing",
+    "name": "Iron Sword",
+    "skillRequired": 75,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t2_iron_ore", "quantity": 3 },
+      { "materialId": "mat_vendor_coal", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t2_iron_sword",
+      "quantity": 1,
+      "iLevel": 13,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_bs_t2_iron_breastplate",
+    "professionId": "blacksmithing",
+    "name": "Iron Breastplate",
+    "skillRequired": 85,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t2_iron_ore", "quantity": 4 },
+      { "materialId": "mat_mining_t2_coarse_stone", "quantity": 2 },
+      { "materialId": "mat_vendor_flux", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t2_iron_breastplate",
+      "quantity": 1,
+      "iLevel": 15,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_bs_t2_iron_helm",
+    "professionId": "blacksmithing",
+    "name": "Iron Helm",
+    "skillRequired": 95,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t2_iron_ore", "quantity": 4 },
+      { "materialId": "mat_mining_t2_coarse_stone", "quantity": 1 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t2_iron_helm",
+      "quantity": 1,
+      "iLevel": 16,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_bs_t2_iron_shield",
+    "professionId": "blacksmithing",
+    "name": "Iron Shield",
+    "skillRequired": 105,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t2_iron_ore", "quantity": 4 },
+      { "materialId": "mat_mining_t2_coarse_stone", "quantity": 2 },
+      { "materialId": "mat_vendor_coal", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t2_iron_shield",
+      "quantity": 1,
+      "iLevel": 17,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_bs_t2_iron_greatsword",
+    "professionId": "blacksmithing",
+    "name": "Iron Greatsword",
+    "skillRequired": 115,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t2_iron_ore", "quantity": 5 },
+      { "materialId": "mat_drop_t2_elemental_dust", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t2_iron_greatsword",
+      "quantity": 1,
+      "iLevel": 18,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_bs_t2_iron_leggings",
+    "professionId": "blacksmithing",
+    "name": "Iron Leggings",
+    "skillRequired": 120,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t2_iron_ore", "quantity": 4 },
+      { "materialId": "mat_mining_t2_coarse_stone", "quantity": 2 },
+      { "materialId": "mat_vendor_flux", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t2_iron_leggings",
+      "quantity": 1,
+      "iLevel": 19,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_bs_t2_iron_gauntlets",
+    "professionId": "blacksmithing",
+    "name": "Iron Gauntlets",
+    "skillRequired": 130,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t2_iron_ore", "quantity": 3 },
+      { "materialId": "mat_mining_t2_coarse_stone", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t2_iron_gauntlets",
+      "quantity": 1,
+      "iLevel": 20,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_bs_t2_tempered_iron_mace",
+    "professionId": "blacksmithing",
+    "name": "Tempered Iron Mace",
+    "skillRequired": 140,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t2_iron_ore", "quantity": 5 },
+      { "materialId": "mat_mining_t2_coarse_stone", "quantity": 3 },
+      { "materialId": "mat_vendor_coal", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t2_tempered_iron_mace",
+      "quantity": 1,
+      "iLevel": 22,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_bs_t3_mithril_sword",
+    "professionId": "blacksmithing",
+    "name": "Mithril Sword",
+    "skillRequired": 150,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t3_mithril_ore", "quantity": 4 },
+      { "materialId": "mat_vendor_coal", "quantity": 2 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t3_mithril_sword",
+      "quantity": 1,
+      "iLevel": 23,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_bs_t3_mithril_breastplate",
+    "professionId": "blacksmithing",
+    "name": "Mithril Breastplate",
+    "skillRequired": 160,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t3_mithril_ore", "quantity": 5 },
+      { "materialId": "mat_mining_t3_dense_stone", "quantity": 2 },
+      { "materialId": "mat_vendor_flux", "quantity": 3 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t3_mithril_breastplate",
+      "quantity": 1,
+      "iLevel": 25,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_bs_t3_mithril_helm",
+    "professionId": "blacksmithing",
+    "name": "Mithril Helm",
+    "skillRequired": 170,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t3_mithril_ore", "quantity": 4 },
+      { "materialId": "mat_mining_t3_dense_stone", "quantity": 2 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t3_mithril_helm",
+      "quantity": 1,
+      "iLevel": 27,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_bs_t3_mithril_greatsword",
+    "professionId": "blacksmithing",
+    "name": "Mithril Greatsword",
+    "skillRequired": 180,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t3_mithril_ore", "quantity": 5 },
+      { "materialId": "mat_drop_t3_essence_of_fire", "quantity": 1 },
+      { "materialId": "mat_vendor_coal", "quantity": 3 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t3_mithril_greatsword",
+      "quantity": 1,
+      "iLevel": 29,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_bs_t3_mithril_shield",
+    "professionId": "blacksmithing",
+    "name": "Mithril Shield",
+    "skillRequired": 190,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t3_mithril_ore", "quantity": 5 },
+      { "materialId": "mat_mining_t3_dense_stone", "quantity": 3 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t3_mithril_shield",
+      "quantity": 1,
+      "iLevel": 31,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_bs_t3_mithril_leggings",
+    "professionId": "blacksmithing",
+    "name": "Mithril Leggings",
+    "skillRequired": 200,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t3_mithril_ore", "quantity": 5 },
+      { "materialId": "mat_mining_t3_dense_stone", "quantity": 2 },
+      { "materialId": "mat_vendor_flux", "quantity": 3 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t3_mithril_leggings",
+      "quantity": 1,
+      "iLevel": 33,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_bs_t3_mithril_gauntlets",
+    "professionId": "blacksmithing",
+    "name": "Mithril Gauntlets",
+    "skillRequired": 205,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t3_mithril_ore", "quantity": 4 },
+      { "materialId": "mat_drop_t3_living_essence", "quantity": 1 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t3_mithril_gauntlets",
+      "quantity": 1,
+      "iLevel": 34,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_bs_t3_fiery_mithril_axe",
+    "professionId": "blacksmithing",
+    "name": "Fiery Mithril Axe",
+    "skillRequired": 215,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t3_mithril_ore", "quantity": 6 },
+      { "materialId": "mat_dungeon_t3_fiery_core", "quantity": 1 },
+      { "materialId": "mat_vendor_coal", "quantity": 4 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t3_fiery_mithril_axe",
+      "quantity": 1,
+      "iLevel": 37,
+      "quality": "rare"
+    }
+  },
+  {
+    "id": "recipe_bs_t4_thorium_sword",
+    "professionId": "blacksmithing",
+    "name": "Thorium Sword",
+    "skillRequired": 225,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t4_thorium_ore", "quantity": 5 },
+      { "materialId": "mat_vendor_coal", "quantity": 3 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t4_thorium_sword",
+      "quantity": 1,
+      "iLevel": 38,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_bs_t4_thorium_breastplate",
+    "professionId": "blacksmithing",
+    "name": "Thorium Breastplate",
+    "skillRequired": 235,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t4_thorium_ore", "quantity": 6 },
+      { "materialId": "mat_mining_t4_solid_stone", "quantity": 3 },
+      { "materialId": "mat_vendor_flux", "quantity": 3 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t4_thorium_breastplate",
+      "quantity": 1,
+      "iLevel": 40,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_bs_t4_thorium_helm",
+    "professionId": "blacksmithing",
+    "name": "Thorium Helm",
+    "skillRequired": 240,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t4_thorium_ore", "quantity": 5 },
+      { "materialId": "mat_mining_t4_solid_stone", "quantity": 2 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t4_thorium_helm",
+      "quantity": 1,
+      "iLevel": 42,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_bs_t4_thorium_greatsword",
+    "professionId": "blacksmithing",
+    "name": "Thorium Greatsword",
+    "skillRequired": 245,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t4_thorium_ore", "quantity": 6 },
+      { "materialId": "mat_drop_t4_essence_of_earth", "quantity": 2 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t4_thorium_greatsword",
+      "quantity": 1,
+      "iLevel": 44,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_bs_t4_thorium_shield",
+    "professionId": "blacksmithing",
+    "name": "Thorium Shield",
+    "skillRequired": 250,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t4_thorium_ore", "quantity": 5 },
+      { "materialId": "mat_mining_t4_solid_stone", "quantity": 4 },
+      { "materialId": "mat_vendor_coal", "quantity": 3 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t4_thorium_shield",
+      "quantity": 1,
+      "iLevel": 46,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_bs_t4_thorium_leggings",
+    "professionId": "blacksmithing",
+    "name": "Thorium Leggings",
+    "skillRequired": 255,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t4_thorium_ore", "quantity": 6 },
+      { "materialId": "mat_mining_t4_solid_stone", "quantity": 3 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t4_thorium_leggings",
+      "quantity": 1,
+      "iLevel": 48,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_bs_t4_dark_iron_mace",
+    "professionId": "blacksmithing",
+    "name": "Dark Iron Mace",
+    "skillRequired": 260,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t4_thorium_ore", "quantity": 5 },
+      { "materialId": "mat_dungeon_t4_dark_iron_bar", "quantity": 2 },
+      { "materialId": "mat_drop_t4_core_of_shadow", "quantity": 1 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t4_dark_iron_mace",
+      "quantity": 1,
+      "iLevel": 50,
+      "quality": "rare"
+    }
+  },
+  {
+    "id": "recipe_bs_t4_thorium_gauntlets",
+    "professionId": "blacksmithing",
+    "name": "Thorium Gauntlets",
+    "skillRequired": 265,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t4_thorium_ore", "quantity": 6 },
+      { "materialId": "mat_mining_t4_solid_stone", "quantity": 3 },
+      { "materialId": "mat_vendor_flux", "quantity": 4 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t4_thorium_gauntlets",
+      "quantity": 1,
+      "iLevel": 52,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_bs_t5_adamantite_sword",
+    "professionId": "blacksmithing",
+    "name": "Adamantite Sword",
+    "skillRequired": 275,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t5_adamantite_ore", "quantity": 6 },
+      { "materialId": "mat_vendor_coal", "quantity": 4 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t5_adamantite_sword",
+      "quantity": 1,
+      "iLevel": 53,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_bs_t5_adamantite_breastplate",
+    "professionId": "blacksmithing",
+    "name": "Adamantite Breastplate",
+    "skillRequired": 280,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t5_adamantite_ore", "quantity": 7 },
+      { "materialId": "mat_mining_t5_eternium_ore", "quantity": 2 },
+      { "materialId": "mat_vendor_flux", "quantity": 4 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t5_adamantite_breastplate",
+      "quantity": 1,
+      "iLevel": 55,
+      "quality": "rare"
+    }
+  },
+  {
+    "id": "recipe_bs_t5_adamantite_helm",
+    "professionId": "blacksmithing",
+    "name": "Adamantite Helm",
+    "skillRequired": 285,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t5_adamantite_ore", "quantity": 6 },
+      { "materialId": "mat_mining_t5_eternium_ore", "quantity": 1 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t5_adamantite_helm",
+      "quantity": 1,
+      "iLevel": 56,
+      "quality": "rare"
+    }
+  },
+  {
+    "id": "recipe_bs_t5_adamantite_greatsword",
+    "professionId": "blacksmithing",
+    "name": "Adamantite Greatsword",
+    "skillRequired": 288,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t5_adamantite_ore", "quantity": 8 },
+      { "materialId": "mat_drop_t5_blood_of_heroes", "quantity": 1 },
+      { "materialId": "mat_vendor_coal", "quantity": 5 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t5_adamantite_greatsword",
+      "quantity": 1,
+      "iLevel": 58,
+      "quality": "rare"
+    }
+  },
+  {
+    "id": "recipe_bs_t5_adamantite_shield",
+    "professionId": "blacksmithing",
+    "name": "Adamantite Shield",
+    "skillRequired": 290,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t5_adamantite_ore", "quantity": 7 },
+      { "materialId": "mat_mining_t5_eternium_ore", "quantity": 2 },
+      { "materialId": "mat_dungeon_t5_primordial_essence", "quantity": 1 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t5_adamantite_shield",
+      "quantity": 1,
+      "iLevel": 59,
+      "quality": "rare"
+    }
+  },
+  {
+    "id": "recipe_bs_t5_adamantite_leggings",
+    "professionId": "blacksmithing",
+    "name": "Adamantite Leggings",
+    "skillRequired": 293,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t5_adamantite_ore", "quantity": 7 },
+      { "materialId": "mat_mining_t5_eternium_ore", "quantity": 3 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t5_adamantite_leggings",
+      "quantity": 1,
+      "iLevel": 60,
+      "quality": "rare"
+    }
+  },
+  {
+    "id": "recipe_bs_t6_arcanite_champion",
+    "professionId": "blacksmithing",
+    "name": "Arcanite Champion",
+    "skillRequired": 300,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t6_arcanite_ore", "quantity": 10 },
+      { "materialId": "mat_mining_t6_void_crystal_shard", "quantity": 2 },
+      { "materialId": "mat_drop_t6_void_essence", "quantity": 2 },
+      { "materialId": "mat_vendor_coal", "quantity": 6 }
+    ],
+    "craftTimeMs": 8000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t6_arcanite_champion",
+      "quantity": 1,
+      "iLevel": 60,
+      "quality": "epic"
+    }
+  },
+  {
+    "id": "recipe_bs_t6_arcanite_breastplate",
+    "professionId": "blacksmithing",
+    "name": "Arcanite Breastplate",
+    "skillRequired": 300,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t6_arcanite_ore", "quantity": 12 },
+      { "materialId": "mat_dungeon_t6_spire_fragment", "quantity": 2 },
+      { "materialId": "mat_vendor_flux", "quantity": 6 }
+    ],
+    "craftTimeMs": 8000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t6_arcanite_breastplate",
+      "quantity": 1,
+      "iLevel": 61,
+      "quality": "epic"
+    }
+  },
+  {
+    "id": "recipe_bs_t6_voidforged_bulwark",
+    "professionId": "blacksmithing",
+    "name": "Voidforged Bulwark",
+    "skillRequired": 300,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t6_arcanite_ore", "quantity": 10 },
+      { "materialId": "mat_mining_t6_void_crystal_shard", "quantity": 3 },
+      { "materialId": "mat_dungeon_t6_ascendant_shard", "quantity": 2 },
+      { "materialId": "mat_drop_t6_void_essence", "quantity": 3 }
+    ],
+    "craftTimeMs": 8000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_bs_t6_voidforged_bulwark",
+      "quantity": 1,
+      "iLevel": 62,
+      "quality": "epic"
+    }
+  }
+]

@@ -1,0 +1,563 @@
+[
+  {
+    "id": "mat_mining_t1_copper_ore",
+    "name": "Copper Ore",
+    "tier": 1,
+    "stackSize": 200,
+    "vendorPrice": 1,
+    "source": "gathering",
+    "gatheringProfession": "mining"
+  },
+  {
+    "id": "mat_mining_t1_rough_stone",
+    "name": "Rough Stone",
+    "tier": 1,
+    "stackSize": 200,
+    "vendorPrice": 1,
+    "source": "gathering",
+    "gatheringProfession": "mining"
+  },
+  {
+    "id": "mat_mining_t2_iron_ore",
+    "name": "Iron Ore",
+    "tier": 2,
+    "stackSize": 200,
+    "vendorPrice": 3,
+    "source": "gathering",
+    "gatheringProfession": "mining"
+  },
+  {
+    "id": "mat_mining_t2_coarse_stone",
+    "name": "Coarse Stone",
+    "tier": 2,
+    "stackSize": 200,
+    "vendorPrice": 2,
+    "source": "gathering",
+    "gatheringProfession": "mining"
+  },
+  {
+    "id": "mat_mining_t3_mithril_ore",
+    "name": "Mithril Ore",
+    "tier": 3,
+    "stackSize": 200,
+    "vendorPrice": 8,
+    "source": "gathering",
+    "gatheringProfession": "mining"
+  },
+  {
+    "id": "mat_mining_t3_dense_stone",
+    "name": "Dense Stone",
+    "tier": 3,
+    "stackSize": 200,
+    "vendorPrice": 5,
+    "source": "gathering",
+    "gatheringProfession": "mining"
+  },
+  {
+    "id": "mat_mining_t4_thorium_ore",
+    "name": "Thorium Ore",
+    "tier": 4,
+    "stackSize": 200,
+    "vendorPrice": 15,
+    "source": "gathering",
+    "gatheringProfession": "mining"
+  },
+  {
+    "id": "mat_mining_t4_solid_stone",
+    "name": "Solid Stone",
+    "tier": 4,
+    "stackSize": 200,
+    "vendorPrice": 10,
+    "source": "gathering",
+    "gatheringProfession": "mining"
+  },
+  {
+    "id": "mat_mining_t5_adamantite_ore",
+    "name": "Adamantite Ore",
+    "tier": 5,
+    "stackSize": 200,
+    "vendorPrice": 25,
+    "source": "gathering",
+    "gatheringProfession": "mining"
+  },
+  {
+    "id": "mat_mining_t5_eternium_ore",
+    "name": "Eternium Ore",
+    "tier": 5,
+    "stackSize": 200,
+    "vendorPrice": 30,
+    "source": "gathering",
+    "gatheringProfession": "mining"
+  },
+  {
+    "id": "mat_mining_t6_arcanite_ore",
+    "name": "Arcanite Ore",
+    "tier": 6,
+    "stackSize": 200,
+    "vendorPrice": 50,
+    "source": "gathering",
+    "gatheringProfession": "mining"
+  },
+  {
+    "id": "mat_mining_t6_void_crystal_shard",
+    "name": "Void Crystal Shard",
+    "tier": 6,
+    "stackSize": 100,
+    "vendorPrice": 75,
+    "source": "gathering",
+    "gatheringProfession": "mining"
+  },
+
+  {
+    "id": "mat_herbalism_t1_peacebloom",
+    "name": "Peacebloom",
+    "tier": 1,
+    "stackSize": 200,
+    "vendorPrice": 1,
+    "source": "gathering",
+    "gatheringProfession": "herbalism"
+  },
+  {
+    "id": "mat_herbalism_t1_silverleaf",
+    "name": "Silverleaf",
+    "tier": 1,
+    "stackSize": 200,
+    "vendorPrice": 1,
+    "source": "gathering",
+    "gatheringProfession": "herbalism"
+  },
+  {
+    "id": "mat_herbalism_t2_bruiseweed",
+    "name": "Bruiseweed",
+    "tier": 2,
+    "stackSize": 200,
+    "vendorPrice": 3,
+    "source": "gathering",
+    "gatheringProfession": "herbalism"
+  },
+  {
+    "id": "mat_herbalism_t2_swiftthistle",
+    "name": "Swiftthistle",
+    "tier": 2,
+    "stackSize": 200,
+    "vendorPrice": 4,
+    "source": "gathering",
+    "gatheringProfession": "herbalism"
+  },
+  {
+    "id": "mat_herbalism_t3_goldthorn",
+    "name": "Goldthorn",
+    "tier": 3,
+    "stackSize": 200,
+    "vendorPrice": 8,
+    "source": "gathering",
+    "gatheringProfession": "herbalism"
+  },
+  {
+    "id": "mat_herbalism_t3_khadgars_whisker",
+    "name": "Khadgar's Whisker",
+    "tier": 3,
+    "stackSize": 200,
+    "vendorPrice": 10,
+    "source": "gathering",
+    "gatheringProfession": "herbalism"
+  },
+  {
+    "id": "mat_herbalism_t4_sungrass",
+    "name": "Sungrass",
+    "tier": 4,
+    "stackSize": 200,
+    "vendorPrice": 15,
+    "source": "gathering",
+    "gatheringProfession": "herbalism"
+  },
+  {
+    "id": "mat_herbalism_t4_blindweed",
+    "name": "Blindweed",
+    "tier": 4,
+    "stackSize": 200,
+    "vendorPrice": 12,
+    "source": "gathering",
+    "gatheringProfession": "herbalism"
+  },
+  {
+    "id": "mat_herbalism_t5_dreamfoil",
+    "name": "Dreamfoil",
+    "tier": 5,
+    "stackSize": 200,
+    "vendorPrice": 25,
+    "source": "gathering",
+    "gatheringProfession": "herbalism"
+  },
+  {
+    "id": "mat_herbalism_t5_mountain_silversage",
+    "name": "Mountain Silversage",
+    "tier": 5,
+    "stackSize": 200,
+    "vendorPrice": 30,
+    "source": "gathering",
+    "gatheringProfession": "herbalism"
+  },
+  {
+    "id": "mat_herbalism_t6_black_lotus",
+    "name": "Black Lotus",
+    "tier": 6,
+    "stackSize": 100,
+    "vendorPrice": 75,
+    "source": "gathering",
+    "gatheringProfession": "herbalism"
+  },
+  {
+    "id": "mat_herbalism_t6_nethervine",
+    "name": "Nethervine",
+    "tier": 6,
+    "stackSize": 200,
+    "vendorPrice": 50,
+    "source": "gathering",
+    "gatheringProfession": "herbalism"
+  },
+
+  {
+    "id": "mat_skinning_t1_light_leather",
+    "name": "Light Leather",
+    "tier": 1,
+    "stackSize": 200,
+    "vendorPrice": 1,
+    "source": "gathering",
+    "gatheringProfession": "skinning"
+  },
+  {
+    "id": "mat_skinning_t1_light_hide",
+    "name": "Light Hide",
+    "tier": 1,
+    "stackSize": 200,
+    "vendorPrice": 2,
+    "source": "gathering",
+    "gatheringProfession": "skinning"
+  },
+  {
+    "id": "mat_skinning_t2_medium_leather",
+    "name": "Medium Leather",
+    "tier": 2,
+    "stackSize": 200,
+    "vendorPrice": 3,
+    "source": "gathering",
+    "gatheringProfession": "skinning"
+  },
+  {
+    "id": "mat_skinning_t2_medium_hide",
+    "name": "Medium Hide",
+    "tier": 2,
+    "stackSize": 200,
+    "vendorPrice": 4,
+    "source": "gathering",
+    "gatheringProfession": "skinning"
+  },
+  {
+    "id": "mat_skinning_t3_heavy_leather",
+    "name": "Heavy Leather",
+    "tier": 3,
+    "stackSize": 200,
+    "vendorPrice": 8,
+    "source": "gathering",
+    "gatheringProfession": "skinning"
+  },
+  {
+    "id": "mat_skinning_t3_thick_hide",
+    "name": "Thick Hide",
+    "tier": 3,
+    "stackSize": 200,
+    "vendorPrice": 10,
+    "source": "gathering",
+    "gatheringProfession": "skinning"
+  },
+  {
+    "id": "mat_skinning_t4_thick_leather",
+    "name": "Thick Leather",
+    "tier": 4,
+    "stackSize": 200,
+    "vendorPrice": 15,
+    "source": "gathering",
+    "gatheringProfession": "skinning"
+  },
+  {
+    "id": "mat_skinning_t4_rugged_hide",
+    "name": "Rugged Hide",
+    "tier": 4,
+    "stackSize": 200,
+    "vendorPrice": 18,
+    "source": "gathering",
+    "gatheringProfession": "skinning"
+  },
+  {
+    "id": "mat_skinning_t5_rugged_leather",
+    "name": "Rugged Leather",
+    "tier": 5,
+    "stackSize": 200,
+    "vendorPrice": 25,
+    "source": "gathering",
+    "gatheringProfession": "skinning"
+  },
+  {
+    "id": "mat_skinning_t5_pristine_hide",
+    "name": "Pristine Hide",
+    "tier": 5,
+    "stackSize": 100,
+    "vendorPrice": 35,
+    "source": "gathering",
+    "gatheringProfession": "skinning"
+  },
+  {
+    "id": "mat_skinning_t6_dragonscale",
+    "name": "Dragonscale",
+    "tier": 6,
+    "stackSize": 100,
+    "vendorPrice": 50,
+    "source": "gathering",
+    "gatheringProfession": "skinning"
+  },
+  {
+    "id": "mat_skinning_t6_void_touched_leather",
+    "name": "Void-Touched Leather",
+    "tier": 6,
+    "stackSize": 100,
+    "vendorPrice": 75,
+    "source": "gathering",
+    "gatheringProfession": "skinning"
+  },
+
+  {
+    "id": "mat_drop_t1_bone_fragment",
+    "name": "Bone Fragment",
+    "tier": 1,
+    "stackSize": 200,
+    "vendorPrice": 1,
+    "source": "monster_drop"
+  },
+  {
+    "id": "mat_drop_t1_spider_silk",
+    "name": "Spider Silk",
+    "tier": 1,
+    "stackSize": 200,
+    "vendorPrice": 2,
+    "source": "monster_drop"
+  },
+  {
+    "id": "mat_drop_t2_elemental_dust",
+    "name": "Elemental Dust",
+    "tier": 2,
+    "stackSize": 200,
+    "vendorPrice": 4,
+    "source": "monster_drop"
+  },
+  {
+    "id": "mat_drop_t2_venom_sac",
+    "name": "Venom Sac",
+    "tier": 2,
+    "stackSize": 200,
+    "vendorPrice": 3,
+    "source": "monster_drop"
+  },
+  {
+    "id": "mat_drop_t3_essence_of_fire",
+    "name": "Essence of Fire",
+    "tier": 3,
+    "stackSize": 100,
+    "vendorPrice": 10,
+    "source": "monster_drop"
+  },
+  {
+    "id": "mat_drop_t3_living_essence",
+    "name": "Living Essence",
+    "tier": 3,
+    "stackSize": 100,
+    "vendorPrice": 10,
+    "source": "monster_drop"
+  },
+  {
+    "id": "mat_drop_t4_essence_of_earth",
+    "name": "Essence of Earth",
+    "tier": 4,
+    "stackSize": 100,
+    "vendorPrice": 18,
+    "source": "monster_drop"
+  },
+  {
+    "id": "mat_drop_t4_core_of_shadow",
+    "name": "Core of Shadow",
+    "tier": 4,
+    "stackSize": 100,
+    "vendorPrice": 20,
+    "source": "monster_drop"
+  },
+  {
+    "id": "mat_drop_t5_blood_of_heroes",
+    "name": "Blood of Heroes",
+    "tier": 5,
+    "stackSize": 50,
+    "vendorPrice": 40,
+    "source": "monster_drop"
+  },
+  {
+    "id": "mat_drop_t6_void_essence",
+    "name": "Void Essence",
+    "tier": 6,
+    "stackSize": 50,
+    "vendorPrice": 80,
+    "source": "monster_drop"
+  },
+
+  {
+    "id": "mat_dungeon_t2_enchanted_leather",
+    "name": "Enchanted Leather",
+    "tier": 2,
+    "stackSize": 100,
+    "vendorPrice": 8,
+    "source": "dungeon_drop"
+  },
+  {
+    "id": "mat_dungeon_t3_fiery_core",
+    "name": "Fiery Core",
+    "tier": 3,
+    "stackSize": 50,
+    "vendorPrice": 20,
+    "source": "dungeon_drop"
+  },
+  {
+    "id": "mat_dungeon_t3_frozen_rune",
+    "name": "Frozen Rune",
+    "tier": 3,
+    "stackSize": 50,
+    "vendorPrice": 20,
+    "source": "dungeon_drop"
+  },
+  {
+    "id": "mat_dungeon_t4_dark_iron_bar",
+    "name": "Dark Iron Bar",
+    "tier": 4,
+    "stackSize": 50,
+    "vendorPrice": 35,
+    "source": "dungeon_drop"
+  },
+  {
+    "id": "mat_dungeon_t4_core_leather",
+    "name": "Core Leather",
+    "tier": 4,
+    "stackSize": 50,
+    "vendorPrice": 30,
+    "source": "dungeon_drop"
+  },
+  {
+    "id": "mat_dungeon_t5_primordial_essence",
+    "name": "Primordial Essence",
+    "tier": 5,
+    "stackSize": 50,
+    "vendorPrice": 50,
+    "source": "dungeon_drop"
+  },
+  {
+    "id": "mat_dungeon_t5_nether_dragonscale",
+    "name": "Nether Dragonscale",
+    "tier": 5,
+    "stackSize": 50,
+    "vendorPrice": 55,
+    "source": "dungeon_drop"
+  },
+  {
+    "id": "mat_dungeon_t6_spire_fragment",
+    "name": "Spire Fragment",
+    "tier": 6,
+    "stackSize": 20,
+    "vendorPrice": 100,
+    "source": "dungeon_drop"
+  },
+  {
+    "id": "mat_dungeon_t6_ascendant_shard",
+    "name": "Ascendant Shard",
+    "tier": 6,
+    "stackSize": 20,
+    "vendorPrice": 120,
+    "source": "dungeon_drop"
+  },
+
+  {
+    "id": "mat_vendor_coal",
+    "name": "Coal",
+    "tier": 1,
+    "stackSize": 200,
+    "vendorPrice": 2,
+    "source": "vendor"
+  },
+  {
+    "id": "mat_vendor_flux",
+    "name": "Flux",
+    "tier": 1,
+    "stackSize": 200,
+    "vendorPrice": 1,
+    "source": "vendor"
+  },
+  {
+    "id": "mat_vendor_dye",
+    "name": "Dye",
+    "tier": 1,
+    "stackSize": 200,
+    "vendorPrice": 3,
+    "source": "vendor"
+  },
+  {
+    "id": "mat_vendor_salt",
+    "name": "Salt",
+    "tier": 1,
+    "stackSize": 200,
+    "vendorPrice": 1,
+    "source": "vendor"
+  },
+  {
+    "id": "mat_vendor_thread",
+    "name": "Thread",
+    "tier": 1,
+    "stackSize": 200,
+    "vendorPrice": 1,
+    "source": "vendor"
+  },
+  {
+    "id": "mat_vendor_weak_vial",
+    "name": "Weak Vial",
+    "tier": 1,
+    "stackSize": 200,
+    "vendorPrice": 1,
+    "source": "vendor"
+  },
+  {
+    "id": "mat_vendor_leaded_vial",
+    "name": "Leaded Vial",
+    "tier": 2,
+    "stackSize": 200,
+    "vendorPrice": 3,
+    "source": "vendor"
+  },
+  {
+    "id": "mat_vendor_crystal_vial",
+    "name": "Crystal Vial",
+    "tier": 4,
+    "stackSize": 200,
+    "vendorPrice": 10,
+    "source": "vendor"
+  },
+  {
+    "id": "mat_vendor_enchanting_dust",
+    "name": "Enchanting Dust",
+    "tier": 2,
+    "stackSize": 200,
+    "vendorPrice": 5,
+    "source": "vendor"
+  },
+  {
+    "id": "mat_vendor_arcane_powder",
+    "name": "Arcane Powder",
+    "tier": 4,
+    "stackSize": 200,
+    "vendorPrice": 12,
+    "source": "vendor"
+  }
+]

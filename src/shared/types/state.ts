@@ -4,6 +4,7 @@ import { IItem } from './item';
 import { ICombatSnapshot, ICombatLogEntry, IActiveBuff, IActiveDoT } from './combat';
 import { ITalentSnapshot } from './talent';
 import { IActiveQuest } from './world';
+import { IProfessionState, IMaterialBankEntry, ICraftingQueueEntry } from './profession';
 
 /** Character snapshot for the renderer */
 export interface ICharacterSnapshot {
@@ -40,6 +41,14 @@ export interface IComputedStats {
   manaRegen: number;
 }
 
+/** Profession state snapshot for the renderer */
+export interface IProfessionSnapshot {
+  primary: [IProfessionState | null, IProfessionState | null];
+  secondary: IProfessionState[];
+  materialBank: IMaterialBankEntry[];
+  craftingQueues: Record<string, readonly ICraftingQueueEntry[]>;
+}
+
 /** Full game state snapshot sent from engine to renderer */
 export interface IGameStateSnapshot {
   character: ICharacterSnapshot | null;
@@ -52,5 +61,6 @@ export interface IGameStateSnapshot {
   currentZoneId: string | null;
   currentZoneName: string | null;
   recentCombatLog: ICombatLogEntry[];
+  professions: IProfessionSnapshot | null;
   timestamp: number;
 }

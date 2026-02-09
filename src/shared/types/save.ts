@@ -4,6 +4,7 @@ import { IItem } from './item';
 import { IActiveQuest } from './world';
 import { IActiveBuff, IActiveDoT } from './combat';
 import { IQuestChainProgress, IActiveZoneEvent } from './zone-expansion';
+import { IProfessionState, IMaterialBankEntry, ICraftingQueueEntry } from './profession';
 
 /** Save file metadata */
 export interface ISaveMeta {
@@ -85,4 +86,10 @@ export interface ISaveData {
   talents: ISaveTalents;
   combatState: ISaveCombatState;
   settings: ISaveSettings;
+  professions: {
+    primary: [IProfessionState, IProfessionState] | [];
+    secondary: IProfessionState[];
+    materialBank: IMaterialBankEntry[];
+    craftingQueue: ICraftingQueueEntry[];
+  };
 }

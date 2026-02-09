@@ -1,0 +1,644 @@
+[
+  {
+    "id": "recipe_eng_t1_rough_blasting_powder",
+    "professionId": "engineering",
+    "name": "Rough Blasting Powder",
+    "skillRequired": 1,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t1_rough_stone", "quantity": 2 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_rough_blasting_powder",
+        "name": "Rough Blast",
+        "durationMs": 0,
+        "statBonuses": { "str": 3 },
+        "description": "A small explosive charge that deals minor damage."
+      },
+      "quantity": 3
+    }
+  },
+  {
+    "id": "recipe_eng_t1_copper_tube",
+    "professionId": "engineering",
+    "name": "Copper Tube",
+    "skillRequired": 10,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t1_copper_ore", "quantity": 3 },
+      { "materialId": "mat_vendor_flux", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_eng_t1_copper_tube",
+      "quantity": 1,
+      "iLevel": 6,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_eng_t1_rough_dynamite",
+    "professionId": "engineering",
+    "name": "Rough Dynamite",
+    "skillRequired": 20,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t1_rough_stone", "quantity": 3 },
+      { "materialId": "mat_vendor_coal", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_rough_dynamite",
+        "name": "Rough Dynamite",
+        "durationMs": 0,
+        "statBonuses": { "str": 5 },
+        "description": "Throwable explosive that deals moderate damage."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_eng_t1_target_dummy",
+    "professionId": "engineering",
+    "name": "Target Dummy",
+    "skillRequired": 35,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t1_copper_ore", "quantity": 4 },
+      { "materialId": "mat_mining_t1_rough_stone", "quantity": 2 },
+      { "materialId": "mat_vendor_coal", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_eng_t1_target_dummy",
+      "quantity": 1,
+      "iLevel": 8,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_eng_t1_copper_scope",
+    "professionId": "engineering",
+    "name": "Copper Scope",
+    "skillRequired": 45,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t1_copper_ore", "quantity": 3 },
+      { "materialId": "mat_drop_t1_spider_silk", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_eng_t1_copper_scope",
+      "quantity": 1,
+      "iLevel": 9,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_eng_t1_mechanical_squirrel",
+    "professionId": "engineering",
+    "name": "Mechanical Squirrel",
+    "skillRequired": 55,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t1_copper_ore", "quantity": 4 },
+      { "materialId": "mat_mining_t1_rough_stone", "quantity": 2 },
+      { "materialId": "mat_drop_t1_bone_fragment", "quantity": 2 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_eng_t1_mechanical_squirrel",
+      "quantity": 1,
+      "iLevel": 11,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_eng_t1_copper_bomb",
+    "professionId": "engineering",
+    "name": "Copper Bomb",
+    "skillRequired": 65,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t1_copper_ore", "quantity": 4 },
+      { "materialId": "mat_mining_t1_rough_stone", "quantity": 3 },
+      { "materialId": "mat_vendor_coal", "quantity": 2 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_copper_bomb",
+        "name": "Copper Bomb",
+        "durationMs": 0,
+        "statBonuses": { "str": 8 },
+        "description": "Throwable bomb that deals significant area damage."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_eng_t2_iron_grenade",
+    "professionId": "engineering",
+    "name": "Iron Grenade",
+    "skillRequired": 75,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t2_iron_ore", "quantity": 3 },
+      { "materialId": "mat_mining_t2_coarse_stone", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_iron_grenade",
+        "name": "Iron Grenade",
+        "durationMs": 0,
+        "statBonuses": { "str": 10 },
+        "description": "A powerful iron grenade that deals heavy area damage."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_eng_t2_iron_strider",
+    "professionId": "engineering",
+    "name": "Iron Strider",
+    "skillRequired": 85,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t2_iron_ore", "quantity": 4 },
+      { "materialId": "mat_mining_t2_coarse_stone", "quantity": 2 },
+      { "materialId": "mat_vendor_coal", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_eng_t2_iron_strider",
+      "quantity": 1,
+      "iLevel": 15,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_eng_t2_advanced_scope",
+    "professionId": "engineering",
+    "name": "Advanced Scope",
+    "skillRequired": 95,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t2_iron_ore", "quantity": 3 },
+      { "materialId": "mat_drop_t2_elemental_dust", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_eng_t2_advanced_scope",
+      "quantity": 1,
+      "iLevel": 17,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_eng_t2_iron_bomb",
+    "professionId": "engineering",
+    "name": "Iron Bomb",
+    "skillRequired": 110,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t2_iron_ore", "quantity": 4 },
+      { "materialId": "mat_mining_t2_coarse_stone", "quantity": 3 },
+      { "materialId": "mat_vendor_coal", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_iron_bomb",
+        "name": "Iron Bomb",
+        "durationMs": 0,
+        "statBonuses": { "str": 14 },
+        "description": "A devastating iron bomb that deals massive area damage."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_eng_t2_gyromatic_goggles",
+    "professionId": "engineering",
+    "name": "Gyromatic Goggles",
+    "skillRequired": 125,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t2_iron_ore", "quantity": 5 },
+      { "materialId": "mat_drop_t2_elemental_dust", "quantity": 2 },
+      { "materialId": "mat_vendor_flux", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_eng_t2_gyromatic_goggles",
+      "quantity": 1,
+      "iLevel": 20,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_eng_t2_explosive_sheep",
+    "professionId": "engineering",
+    "name": "Explosive Sheep",
+    "skillRequired": 140,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t2_iron_ore", "quantity": 5 },
+      { "materialId": "mat_dungeon_t2_enchanted_leather", "quantity": 1 },
+      { "materialId": "mat_vendor_coal", "quantity": 3 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_explosive_sheep",
+        "name": "Explosive Sheep",
+        "durationMs": 0,
+        "statBonuses": { "str": 18 },
+        "description": "Deploys an explosive sheep that charges at enemies."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_eng_t3_mithril_casing",
+    "professionId": "engineering",
+    "name": "Mithril Casing",
+    "skillRequired": 150,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t3_mithril_ore", "quantity": 4 },
+      { "materialId": "mat_vendor_flux", "quantity": 2 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_eng_t3_mithril_casing",
+      "quantity": 1,
+      "iLevel": 23,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_eng_t3_mithril_grenade",
+    "professionId": "engineering",
+    "name": "Mithril Grenade",
+    "skillRequired": 165,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t3_mithril_ore", "quantity": 4 },
+      { "materialId": "mat_mining_t3_dense_stone", "quantity": 2 },
+      { "materialId": "mat_vendor_coal", "quantity": 3 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_mithril_grenade",
+        "name": "Mithril Grenade",
+        "durationMs": 0,
+        "statBonuses": { "str": 20 },
+        "description": "A volatile mithril grenade that shatters on impact."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_eng_t3_sniper_scope",
+    "professionId": "engineering",
+    "name": "Sniper Scope",
+    "skillRequired": 180,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t3_mithril_ore", "quantity": 5 },
+      { "materialId": "mat_drop_t3_essence_of_fire", "quantity": 1 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_eng_t3_sniper_scope",
+      "quantity": 1,
+      "iLevel": 29,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_eng_t3_mithril_gyro_shot",
+    "professionId": "engineering",
+    "name": "Mithril Gyro-Shot",
+    "skillRequired": 195,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t3_mithril_ore", "quantity": 5 },
+      { "materialId": "mat_mining_t3_dense_stone", "quantity": 3 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_mithril_gyro_shot",
+        "name": "Mithril Gyro-Shot",
+        "durationMs": 0,
+        "statBonuses": { "agi": 18 },
+        "description": "A precision-guided shot that deals targeted damage."
+      },
+      "quantity": 3
+    }
+  },
+  {
+    "id": "recipe_eng_t3_goblin_rocket_launcher",
+    "professionId": "engineering",
+    "name": "Goblin Rocket Launcher",
+    "skillRequired": 210,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t3_mithril_ore", "quantity": 6 },
+      { "materialId": "mat_dungeon_t3_fiery_core", "quantity": 1 },
+      { "materialId": "mat_mining_t3_dense_stone", "quantity": 3 },
+      { "materialId": "mat_vendor_coal", "quantity": 4 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_eng_t3_goblin_rocket_launcher",
+      "quantity": 1,
+      "iLevel": 35,
+      "quality": "rare"
+    }
+  },
+  {
+    "id": "recipe_eng_t4_thorium_widget",
+    "professionId": "engineering",
+    "name": "Thorium Widget",
+    "skillRequired": 225,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t4_thorium_ore", "quantity": 4 },
+      { "materialId": "mat_vendor_flux", "quantity": 3 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_eng_t4_thorium_widget",
+      "quantity": 1,
+      "iLevel": 38,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_eng_t4_thorium_grenade",
+    "professionId": "engineering",
+    "name": "Thorium Grenade",
+    "skillRequired": 235,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t4_thorium_ore", "quantity": 5 },
+      { "materialId": "mat_mining_t4_solid_stone", "quantity": 3 },
+      { "materialId": "mat_vendor_coal", "quantity": 3 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_thorium_grenade",
+        "name": "Thorium Grenade",
+        "durationMs": 0,
+        "statBonuses": { "str": 25 },
+        "description": "A thorium-core grenade with devastating blast radius."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_eng_t4_precision_scope",
+    "professionId": "engineering",
+    "name": "Precision Scope",
+    "skillRequired": 245,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t4_thorium_ore", "quantity": 5 },
+      { "materialId": "mat_drop_t4_essence_of_earth", "quantity": 2 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_eng_t4_precision_scope",
+      "quantity": 1,
+      "iLevel": 44,
+      "quality": "rare"
+    }
+  },
+  {
+    "id": "recipe_eng_t4_dark_iron_bomb",
+    "professionId": "engineering",
+    "name": "Dark Iron Bomb",
+    "skillRequired": 255,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t4_thorium_ore", "quantity": 5 },
+      { "materialId": "mat_dungeon_t4_dark_iron_bar", "quantity": 2 },
+      { "materialId": "mat_drop_t4_core_of_shadow", "quantity": 1 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_dark_iron_bomb",
+        "name": "Dark Iron Bomb",
+        "durationMs": 0,
+        "statBonuses": { "str": 30 },
+        "description": "A bomb forged from dark iron that devastates all nearby foes."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_eng_t4_thorium_goggles",
+    "professionId": "engineering",
+    "name": "Thorium Goggles",
+    "skillRequired": 265,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t4_thorium_ore", "quantity": 6 },
+      { "materialId": "mat_mining_t4_solid_stone", "quantity": 4 },
+      { "materialId": "mat_vendor_flux", "quantity": 4 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_eng_t4_thorium_goggles",
+      "quantity": 1,
+      "iLevel": 50,
+      "quality": "rare"
+    }
+  },
+  {
+    "id": "recipe_eng_t5_adamantite_grenade",
+    "professionId": "engineering",
+    "name": "Adamantite Grenade",
+    "skillRequired": 275,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t5_adamantite_ore", "quantity": 6 },
+      { "materialId": "mat_mining_t5_eternium_ore", "quantity": 2 },
+      { "materialId": "mat_vendor_coal", "quantity": 5 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_adamantite_grenade",
+        "name": "Adamantite Grenade",
+        "durationMs": 0,
+        "statBonuses": { "str": 35 },
+        "description": "An adamantite-core grenade with immense destructive power."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_eng_t5_adamantite_scope",
+    "professionId": "engineering",
+    "name": "Adamantite Scope",
+    "skillRequired": 285,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t5_adamantite_ore", "quantity": 6 },
+      { "materialId": "mat_drop_t5_blood_of_heroes", "quantity": 1 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_eng_t5_adamantite_scope",
+      "quantity": 1,
+      "iLevel": 56,
+      "quality": "rare"
+    }
+  },
+  {
+    "id": "recipe_eng_t5_eternium_bomb",
+    "professionId": "engineering",
+    "name": "Eternium Bomb",
+    "skillRequired": 290,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t5_eternium_ore", "quantity": 4 },
+      { "materialId": "mat_mining_t5_adamantite_ore", "quantity": 3 },
+      { "materialId": "mat_vendor_coal", "quantity": 5 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_eternium_bomb",
+        "name": "Eternium Bomb",
+        "durationMs": 0,
+        "statBonuses": { "str": 40 },
+        "description": "An eternium-laced bomb that obliterates targets on detonation."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_eng_t5_adamantite_goggles",
+    "professionId": "engineering",
+    "name": "Adamantite Goggles",
+    "skillRequired": 293,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t5_adamantite_ore", "quantity": 8 },
+      { "materialId": "mat_mining_t5_eternium_ore", "quantity": 3 },
+      { "materialId": "mat_dungeon_t5_primordial_essence", "quantity": 1 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_eng_t5_adamantite_goggles",
+      "quantity": 1,
+      "iLevel": 60,
+      "quality": "rare"
+    }
+  },
+  {
+    "id": "recipe_eng_t6_void_rocket",
+    "professionId": "engineering",
+    "name": "Void Rocket",
+    "skillRequired": 300,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t6_arcanite_ore", "quantity": 8 },
+      { "materialId": "mat_drop_t6_void_essence", "quantity": 3 },
+      { "materialId": "mat_vendor_coal", "quantity": 6 }
+    ],
+    "craftTimeMs": 8000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_void_rocket",
+        "name": "Void Rocket",
+        "durationMs": 0,
+        "statBonuses": { "str": 45 },
+        "description": "A void-powered rocket that annihilates targets in a wide area."
+      },
+      "quantity": 1
+    }
+  },
+  {
+    "id": "recipe_eng_t6_arcanite_dragonling",
+    "professionId": "engineering",
+    "name": "Arcanite Dragonling",
+    "skillRequired": 300,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t6_arcanite_ore", "quantity": 10 },
+      { "materialId": "mat_mining_t6_void_crystal_shard", "quantity": 3 },
+      { "materialId": "mat_dungeon_t6_spire_fragment", "quantity": 2 },
+      { "materialId": "mat_drop_t6_void_essence", "quantity": 2 }
+    ],
+    "craftTimeMs": 8000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_eng_t6_arcanite_dragonling",
+      "quantity": 1,
+      "iLevel": 62,
+      "quality": "epic"
+    }
+  },
+  {
+    "id": "recipe_eng_t6_void_goggles",
+    "professionId": "engineering",
+    "name": "Void Goggles",
+    "skillRequired": 300,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t6_arcanite_ore", "quantity": 8 },
+      { "materialId": "mat_dungeon_t6_ascendant_shard", "quantity": 2 },
+      { "materialId": "mat_mining_t6_void_crystal_shard", "quantity": 2 },
+      { "materialId": "mat_vendor_flux", "quantity": 6 }
+    ],
+    "craftTimeMs": 8000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_eng_t6_void_goggles",
+      "quantity": 1,
+      "iLevel": 61,
+      "quality": "epic"
+    }
+  }
+]

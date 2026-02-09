@@ -9,3 +9,4 @@ export * from './state';
 export * from './save';
 export * from './balance';
 export * from './zone-expansion';
+export * from './profession';

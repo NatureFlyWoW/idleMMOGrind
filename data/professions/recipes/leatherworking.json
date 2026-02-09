@@ -1,0 +1,817 @@
+[
+  {
+    "id": "recipe_lw_t1_light_leather_vest",
+    "professionId": "leatherworking",
+    "name": "Light Leather Vest",
+    "skillRequired": 1,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t1_light_leather", "quantity": 3 },
+      { "materialId": "mat_vendor_thread", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t1_light_leather_vest",
+      "quantity": 1,
+      "iLevel": 5,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_lw_t1_light_leather_bracers",
+    "professionId": "leatherworking",
+    "name": "Light Leather Bracers",
+    "skillRequired": 10,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t1_light_leather", "quantity": 3 },
+      { "materialId": "mat_vendor_thread", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t1_light_leather_bracers",
+      "quantity": 1,
+      "iLevel": 6,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_lw_t1_light_leather_helm",
+    "professionId": "leatherworking",
+    "name": "Light Leather Helm",
+    "skillRequired": 20,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t1_light_leather", "quantity": 4 },
+      { "materialId": "mat_skinning_t1_light_hide", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t1_light_leather_helm",
+      "quantity": 1,
+      "iLevel": 7,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_lw_t1_light_leather_pants",
+    "professionId": "leatherworking",
+    "name": "Light Leather Pants",
+    "skillRequired": 30,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t1_light_leather", "quantity": 4 },
+      { "materialId": "mat_skinning_t1_light_hide", "quantity": 1 },
+      { "materialId": "mat_vendor_thread", "quantity": 2 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t1_light_leather_pants",
+      "quantity": 1,
+      "iLevel": 8,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_lw_t1_light_leather_gloves",
+    "professionId": "leatherworking",
+    "name": "Light Leather Gloves",
+    "skillRequired": 35,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t1_light_leather", "quantity": 3 },
+      { "materialId": "mat_vendor_dye", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t1_light_leather_gloves",
+      "quantity": 1,
+      "iLevel": 9,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_lw_t1_light_leather_boots",
+    "professionId": "leatherworking",
+    "name": "Light Leather Boots",
+    "skillRequired": 40,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t1_light_leather", "quantity": 4 },
+      { "materialId": "mat_vendor_thread", "quantity": 2 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t1_light_leather_boots",
+      "quantity": 1,
+      "iLevel": 9,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_lw_t1_light_leather_belt",
+    "professionId": "leatherworking",
+    "name": "Light Leather Belt",
+    "skillRequired": 50,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t1_light_leather", "quantity": 3 },
+      { "materialId": "mat_skinning_t1_light_hide", "quantity": 2 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t1_light_leather_belt",
+      "quantity": 1,
+      "iLevel": 10,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_lw_t1_light_leather_shoulders",
+    "professionId": "leatherworking",
+    "name": "Light Leather Shoulders",
+    "skillRequired": 55,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t1_light_leather", "quantity": 4 },
+      { "materialId": "mat_skinning_t1_light_hide", "quantity": 2 },
+      { "materialId": "mat_drop_t1_bone_fragment", "quantity": 2 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t1_light_leather_shoulders",
+      "quantity": 1,
+      "iLevel": 11,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_lw_t1_cured_leather_vest",
+    "professionId": "leatherworking",
+    "name": "Cured Leather Vest",
+    "skillRequired": 65,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t1_light_leather", "quantity": 4 },
+      { "materialId": "mat_skinning_t1_light_hide", "quantity": 3 },
+      { "materialId": "mat_vendor_salt", "quantity": 2 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t1_cured_leather_vest",
+      "quantity": 1,
+      "iLevel": 12,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_lw_t2_medium_leather_vest",
+    "professionId": "leatherworking",
+    "name": "Medium Leather Vest",
+    "skillRequired": 75,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t2_medium_leather", "quantity": 4 },
+      { "materialId": "mat_vendor_thread", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t2_medium_leather_vest",
+      "quantity": 1,
+      "iLevel": 13,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_lw_t2_medium_leather_helm",
+    "professionId": "leatherworking",
+    "name": "Medium Leather Helm",
+    "skillRequired": 85,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t2_medium_leather", "quantity": 4 },
+      { "materialId": "mat_skinning_t2_medium_hide", "quantity": 1 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t2_medium_leather_helm",
+      "quantity": 1,
+      "iLevel": 15,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_lw_t2_medium_leather_pants",
+    "professionId": "leatherworking",
+    "name": "Medium Leather Pants",
+    "skillRequired": 95,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t2_medium_leather", "quantity": 5 },
+      { "materialId": "mat_skinning_t2_medium_hide", "quantity": 1 },
+      { "materialId": "mat_vendor_thread", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t2_medium_leather_pants",
+      "quantity": 1,
+      "iLevel": 16,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_lw_t2_medium_leather_boots",
+    "professionId": "leatherworking",
+    "name": "Medium Leather Boots",
+    "skillRequired": 105,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t2_medium_leather", "quantity": 4 },
+      { "materialId": "mat_vendor_dye", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t2_medium_leather_boots",
+      "quantity": 1,
+      "iLevel": 17,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_lw_t2_medium_leather_gloves",
+    "professionId": "leatherworking",
+    "name": "Medium Leather Gloves",
+    "skillRequired": 115,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t2_medium_leather", "quantity": 4 },
+      { "materialId": "mat_drop_t2_venom_sac", "quantity": 1 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t2_medium_leather_gloves",
+      "quantity": 1,
+      "iLevel": 18,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_lw_t2_medium_leather_shoulders",
+    "professionId": "leatherworking",
+    "name": "Medium Leather Shoulders",
+    "skillRequired": 120,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t2_medium_leather", "quantity": 5 },
+      { "materialId": "mat_skinning_t2_medium_hide", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t2_medium_leather_shoulders",
+      "quantity": 1,
+      "iLevel": 19,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_lw_t2_medium_leather_belt",
+    "professionId": "leatherworking",
+    "name": "Medium Leather Belt",
+    "skillRequired": 130,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t2_medium_leather", "quantity": 3 },
+      { "materialId": "mat_skinning_t2_medium_hide", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t2_medium_leather_belt",
+      "quantity": 1,
+      "iLevel": 20,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_lw_t2_enchanted_leather_vest",
+    "professionId": "leatherworking",
+    "name": "Enchanted Leather Vest",
+    "skillRequired": 140,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t2_medium_leather", "quantity": 5 },
+      { "materialId": "mat_dungeon_t2_enchanted_leather", "quantity": 2 },
+      { "materialId": "mat_vendor_dye", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t2_enchanted_leather_vest",
+      "quantity": 1,
+      "iLevel": 22,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_lw_t3_heavy_leather_vest",
+    "professionId": "leatherworking",
+    "name": "Heavy Leather Vest",
+    "skillRequired": 150,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t3_heavy_leather", "quantity": 4 },
+      { "materialId": "mat_vendor_thread", "quantity": 3 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t3_heavy_leather_vest",
+      "quantity": 1,
+      "iLevel": 23,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_lw_t3_heavy_leather_helm",
+    "professionId": "leatherworking",
+    "name": "Heavy Leather Helm",
+    "skillRequired": 160,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t3_heavy_leather", "quantity": 5 },
+      { "materialId": "mat_skinning_t3_thick_hide", "quantity": 1 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t3_heavy_leather_helm",
+      "quantity": 1,
+      "iLevel": 25,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_lw_t3_heavy_leather_pants",
+    "professionId": "leatherworking",
+    "name": "Heavy Leather Pants",
+    "skillRequired": 170,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t3_heavy_leather", "quantity": 5 },
+      { "materialId": "mat_skinning_t3_thick_hide", "quantity": 2 },
+      { "materialId": "mat_vendor_thread", "quantity": 3 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t3_heavy_leather_pants",
+      "quantity": 1,
+      "iLevel": 27,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_lw_t3_heavy_leather_boots",
+    "professionId": "leatherworking",
+    "name": "Heavy Leather Boots",
+    "skillRequired": 180,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t3_heavy_leather", "quantity": 4 },
+      { "materialId": "mat_skinning_t3_thick_hide", "quantity": 1 },
+      { "materialId": "mat_vendor_dye", "quantity": 2 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t3_heavy_leather_boots",
+      "quantity": 1,
+      "iLevel": 29,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_lw_t3_heavy_leather_gloves",
+    "professionId": "leatherworking",
+    "name": "Heavy Leather Gloves",
+    "skillRequired": 190,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t3_heavy_leather", "quantity": 5 },
+      { "materialId": "mat_drop_t3_living_essence", "quantity": 1 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t3_heavy_leather_gloves",
+      "quantity": 1,
+      "iLevel": 31,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_lw_t3_heavy_leather_shoulders",
+    "professionId": "leatherworking",
+    "name": "Heavy Leather Shoulders",
+    "skillRequired": 200,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t3_heavy_leather", "quantity": 5 },
+      { "materialId": "mat_skinning_t3_thick_hide", "quantity": 2 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t3_heavy_leather_shoulders",
+      "quantity": 1,
+      "iLevel": 33,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_lw_t3_heavy_leather_belt",
+    "professionId": "leatherworking",
+    "name": "Heavy Leather Belt",
+    "skillRequired": 205,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t3_heavy_leather", "quantity": 4 },
+      { "materialId": "mat_skinning_t3_thick_hide", "quantity": 2 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t3_heavy_leather_belt",
+      "quantity": 1,
+      "iLevel": 34,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_lw_t3_warden_leather_vest",
+    "professionId": "leatherworking",
+    "name": "Warden Leather Vest",
+    "skillRequired": 215,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t3_heavy_leather", "quantity": 6 },
+      { "materialId": "mat_skinning_t3_thick_hide", "quantity": 3 },
+      { "materialId": "mat_dungeon_t3_frozen_rune", "quantity": 1 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t3_warden_leather_vest",
+      "quantity": 1,
+      "iLevel": 37,
+      "quality": "rare"
+    }
+  },
+  {
+    "id": "recipe_lw_t4_thick_leather_vest",
+    "professionId": "leatherworking",
+    "name": "Thick Leather Vest",
+    "skillRequired": 225,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t4_thick_leather", "quantity": 5 },
+      { "materialId": "mat_vendor_thread", "quantity": 4 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t4_thick_leather_vest",
+      "quantity": 1,
+      "iLevel": 38,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_lw_t4_thick_leather_helm",
+    "professionId": "leatherworking",
+    "name": "Thick Leather Helm",
+    "skillRequired": 235,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t4_thick_leather", "quantity": 5 },
+      { "materialId": "mat_skinning_t4_rugged_hide", "quantity": 2 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t4_thick_leather_helm",
+      "quantity": 1,
+      "iLevel": 40,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_lw_t4_thick_leather_pants",
+    "professionId": "leatherworking",
+    "name": "Thick Leather Pants",
+    "skillRequired": 240,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t4_thick_leather", "quantity": 6 },
+      { "materialId": "mat_skinning_t4_rugged_hide", "quantity": 2 },
+      { "materialId": "mat_vendor_thread", "quantity": 4 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t4_thick_leather_pants",
+      "quantity": 1,
+      "iLevel": 42,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_lw_t4_thick_leather_boots",
+    "professionId": "leatherworking",
+    "name": "Thick Leather Boots",
+    "skillRequired": 245,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t4_thick_leather", "quantity": 5 },
+      { "materialId": "mat_drop_t4_essence_of_earth", "quantity": 1 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t4_thick_leather_boots",
+      "quantity": 1,
+      "iLevel": 44,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_lw_t4_thick_leather_gloves",
+    "professionId": "leatherworking",
+    "name": "Thick Leather Gloves",
+    "skillRequired": 250,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t4_thick_leather", "quantity": 5 },
+      { "materialId": "mat_skinning_t4_rugged_hide", "quantity": 3 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t4_thick_leather_gloves",
+      "quantity": 1,
+      "iLevel": 46,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_lw_t4_thick_leather_shoulders",
+    "professionId": "leatherworking",
+    "name": "Thick Leather Shoulders",
+    "skillRequired": 255,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t4_thick_leather", "quantity": 5 },
+      { "materialId": "mat_skinning_t4_rugged_hide", "quantity": 2 },
+      { "materialId": "mat_vendor_dye", "quantity": 3 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t4_thick_leather_shoulders",
+      "quantity": 1,
+      "iLevel": 48,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_lw_t4_core_leather_vest",
+    "professionId": "leatherworking",
+    "name": "Core Leather Vest",
+    "skillRequired": 260,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t4_thick_leather", "quantity": 6 },
+      { "materialId": "mat_dungeon_t4_core_leather", "quantity": 2 },
+      { "materialId": "mat_drop_t4_core_of_shadow", "quantity": 1 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t4_core_leather_vest",
+      "quantity": 1,
+      "iLevel": 50,
+      "quality": "rare"
+    }
+  },
+  {
+    "id": "recipe_lw_t4_thick_leather_belt",
+    "professionId": "leatherworking",
+    "name": "Thick Leather Belt",
+    "skillRequired": 265,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t4_thick_leather", "quantity": 5 },
+      { "materialId": "mat_skinning_t4_rugged_hide", "quantity": 3 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t4_thick_leather_belt",
+      "quantity": 1,
+      "iLevel": 52,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_lw_t5_rugged_leather_vest",
+    "professionId": "leatherworking",
+    "name": "Rugged Leather Vest",
+    "skillRequired": 275,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t5_rugged_leather", "quantity": 6 },
+      { "materialId": "mat_vendor_thread", "quantity": 5 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t5_rugged_leather_vest",
+      "quantity": 1,
+      "iLevel": 53,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_lw_t5_rugged_leather_helm",
+    "professionId": "leatherworking",
+    "name": "Rugged Leather Helm",
+    "skillRequired": 280,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t5_rugged_leather", "quantity": 6 },
+      { "materialId": "mat_skinning_t5_pristine_hide", "quantity": 2 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t5_rugged_leather_helm",
+      "quantity": 1,
+      "iLevel": 55,
+      "quality": "rare"
+    }
+  },
+  {
+    "id": "recipe_lw_t5_rugged_leather_pants",
+    "professionId": "leatherworking",
+    "name": "Rugged Leather Pants",
+    "skillRequired": 285,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t5_rugged_leather", "quantity": 7 },
+      { "materialId": "mat_skinning_t5_pristine_hide", "quantity": 2 },
+      { "materialId": "mat_vendor_thread", "quantity": 5 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t5_rugged_leather_pants",
+      "quantity": 1,
+      "iLevel": 56,
+      "quality": "rare"
+    }
+  },
+  {
+    "id": "recipe_lw_t5_rugged_leather_boots",
+    "professionId": "leatherworking",
+    "name": "Rugged Leather Boots",
+    "skillRequired": 288,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t5_rugged_leather", "quantity": 7 },
+      { "materialId": "mat_drop_t5_blood_of_heroes", "quantity": 1 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t5_rugged_leather_boots",
+      "quantity": 1,
+      "iLevel": 58,
+      "quality": "rare"
+    }
+  },
+  {
+    "id": "recipe_lw_t5_nether_dragonscale_vest",
+    "professionId": "leatherworking",
+    "name": "Nether Dragonscale Vest",
+    "skillRequired": 290,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t5_rugged_leather", "quantity": 6 },
+      { "materialId": "mat_dungeon_t5_nether_dragonscale", "quantity": 2 },
+      { "materialId": "mat_skinning_t5_pristine_hide", "quantity": 3 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t5_nether_dragonscale_vest",
+      "quantity": 1,
+      "iLevel": 59,
+      "quality": "rare"
+    }
+  },
+  {
+    "id": "recipe_lw_t5_rugged_leather_gloves",
+    "professionId": "leatherworking",
+    "name": "Rugged Leather Gloves",
+    "skillRequired": 293,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t5_rugged_leather", "quantity": 7 },
+      { "materialId": "mat_skinning_t5_pristine_hide", "quantity": 3 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t5_rugged_leather_gloves",
+      "quantity": 1,
+      "iLevel": 60,
+      "quality": "rare"
+    }
+  },
+  {
+    "id": "recipe_lw_t6_dragonscale_breastplate",
+    "professionId": "leatherworking",
+    "name": "Dragonscale Breastplate",
+    "skillRequired": 300,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t6_dragonscale", "quantity": 8 },
+      { "materialId": "mat_skinning_t6_void_touched_leather", "quantity": 3 },
+      { "materialId": "mat_drop_t6_void_essence", "quantity": 2 }
+    ],
+    "craftTimeMs": 8000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t6_dragonscale_breastplate",
+      "quantity": 1,
+      "iLevel": 60,
+      "quality": "epic"
+    }
+  },
+  {
+    "id": "recipe_lw_t6_dragonscale_helm",
+    "professionId": "leatherworking",
+    "name": "Dragonscale Helm",
+    "skillRequired": 300,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t6_dragonscale", "quantity": 10 },
+      { "materialId": "mat_dungeon_t6_spire_fragment", "quantity": 2 },
+      { "materialId": "mat_vendor_dye", "quantity": 5 }
+    ],
+    "craftTimeMs": 8000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t6_dragonscale_helm",
+      "quantity": 1,
+      "iLevel": 61,
+      "quality": "epic"
+    }
+  },
+  {
+    "id": "recipe_lw_t6_void_touched_leggings",
+    "professionId": "leatherworking",
+    "name": "Void-Touched Leggings",
+    "skillRequired": 300,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_skinning_t6_void_touched_leather", "quantity": 8 },
+      { "materialId": "mat_skinning_t6_dragonscale", "quantity": 4 },
+      { "materialId": "mat_dungeon_t6_ascendant_shard", "quantity": 2 },
+      { "materialId": "mat_drop_t6_void_essence", "quantity": 3 }
+    ],
+    "craftTimeMs": 8000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_lw_t6_void_touched_leggings",
+      "quantity": 1,
+      "iLevel": 62,
+      "quality": "epic"
+    }
+  }
+]

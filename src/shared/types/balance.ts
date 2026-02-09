@@ -1,4 +1,4 @@
-import { ItemQuality } from './enums';
+import { ItemQuality, RecipeDifficulty } from './enums';
 
 export interface IBalanceConfig {
   xp: {
@@ -152,5 +152,17 @@ export interface IBalanceConfig {
     rareReputationReward: number;
     eventCheckIntervalMs: number;
     eventBaseChance: number;
+  };
+
+  professions: {
+    gatheringIntervalTicks: number;
+    gatheringBaseYield: number;
+    gatheringSkillBonusPerPoint: number;
+    craftTimeBaseMs: number;
+    craftTimeComplexityMultiplier: number;
+    maxCraftingQueue: number;
+    materialBankSlots: number;
+    skillUpChances: Record<RecipeDifficulty, number>;
+    bracketThresholds: number[];
   };
 }

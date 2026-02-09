@@ -1,0 +1,323 @@
+[
+  {
+    "id": "recipe_fa_t1_linen_bandage",
+    "professionId": "first_aid",
+    "name": "Linen Bandage",
+    "skillRequired": 1,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t1_spider_silk", "quantity": 2 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_linen_bandage",
+        "name": "Linen Bandage",
+        "durationMs": 0,
+        "statBonuses": { "sta": 5 },
+        "description": "Bandages wounds, restoring a small amount of health."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_fa_t1_heavy_linen_bandage",
+    "professionId": "first_aid",
+    "name": "Heavy Linen Bandage",
+    "skillRequired": 30,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t1_spider_silk", "quantity": 3 },
+      { "materialId": "mat_vendor_thread", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_heavy_linen_bandage",
+        "name": "Heavy Linen Bandage",
+        "durationMs": 0,
+        "statBonuses": { "sta": 8 },
+        "description": "A thicker bandage that restores moderate health."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_fa_t1_anti_venom",
+    "professionId": "first_aid",
+    "name": "Anti-Venom",
+    "skillRequired": 55,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t1_spider_silk", "quantity": 2 },
+      { "materialId": "mat_herbalism_t1_silverleaf", "quantity": 2 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_anti_venom",
+        "name": "Anti-Venom",
+        "durationMs": 0,
+        "statBonuses": { "sta": 6, "spi": 3 },
+        "description": "Cures minor poisons and restores some health."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_fa_t2_wool_bandage",
+    "professionId": "first_aid",
+    "name": "Wool Bandage",
+    "skillRequired": 75,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t2_elemental_dust", "quantity": 2 },
+      { "materialId": "mat_vendor_thread", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_wool_bandage",
+        "name": "Wool Bandage",
+        "durationMs": 0,
+        "statBonuses": { "sta": 12 },
+        "description": "A sturdy bandage that restores a good amount of health."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_fa_t2_heavy_wool_bandage",
+    "professionId": "first_aid",
+    "name": "Heavy Wool Bandage",
+    "skillRequired": 110,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t2_elemental_dust", "quantity": 3 },
+      { "materialId": "mat_vendor_thread", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_heavy_wool_bandage",
+        "name": "Heavy Wool Bandage",
+        "durationMs": 0,
+        "statBonuses": { "sta": 16 },
+        "description": "A thick wool bandage with improved healing."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_fa_t2_strong_anti_venom",
+    "professionId": "first_aid",
+    "name": "Strong Anti-Venom",
+    "skillRequired": 135,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t2_venom_sac", "quantity": 2 },
+      { "materialId": "mat_herbalism_t2_bruiseweed", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_strong_anti_venom",
+        "name": "Strong Anti-Venom",
+        "durationMs": 0,
+        "statBonuses": { "sta": 12, "spi": 6 },
+        "description": "Cures moderate poisons and provides healing."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_fa_t3_silk_bandage",
+    "professionId": "first_aid",
+    "name": "Silk Bandage",
+    "skillRequired": 150,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t3_living_essence", "quantity": 2 },
+      { "materialId": "mat_vendor_thread", "quantity": 3 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_silk_bandage",
+        "name": "Silk Bandage",
+        "durationMs": 0,
+        "statBonuses": { "sta": 22 },
+        "description": "A silk bandage that provides excellent healing."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_fa_t3_heavy_silk_bandage",
+    "professionId": "first_aid",
+    "name": "Heavy Silk Bandage",
+    "skillRequired": 185,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t3_living_essence", "quantity": 3 },
+      { "materialId": "mat_vendor_thread", "quantity": 3 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_heavy_silk_bandage",
+        "name": "Heavy Silk Bandage",
+        "durationMs": 0,
+        "statBonuses": { "sta": 28 },
+        "description": "A reinforced silk bandage with superior healing."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_fa_t3_potent_anti_venom",
+    "professionId": "first_aid",
+    "name": "Potent Anti-Venom",
+    "skillRequired": 215,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t3_essence_of_fire", "quantity": 1 },
+      { "materialId": "mat_herbalism_t3_goldthorn", "quantity": 2 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_potent_anti_venom",
+        "name": "Potent Anti-Venom",
+        "durationMs": 0,
+        "statBonuses": { "sta": 20, "spi": 10 },
+        "description": "Cures severe poisons and provides strong healing."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_fa_t4_runecloth_bandage",
+    "professionId": "first_aid",
+    "name": "Runecloth Bandage",
+    "skillRequired": 225,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t4_essence_of_earth", "quantity": 2 },
+      { "materialId": "mat_vendor_thread", "quantity": 4 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_runecloth_bandage",
+        "name": "Runecloth Bandage",
+        "durationMs": 0,
+        "statBonuses": { "sta": 35 },
+        "description": "A runecloth bandage with potent healing properties."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_fa_t4_heavy_runecloth_bandage",
+    "professionId": "first_aid",
+    "name": "Heavy Runecloth Bandage",
+    "skillRequired": 255,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t4_essence_of_earth", "quantity": 3 },
+      { "materialId": "mat_vendor_thread", "quantity": 4 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_heavy_runecloth_bandage",
+        "name": "Heavy Runecloth Bandage",
+        "durationMs": 0,
+        "statBonuses": { "sta": 42 },
+        "description": "A dense runecloth bandage with powerful healing."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_fa_t5_dreamweave_bandage",
+    "professionId": "first_aid",
+    "name": "Dreamweave Bandage",
+    "skillRequired": 275,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t5_blood_of_heroes", "quantity": 2 },
+      { "materialId": "mat_herbalism_t5_dreamfoil", "quantity": 2 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_dreamweave_bandage",
+        "name": "Dreamweave Bandage",
+        "durationMs": 0,
+        "statBonuses": { "sta": 50 },
+        "description": "A magical bandage woven with dreamfoil essence."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_fa_t5_heavy_dreamweave_bandage",
+    "professionId": "first_aid",
+    "name": "Heavy Dreamweave Bandage",
+    "skillRequired": 290,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t5_blood_of_heroes", "quantity": 3 },
+      { "materialId": "mat_herbalism_t5_mountain_silversage", "quantity": 2 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_heavy_dreamweave_bandage",
+        "name": "Heavy Dreamweave Bandage",
+        "durationMs": 0,
+        "statBonuses": { "sta": 60 },
+        "description": "A reinforced magical bandage with exceptional healing."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_fa_t6_void_bandage",
+    "professionId": "first_aid",
+    "name": "Void Bandage",
+    "skillRequired": 300,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t6_void_essence", "quantity": 2 },
+      { "materialId": "mat_herbalism_t6_nethervine", "quantity": 3 }
+    ],
+    "craftTimeMs": 8000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_void_bandage",
+        "name": "Void Bandage",
+        "durationMs": 0,
+        "statBonuses": { "sta": 75 },
+        "description": "A bandage infused with void energy that provides ultimate healing."
+      },
+      "quantity": 2
+    }
+  }
+]
