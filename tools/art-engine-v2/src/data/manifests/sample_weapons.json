@@ -1,0 +1,8 @@
+{
+  "type": "icons",
+  "template": "dagger",
+  "materials": ["iron", "steel", "gold", "darksteel"],
+  "qualities": ["common", "uncommon", "rare", "epic", "legendary"],
+  "seeds": [100, 101, 102],
+  "output_dir": "output/icons/weapons"
+}

@@ -21,7 +21,8 @@
     "lint": "eslint src/ tests/ --ext .ts,.tsx",
     "typecheck": "tsc --noEmit -p tsconfig.main.json && tsc --noEmit -p tsconfig.renderer.json && tsc --noEmit -p tsconfig.engine.json",
     "start": "electron .",
-    "art": "tsx tools/art-engine/src/cli/index.ts"
+    "art": "tsx tools/art-engine/src/cli/index.ts",
+    "art:v2": "cd tools/art-engine-v2 && python -m src.cli"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
