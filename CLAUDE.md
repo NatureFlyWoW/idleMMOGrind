@@ -47,9 +47,9 @@ Electron 34+ | React 19 | TypeScript 5 (strict) | Vite 6 | Vitest 3 | pnpm | CSS
 
 **Phase 1:** COMPLETE (24 tasks, 335 tests) | Plan: `docs/plans/phase1/index.md`
 
-**Phase 2:** PLANNED (35 tasks, 4 waves) | Plan: `docs/plans/phase2/plan-index.md`
-- Wave 1: Zone expansion + Professions (parallel)
-- Wave 2: Dungeons + Reputation (parallel)
+**Phase 2:** IN PROGRESS (35 tasks, 4 waves) | Plan: `docs/plans/phase2/plan-index.md`
+- Wave 1: Zone expansion + Professions — **MERGED** (9 tasks, 717 tests)
+- Wave 2: Dungeons + Reputation (parallel) — next
 - Wave 3: Raids + Daily/Weekly (parallel)
 - Wave 4: UI + Integration tests
 

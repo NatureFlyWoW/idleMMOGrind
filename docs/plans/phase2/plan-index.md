@@ -24,8 +24,8 @@
 
 | File | Tasks | Branch | Wave | Status |
 |------|-------|--------|------|--------|
-| [wave1-zones.md](wave1-zones.md) | Z1-Z4 | `feat/zone-expansion` | 1 | Pending |
-| [wave1-professions.md](wave1-professions.md) | P1-P5 | `feat/profession-system` | 1 | Pending |
+| [wave1-zones.md](wave1-zones.md) | Z1-Z4 | `feat/zone-expansion` | 1 | DONE |
+| [wave1-professions.md](wave1-professions.md) | P1-P5 | `feat/profession-system` | 1 | DONE |
 | [wave2-dungeons.md](wave2-dungeons.md) | D1-D5 | `feat/dungeon-system` | 2 | Pending |
 | [wave2-reputation.md](wave2-reputation.md) | R1-R3 | `feat/reputation-system` | 2 | Pending |
 | [wave3-raids.md](wave3-raids.md) | A1-A4 | `feat/raid-system` | 3 | Pending |

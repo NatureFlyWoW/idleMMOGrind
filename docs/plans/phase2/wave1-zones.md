@@ -1,6 +1,6 @@
 # Phase 2 -- Zone Expansion (Tasks Z1-Z4)
 
-> Part of the [Phase 2 Implementation Plan](plan-index.md) | **Status:** Pending
+> Part of the [Phase 2 Implementation Plan](plan-index.md) | **Status:** DONE
 >
 > **For Claude:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.
 
