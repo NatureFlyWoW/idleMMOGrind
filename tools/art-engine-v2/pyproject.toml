@@ -1,0 +1,20 @@
+[project]
+name = "art-engine-v2"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "Pillow>=10.0",
+    "numpy>=1.24",
+    "opensimplex>=0.4",
+    "click>=8.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "pytest-cov"]
+
+[project.scripts]
+art = "src.cli.__main__:cli"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
