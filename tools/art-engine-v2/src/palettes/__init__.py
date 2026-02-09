@@ -1,0 +1,1 @@
+"""Game palette definitions package."""
