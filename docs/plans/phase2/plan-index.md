@@ -36,9 +36,15 @@
 
 ## Wave Structure
 
-### Wave 1 (Parallel -- no Phase 2 dependencies)
+### Wave 1 (Parallel -- no Phase 2 dependencies) -- DONE
 - `feat/zone-expansion` (Z1-Z4): Quest chains, elite areas, rare spawns, zone events, monster enrichment
 - `feat/profession-system` (P1-P5): Types, materials, gathering, crafting engine, recipe data
+
+### Art Engine V2 Rebuild (Immediate next -- after Wave 1)
+- Rebuild art engine in Python (Pillow + NumPy + opensimplex + click)
+- Replaces TypeScript v1 at `tools/art-engine/`
+- Design: [art-engine-v2-design.md](art-engine-v2-design.md)
+- Phases: V2-A (Core+Ingest+Icons) → V2-B (UI Chrome+Text+Tooltips) → V2-C (Sprite Compositor) → V2-D (Layout+Backgrounds) → V2-E (Manifest Pipeline)
 
 ### Wave 2 (Parallel -- depends on Wave 1)
 - `feat/dungeon-system` (D1-D5): Dungeon runner, per-boss success, 10 dungeon data files, lockout manager
@@ -52,13 +58,7 @@
 - `feat/phase2-ui` (U1-U6): Dungeon browser, raid planner, profession panel, reputation panel, quest journal, vendor screens
 - `feat/phase2-integration` (I1-I2): Cross-system integration tests, balance simulations
 
-### Art Engine V2 Rebuild (After Phase 2 Wave 4 -- before Phase 2.5)
-- Rebuild art engine in Python (Pillow + NumPy + opensimplex + click)
-- Replaces TypeScript v1 at `tools/art-engine/`
-- Design: [art-engine-v2-design.md](art-engine-v2-design.md)
-- Phases: V2-A (Core+Ingest+Icons) → V2-B (UI Chrome+Text+Tooltips) → V2-C (Sprite Compositor) → V2-D (Layout+Backgrounds) → V2-E (Manifest Pipeline)
-
-### Phase 2.5 (After Art Engine V2 -- before Phase 3)
+### Phase 2.5 (After Art Engine V2 + all engine waves -- before Phase 3)
 - AI-draft ~200 base templates (sprites, icons, overlays, UI chrome)
 - Art asset generation sprint using Art Engine V2 (~3,500 assets)
 - Asset integration into React UI
@@ -66,16 +66,17 @@
 
 ## Merge Order
 
-1. `feat/zone-expansion` -- no Phase 2 deps
-2. `feat/profession-system` -- can merge in parallel with zones
-3. `feat/dungeon-system` -- needs zones merged
-4. `feat/reputation-system` -- needs zones + dungeons merged
-5. `feat/raid-system` -- needs dungeons + reputation merged
-6. `feat/daily-weekly` -- needs all content systems merged
-7. `feat/phase2-ui` -- needs all engine systems merged
-8. `feat/phase2-integration` -- final verification on main
-9. `feat/art-assets` -- Phase 2.5 art generation
-10. `feat/art-integration` -- Phase 2.5 asset wiring + playtest
+1. `feat/zone-expansion` -- DONE
+2. `feat/profession-system` -- DONE
+3. **Art Engine V2 rebuild** -- immediate next (Python, separate from game codebase)
+4. `feat/dungeon-system` -- needs zones merged
+5. `feat/reputation-system` -- needs zones + dungeons merged
+6. `feat/raid-system` -- needs dungeons + reputation merged
+7. `feat/daily-weekly` -- needs all content systems merged
+8. `feat/phase2-ui` -- needs all engine systems merged
+9. `feat/phase2-integration` -- final verification on main
+10. `feat/art-assets` -- Phase 2.5 art generation
+11. `feat/art-integration` -- Phase 2.5 asset wiring + playtest
 
 ## Key Deliverables per Branch
 

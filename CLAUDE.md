@@ -49,11 +49,10 @@ Electron 34+ | React 19 | TypeScript 5 (strict) | Vite 6 | Vitest 3 | pnpm | CSS
 
 **Phase 2:** IN PROGRESS (35 tasks, 4 waves) | Plan: `docs/plans/phase2/plan-index.md`
 - Wave 1: Zone expansion + Professions — **MERGED** (9 tasks, 717 tests)
-- Wave 2: Dungeons + Reputation (parallel) — next
+- **Art Engine V2: NEXT** | Python rebuild | Design: `docs/plans/phase2/art-engine-v2-design.md`
+- Wave 2: Dungeons + Reputation (parallel)
 - Wave 3: Raids + Daily/Weekly (parallel)
 - Wave 4: UI + Integration tests
-
-**Art Engine V2:** DESIGNED | Python rebuild of art engine | Design: `docs/plans/phase2/art-engine-v2-design.md`
 
 **Phase 2.5:** PLANNED (4 task groups) | Art generation + prototype playtest
 
@@ -62,8 +61,9 @@ Electron 34+ | React 19 | TypeScript 5 (strict) | Vite 6 | Vitest 3 | pnpm | CSS
 ## Development Phases
 
 1. **Phase 1 (DONE):** Electron scaffold, character creation, combat, leveling 1-60, gear, talents, save system
-2. **Phase 2 (IN PROGRESS):** Zone expansion, 10 dungeons, 4 raids, professions, reputation, daily/weekly
-3. **Art Engine V2 (DESIGNED):** Python rebuild — AI-draft → ingest → generate → compose pipeline
-4. **Phase 2.5 (PLANNED):** Art asset generation with V2 engine, UI integration, prototype playtest
-5. **Phase 3:** Ascension, Paragon, achievements, collections, alts
-6. **Phase 4:** UI polish, balance tuning, tutorial, Electron optimization, beta
+2. **Phase 2 Wave 1 (DONE):** Zone expansion, professions (717 tests)
+3. **Art Engine V2 (NEXT):** Python rebuild — AI-draft → ingest → generate → compose pipeline
+4. **Phase 2 Waves 2-4:** Dungeons, raids, reputation, daily/weekly, UI, integration
+5. **Phase 2.5:** Art asset generation with V2 engine, UI integration, prototype playtest
+6. **Phase 3:** Ascension, Paragon, achievements, collections, alts
+7. **Phase 4:** UI polish, balance tuning, tutorial, Electron optimization, beta
