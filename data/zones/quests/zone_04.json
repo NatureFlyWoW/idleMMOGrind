@@ -1,0 +1,154 @@
+[
+  {
+    "id": "qc_z04_01",
+    "zoneId": "zone_04",
+    "name": "Centaur Raids",
+    "description": "Centaur war bands are raiding settlements across the Silvergrass Meadows.",
+    "quests": [
+      {
+        "id": "q_z04_01_01",
+        "name": "Centaur Scouts",
+        "description": "Eliminate the centaur scout parties on the perimeter.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z04_centaur_warrior", "count": 8 }],
+        "xpReward": 320,
+        "goldReward": 50,
+        "nextQuestId": "q_z04_01_02"
+      },
+      {
+        "id": "q_z04_01_02",
+        "name": "War Plans",
+        "description": "Collect the centaur war plans from their forward camps.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "centaur_war_plans", "count": 3 }],
+        "xpReward": 340,
+        "goldReward": 55,
+        "nextQuestId": "q_z04_01_03"
+      },
+      {
+        "id": "q_z04_01_03",
+        "name": "Burning the Camps",
+        "description": "Destroy the centaur supply camps to halt their advance.",
+        "type": "exploration",
+        "objectives": [{ "type": "explore", "targetId": "zone_04_centaur_camp", "count": 3 }],
+        "xpReward": 360,
+        "goldReward": 58,
+        "nextQuestId": "q_z04_01_04"
+      },
+      {
+        "id": "q_z04_01_04",
+        "name": "The Centaur Chieftain",
+        "description": "Challenge and defeat the centaur chieftain.",
+        "type": "elite",
+        "objectives": [{ "type": "kill", "targetId": "mon_z04_centaur_chieftain", "count": 1 }],
+        "xpReward": 400,
+        "goldReward": 65,
+        "gearReward": { "slot": "chest", "qualityMin": "rare" },
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 500,
+      "goldBonus": 100,
+      "reputationBonus": 125
+    }
+  },
+  {
+    "id": "qc_z04_02",
+    "zoneId": "zone_04",
+    "name": "Harpy Nests",
+    "description": "Harpies have claimed the cliffs overlooking the meadows.",
+    "quests": [
+      {
+        "id": "q_z04_02_01",
+        "name": "Feathered Menace",
+        "description": "Thin the harpy flocks terrorizing the meadows.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z04_harpy", "count": 10 }],
+        "xpReward": 310,
+        "goldReward": 48,
+        "nextQuestId": "q_z04_02_02"
+      },
+      {
+        "id": "q_z04_02_02",
+        "name": "Egg Smashing",
+        "description": "Destroy harpy eggs in the cliff nests to prevent reinforcements.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "harpy_egg", "count": 6 }],
+        "xpReward": 330,
+        "goldReward": 52,
+        "nextQuestId": "q_z04_02_03"
+      },
+      {
+        "id": "q_z04_02_03",
+        "name": "The Harpy Matriarch",
+        "description": "Ascend to the highest cliff and slay the harpy matriarch.",
+        "type": "elite",
+        "objectives": [{ "type": "kill", "targetId": "mon_z04_harpy_matriarch", "count": 1 }],
+        "xpReward": 380,
+        "goldReward": 60,
+        "gearReward": { "slot": "feet", "qualityMin": "uncommon" },
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 450,
+      "goldBonus": 90,
+      "reputationBonus": 125
+    }
+  },
+  {
+    "id": "qc_z04_03",
+    "zoneId": "zone_04",
+    "name": "Elemental Storms",
+    "description": "Rogue elementals are disrupting the natural balance of the plains.",
+    "quests": [
+      {
+        "id": "q_z04_03_01",
+        "name": "Storm Chasing",
+        "description": "Track and destroy the rogue elementals across the meadows.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z04_rogue_elemental", "count": 6 }],
+        "xpReward": 300,
+        "goldReward": 46,
+        "nextQuestId": "q_z04_03_02"
+      },
+      {
+        "id": "q_z04_03_02",
+        "name": "Elemental Cores",
+        "description": "Collect the unstable cores from defeated elementals.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "unstable_core", "count": 4 }],
+        "xpReward": 335,
+        "goldReward": 53,
+        "nextQuestId": "q_z04_03_03"
+      },
+      {
+        "id": "q_z04_03_03",
+        "name": "Seal the Rift",
+        "description": "Find and seal the elemental rift causing the storms.",
+        "type": "exploration",
+        "objectives": [{ "type": "explore", "targetId": "zone_04_elemental_rift", "count": 1 }],
+        "xpReward": 370,
+        "goldReward": 58,
+        "nextQuestId": "q_z04_03_04"
+      },
+      {
+        "id": "q_z04_03_04",
+        "name": "Dust Devil Lord",
+        "description": "The rift guardian must be destroyed to seal the tear permanently.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z04_dust_devil", "count": 1 }],
+        "xpReward": 390,
+        "goldReward": 62,
+        "gearReward": { "slot": "ring1", "qualityMin": "rare" },
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 480,
+      "goldBonus": 95,
+      "reputationBonus": 125
+    }
+  }
+]

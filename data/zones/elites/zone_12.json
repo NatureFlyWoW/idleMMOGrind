@@ -1,0 +1,13 @@
+{
+  "id": "elite_z12",
+  "zoneId": "zone_12",
+  "name": "The Inner Sanctum",
+  "description": "The most heavily guarded chambers of the Ascendant Spire.",
+  "levelBoost": 3,
+  "hpMultiplier": 3.0,
+  "damageMultiplier": 2.0,
+  "xpMultiplier": 2.5,
+  "reputationMultiplier": 2.0,
+  "lootQualityBoost": 1,
+  "monsterIds": ["mon_z12_ancient_construct", "mon_z12_void_lord", "mon_z12_entropy_weaver", "mon_z12_ascendant_wraith"]
+}

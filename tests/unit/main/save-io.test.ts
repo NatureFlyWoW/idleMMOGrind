@@ -37,6 +37,10 @@ function makeMinimalSave(): ISaveData {
       zonesCompleted: ['zone_01'],
       unlockedAbilities: ['auto-attack', 'mortal-strike'],
       activeAbilityPriority: ['mortal-strike', 'auto-attack'],
+      questChains: {},
+      rareSpawnsDefeated: [],
+      eliteAreasUnlocked: [],
+      activeZoneEvents: [],
     },
     inventory: {
       equipped: {},

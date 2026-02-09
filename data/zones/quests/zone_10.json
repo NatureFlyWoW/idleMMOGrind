@@ -1,0 +1,258 @@
+[
+  {
+    "id": "qc_z10_01",
+    "zoneId": "zone_10",
+    "name": "Dragonkin War",
+    "description": "Dragonkin forces are massing on the Ashfall Plateau, preparing for war.",
+    "quests": [
+      {
+        "id": "q_z10_01_01",
+        "name": "Dragonkin Scouts",
+        "description": "Eliminate the dragonkin scouting parties near the plateau edge.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z10_dragonkin", "count": 10 }],
+        "xpReward": 1300,
+        "goldReward": 175,
+        "nextQuestId": "q_z10_01_02"
+      },
+      {
+        "id": "q_z10_01_02",
+        "name": "Dragon Scales",
+        "description": "Collect dragonkin scales for fortifying armor against their fire.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "dragonkin_scale", "count": 6 }],
+        "xpReward": 1330,
+        "goldReward": 180,
+        "nextQuestId": "q_z10_01_03"
+      },
+      {
+        "id": "q_z10_01_03",
+        "name": "The Nesting Grounds",
+        "description": "Scout the dragonkin nesting grounds to assess their numbers.",
+        "type": "exploration",
+        "objectives": [{ "type": "explore", "targetId": "zone_10_nesting_ground", "count": 2 }],
+        "xpReward": 1350,
+        "goldReward": 183,
+        "nextQuestId": "q_z10_01_04"
+      },
+      {
+        "id": "q_z10_01_04",
+        "name": "Phoenix Spawn Assault",
+        "description": "Destroy the phoenix spawn protecting the dragonkin camps.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z10_phoenix_spawn", "count": 5 }],
+        "xpReward": 1380,
+        "goldReward": 188,
+        "nextQuestId": "q_z10_01_05"
+      },
+      {
+        "id": "q_z10_01_05",
+        "name": "The Dragonkin Warlord",
+        "description": "Challenge and defeat the dragonkin warlord.",
+        "type": "elite",
+        "objectives": [{ "type": "kill", "targetId": "mon_z10_dragonkin_warlord", "count": 1 }],
+        "xpReward": 1450,
+        "goldReward": 198,
+        "gearReward": { "slot": "shoulders", "qualityMin": "epic" },
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 1800,
+      "goldBonus": 340,
+      "reputationBonus": 325
+    }
+  },
+  {
+    "id": "qc_z10_02",
+    "zoneId": "zone_10",
+    "name": "Fire Giant Menace",
+    "description": "Fire giants have descended from the volcanic peaks to wreak havoc.",
+    "quests": [
+      {
+        "id": "q_z10_02_01",
+        "name": "Giant Slayer",
+        "description": "Challenge the fire giants roaming the plateau.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z10_fire_giant", "count": 6 }],
+        "xpReward": 1280,
+        "goldReward": 172,
+        "nextQuestId": "q_z10_02_02"
+      },
+      {
+        "id": "q_z10_02_02",
+        "name": "Molten Cores",
+        "description": "Collect the molten cores from defeated fire giants.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "molten_core", "count": 4 }],
+        "xpReward": 1320,
+        "goldReward": 178,
+        "nextQuestId": "q_z10_02_03"
+      },
+      {
+        "id": "q_z10_02_03",
+        "name": "Obsidian Path",
+        "description": "Navigate through the obsidian golem guardians to the fire giants' forge.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z10_obsidian_golem", "count": 4 }],
+        "xpReward": 1350,
+        "goldReward": 183,
+        "nextQuestId": "q_z10_02_04"
+      },
+      {
+        "id": "q_z10_02_04",
+        "name": "The Giant's Forge",
+        "description": "Locate and infiltrate the fire giants' volcanic forge.",
+        "type": "exploration",
+        "objectives": [{ "type": "explore", "targetId": "zone_10_giant_forge", "count": 1 }],
+        "xpReward": 1370,
+        "goldReward": 186,
+        "nextQuestId": "q_z10_02_05"
+      },
+      {
+        "id": "q_z10_02_05",
+        "name": "The Magma Lord",
+        "description": "Defeat the magma lord commanding the fire giants.",
+        "type": "elite",
+        "objectives": [{ "type": "kill", "targetId": "mon_z10_magma_lord", "count": 1 }],
+        "xpReward": 1420,
+        "goldReward": 194,
+        "gearReward": { "slot": "main-hand", "qualityMin": "epic" },
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 1750,
+      "goldBonus": 330,
+      "reputationBonus": 325
+    }
+  },
+  {
+    "id": "qc_z10_03",
+    "zoneId": "zone_10",
+    "name": "Lava Lurkers",
+    "description": "Creatures from beneath the lava flows are emerging to hunt on the surface.",
+    "quests": [
+      {
+        "id": "q_z10_03_01",
+        "name": "Lava Pool Patrol",
+        "description": "Slay lava lurkers emerging from the volcanic pools.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z10_lava_lurker", "count": 8 }],
+        "xpReward": 1260,
+        "goldReward": 170,
+        "nextQuestId": "q_z10_03_02"
+      },
+      {
+        "id": "q_z10_03_02",
+        "name": "Volcanic Vents",
+        "description": "Seal the volcanic vents that the lurkers use as entry points.",
+        "type": "exploration",
+        "objectives": [{ "type": "explore", "targetId": "zone_10_volcanic_vent", "count": 3 }],
+        "xpReward": 1300,
+        "goldReward": 175,
+        "nextQuestId": "q_z10_03_03"
+      },
+      {
+        "id": "q_z10_03_03",
+        "name": "Magma Samples",
+        "description": "Collect hardened magma samples from the sealed vents.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "hardened_magma", "count": 5 }],
+        "xpReward": 1320,
+        "goldReward": 178,
+        "nextQuestId": "q_z10_03_04"
+      },
+      {
+        "id": "q_z10_03_04",
+        "name": "Escort the Geologist",
+        "description": "Escort the geologist to study the source of the eruptions.",
+        "type": "escort",
+        "objectives": [{ "type": "escort", "targetId": "geologist", "count": 1 }],
+        "xpReward": 1340,
+        "goldReward": 181,
+        "nextQuestId": "q_z10_03_05"
+      },
+      {
+        "id": "q_z10_03_05",
+        "name": "Seal the Caldera",
+        "description": "Destroy the obsidian golem holding the caldera open.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z10_obsidian_golem", "count": 1 }],
+        "xpReward": 1400,
+        "goldReward": 190,
+        "gearReward": { "slot": "ring2", "qualityMin": "rare" },
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 1700,
+      "goldBonus": 320,
+      "reputationBonus": 325
+    }
+  },
+  {
+    "id": "qc_z10_04",
+    "zoneId": "zone_10",
+    "name": "Ashfall Expedition",
+    "description": "A research expedition to the volcanic summit needs protection.",
+    "quests": [
+      {
+        "id": "q_z10_04_01",
+        "name": "Secure the Base Camp",
+        "description": "Clear hostile creatures from the expedition's base camp area.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z10_lava_lurker", "count": 6 }],
+        "xpReward": 1250,
+        "goldReward": 168,
+        "nextQuestId": "q_z10_04_02"
+      },
+      {
+        "id": "q_z10_04_02",
+        "name": "Volcanic Artifacts",
+        "description": "Recover ancient artifacts from the volcanic ruins.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "volcanic_artifact", "count": 4 }],
+        "xpReward": 1290,
+        "goldReward": 174,
+        "nextQuestId": "q_z10_04_03"
+      },
+      {
+        "id": "q_z10_04_03",
+        "name": "Summit Path",
+        "description": "Scout and secure the path to the volcanic summit.",
+        "type": "exploration",
+        "objectives": [{ "type": "explore", "targetId": "zone_10_summit_path", "count": 2 }],
+        "xpReward": 1310,
+        "goldReward": 177,
+        "nextQuestId": "q_z10_04_04"
+      },
+      {
+        "id": "q_z10_04_04",
+        "name": "Escort to the Summit",
+        "description": "Escort the lead researcher to the volcanic summit.",
+        "type": "escort",
+        "objectives": [{ "type": "escort", "targetId": "lead_researcher", "count": 1 }],
+        "xpReward": 1340,
+        "goldReward": 181,
+        "nextQuestId": "q_z10_04_05"
+      },
+      {
+        "id": "q_z10_04_05",
+        "name": "The Phoenix Guardian",
+        "description": "A phoenix guards the summit's secrets. Defeat it.",
+        "type": "elite",
+        "objectives": [{ "type": "kill", "targetId": "mon_z10_phoenix_spawn", "count": 1 }],
+        "xpReward": 1430,
+        "goldReward": 195,
+        "gearReward": { "slot": "trinket2", "qualityMin": "epic" },
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 1650,
+      "goldBonus": 310,
+      "reputationBonus": 325
+    }
+  }
+]

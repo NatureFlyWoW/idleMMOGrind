@@ -1,0 +1,100 @@
+[
+  {
+    "id": "qc_z02_01",
+    "zoneId": "zone_02",
+    "name": "The Plague Spreads",
+    "description": "A mysterious plague is turning the farmers of Thornwick into undead.",
+    "quests": [
+      {
+        "id": "q_z02_01_01",
+        "name": "Undead Infestation",
+        "description": "Put the risen farmers to rest.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z02_undead_farmer", "count": 8 }],
+        "xpReward": 100,
+        "goldReward": 20,
+        "nextQuestId": "q_z02_01_02"
+      },
+      {
+        "id": "q_z02_01_02",
+        "name": "Plague Samples",
+        "description": "Collect samples of the plague from infected corpses.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "plague_sample", "count": 5 }],
+        "xpReward": 110,
+        "goldReward": 22,
+        "nextQuestId": "q_z02_01_03"
+      },
+      {
+        "id": "q_z02_01_03",
+        "name": "Source of Corruption",
+        "description": "Find the source of the plague in the old well.",
+        "type": "exploration",
+        "objectives": [{ "type": "explore", "targetId": "zone_02_plague_well", "count": 1 }],
+        "xpReward": 120,
+        "goldReward": 25,
+        "nextQuestId": "q_z02_01_04"
+      },
+      {
+        "id": "q_z02_01_04",
+        "name": "Cleanse the Source",
+        "description": "Destroy the cultist maintaining the plague ritual.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z02_cultist", "count": 3 }],
+        "xpReward": 140,
+        "goldReward": 30,
+        "gearReward": { "slot": "head", "qualityMin": "uncommon" },
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 200,
+      "goldBonus": 50,
+      "reputationBonus": 75
+    }
+  },
+  {
+    "id": "qc_z02_02",
+    "zoneId": "zone_02",
+    "name": "Web of Darkness",
+    "description": "Giant spiders have nested beneath the hamlet, growing bolder each day.",
+    "quests": [
+      {
+        "id": "q_z02_02_01",
+        "name": "Spider Silk Collection",
+        "description": "Collect spider silk from the webs around the hamlet.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "spider_silk", "count": 6 }],
+        "xpReward": 95,
+        "goldReward": 18,
+        "nextQuestId": "q_z02_02_02"
+      },
+      {
+        "id": "q_z02_02_02",
+        "name": "Into the Nest",
+        "description": "Venture into the spider tunnels and slay the giant spiders.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z02_giant_spider", "count": 10 }],
+        "xpReward": 130,
+        "goldReward": 28,
+        "nextQuestId": "q_z02_02_03"
+      },
+      {
+        "id": "q_z02_02_03",
+        "name": "The Broodmother",
+        "description": "Destroy the broodmother spider at the heart of the nest.",
+        "type": "elite",
+        "objectives": [{ "type": "kill", "targetId": "mon_z02_broodmother", "count": 1 }],
+        "xpReward": 160,
+        "goldReward": 35,
+        "gearReward": { "slot": "legs", "qualityMin": "uncommon" },
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 180,
+      "goldBonus": 45,
+      "reputationBonus": 75
+    }
+  }
+]

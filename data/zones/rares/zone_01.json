@@ -1,0 +1,28 @@
+[
+  {
+    "id": "rare_z01_shadowfang",
+    "zoneId": "zone_01",
+    "name": "Shadowfang",
+    "level": 5,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "uncommon",
+    "guaranteedDropSlot": "main-hand",
+    "xpMultiplier": 5.0,
+    "reputationReward": 50
+  },
+  {
+    "id": "rare_z01_old_bristleback",
+    "zoneId": "zone_01",
+    "name": "Old Bristleback",
+    "level": 4,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "uncommon",
+    "guaranteedDropSlot": "chest",
+    "xpMultiplier": 5.0,
+    "reputationReward": 50
+  }
+]

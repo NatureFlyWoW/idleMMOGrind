@@ -141,4 +141,16 @@ export interface IBalanceConfig {
     respecCostPerLevel: number;
     respecCountMultiplier: number;
   };
+
+  zones: {
+    eliteHpMultiplier: number;
+    eliteDamageMultiplier: number;
+    eliteXpMultiplier: number;
+    eliteReputationMultiplier: number;
+    rareSpawnBaseChance: number;
+    rareXpMultiplier: number;
+    rareReputationReward: number;
+    eventCheckIntervalMs: number;
+    eventBaseChance: number;
+  };
 }

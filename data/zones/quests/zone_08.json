@@ -1,0 +1,197 @@
+[
+  {
+    "id": "qc_z08_01",
+    "zoneId": "zone_08",
+    "name": "Breaking the Siege",
+    "description": "Orc raiders have besieged Ironhold Fortress. The defense must hold.",
+    "quests": [
+      {
+        "id": "q_z08_01_01",
+        "name": "Wall Defense",
+        "description": "Repel the orc raiders assaulting the outer walls.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z08_orc_raider", "count": 12 }],
+        "xpReward": 870,
+        "goldReward": 120,
+        "nextQuestId": "q_z08_01_02"
+      },
+      {
+        "id": "q_z08_01_02",
+        "name": "Sabotage the Engines",
+        "description": "Destroy the orc siege engines before they breach the gates.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z08_siege_engine", "count": 3 }],
+        "xpReward": 900,
+        "goldReward": 125,
+        "nextQuestId": "q_z08_01_03"
+      },
+      {
+        "id": "q_z08_01_03",
+        "name": "Supply Recovery",
+        "description": "Recover stolen fortress supplies from the orc camps.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "fortress_supplies", "count": 6 }],
+        "xpReward": 920,
+        "goldReward": 128,
+        "nextQuestId": "q_z08_01_04"
+      },
+      {
+        "id": "q_z08_01_04",
+        "name": "The War Shaman",
+        "description": "The orc war shaman is rallying their troops. Eliminate him.",
+        "type": "elite",
+        "objectives": [{ "type": "kill", "targetId": "mon_z08_war_shaman", "count": 1 }],
+        "xpReward": 960,
+        "goldReward": 135,
+        "gearReward": { "slot": "trinket1", "qualityMin": "rare" },
+        "nextQuestId": "q_z08_01_05"
+      },
+      {
+        "id": "q_z08_01_05",
+        "name": "Counterattack",
+        "description": "Lead a counterattack to push the orcs back from the walls.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z08_orc_raider", "count": 8 }],
+        "xpReward": 890,
+        "goldReward": 122,
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 1200,
+      "goldBonus": 220,
+      "reputationBonus": 225
+    }
+  },
+  {
+    "id": "qc_z08_02",
+    "zoneId": "zone_08",
+    "name": "Troll Problem",
+    "description": "Battle trolls have joined the orc siege, adding their brute strength.",
+    "quests": [
+      {
+        "id": "q_z08_02_01",
+        "name": "Troll Hunters",
+        "description": "Slay the battle trolls assaulting the fortress flanks.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z08_battle_troll", "count": 6 }],
+        "xpReward": 860,
+        "goldReward": 118,
+        "nextQuestId": "q_z08_02_02"
+      },
+      {
+        "id": "q_z08_02_02",
+        "name": "Fire Bombs",
+        "description": "Collect fire bomb materials to use against the trolls' regeneration.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "fire_bomb_materials", "count": 5 }],
+        "xpReward": 885,
+        "goldReward": 122,
+        "nextQuestId": "q_z08_02_03"
+      },
+      {
+        "id": "q_z08_02_03",
+        "name": "Troll Warren",
+        "description": "Find and assault the troll warren east of the fortress.",
+        "type": "exploration",
+        "objectives": [{ "type": "explore", "targetId": "zone_08_troll_warren", "count": 1 }],
+        "xpReward": 905,
+        "goldReward": 126,
+        "nextQuestId": "q_z08_02_04"
+      },
+      {
+        "id": "q_z08_02_04",
+        "name": "The Orc Berserker",
+        "description": "Defeat the orc berserker champion leading the troll alliance.",
+        "type": "elite",
+        "objectives": [{ "type": "kill", "targetId": "mon_z08_orc_berserker", "count": 1 }],
+        "xpReward": 950,
+        "goldReward": 132,
+        "gearReward": { "slot": "hands", "qualityMin": "rare" },
+        "nextQuestId": "q_z08_02_05"
+      },
+      {
+        "id": "q_z08_02_05",
+        "name": "Escort the Wounded",
+        "description": "Escort wounded soldiers back to the fortress infirmary.",
+        "type": "escort",
+        "objectives": [{ "type": "escort", "targetId": "wounded_soldiers", "count": 1 }],
+        "xpReward": 875,
+        "goldReward": 120,
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 1150,
+      "goldBonus": 210,
+      "reputationBonus": 225
+    }
+  },
+  {
+    "id": "qc_z08_03",
+    "zoneId": "zone_08",
+    "name": "The Warlord's Challenge",
+    "description": "End the siege by challenging the orc warlord to single combat.",
+    "quests": [
+      {
+        "id": "q_z08_03_01",
+        "name": "Intel Gathering",
+        "description": "Slay orc scouts and collect intelligence about the warlord.",
+        "type": "kill",
+        "objectives": [
+          { "type": "kill", "targetId": "mon_z08_orc_raider", "count": 6 },
+          { "type": "collect", "targetId": "orc_intel", "count": 3 }
+        ],
+        "xpReward": 880,
+        "goldReward": 121,
+        "nextQuestId": "q_z08_03_02"
+      },
+      {
+        "id": "q_z08_03_02",
+        "name": "Banner of Challenge",
+        "description": "Plant the challenge banner at the warlord's command tent.",
+        "type": "exploration",
+        "objectives": [{ "type": "explore", "targetId": "zone_08_command_tent", "count": 1 }],
+        "xpReward": 910,
+        "goldReward": 127,
+        "nextQuestId": "q_z08_03_03"
+      },
+      {
+        "id": "q_z08_03_03",
+        "name": "Champion's Gauntlet",
+        "description": "Defeat the warlord's champions before the final duel.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z08_orc_warlord", "count": 3 }],
+        "xpReward": 940,
+        "goldReward": 131,
+        "nextQuestId": "q_z08_03_04"
+      },
+      {
+        "id": "q_z08_03_04",
+        "name": "Warlord Grukash",
+        "description": "Defeat Warlord Grukash in single combat to end the siege.",
+        "type": "elite",
+        "objectives": [{ "type": "kill", "targetId": "mon_z08_warlord_grukash", "count": 1 }],
+        "xpReward": 1000,
+        "goldReward": 140,
+        "gearReward": { "slot": "main-hand", "qualityMin": "epic" },
+        "nextQuestId": "q_z08_03_05"
+      },
+      {
+        "id": "q_z08_03_05",
+        "name": "Victory Celebration",
+        "description": "Collect trophies from the battlefield to celebrate the victory.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "battle_trophy", "count": 5 }],
+        "xpReward": 870,
+        "goldReward": 119,
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 1300,
+      "goldBonus": 240,
+      "reputationBonus": 250
+    }
+  }
+]

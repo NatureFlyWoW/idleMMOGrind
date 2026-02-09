@@ -1,0 +1,41 @@
+[
+  {
+    "id": "rare_z12_spire_overlord",
+    "zoneId": "zone_12",
+    "name": "Spire Overlord",
+    "level": 60,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "epic",
+    "guaranteedDropSlot": "main-hand",
+    "xpMultiplier": 5.0,
+    "reputationReward": 425
+  },
+  {
+    "id": "rare_z12_entropy_lord",
+    "zoneId": "zone_12",
+    "name": "Entropy Lord",
+    "level": 59,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "epic",
+    "guaranteedDropSlot": "shoulders",
+    "xpMultiplier": 5.0,
+    "reputationReward": 425
+  },
+  {
+    "id": "rare_z12_void_remnant",
+    "zoneId": "zone_12",
+    "name": "Void Remnant",
+    "level": 59,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "epic",
+    "guaranteedDropSlot": "neck",
+    "xpMultiplier": 5.0,
+    "reputationReward": 425
+  }
+]

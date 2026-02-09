@@ -1,0 +1,28 @@
+[
+  {
+    "id": "rare_z04_stormhoof",
+    "zoneId": "zone_04",
+    "name": "Stormhoof the Unbroken",
+    "level": 20,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "rare",
+    "guaranteedDropSlot": "main-hand",
+    "xpMultiplier": 5.0,
+    "reputationReward": 125
+  },
+  {
+    "id": "rare_z04_windscreamer",
+    "zoneId": "zone_04",
+    "name": "Windscreamer",
+    "level": 19,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "rare",
+    "guaranteedDropSlot": "back",
+    "xpMultiplier": 5.0,
+    "reputationReward": 125
+  }
+]

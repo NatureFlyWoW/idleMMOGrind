@@ -1,0 +1,41 @@
+[
+  {
+    "id": "rare_z09_dreadlord",
+    "zoneId": "zone_09",
+    "name": "Dreadlord Malthus",
+    "level": 45,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "epic",
+    "guaranteedDropSlot": "neck",
+    "xpMultiplier": 5.0,
+    "reputationReward": 275
+  },
+  {
+    "id": "rare_z09_bone_colossus",
+    "zoneId": "zone_09",
+    "name": "Bone Colossus",
+    "level": 44,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "rare",
+    "guaranteedDropSlot": "main-hand",
+    "xpMultiplier": 5.0,
+    "reputationReward": 275
+  },
+  {
+    "id": "rare_z09_plague_carrier",
+    "zoneId": "zone_09",
+    "name": "The Plague Carrier",
+    "level": 43,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "rare",
+    "guaranteedDropSlot": "ring2",
+    "xpMultiplier": 5.0,
+    "reputationReward": 275
+  }
+]

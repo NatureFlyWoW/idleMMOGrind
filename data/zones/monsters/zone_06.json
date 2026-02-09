@@ -1,0 +1,122 @@
+[
+  {
+    "id": "mon_z06_fire_elemental",
+    "name": "Embercrag Fire Elemental",
+    "level": 27,
+    "type": "normal",
+    "subtype": "elemental",
+    "health": 380,
+    "damage": 50,
+    "armor": 35,
+    "resistance": 60,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z06_elemental",
+    "xpReward": 280,
+    "goldReward": { "min": 6, "max": 13 },
+    "abilities": ["fire_blast", "flame_shield", "immolate"],
+    "materialDrops": [
+      { "materialId": "mat_mining_t3_fire_ore", "chance": 0.4, "quantity": { "min": 1, "max": 2 } },
+      { "materialId": "mat_alchemy_t3_elemental_core", "chance": 0.3, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z06_dwarven_ghost",
+    "name": "Dwarven Ghost",
+    "level": 26,
+    "type": "normal",
+    "subtype": "undead",
+    "health": 340,
+    "damage": 45,
+    "armor": 30,
+    "resistance": 50,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z06_undead",
+    "xpReward": 270,
+    "goldReward": { "min": 5, "max": 12 },
+    "abilities": ["spectral_strike", "wail", "phase_shift"],
+    "materialDrops": [
+      { "materialId": "mat_enchanting_t3_spectral_dust", "chance": 0.4, "quantity": { "min": 1, "max": 2 } },
+      { "materialId": "mat_alchemy_t3_ghost_essence", "chance": 0.25, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z06_cave_spider",
+    "name": "Embercrag Cave Spider",
+    "level": 26,
+    "type": "normal",
+    "subtype": "beast",
+    "health": 330,
+    "damage": 42,
+    "armor": 48,
+    "resistance": 25,
+    "attackSpeed": 1.6,
+    "lootTableId": "loot_z06_beast",
+    "xpReward": 265,
+    "goldReward": { "min": 5, "max": 11 },
+    "abilities": ["bite", "web_spray", "venom_strike"],
+    "materialDrops": [
+      { "materialId": "mat_tailoring_t3_silk_thread", "chance": 0.5, "quantity": { "min": 1, "max": 2 } },
+      { "materialId": "mat_alchemy_t3_spider_venom", "chance": 0.3, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z06_magma_wurm",
+    "name": "Magma Wurm",
+    "level": 29,
+    "type": "normal",
+    "subtype": "beast",
+    "health": 420,
+    "damage": 55,
+    "armor": 65,
+    "resistance": 45,
+    "attackSpeed": 2.5,
+    "lootTableId": "loot_z06_beast",
+    "xpReward": 310,
+    "goldReward": { "min": 7, "max": 14 },
+    "abilities": ["lava_spit", "burrow_strike", "magma_trail"],
+    "materialDrops": [
+      { "materialId": "mat_skinning_t3_wurm_scale", "chance": 0.5, "quantity": { "min": 1, "max": 2 }, "requiresProfession": "skinning" },
+      { "materialId": "mat_mining_t3_fire_ore", "chance": 0.35, "quantity": { "min": 1, "max": 2 } }
+    ]
+  },
+  {
+    "id": "mon_z06_ember_golem",
+    "name": "Ember Golem",
+    "level": 30,
+    "type": "elite",
+    "subtype": "construct",
+    "health": 800,
+    "damage": 62,
+    "armor": 85,
+    "resistance": 55,
+    "attackSpeed": 2.8,
+    "lootTableId": "loot_z06_construct_elite",
+    "xpReward": 480,
+    "goldReward": { "min": 14, "max": 28 },
+    "abilities": ["flame_punch", "magma_stomp", "molten_armor", "fire_nova"],
+    "materialDrops": [
+      { "materialId": "mat_engineering_t3_golem_parts", "chance": 0.6, "quantity": { "min": 1, "max": 3 } },
+      { "materialId": "mat_mining_t3_fire_ore", "chance": 0.5, "quantity": { "min": 2, "max": 3 } }
+    ]
+  },
+  {
+    "id": "mon_z06_ghost_foreman",
+    "name": "Spectral Foreman",
+    "level": 30,
+    "type": "elite",
+    "subtype": "undead",
+    "health": 780,
+    "damage": 58,
+    "armor": 40,
+    "resistance": 65,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z06_undead_elite",
+    "xpReward": 460,
+    "goldReward": { "min": 13, "max": 26 },
+    "abilities": ["spectral_strike", "death_wail", "command_undead", "soul_drain"],
+    "materialDrops": [
+      { "materialId": "mat_enchanting_t3_spectral_dust", "chance": 0.7, "quantity": { "min": 2, "max": 3 } },
+      { "materialId": "mat_alchemy_t3_ghost_essence", "chance": 0.5, "quantity": { "min": 1, "max": 2 } }
+    ]
+  }
+]

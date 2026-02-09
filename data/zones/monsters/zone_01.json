@@ -1,0 +1,121 @@
+[
+  {
+    "id": "mon_z01_wolf",
+    "name": "Sunstone Wolf",
+    "level": 2,
+    "type": "normal",
+    "subtype": "beast",
+    "health": 65,
+    "damage": 10,
+    "armor": 25,
+    "resistance": 10,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z01_beast",
+    "xpReward": 45,
+    "goldReward": { "min": 1, "max": 3 },
+    "abilities": ["bite"],
+    "materialDrops": [
+      { "materialId": "mat_skinning_t1_rough_leather", "chance": 0.5, "quantity": { "min": 1, "max": 2 }, "requiresProfession": "skinning" },
+      { "materialId": "mat_cooking_t1_raw_meat", "chance": 0.4, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z01_dire_wolf",
+    "name": "Dire Wolf Alpha",
+    "level": 4,
+    "type": "normal",
+    "subtype": "beast",
+    "health": 110,
+    "damage": 16,
+    "armor": 35,
+    "resistance": 12,
+    "attackSpeed": 1.8,
+    "lootTableId": "loot_z01_beast",
+    "xpReward": 70,
+    "goldReward": { "min": 2, "max": 5 },
+    "abilities": ["bite", "howl"],
+    "materialDrops": [
+      { "materialId": "mat_skinning_t1_rough_leather", "chance": 0.6, "quantity": { "min": 1, "max": 3 }, "requiresProfession": "skinning" },
+      { "materialId": "mat_cooking_t1_raw_meat", "chance": 0.5, "quantity": { "min": 1, "max": 2 } }
+    ]
+  },
+  {
+    "id": "mon_z01_boar",
+    "name": "Valley Boar",
+    "level": 2,
+    "type": "normal",
+    "subtype": "beast",
+    "health": 75,
+    "damage": 8,
+    "armor": 30,
+    "resistance": 10,
+    "attackSpeed": 2.2,
+    "lootTableId": "loot_z01_beast",
+    "xpReward": 42,
+    "goldReward": { "min": 1, "max": 3 },
+    "abilities": ["charge"],
+    "materialDrops": [
+      { "materialId": "mat_skinning_t1_rough_leather", "chance": 0.5, "quantity": { "min": 1, "max": 2 }, "requiresProfession": "skinning" },
+      { "materialId": "mat_cooking_t1_raw_meat", "chance": 0.6, "quantity": { "min": 1, "max": 2 } }
+    ]
+  },
+  {
+    "id": "mon_z01_bandit",
+    "name": "Roadside Bandit",
+    "level": 3,
+    "type": "normal",
+    "subtype": "humanoid",
+    "health": 70,
+    "damage": 12,
+    "armor": 28,
+    "resistance": 12,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z01_humanoid",
+    "xpReward": 48,
+    "goldReward": { "min": 2, "max": 5 },
+    "abilities": ["slash", "throw_knife"],
+    "materialDrops": [
+      { "materialId": "mat_tailoring_t1_linen_cloth", "chance": 0.5, "quantity": { "min": 1, "max": 2 } },
+      { "materialId": "mat_vendor_t1_coin_pouch", "chance": 0.3, "quantity": { "min": 1, "max": 3 } }
+    ]
+  },
+  {
+    "id": "mon_z01_bandit_captain",
+    "name": "Bandit Captain",
+    "level": 5,
+    "type": "elite",
+    "subtype": "humanoid",
+    "health": 180,
+    "damage": 20,
+    "armor": 45,
+    "resistance": 18,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z01_humanoid_elite",
+    "xpReward": 100,
+    "goldReward": { "min": 5, "max": 10 },
+    "abilities": ["slash", "rally_cry", "shield_bash"],
+    "materialDrops": [
+      { "materialId": "mat_tailoring_t1_linen_cloth", "chance": 0.7, "quantity": { "min": 1, "max": 3 } },
+      { "materialId": "mat_vendor_t1_coin_pouch", "chance": 0.5, "quantity": { "min": 2, "max": 5 } }
+    ]
+  },
+  {
+    "id": "mon_z01_spider",
+    "name": "Valley Spider",
+    "level": 1,
+    "type": "normal",
+    "subtype": "beast",
+    "health": 50,
+    "damage": 7,
+    "armor": 18,
+    "resistance": 8,
+    "attackSpeed": 1.5,
+    "lootTableId": "loot_z01_beast",
+    "xpReward": 38,
+    "goldReward": { "min": 1, "max": 2 },
+    "abilities": ["bite", "web"],
+    "materialDrops": [
+      { "materialId": "mat_tailoring_t1_spider_silk", "chance": 0.4, "quantity": { "min": 1, "max": 2 } }
+    ]
+  }
+]

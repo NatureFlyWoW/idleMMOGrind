@@ -1,0 +1,122 @@
+[
+  {
+    "id": "mon_z02_giant_spider",
+    "name": "Giant Thornwick Spider",
+    "level": 7,
+    "type": "normal",
+    "subtype": "beast",
+    "health": 130,
+    "damage": 18,
+    "armor": 38,
+    "resistance": 15,
+    "attackSpeed": 1.6,
+    "lootTableId": "loot_z02_beast",
+    "xpReward": 85,
+    "goldReward": { "min": 2, "max": 5 },
+    "abilities": ["bite", "web_spray", "poison_fang"],
+    "materialDrops": [
+      { "materialId": "mat_tailoring_t1_spider_silk", "chance": 0.5, "quantity": { "min": 1, "max": 3 } },
+      { "materialId": "mat_alchemy_t1_venom_sac", "chance": 0.3, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z02_undead_farmer",
+    "name": "Risen Farmer",
+    "level": 6,
+    "type": "normal",
+    "subtype": "undead",
+    "health": 120,
+    "damage": 15,
+    "armor": 30,
+    "resistance": 20,
+    "attackSpeed": 2.2,
+    "lootTableId": "loot_z02_undead",
+    "xpReward": 78,
+    "goldReward": { "min": 1, "max": 4 },
+    "abilities": ["slam", "moan"],
+    "materialDrops": [
+      { "materialId": "mat_alchemy_t1_bone_dust", "chance": 0.4, "quantity": { "min": 1, "max": 2 } },
+      { "materialId": "mat_enchanting_t1_rune_fragment", "chance": 0.2, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z02_scarecrow",
+    "name": "Haunted Scarecrow",
+    "level": 7,
+    "type": "normal",
+    "subtype": "construct",
+    "health": 140,
+    "damage": 16,
+    "armor": 35,
+    "resistance": 18,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z02_construct",
+    "xpReward": 82,
+    "goldReward": { "min": 2, "max": 4 },
+    "abilities": ["slam", "fear_aura"],
+    "materialDrops": [
+      { "materialId": "mat_engineering_t1_gears", "chance": 0.3, "quantity": { "min": 1, "max": 1 } },
+      { "materialId": "mat_tailoring_t1_linen_cloth", "chance": 0.4, "quantity": { "min": 1, "max": 2 } }
+    ]
+  },
+  {
+    "id": "mon_z02_plague_rat",
+    "name": "Plague Rat",
+    "level": 5,
+    "type": "normal",
+    "subtype": "beast",
+    "health": 85,
+    "damage": 12,
+    "armor": 22,
+    "resistance": 12,
+    "attackSpeed": 1.4,
+    "lootTableId": "loot_z02_beast",
+    "xpReward": 68,
+    "goldReward": { "min": 1, "max": 3 },
+    "abilities": ["bite", "disease_bite"],
+    "materialDrops": [
+      { "materialId": "mat_skinning_t1_rough_leather", "chance": 0.4, "quantity": { "min": 1, "max": 1 } },
+      { "materialId": "mat_alchemy_t1_disease_sample", "chance": 0.2, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z02_cultist",
+    "name": "Plague Cultist",
+    "level": 8,
+    "type": "normal",
+    "subtype": "humanoid",
+    "health": 145,
+    "damage": 20,
+    "armor": 32,
+    "resistance": 25,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z02_humanoid",
+    "xpReward": 92,
+    "goldReward": { "min": 3, "max": 6 },
+    "abilities": ["shadow_bolt", "plague_curse", "dark_heal"],
+    "materialDrops": [
+      { "materialId": "mat_tailoring_t1_linen_cloth", "chance": 0.5, "quantity": { "min": 1, "max": 2 } },
+      { "materialId": "mat_enchanting_t1_rune_fragment", "chance": 0.3, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z02_broodmother",
+    "name": "Spider Broodmother",
+    "level": 10,
+    "type": "elite",
+    "subtype": "beast",
+    "health": 320,
+    "damage": 28,
+    "armor": 50,
+    "resistance": 25,
+    "attackSpeed": 1.8,
+    "lootTableId": "loot_z02_beast_elite",
+    "xpReward": 150,
+    "goldReward": { "min": 6, "max": 12 },
+    "abilities": ["bite", "web_spray", "spawn_spiderlings", "poison_nova"],
+    "materialDrops": [
+      { "materialId": "mat_tailoring_t1_spider_silk", "chance": 0.8, "quantity": { "min": 2, "max": 4 } },
+      { "materialId": "mat_alchemy_t1_venom_sac", "chance": 0.6, "quantity": { "min": 1, "max": 2 } }
+    ]
+  }
+]

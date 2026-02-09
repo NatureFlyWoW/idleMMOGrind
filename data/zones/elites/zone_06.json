@@ -1,0 +1,13 @@
+{
+  "id": "elite_z06",
+  "zoneId": "zone_06",
+  "name": "Molten Core Depths",
+  "description": "The deepest volcanic chambers where elementals and golems guard ancient power.",
+  "levelBoost": 3,
+  "hpMultiplier": 3.0,
+  "damageMultiplier": 2.0,
+  "xpMultiplier": 2.5,
+  "reputationMultiplier": 2.0,
+  "lootQualityBoost": 1,
+  "monsterIds": ["mon_z06_fire_elemental", "mon_z06_magma_wurm", "mon_z06_dwarven_ghost"]
+}

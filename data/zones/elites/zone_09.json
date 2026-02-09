@@ -1,0 +1,13 @@
+{
+  "id": "elite_z09",
+  "zoneId": "zone_09",
+  "name": "Necropolis Ruins",
+  "description": "The crumbling necropolis where the most powerful undead congregate.",
+  "levelBoost": 3,
+  "hpMultiplier": 3.0,
+  "damageMultiplier": 2.0,
+  "xpMultiplier": 2.5,
+  "reputationMultiplier": 2.0,
+  "lootQualityBoost": 1,
+  "monsterIds": ["mon_z09_skeleton_knight", "mon_z09_necromancer", "mon_z09_ghoul_pack"]
+}

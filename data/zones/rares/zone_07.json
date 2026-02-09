@@ -1,0 +1,41 @@
+[
+  {
+    "id": "rare_z07_stormwing",
+    "zoneId": "zone_07",
+    "name": "Stormwing",
+    "level": 35,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "rare",
+    "guaranteedDropSlot": "shoulders",
+    "xpMultiplier": 5.0,
+    "reputationReward": 200
+  },
+  {
+    "id": "rare_z07_frostclaw",
+    "zoneId": "zone_07",
+    "name": "Frostclaw the Elder",
+    "level": 34,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "rare",
+    "guaranteedDropSlot": "legs",
+    "xpMultiplier": 5.0,
+    "reputationReward": 200
+  },
+  {
+    "id": "rare_z07_avalanche",
+    "zoneId": "zone_07",
+    "name": "Avalanche",
+    "level": 33,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "rare",
+    "guaranteedDropSlot": "trinket1",
+    "xpMultiplier": 5.0,
+    "reputationReward": 200
+  }
+]

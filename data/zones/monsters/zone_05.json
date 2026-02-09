@@ -1,0 +1,142 @@
+[
+  {
+    "id": "mon_z05_lizardfolk",
+    "name": "Bog Lizardfolk",
+    "level": 22,
+    "type": "normal",
+    "subtype": "humanoid",
+    "health": 340,
+    "damage": 42,
+    "armor": 62,
+    "resistance": 28,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z05_humanoid",
+    "xpReward": 220,
+    "goldReward": { "min": 5, "max": 11 },
+    "abilities": ["javelin_throw", "tail_swipe", "scale_shield"],
+    "materialDrops": [
+      { "materialId": "mat_skinning_t3_scaled_hide", "chance": 0.5, "quantity": { "min": 1, "max": 2 }, "requiresProfession": "skinning" },
+      { "materialId": "mat_tailoring_t3_swamp_cloth", "chance": 0.3, "quantity": { "min": 1, "max": 2 } }
+    ]
+  },
+  {
+    "id": "mon_z05_lizardfolk_chief",
+    "name": "Lizardfolk Chieftain Scaleclaw",
+    "level": 25,
+    "type": "elite",
+    "subtype": "humanoid",
+    "health": 680,
+    "damage": 55,
+    "armor": 80,
+    "resistance": 35,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z05_humanoid_elite",
+    "xpReward": 400,
+    "goldReward": { "min": 12, "max": 24 },
+    "abilities": ["javelin_throw", "tail_swipe", "war_cry", "enrage", "ground_slam"],
+    "materialDrops": [
+      { "materialId": "mat_skinning_t3_scaled_hide", "chance": 0.8, "quantity": { "min": 2, "max": 4 }, "requiresProfession": "skinning" },
+      { "materialId": "mat_vendor_t3_war_trophy", "chance": 0.5, "quantity": { "min": 1, "max": 2 } }
+    ]
+  },
+  {
+    "id": "mon_z05_bog_wraith",
+    "name": "Bog Wraith",
+    "level": 23,
+    "type": "normal",
+    "subtype": "undead",
+    "health": 290,
+    "damage": 45,
+    "armor": 25,
+    "resistance": 48,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z05_undead",
+    "xpReward": 230,
+    "goldReward": { "min": 5, "max": 10 },
+    "abilities": ["life_drain", "wail", "phase_shift"],
+    "materialDrops": [
+      { "materialId": "mat_alchemy_t3_wraith_essence", "chance": 0.4, "quantity": { "min": 1, "max": 1 } },
+      { "materialId": "mat_enchanting_t3_shadow_dust", "chance": 0.3, "quantity": { "min": 1, "max": 2 } }
+    ]
+  },
+  {
+    "id": "mon_z05_toxic_ooze",
+    "name": "Toxic Ooze",
+    "level": 21,
+    "type": "normal",
+    "subtype": "elemental",
+    "health": 320,
+    "damage": 38,
+    "armor": 20,
+    "resistance": 35,
+    "attackSpeed": 2.5,
+    "lootTableId": "loot_z05_elemental",
+    "xpReward": 210,
+    "goldReward": { "min": 4, "max": 9 },
+    "abilities": ["acid_splash", "dissolve", "split"],
+    "materialDrops": [
+      { "materialId": "mat_alchemy_t3_toxic_residue", "chance": 0.5, "quantity": { "min": 1, "max": 2 } },
+      { "materialId": "mat_alchemy_t3_acid_vial", "chance": 0.25, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z05_swamp_horror",
+    "name": "Swamp Horror",
+    "level": 25,
+    "type": "elite",
+    "subtype": "beast",
+    "health": 720,
+    "damage": 58,
+    "armor": 70,
+    "resistance": 40,
+    "attackSpeed": 2.8,
+    "lootTableId": "loot_z05_beast_elite",
+    "xpReward": 420,
+    "goldReward": { "min": 12, "max": 22 },
+    "abilities": ["tentacle_slam", "toxic_cloud", "devour", "regenerate"],
+    "materialDrops": [
+      { "materialId": "mat_skinning_t3_horror_hide", "chance": 0.7, "quantity": { "min": 2, "max": 3 }, "requiresProfession": "skinning" },
+      { "materialId": "mat_alchemy_t3_toxic_residue", "chance": 0.6, "quantity": { "min": 2, "max": 4 } }
+    ]
+  },
+  {
+    "id": "mon_z05_marsh_crawler",
+    "name": "Giant Marsh Crawler",
+    "level": 22,
+    "type": "normal",
+    "subtype": "beast",
+    "health": 310,
+    "damage": 40,
+    "armor": 55,
+    "resistance": 22,
+    "attackSpeed": 2.2,
+    "lootTableId": "loot_z05_beast",
+    "xpReward": 215,
+    "goldReward": { "min": 4, "max": 9 },
+    "abilities": ["pinch", "burrow", "shell_defense"],
+    "materialDrops": [
+      { "materialId": "mat_skinning_t3_chitin_plate", "chance": 0.5, "quantity": { "min": 1, "max": 2 }, "requiresProfession": "skinning" },
+      { "materialId": "mat_cooking_t3_crawler_meat", "chance": 0.4, "quantity": { "min": 1, "max": 2 } }
+    ]
+  },
+  {
+    "id": "mon_z05_queen_crawler",
+    "name": "Queen Crawler",
+    "level": 24,
+    "type": "elite",
+    "subtype": "beast",
+    "health": 650,
+    "damage": 52,
+    "armor": 75,
+    "resistance": 30,
+    "attackSpeed": 2.5,
+    "lootTableId": "loot_z05_beast_elite",
+    "xpReward": 380,
+    "goldReward": { "min": 10, "max": 20 },
+    "abilities": ["pinch", "burrow_charge", "spawn_crawlers", "acid_spray"],
+    "materialDrops": [
+      { "materialId": "mat_skinning_t3_chitin_plate", "chance": 0.8, "quantity": { "min": 2, "max": 4 }, "requiresProfession": "skinning" },
+      { "materialId": "mat_alchemy_t3_acid_vial", "chance": 0.5, "quantity": { "min": 1, "max": 2 } }
+    ]
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "qc_z01_01",
+    "zoneId": "zone_01",
+    "name": "Wolves at the Gate",
+    "description": "The farmsteads of Sunstone Valley are under siege by a growing wolf pack.",
+    "quests": [
+      {
+        "id": "q_z01_01_01",
+        "name": "Culling the Pack",
+        "description": "Thin the wolf population threatening local farms.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z01_wolf", "count": 5 }],
+        "xpReward": 50,
+        "goldReward": 10,
+        "nextQuestId": "q_z01_01_02"
+      },
+      {
+        "id": "q_z01_01_02",
+        "name": "Tracking the Alpha",
+        "description": "Scout the hills to find where the alpha wolf lairs.",
+        "type": "exploration",
+        "objectives": [{ "type": "explore", "targetId": "zone_01_wolf_den", "count": 1 }],
+        "xpReward": 60,
+        "goldReward": 12,
+        "nextQuestId": "q_z01_01_03"
+      },
+      {
+        "id": "q_z01_01_03",
+        "name": "The Alpha Falls",
+        "description": "Slay the alpha wolf and end the threat to the valley.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z01_dire_wolf", "count": 1 }],
+        "xpReward": 80,
+        "goldReward": 20,
+        "gearReward": { "slot": "chest", "qualityMin": "uncommon" },
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 100,
+      "goldBonus": 30,
+      "reputationBonus": 50
+    }
+  },
+  {
+    "id": "qc_z01_02",
+    "zoneId": "zone_01",
+    "name": "Bandit Troubles",
+    "description": "Bandits have set up camp near the trade road, robbing travelers.",
+    "quests": [
+      {
+        "id": "q_z01_02_01",
+        "name": "Road Patrol",
+        "description": "Clear bandits from the trade road.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z01_bandit", "count": 6 }],
+        "xpReward": 55,
+        "goldReward": 15,
+        "nextQuestId": "q_z01_02_02"
+      },
+      {
+        "id": "q_z01_02_02",
+        "name": "Recover Stolen Goods",
+        "description": "Collect stolen supply crates from the bandit camp.",
+        "type": "collection",
+        "objectives": [{ "type": "collect", "targetId": "stolen_supplies", "count": 4 }],
+        "xpReward": 65,
+        "goldReward": 18,
+        "nextQuestId": "q_z01_02_03"
+      },
+      {
+        "id": "q_z01_02_03",
+        "name": "Bandit Captain",
+        "description": "Defeat the bandit captain hiding in the old ruins.",
+        "type": "kill",
+        "objectives": [{ "type": "kill", "targetId": "mon_z01_bandit_captain", "count": 1 }],
+        "xpReward": 90,
+        "goldReward": 25,
+        "gearReward": { "slot": "main-hand", "qualityMin": "uncommon" },
+        "nextQuestId": null
+      }
+    ],
+    "completionReward": {
+      "xpBonus": 120,
+      "goldBonus": 35,
+      "reputationBonus": 50
+    }
+  }
+]

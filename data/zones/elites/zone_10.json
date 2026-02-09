@@ -1,0 +1,13 @@
+{
+  "id": "elite_z10",
+  "zoneId": "zone_10",
+  "name": "Dragon's Caldera",
+  "description": "The volcanic caldera where dragonkin and fire giants hold dominion.",
+  "levelBoost": 3,
+  "hpMultiplier": 3.0,
+  "damageMultiplier": 2.0,
+  "xpMultiplier": 2.5,
+  "reputationMultiplier": 2.0,
+  "lootQualityBoost": 1,
+  "monsterIds": ["mon_z10_dragonkin", "mon_z10_fire_giant", "mon_z10_obsidian_golem"]
+}

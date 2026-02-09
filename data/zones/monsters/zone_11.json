@@ -1,0 +1,162 @@
+[
+  {
+    "id": "mon_z11_shadow_stalker",
+    "name": "Shadow Stalker",
+    "level": 52,
+    "type": "normal",
+    "subtype": "undead",
+    "health": 720,
+    "damage": 88,
+    "armor": 50,
+    "resistance": 60,
+    "attackSpeed": 1.6,
+    "lootTableId": "loot_z11_undead",
+    "xpReward": 680,
+    "goldReward": { "min": 12, "max": 25 },
+    "abilities": ["shadow_strike", "vanish", "ambush"],
+    "materialDrops": [
+      { "materialId": "mat_enchanting_t6_shadow_essence", "chance": 0.4, "quantity": { "min": 1, "max": 2 } },
+      { "materialId": "mat_tailoring_t6_shadow_silk", "chance": 0.3, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z11_corrupted_angel",
+    "name": "Corrupted Angel",
+    "level": 53,
+    "type": "normal",
+    "subtype": "humanoid",
+    "health": 700,
+    "damage": 92,
+    "armor": 55,
+    "resistance": 70,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z11_humanoid",
+    "xpReward": 700,
+    "goldReward": { "min": 13, "max": 26 },
+    "abilities": ["holy_smite", "dark_blessing", "wings_of_shadow"],
+    "materialDrops": [
+      { "materialId": "mat_enchanting_t6_angelic_dust", "chance": 0.35, "quantity": { "min": 1, "max": 1 } },
+      { "materialId": "mat_tailoring_t6_ethereal_cloth", "chance": 0.3, "quantity": { "min": 1, "max": 2 } }
+    ]
+  },
+  {
+    "id": "mon_z11_void_tender",
+    "name": "Void Tender",
+    "level": 52,
+    "type": "normal",
+    "subtype": "elemental",
+    "health": 680,
+    "damage": 85,
+    "armor": 40,
+    "resistance": 72,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z11_elemental",
+    "xpReward": 670,
+    "goldReward": { "min": 11, "max": 24 },
+    "abilities": ["void_bolt", "entropy_field", "dimensional_shift"],
+    "materialDrops": [
+      { "materialId": "mat_alchemy_t6_void_essence", "chance": 0.4, "quantity": { "min": 1, "max": 1 } },
+      { "materialId": "mat_enchanting_t6_void_crystal", "chance": 0.2, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z11_twilight_sentinel",
+    "name": "Twilight Sentinel",
+    "level": 54,
+    "type": "normal",
+    "subtype": "construct",
+    "health": 780,
+    "damage": 82,
+    "armor": 85,
+    "resistance": 55,
+    "attackSpeed": 2.5,
+    "lootTableId": "loot_z11_construct",
+    "xpReward": 710,
+    "goldReward": { "min": 13, "max": 27 },
+    "abilities": ["twilight_beam", "shield_matrix", "overload"],
+    "materialDrops": [
+      { "materialId": "mat_engineering_t6_sentinel_core", "chance": 0.3, "quantity": { "min": 1, "max": 1 } },
+      { "materialId": "mat_mining_t6_twilight_ore", "chance": 0.4, "quantity": { "min": 1, "max": 2 } }
+    ]
+  },
+  {
+    "id": "mon_z11_phase_beast",
+    "name": "Phase Beast",
+    "level": 53,
+    "type": "normal",
+    "subtype": "beast",
+    "health": 660,
+    "damage": 90,
+    "armor": 48,
+    "resistance": 58,
+    "attackSpeed": 1.5,
+    "lootTableId": "loot_z11_beast",
+    "xpReward": 690,
+    "goldReward": { "min": 12, "max": 25 },
+    "abilities": ["phase_strike", "blink_attack", "dimensional_roar"],
+    "materialDrops": [
+      { "materialId": "mat_skinning_t6_phase_hide", "chance": 0.5, "quantity": { "min": 1, "max": 2 }, "requiresProfession": "skinning" },
+      { "materialId": "mat_alchemy_t6_phase_essence", "chance": 0.25, "quantity": { "min": 1, "max": 1 } }
+    ]
+  },
+  {
+    "id": "mon_z11_reality_shredder",
+    "name": "Reality Shredder",
+    "level": 55,
+    "type": "elite",
+    "subtype": "elemental",
+    "health": 1600,
+    "damage": 105,
+    "armor": 60,
+    "resistance": 85,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z11_elemental_elite",
+    "xpReward": 1000,
+    "goldReward": { "min": 30, "max": 60 },
+    "abilities": ["reality_rend", "void_storm", "dimensional_collapse", "entropy_wave"],
+    "materialDrops": [
+      { "materialId": "mat_enchanting_t6_void_crystal", "chance": 0.6, "quantity": { "min": 1, "max": 3 } },
+      { "materialId": "mat_alchemy_t6_void_essence", "chance": 0.5, "quantity": { "min": 1, "max": 2 } }
+    ]
+  },
+  {
+    "id": "mon_z11_rift_guardian",
+    "name": "Rift Guardian",
+    "level": 55,
+    "type": "elite",
+    "subtype": "construct",
+    "health": 1500,
+    "damage": 100,
+    "armor": 90,
+    "resistance": 75,
+    "attackSpeed": 2.5,
+    "lootTableId": "loot_z11_construct_elite",
+    "xpReward": 980,
+    "goldReward": { "min": 28, "max": 56 },
+    "abilities": ["reality_anchor", "void_beam", "shield_overcharge", "dimensional_lock"],
+    "materialDrops": [
+      { "materialId": "mat_engineering_t6_sentinel_core", "chance": 0.6, "quantity": { "min": 1, "max": 2 } },
+      { "materialId": "mat_mining_t6_twilight_ore", "chance": 0.5, "quantity": { "min": 2, "max": 3 } }
+    ]
+  },
+  {
+    "id": "mon_z11_fallen_archon",
+    "name": "Fallen Archon",
+    "level": 55,
+    "type": "elite",
+    "subtype": "humanoid",
+    "health": 1700,
+    "damage": 110,
+    "armor": 65,
+    "resistance": 90,
+    "attackSpeed": 2.0,
+    "lootTableId": "loot_z11_humanoid_elite",
+    "xpReward": 1050,
+    "goldReward": { "min": 32, "max": 65 },
+    "abilities": ["dark_smite", "fallen_blessing", "wings_of_doom", "corrupted_light", "divine_wrath"],
+    "materialDrops": [
+      { "materialId": "mat_enchanting_t6_angelic_dust", "chance": 0.7, "quantity": { "min": 2, "max": 3 } },
+      { "materialId": "mat_tailoring_t6_ethereal_cloth", "chance": 0.5, "quantity": { "min": 1, "max": 3 } }
+    ]
+  }
+]

@@ -319,8 +319,8 @@ describe('DamageType enum', () => {
 // ---- QuestType ----
 
 describe('QuestType enum', () => {
-  it('should have exactly 5 quest types', () => {
-    expect(Object.values(QuestType)).toHaveLength(5);
+  it('should have exactly 7 quest types', () => {
+    expect(Object.values(QuestType)).toHaveLength(7);
   });
 
   it('should contain all quest types', () => {
@@ -329,6 +329,8 @@ describe('QuestType enum', () => {
     expect(QuestType.Dungeon).toBe('dungeon');
     expect(QuestType.Elite).toBe('elite');
     expect(QuestType.Attunement).toBe('attunement');
+    expect(QuestType.Escort).toBe('escort');
+    expect(QuestType.Exploration).toBe('exploration');
   });
 });
 

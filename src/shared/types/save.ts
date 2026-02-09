@@ -3,6 +3,7 @@ import { IPrimaryStatBlock } from './character';
 import { IItem } from './item';
 import { IActiveQuest } from './world';
 import { IActiveBuff, IActiveDoT } from './combat';
+import { IQuestChainProgress, IActiveZoneEvent } from './zone-expansion';
 
 /** Save file metadata */
 export interface ISaveMeta {
@@ -41,6 +42,10 @@ export interface ISaveProgression {
   zonesCompleted: string[];
   unlockedAbilities: string[];
   activeAbilityPriority: string[];
+  questChains: Record<string, IQuestChainProgress>;
+  rareSpawnsDefeated: string[];
+  eliteAreasUnlocked: string[];
+  activeZoneEvents: IActiveZoneEvent[];
 }
 
 /** Talent data in a save */

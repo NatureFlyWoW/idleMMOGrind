@@ -1,0 +1,41 @@
+[
+  {
+    "id": "rare_z05_blightmaw",
+    "zoneId": "zone_05",
+    "name": "Blightmaw",
+    "level": 25,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "rare",
+    "guaranteedDropSlot": "chest",
+    "xpMultiplier": 5.0,
+    "reputationReward": 150
+  },
+  {
+    "id": "rare_z05_swamp_king",
+    "zoneId": "zone_05",
+    "name": "Swamp King Grek",
+    "level": 24,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "rare",
+    "guaranteedDropSlot": "off-hand",
+    "xpMultiplier": 5.0,
+    "reputationReward": 150
+  },
+  {
+    "id": "rare_z05_mirewalker",
+    "zoneId": "zone_05",
+    "name": "The Mirewalker",
+    "level": 23,
+    "hpMultiplier": 5.0,
+    "damageMultiplier": 3.0,
+    "spawnChance": 0.03,
+    "guaranteedDropQuality": "rare",
+    "guaranteedDropSlot": "feet",
+    "xpMultiplier": 5.0,
+    "reputationReward": 150
+  }
+]

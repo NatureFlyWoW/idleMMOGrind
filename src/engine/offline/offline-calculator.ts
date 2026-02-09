@@ -5,6 +5,7 @@ import {
   calculateMonsterXP,
 } from '@engine/character/stat-calculator';
 import { awardXP } from '@engine/progression/xp-system';
+import type { IZoneEvent } from '@shared/types/zone-expansion';
 
 export interface IOfflineCalcParams {
   characterLevel: number;
@@ -26,6 +27,113 @@ export interface IOfflineResult {
   simulatedSeconds: number;
   rawOfflineSeconds: number;
   catchUpMultiplier: number;
+}
+
+// ---------------------------------------------------------------------------
+// Zone-aware offline estimation helpers (pure functions)
+// ---------------------------------------------------------------------------
+
+/**
+ * Estimate quest chain completions during an offline period.
+ *
+ * Uses the kill rate (kills per second) and average kills per quest to
+ * estimate how many quests in a chain can be completed. Quest chains
+ * are sequential, so each completed quest advances the chain.
+ *
+ * @param offlineSeconds    - Effective offline seconds (after diminishing returns).
+ * @param killsPerSecond    - Estimated kill rate.
+ * @param avgKillsPerQuest  - Average kills required per quest objective.
+ * @param questsInChain     - Number of quests in the chain (default 5).
+ * @returns Number of quests estimated to complete.
+ */
+export function estimateQuestChainProgress(
+  offlineSeconds: number,
+  killsPerSecond: number,
+  avgKillsPerQuest: number,
+  questsInChain: number = 5,
+): number {
+  if (offlineSeconds <= 0 || killsPerSecond <= 0 || avgKillsPerQuest <= 0) {
+    return 0;
+  }
+
+  const totalKills = offlineSeconds * killsPerSecond;
+  const questsFromKills = Math.floor(totalKills / avgKillsPerQuest);
+
+  // Cannot complete more quests than exist in the chain
+  return Math.min(questsFromKills, questsInChain);
+}
+
+/**
+ * Calculate the average XP multiplier from zone events over a long
+ * offline period.
+ *
+ * For each event, computes its statistical uptime fraction:
+ *   uptime = duration / (duration + cooldown)
+ *
+ * The average multiplier accounts for the probability the event is
+ * active at any given moment, weighted by the base trigger chance:
+ *   avgXpMult = 1.0 + sum((eventXpMult - 1.0) * uptime * baseChance) for all zone events
+ *
+ * For long offline periods (hours), this converges to the expected value.
+ *
+ * @param zoneEvents     - Array of event definitions for the zone.
+ * @param eventBaseChance - Probability of an event triggering per check interval.
+ * @returns Average XP multiplier (>= 1.0).
+ */
+export function estimateZoneEventXpMultiplier(
+  zoneEvents: ReadonlyArray<IZoneEvent>,
+  eventBaseChance: number,
+): number {
+  if (zoneEvents.length === 0 || eventBaseChance <= 0) {
+    return 1.0;
+  }
+
+  let totalBonus = 0;
+
+  for (const event of zoneEvents) {
+    const xpMult = event.effects.xpMultiplier;
+    if (xpMult === undefined || xpMult <= 1.0) {
+      continue;
+    }
+
+    // Uptime fraction: how much of the cycle the event is active
+    const cycleDuration = event.durationMs + event.cooldownMs;
+    if (cycleDuration <= 0) {
+      continue;
+    }
+
+    const uptimeFraction = event.durationMs / cycleDuration;
+
+    // Weight by trigger chance -- on average, the event fires with this probability
+    totalBonus += (xpMult - 1.0) * uptimeFraction * eventBaseChance;
+  }
+
+  return 1.0 + totalBonus;
+}
+
+/**
+ * Calculate the probability of encountering at least one rare spawn
+ * during an offline period.
+ *
+ * Uses the complement probability approach:
+ *   P(at least one) = 1 - (1 - spawnChance) ^ numberOfKills
+ *
+ * @param rareSpawnChance - Per-kill probability of spawning a rare.
+ * @param totalKills      - Total monster kills during the offline period.
+ * @returns Probability between 0 and 1.
+ */
+export function estimateRareSpawnProbability(
+  rareSpawnChance: number,
+  totalKills: number,
+): number {
+  if (rareSpawnChance <= 0 || totalKills <= 0) {
+    return 0;
+  }
+  if (rareSpawnChance >= 1) {
+    return 1;
+  }
+
+  return 1 - Math.pow(1 - rareSpawnChance, totalKills);
 }
 
 /**

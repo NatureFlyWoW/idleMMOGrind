@@ -1,0 +1,13 @@
+{
+  "id": "elite_z05",
+  "zoneId": "zone_05",
+  "name": "Deepmire Sanctum",
+  "description": "The darkest depths of Mistmoor Bog where ancient horrors lurk.",
+  "levelBoost": 3,
+  "hpMultiplier": 3.0,
+  "damageMultiplier": 2.0,
+  "xpMultiplier": 2.5,
+  "reputationMultiplier": 2.0,
+  "lootQualityBoost": 1,
+  "monsterIds": ["mon_z05_bog_wraith", "mon_z05_toxic_ooze", "mon_z05_marsh_crawler"]
+}
