@@ -1,0 +1,231 @@
+[
+  {
+    "id": "recipe_fish_t1_simple_lure",
+    "professionId": "fishing",
+    "name": "Simple Lure",
+    "skillRequired": 1,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t1_bone_fragment", "quantity": 2 },
+      { "materialId": "mat_vendor_thread", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_fish_t1_simple_lure",
+      "quantity": 3,
+      "iLevel": 5,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_fish_t1_copper_hook",
+    "professionId": "fishing",
+    "name": "Copper Hook",
+    "skillRequired": 25,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t1_copper_ore", "quantity": 2 },
+      { "materialId": "mat_vendor_thread", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_fish_t1_copper_hook",
+      "quantity": 3,
+      "iLevel": 7,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_fish_t1_nightcrawler_bait",
+    "professionId": "fishing",
+    "name": "Nightcrawler Bait",
+    "skillRequired": 55,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t1_peacebloom", "quantity": 2 },
+      { "materialId": "mat_drop_t1_spider_silk", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_fish_t1_nightcrawler_bait",
+      "quantity": 5,
+      "iLevel": 10,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_fish_t2_iron_hook",
+    "professionId": "fishing",
+    "name": "Iron Hook",
+    "skillRequired": 75,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t2_iron_ore", "quantity": 2 },
+      { "materialId": "mat_vendor_thread", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_fish_t2_iron_hook",
+      "quantity": 3,
+      "iLevel": 15,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_fish_t2_bright_baubles",
+    "professionId": "fishing",
+    "name": "Bright Baubles",
+    "skillRequired": 110,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t2_elemental_dust", "quantity": 2 },
+      { "materialId": "mat_mining_t2_coarse_stone", "quantity": 1 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_fish_t2_bright_baubles",
+      "quantity": 3,
+      "iLevel": 18,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_fish_t3_mithril_hook",
+    "professionId": "fishing",
+    "name": "Mithril Hook",
+    "skillRequired": 150,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t3_mithril_ore", "quantity": 2 },
+      { "materialId": "mat_vendor_thread", "quantity": 3 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_fish_t3_mithril_hook",
+      "quantity": 3,
+      "iLevel": 25,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_fish_t3_aquadynamic_lure",
+    "professionId": "fishing",
+    "name": "Aquadynamic Lure",
+    "skillRequired": 190,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t3_mithril_ore", "quantity": 2 },
+      { "materialId": "mat_drop_t3_living_essence", "quantity": 1 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_fish_t3_aquadynamic_lure",
+      "quantity": 3,
+      "iLevel": 32,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_fish_t4_thorium_hook",
+    "professionId": "fishing",
+    "name": "Thorium Hook",
+    "skillRequired": 225,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t4_thorium_ore", "quantity": 2 },
+      { "materialId": "mat_vendor_thread", "quantity": 4 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_fish_t4_thorium_hook",
+      "quantity": 3,
+      "iLevel": 40,
+      "quality": "common"
+    }
+  },
+  {
+    "id": "recipe_fish_t4_enchanted_lure",
+    "professionId": "fishing",
+    "name": "Enchanted Lure",
+    "skillRequired": 255,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t4_thorium_ore", "quantity": 2 },
+      { "materialId": "mat_drop_t4_essence_of_earth", "quantity": 1 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_fish_t4_enchanted_lure",
+      "quantity": 3,
+      "iLevel": 48,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_fish_t5_adamantite_hook",
+    "professionId": "fishing",
+    "name": "Adamantite Hook",
+    "skillRequired": 275,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t5_adamantite_ore", "quantity": 2 },
+      { "materialId": "mat_vendor_thread", "quantity": 5 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_fish_t5_adamantite_hook",
+      "quantity": 3,
+      "iLevel": 55,
+      "quality": "uncommon"
+    }
+  },
+  {
+    "id": "recipe_fish_t5_mastercraft_lure",
+    "professionId": "fishing",
+    "name": "Mastercraft Lure",
+    "skillRequired": 290,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t5_eternium_ore", "quantity": 2 },
+      { "materialId": "mat_drop_t5_blood_of_heroes", "quantity": 1 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_fish_t5_mastercraft_lure",
+      "quantity": 3,
+      "iLevel": 59,
+      "quality": "rare"
+    }
+  },
+  {
+    "id": "recipe_fish_t6_arcanite_hook",
+    "professionId": "fishing",
+    "name": "Arcanite Hook",
+    "skillRequired": 300,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_mining_t6_arcanite_ore", "quantity": 3 },
+      { "materialId": "mat_mining_t6_void_crystal_shard", "quantity": 1 },
+      { "materialId": "mat_vendor_thread", "quantity": 6 }
+    ],
+    "craftTimeMs": 8000,
+    "output": {
+      "type": "item",
+      "itemTemplateId": "item_fish_t6_arcanite_hook",
+      "quantity": 3,
+      "iLevel": 60,
+      "quality": "epic"
+    }
+  }
+]

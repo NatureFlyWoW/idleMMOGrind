@@ -1,0 +1,474 @@
+[
+  {
+    "id": "recipe_cook_t1_herb_bread",
+    "professionId": "cooking",
+    "name": "Herb Bread",
+    "skillRequired": 1,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t1_peacebloom", "quantity": 2 },
+      { "materialId": "mat_vendor_salt", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_herb_bread",
+        "name": "Herb Bread",
+        "durationMs": 600000,
+        "statBonuses": { "sta": 4 },
+        "description": "Increases Stamina by 4 for 10 minutes."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_cook_t1_roasted_meat",
+    "professionId": "cooking",
+    "name": "Roasted Meat",
+    "skillRequired": 15,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t1_bone_fragment", "quantity": 2 },
+      { "materialId": "mat_vendor_salt", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_roasted_meat",
+        "name": "Roasted Meat",
+        "durationMs": 600000,
+        "statBonuses": { "str": 3 },
+        "description": "Increases Strength by 3 for 10 minutes."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_cook_t1_leaf_salad",
+    "professionId": "cooking",
+    "name": "Leaf Salad",
+    "skillRequired": 30,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t1_silverleaf", "quantity": 3 },
+      { "materialId": "mat_vendor_salt", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_leaf_salad",
+        "name": "Leaf Salad",
+        "durationMs": 600000,
+        "statBonuses": { "spi": 3 },
+        "description": "Increases Spirit by 3 for 10 minutes."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_cook_t1_herb_stew",
+    "professionId": "cooking",
+    "name": "Herb Stew",
+    "skillRequired": 50,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t1_peacebloom", "quantity": 2 },
+      { "materialId": "mat_herbalism_t1_silverleaf", "quantity": 2 },
+      { "materialId": "mat_vendor_salt", "quantity": 1 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_herb_stew",
+        "name": "Herb Stew",
+        "durationMs": 600000,
+        "statBonuses": { "sta": 5, "spi": 3 },
+        "description": "Increases Stamina by 5 and Spirit by 3 for 10 minutes."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_cook_t1_seasoned_jerky",
+    "professionId": "cooking",
+    "name": "Seasoned Jerky",
+    "skillRequired": 65,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t1_bone_fragment", "quantity": 3 },
+      { "materialId": "mat_skinning_t1_light_leather", "quantity": 1 },
+      { "materialId": "mat_vendor_salt", "quantity": 2 }
+    ],
+    "craftTimeMs": 2000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_seasoned_jerky",
+        "name": "Seasoned Jerky",
+        "durationMs": 600000,
+        "statBonuses": { "str": 4, "agi": 3 },
+        "description": "Increases Strength by 4 and Agility by 3 for 10 minutes."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_cook_t2_bruiseweed_soup",
+    "professionId": "cooking",
+    "name": "Bruiseweed Soup",
+    "skillRequired": 75,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t2_bruiseweed", "quantity": 3 },
+      { "materialId": "mat_vendor_salt", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_bruiseweed_soup",
+        "name": "Bruiseweed Soup",
+        "durationMs": 900000,
+        "statBonuses": { "sta": 8 },
+        "description": "Increases Stamina by 8 for 15 minutes."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_cook_t2_spiced_meat",
+    "professionId": "cooking",
+    "name": "Spiced Meat",
+    "skillRequired": 90,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t2_venom_sac", "quantity": 2 },
+      { "materialId": "mat_vendor_salt", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_spiced_meat",
+        "name": "Spiced Meat",
+        "durationMs": 900000,
+        "statBonuses": { "str": 6, "agi": 4 },
+        "description": "Increases Strength by 6 and Agility by 4 for 15 minutes."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_cook_t2_thistle_tea",
+    "professionId": "cooking",
+    "name": "Thistle Tea",
+    "skillRequired": 110,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t2_swiftthistle", "quantity": 3 },
+      { "materialId": "mat_vendor_salt", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_thistle_tea",
+        "name": "Thistle Tea",
+        "durationMs": 900000,
+        "statBonuses": { "agi": 8 },
+        "description": "Increases Agility by 8 for 15 minutes."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_cook_t2_hearty_stew",
+    "professionId": "cooking",
+    "name": "Hearty Stew",
+    "skillRequired": 130,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t2_bruiseweed", "quantity": 2 },
+      { "materialId": "mat_drop_t2_venom_sac", "quantity": 2 },
+      { "materialId": "mat_vendor_salt", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_hearty_stew",
+        "name": "Hearty Stew",
+        "durationMs": 900000,
+        "statBonuses": { "sta": 10, "str": 5 },
+        "description": "Increases Stamina by 10 and Strength by 5 for 15 minutes."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_cook_t2_arcane_bisque",
+    "professionId": "cooking",
+    "name": "Arcane Bisque",
+    "skillRequired": 140,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t2_swiftthistle", "quantity": 3 },
+      { "materialId": "mat_drop_t2_elemental_dust", "quantity": 1 },
+      { "materialId": "mat_vendor_salt", "quantity": 2 }
+    ],
+    "craftTimeMs": 3000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_arcane_bisque",
+        "name": "Arcane Bisque",
+        "durationMs": 900000,
+        "statBonuses": { "int": 8, "spi": 5 },
+        "description": "Increases Intellect by 8 and Spirit by 5 for 15 minutes."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_cook_t3_goldthorn_soup",
+    "professionId": "cooking",
+    "name": "Goldthorn Soup",
+    "skillRequired": 150,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t3_goldthorn", "quantity": 3 },
+      { "materialId": "mat_vendor_salt", "quantity": 2 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_goldthorn_soup",
+        "name": "Goldthorn Soup",
+        "durationMs": 1200000,
+        "statBonuses": { "sta": 14, "spi": 8 },
+        "description": "Increases Stamina by 14 and Spirit by 8 for 20 minutes."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_cook_t3_fiery_roast",
+    "professionId": "cooking",
+    "name": "Fiery Roast",
+    "skillRequired": 175,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t3_essence_of_fire", "quantity": 1 },
+      { "materialId": "mat_herbalism_t3_khadgars_whisker", "quantity": 2 },
+      { "materialId": "mat_vendor_salt", "quantity": 2 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_fiery_roast",
+        "name": "Fiery Roast",
+        "durationMs": 1200000,
+        "statBonuses": { "str": 12, "agi": 8 },
+        "description": "Increases Strength by 12 and Agility by 8 for 20 minutes."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_cook_t3_sage_fish",
+    "professionId": "cooking",
+    "name": "Sage Fish",
+    "skillRequired": 200,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t3_khadgars_whisker", "quantity": 3 },
+      { "materialId": "mat_herbalism_t3_goldthorn", "quantity": 1 },
+      { "materialId": "mat_vendor_salt", "quantity": 2 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_sage_fish",
+        "name": "Sage Fish",
+        "durationMs": 1200000,
+        "statBonuses": { "int": 12, "spi": 8 },
+        "description": "Increases Intellect by 12 and Spirit by 8 for 20 minutes."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_cook_t3_warriors_feast",
+    "professionId": "cooking",
+    "name": "Warrior's Feast",
+    "skillRequired": 215,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t3_living_essence", "quantity": 2 },
+      { "materialId": "mat_herbalism_t3_goldthorn", "quantity": 2 },
+      { "materialId": "mat_vendor_salt", "quantity": 3 }
+    ],
+    "craftTimeMs": 4000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_warriors_feast",
+        "name": "Warrior's Feast",
+        "durationMs": 1200000,
+        "statBonuses": { "str": 10, "sta": 15 },
+        "description": "Increases Strength by 10 and Stamina by 15 for 20 minutes."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_cook_t4_sungrass_stew",
+    "professionId": "cooking",
+    "name": "Sungrass Stew",
+    "skillRequired": 225,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t4_sungrass", "quantity": 3 },
+      { "materialId": "mat_vendor_salt", "quantity": 3 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_sungrass_stew",
+        "name": "Sungrass Stew",
+        "durationMs": 1800000,
+        "statBonuses": { "sta": 20, "spi": 10 },
+        "description": "Increases Stamina by 20 and Spirit by 10 for 30 minutes."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_cook_t4_shadow_steak",
+    "professionId": "cooking",
+    "name": "Shadow Steak",
+    "skillRequired": 245,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_drop_t4_core_of_shadow", "quantity": 1 },
+      { "materialId": "mat_herbalism_t4_blindweed", "quantity": 2 },
+      { "materialId": "mat_vendor_salt", "quantity": 3 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_shadow_steak",
+        "name": "Shadow Steak",
+        "durationMs": 1800000,
+        "statBonuses": { "str": 15, "agi": 12 },
+        "description": "Increases Strength by 15 and Agility by 12 for 30 minutes."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_cook_t4_champions_banquet",
+    "professionId": "cooking",
+    "name": "Champion's Banquet",
+    "skillRequired": 265,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t4_sungrass", "quantity": 3 },
+      { "materialId": "mat_herbalism_t4_blindweed", "quantity": 2 },
+      { "materialId": "mat_vendor_salt", "quantity": 3 }
+    ],
+    "craftTimeMs": 5000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_champions_banquet",
+        "name": "Champion's Banquet",
+        "durationMs": 1800000,
+        "statBonuses": { "str": 12, "agi": 12, "sta": 12 },
+        "description": "Increases Strength, Agility, and Stamina by 12 for 30 minutes."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_cook_t5_dreamfoil_feast",
+    "professionId": "cooking",
+    "name": "Dreamfoil Feast",
+    "skillRequired": 275,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t5_dreamfoil", "quantity": 3 },
+      { "materialId": "mat_herbalism_t5_mountain_silversage", "quantity": 2 },
+      { "materialId": "mat_vendor_salt", "quantity": 4 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_dreamfoil_feast",
+        "name": "Dreamfoil Feast",
+        "durationMs": 1800000,
+        "statBonuses": { "sta": 25, "str": 15 },
+        "description": "Increases Stamina by 25 and Strength by 15 for 30 minutes."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_cook_t5_silversage_wine",
+    "professionId": "cooking",
+    "name": "Silversage Wine",
+    "skillRequired": 290,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t5_mountain_silversage", "quantity": 4 },
+      { "materialId": "mat_vendor_salt", "quantity": 4 }
+    ],
+    "craftTimeMs": 6000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_silversage_wine",
+        "name": "Silversage Wine",
+        "durationMs": 1800000,
+        "statBonuses": { "int": 20, "spi": 15 },
+        "description": "Increases Intellect by 20 and Spirit by 15 for 30 minutes."
+      },
+      "quantity": 2
+    }
+  },
+  {
+    "id": "recipe_cook_t6_void_feast",
+    "professionId": "cooking",
+    "name": "Void Feast",
+    "skillRequired": 300,
+    "skillUpChance": { "orange": 1.0, "yellow": 0.75, "green": 0.25, "gray": 0 },
+    "materials": [
+      { "materialId": "mat_herbalism_t6_nethervine", "quantity": 4 },
+      { "materialId": "mat_herbalism_t6_black_lotus", "quantity": 2 },
+      { "materialId": "mat_drop_t6_void_essence", "quantity": 1 },
+      { "materialId": "mat_vendor_salt", "quantity": 5 }
+    ],
+    "craftTimeMs": 8000,
+    "output": {
+      "type": "consumable",
+      "consumableEffect": {
+        "id": "effect_void_feast",
+        "name": "Void Feast",
+        "durationMs": 3600000,
+        "statBonuses": { "str": 15, "agi": 15, "int": 15, "spi": 15, "sta": 15 },
+        "description": "Increases all primary stats by 15 for 60 minutes."
+      },
+      "quantity": 2
+    }
+  }
+]
