@@ -40,11 +40,12 @@
 - `feat/zone-expansion` (Z1-Z4): Quest chains, elite areas, rare spawns, zone events, monster enrichment
 - `feat/profession-system` (P1-P5): Types, materials, gathering, crafting engine, recipe data
 
-### Art Engine V2 Rebuild (Immediate next -- after Wave 1)
-- Rebuild art engine in Python (Pillow + NumPy + opensimplex + click)
-- Replaces TypeScript v1 at `tools/art-engine/`
+### Art Engine V2 Rebuild -- DONE
+- Python engine at `tools/art-engine-v2/` (Pillow + NumPy + opensimplex + click)
+- 5 commits, 53 files, 4,647 lines, 204 tests
+- Branch: `feat/art-engine-v2` (ready for merge)
 - Design: [art-engine-v2-design.md](art-engine-v2-design.md)
-- Phases: V2-A (Core+Ingest+Icons) → V2-B (UI Chrome+Text+Tooltips) → V2-C (Sprite Compositor) → V2-D (Layout+Backgrounds) → V2-E (Manifest Pipeline)
+- Plan: [art-engine-v2-plan.md](art-engine-v2-plan.md)
 
 ### Wave 2 (Parallel -- depends on Wave 1)
 - `feat/dungeon-system` (D1-D5): Dungeon runner, per-boss success, 10 dungeon data files, lockout manager
@@ -68,7 +69,7 @@
 
 1. `feat/zone-expansion` -- DONE
 2. `feat/profession-system` -- DONE
-3. **Art Engine V2 rebuild** -- immediate next (Python, separate from game codebase)
+3. **Art Engine V2 rebuild** -- DONE (branch `feat/art-engine-v2`, 204 tests)
 4. `feat/dungeon-system` -- needs zones merged
 5. `feat/reputation-system` -- needs zones + dungeons merged
 6. `feat/raid-system` -- needs dungeons + reputation merged
